@@ -12,7 +12,7 @@ This repository contains the data and model predictions for the paper:
 .
 ├── SVLAT/
 │   ├── svlat.csv                     # SVLAT benchmark: 49 items with metadata, questions, answers
-│   └── svlat-visualizations/         # Visualization stimuli (PNG images and MP4 animations)
+│   └── svlat-visualizations/         # Visualization stimuli ( images and animations)
 ├── outputs/
 │   ├── close_source_models/          # GPT-5.4, Claude-Opus-4.6, Gemini-3.1-Pro-Preview (CSV, 10 runs each)
 │   ├── open_source_models/           # LLaVA-OneVision-1.5, InternVL3.5, Qwen3.5 (CSV, 10 runs each)
