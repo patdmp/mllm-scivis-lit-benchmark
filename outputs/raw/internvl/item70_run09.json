@@ -1,0 +1,36 @@
+{
+  "item_id": "item70",
+  "model": "internvl",
+  "run": 9,
+  "seed": 9,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 1,
+      "text": "The lower half of the windshield"
+    },
+    "B": {
+      "original_idx": 2,
+      "text": "The backend of the hood"
+    },
+    "C": {
+      "original_idx": 3,
+      "text": "The middle of the front bumper"
+    },
+    "D": {
+      "original_idx": 4,
+      "text": "The center of the roof"
+    }
+  },
+  "correct_answer_original_idx": 3,
+  "correct_letter": "C",
+  "raw_response": "{\n  \"choice\": \"C\",\n  \"answer_value\": \"The middle of the front bumper\",\n  \"rationale\": \"The visualization shows the highest kinematic pressure, indicated by the red color, concentrated around the middle of the front bumper. This area is highlighted with the highest values on the kinematic pressure scale.\"\n}",
+  "parsed": {
+    "choice": "C",
+    "answer_value": "The middle of the front bumper",
+    "rationale": "The visualization shows the highest kinematic pressure, indicated by the red color, concentrated around the middle of the front bumper. This area is highlighted with the highest values on the kinematic pressure scale."
+  },
+  "chosen_letter": "C",
+  "is_correct": true,
+  "parse_error": null
+}

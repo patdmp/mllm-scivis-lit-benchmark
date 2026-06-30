@@ -1,0 +1,28 @@
+{
+  "item_id": "item20",
+  "model": "qwen",
+  "run": 5,
+  "seed": 5,
+  "n_choices": 2,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 1,
+      "text": "TRUE"
+    },
+    "B": {
+      "original_idx": 2,
+      "text": "FALSE"
+    }
+  },
+  "correct_answer_original_idx": 1,
+  "correct_letter": "A",
+  "raw_response": "```json\n{\n  \"choice\": \"A\",\n  \"answer_value\": \"TRUE\",\n  \"rationale\": \"The wind flow lines near Chicago and Houston both curve in a similar direction, moving from the southwest towards the northeast. This indicates that the winds in these two locations are flowing in roughly the same direction. The visual pattern of the streamlines confirms this alignment.\"\n}\n```\n",
+  "parsed": {
+    "choice": "A",
+    "answer_value": "TRUE",
+    "rationale": "The wind flow lines near Chicago and Houston both curve in a similar direction, moving from the southwest towards the northeast. This indicates that the winds in these two locations are flowing in roughly the same direction. The visual pattern of the streamlines confirms this alignment."
+  },
+  "chosen_letter": "A",
+  "is_correct": true,
+  "parse_error": null
+}

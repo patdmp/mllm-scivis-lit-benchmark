@@ -1,0 +1,36 @@
+{
+  "item_id": "item45",
+  "model": "qwen",
+  "run": 9,
+  "seed": 9,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 1,
+      "text": "Epiproct"
+    },
+    "B": {
+      "original_idx": 2,
+      "text": "Metepisternum"
+    },
+    "C": {
+      "original_idx": 3,
+      "text": "Postclypeus"
+    },
+    "D": {
+      "original_idx": 4,
+      "text": "Cercus"
+    }
+  },
+  "correct_answer_original_idx": 1,
+  "correct_letter": "A",
+  "raw_response": "```json\n{\n  \"choice\": \"A\",\n  \"answer_value\": \"Epiproct\",\n  \"rationale\": \"The illustration explicitly labels the Epiproct as a part of the male dragonfly's anatomy. The female diagram does not include this label. The other options, Metepisternum and Postclypeus, are labeled on the main body diagram which applies to both sexes. The female diagram does show a Cercus, making it a shared feature.\"\n}\n```\n",
+  "parsed": {
+    "choice": "A",
+    "answer_value": "Epiproct",
+    "rationale": "The illustration explicitly labels the Epiproct as a part of the male dragonfly's anatomy. The female diagram does not include this label. The other options, Metepisternum and Postclypeus, are labeled on the main body diagram which applies to both sexes. The female diagram does show a Cercus, making it a shared feature."
+  },
+  "chosen_letter": "A",
+  "is_correct": true,
+  "parse_error": null
+}

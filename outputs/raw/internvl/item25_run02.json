@@ -1,0 +1,36 @@
+{
+  "item_id": "item25",
+  "model": "internvl",
+  "run": 2,
+  "seed": 2,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 2,
+      "text": "2"
+    },
+    "B": {
+      "original_idx": 3,
+      "text": "3"
+    },
+    "C": {
+      "original_idx": 4,
+      "text": "4"
+    },
+    "D": {
+      "original_idx": 1,
+      "text": "1"
+    }
+  },
+  "correct_answer_original_idx": 2,
+  "correct_letter": "A",
+  "raw_response": "<think>\nThe visualization shows a structure with three spherical lobes connected by tubes. The caption mentions a \"light-yellow ridge highlighting the embedded knot that separates the surface into two regions.\" This suggests that the object has a single hole, as the knot divides the surface into two parts. The structure resembles a trefoil knot, which typically has one hole.\n</think>\n\n{\n  \"choice\": \"D\",\n  \"answer_value\": \"1\",\n  \"rationale\": \"The structure depicted resembles a trefoil knot, which typically has one hole. The caption indicates that the knot separates the surface into two regions, suggesting a single hole.\"\n}",
+  "parsed": {
+    "choice": "D",
+    "answer_value": "1",
+    "rationale": "The structure depicted resembles a trefoil knot, which typically has one hole. The caption indicates that the knot separates the surface into two regions, suggesting a single hole."
+  },
+  "chosen_letter": "D",
+  "is_correct": false,
+  "parse_error": null
+}

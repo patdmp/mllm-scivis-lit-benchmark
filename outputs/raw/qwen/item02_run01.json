@@ -1,0 +1,36 @@
+{
+  "item_id": "item02",
+  "model": "qwen",
+  "run": 1,
+  "seed": 1,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 4,
+      "text": "Waypoint D"
+    },
+    "B": {
+      "original_idx": 1,
+      "text": "Waypoint A"
+    },
+    "C": {
+      "original_idx": 3,
+      "text": "Waypoint C"
+    },
+    "D": {
+      "original_idx": 2,
+      "text": "Waypoint B"
+    }
+  },
+  "correct_answer_original_idx": 3,
+  "correct_letter": "C",
+  "raw_response": "```json\n{\n  \"choice\": \"C\",\n  \"answer_value\": \"Waypoint C\",\n  \"rationale\": \"Waypoint C is located inside a closed contour loop labeled 7400, indicating it is at the peak of a hill. Waypoint A is situated on a contour line labeled 7200. Waypoints B and D are located in areas with lower elevation contour lines, such as 7000 and 6800 respectively. Therefore, Waypoint C has the highest elevation among the options.\"\n}\n```\n",
+  "parsed": {
+    "choice": "C",
+    "answer_value": "Waypoint C",
+    "rationale": "Waypoint C is located inside a closed contour loop labeled 7400, indicating it is at the peak of a hill. Waypoint A is situated on a contour line labeled 7200. Waypoints B and D are located in areas with lower elevation contour lines, such as 7000 and 6800 respectively. Therefore, Waypoint C has the highest elevation among the options."
+  },
+  "chosen_letter": "C",
+  "is_correct": true,
+  "parse_error": null
+}

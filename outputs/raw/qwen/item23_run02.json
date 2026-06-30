@@ -1,0 +1,36 @@
+{
+  "item_id": "item23",
+  "model": "qwen",
+  "run": 2,
+  "seed": 2,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 2,
+      "text": "No two hexagons share a common edge."
+    },
+    "B": {
+      "original_idx": 3,
+      "text": "Each hexagon is adjacent only to pentagons."
+    },
+    "C": {
+      "original_idx": 4,
+      "text": "Each pentagon is adjacent only to hexagons."
+    },
+    "D": {
+      "original_idx": 1,
+      "text": "Two pentagons share a common edge."
+    }
+  },
+  "correct_answer_original_idx": 4,
+  "correct_letter": "C",
+  "raw_response": "{\n  \"choice\": \"C\",\n  \"answer_value\": \"Each pentagon is adjacent only to hexagons.\",\n  \"rationale\": \"The image shows a spherical molecular structure composed of interconnected polygons. Upon visual inspection, the smaller, five-sided shapes (pentagons) are consistently surrounded by six-sided shapes (hexagons). There is no instance where two pentagons are directly connected by an edge. This arrangement is characteristic of fullerenes, where pentagons are isolated by hexagons to allow the structure to close into a sphere.\"\n}\n",
+  "parsed": {
+    "choice": "C",
+    "answer_value": "Each pentagon is adjacent only to hexagons.",
+    "rationale": "The image shows a spherical molecular structure composed of interconnected polygons. Upon visual inspection, the smaller, five-sided shapes (pentagons) are consistently surrounded by six-sided shapes (hexagons). There is no instance where two pentagons are directly connected by an edge. This arrangement is characteristic of fullerenes, where pentagons are isolated by hexagons to allow the structure to close into a sphere."
+  },
+  "chosen_letter": "C",
+  "is_correct": true,
+  "parse_error": null
+}

@@ -1,0 +1,36 @@
+{
+  "item_id": "item56",
+  "model": "qwen",
+  "run": 4,
+  "seed": 4,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 3,
+      "text": "dissolves and mixes with the gas"
+    },
+    "B": {
+      "original_idx": 1,
+      "text": "expands as well but remains intact, keeping the gas inside"
+    },
+    "C": {
+      "original_idx": 4,
+      "text": "ruptures, allowing the gas to escape freely"
+    },
+    "D": {
+      "original_idx": 2,
+      "text": "is pulled inward toward the center"
+    }
+  },
+  "correct_answer_original_idx": 1,
+  "correct_letter": "B",
+  "raw_response": "```json\n{\n  \"choice\": \"B\",\n  \"answer_value\": \"expands as well but remains intact, keeping the gas inside\",\n  \"rationale\": \"The visualization shows a semi-transparent outer shell that maintains its structural integrity while the internal gas expands. The shell does not dissolve, rupture, or pull inward; instead, it appears to expand in concert with the internal dynamics. This behavior is consistent with a stalled shockwave that contains the internal structures within its boundary. The color-coded entropy values further indicate that the internal gas is undergoing changes while being contained by the shell. Therefore, the shell expands but remains intact, keeping the gas inside.\"\n}\n```\n",
+  "parsed": {
+    "choice": "B",
+    "answer_value": "expands as well but remains intact, keeping the gas inside",
+    "rationale": "The visualization shows a semi-transparent outer shell that maintains its structural integrity while the internal gas expands. The shell does not dissolve, rupture, or pull inward; instead, it appears to expand in concert with the internal dynamics. This behavior is consistent with a stalled shockwave that contains the internal structures within its boundary. The color-coded entropy values further indicate that the internal gas is undergoing changes while being contained by the shell. Therefore, the shell expands but remains intact, keeping the gas inside."
+  },
+  "chosen_letter": "B",
+  "is_correct": true,
+  "parse_error": null
+}

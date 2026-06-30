@@ -1,0 +1,36 @@
+{
+  "item_id": "item61",
+  "model": "internvl",
+  "run": 1,
+  "seed": 1,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 4,
+      "text": "a spherical spiral"
+    },
+    "B": {
+      "original_idx": 1,
+      "text": "a spiral cylinder"
+    },
+    "C": {
+      "original_idx": 3,
+      "text": "a twisted funnel"
+    },
+    "D": {
+      "original_idx": 2,
+      "text": "a spiral cone"
+    }
+  },
+  "correct_answer_original_idx": 3,
+  "correct_letter": "C",
+  "raw_response": "{\n  \"choice\": \"C\",\n  \"answer_value\": \"a twisted funnel\",\n  \"rationale\": \"The streamlines in the visualization form a structure that resembles a funnel shape, with the lines twisting around a central axis. This is characteristic of a tornado's airflow pattern, where the funnel shape is a key feature.\"\n}",
+  "parsed": {
+    "choice": "C",
+    "answer_value": "a twisted funnel",
+    "rationale": "The streamlines in the visualization form a structure that resembles a funnel shape, with the lines twisting around a central axis. This is characteristic of a tornado's airflow pattern, where the funnel shape is a key feature."
+  },
+  "chosen_letter": "C",
+  "is_correct": true,
+  "parse_error": null
+}

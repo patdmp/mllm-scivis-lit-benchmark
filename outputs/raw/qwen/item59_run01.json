@@ -1,0 +1,36 @@
+{
+  "item_id": "item59",
+  "model": "qwen",
+  "run": 1,
+  "seed": 1,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 4,
+      "text": "Between the two plates, the electric field lines point from plate 2 toward plate 1."
+    },
+    "B": {
+      "original_idx": 1,
+      "text": "Electric field lines can cross in space."
+    },
+    "C": {
+      "original_idx": 3,
+      "text": "The electric field lines around plate 2 exhibit a convergent pattern."
+    },
+    "D": {
+      "original_idx": 2,
+      "text": "The electric field lines around plate 1 exhibit a divergent pattern."
+    }
+  },
+  "correct_answer_original_idx": 4,
+  "correct_letter": "A",
+  "raw_response": "```json\n{\n  \"choice\": \"D\",\n  \"answer_value\": \"The electric field lines around plate 1 exhibit a divergent pattern.\",\n  \"rationale\": \"Observing the diagram, the electric field lines originate from Metal Plate 1 and spread outwards into the surrounding space. This spreading out is the definition of a divergent pattern. Conversely, the lines converge towards Metal Plate 2, making option C incorrect for Plate 1. The arrows clearly show the direction is from Plate 1 to Plate 2, contradicting option A. Finally, electric field lines never cross, which invalidates option B.\"\n}\n```\n",
+  "parsed": {
+    "choice": "D",
+    "answer_value": "The electric field lines around plate 1 exhibit a divergent pattern.",
+    "rationale": "Observing the diagram, the electric field lines originate from Metal Plate 1 and spread outwards into the surrounding space. This spreading out is the definition of a divergent pattern. Conversely, the lines converge towards Metal Plate 2, making option C incorrect for Plate 1. The arrows clearly show the direction is from Plate 1 to Plate 2, contradicting option A. Finally, electric field lines never cross, which invalidates option B."
+  },
+  "chosen_letter": "D",
+  "is_correct": false,
+  "parse_error": null
+}

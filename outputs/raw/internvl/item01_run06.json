@@ -1,0 +1,36 @@
+{
+  "item_id": "item01",
+  "model": "internvl",
+  "run": 6,
+  "seed": 6,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 4,
+      "text": "6942 ft"
+    },
+    "B": {
+      "original_idx": 3,
+      "text": "6863 ft"
+    },
+    "C": {
+      "original_idx": 2,
+      "text": "6728 ft"
+    },
+    "D": {
+      "original_idx": 1,
+      "text": "6624 ft"
+    }
+  },
+  "correct_answer_original_idx": 3,
+  "correct_letter": "B",
+  "raw_response": "<think>\nThe contour lines on the map show elevation in feet, with a contour interval of 40 feet. Waypoint D is located near the contour line labeled 6800 feet. Since the contour interval is 40 feet, the elevation of waypoint D should be slightly above 6800 feet. The closest option that fits this description is 6863 feet, which is option B.\n</think>\n\n{\n  \"choice\": \"B\",\n  \"answer_value\": \"6863 ft\",\n  \"rationale\": \"Waypoint D is near the 6800 ft contour line, and given the contour interval of 40 feet, the elevation should be slightly above 6800 ft. The closest option is 6863 ft.\"\n}",
+  "parsed": {
+    "choice": "B",
+    "answer_value": "6863 ft",
+    "rationale": "Waypoint D is near the 6800 ft contour line, and given the contour interval of 40 feet, the elevation should be slightly above 6800 ft. The closest option is 6863 ft."
+  },
+  "chosen_letter": "B",
+  "is_correct": true,
+  "parse_error": null
+}

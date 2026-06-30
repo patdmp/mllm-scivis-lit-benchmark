@@ -1,0 +1,36 @@
+{
+  "item_id": "item18",
+  "model": "llava",
+  "run": 4,
+  "seed": 4,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 3,
+      "text": "Dallas"
+    },
+    "B": {
+      "original_idx": 1,
+      "text": "Seattle"
+    },
+    "C": {
+      "original_idx": 4,
+      "text": "New York"
+    },
+    "D": {
+      "original_idx": 2,
+      "text": "Denver"
+    }
+  },
+  "correct_answer_original_idx": 4,
+  "correct_letter": "C",
+  "raw_response": "{\n  \"choice\": \"C\",\n  \"answer_value\": \"New York\",\n  \"rationale\": \"The map shows wind patterns with varying speeds across the United States. The darkest areas indicate the highest wind speeds. New York is located in the darkest area, indicating it has the highest wind speed among the options provided.\"\n}C. New York lightest color, indicating the highest wind speed. New York is located in this area, making it the city with the highest wind speed.\" darkest area, indicating the highest wind speed. New York is located in this area, making it the city with the highest wind speed.\" darkest area, indicating the highest wind speed. New York is located in this area, making",
+  "parsed": {
+    "choice": "C",
+    "answer_value": "New York",
+    "rationale": "The map shows wind patterns with varying speeds across the United States. The darkest areas indicate the highest wind speeds. New York is located in the darkest area, indicating it has the highest wind speed among the options provided."
+  },
+  "chosen_letter": "C",
+  "is_correct": true,
+  "parse_error": null
+}

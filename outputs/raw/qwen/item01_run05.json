@@ -1,0 +1,36 @@
+{
+  "item_id": "item01",
+  "model": "qwen",
+  "run": 5,
+  "seed": 5,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 1,
+      "text": "6624 ft"
+    },
+    "B": {
+      "original_idx": 2,
+      "text": "6728 ft"
+    },
+    "C": {
+      "original_idx": 4,
+      "text": "6942 ft"
+    },
+    "D": {
+      "original_idx": 3,
+      "text": "6863 ft"
+    }
+  },
+  "correct_answer_original_idx": 3,
+  "correct_letter": "D",
+  "raw_response": "```json\n{\n  \"choice\": \"D\",\n  \"answer_value\": \"6863 ft\",\n  \"rationale\": \"The map shows a contour line labeled '6800' passing directly through the location of waypoint D. The caption specifies a contour interval of 40 feet, meaning the next higher contour line would be at 6840 feet. Since waypoint D is located between the 6800 and 6840 foot lines, its elevation must be greater than 6800 but less than 6840. Among the provided options, only 6863 ft falls within this range.\"\n}\n```\n",
+  "parsed": {
+    "choice": "D",
+    "answer_value": "6863 ft",
+    "rationale": "The map shows a contour line labeled '6800' passing directly through the location of waypoint D. The caption specifies a contour interval of 40 feet, meaning the next higher contour line would be at 6840 feet. Since waypoint D is located between the 6800 and 6840 foot lines, its elevation must be greater than 6800 but less than 6840. Among the provided options, only 6863 ft falls within this range."
+  },
+  "chosen_letter": "D",
+  "is_correct": true,
+  "parse_error": null
+}

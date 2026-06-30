@@ -1,0 +1,36 @@
+{
+  "item_id": "item70",
+  "model": "llava",
+  "run": 6,
+  "seed": 6,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 4,
+      "text": "The center of the roof"
+    },
+    "B": {
+      "original_idx": 3,
+      "text": "The middle of the front bumper"
+    },
+    "C": {
+      "original_idx": 2,
+      "text": "The backend of the hood"
+    },
+    "D": {
+      "original_idx": 1,
+      "text": "The lower half of the windshield"
+    }
+  },
+  "correct_answer_original_idx": 3,
+  "correct_letter": "B",
+  "raw_response": "{\n  \"choice\": \"B\",\n  \"answer_value\": \"The middle of the front bumper\",\n  \"rationale\": \"The visualization shows the highest kinematic pressure in the middle of the front bumper, indicated by the red color on the scale.\"\n} other regions are not as red, indicating lower pressure.\"\n} other regions are not as red, indicating lower pressure.\"\n} other regions are not as red, indicating lower pressure.\"\n} other regions are not as red, indicating lower pressure.\"\n} other regions are not as red, indicating lower pressure.\"\n} other regions are not as red, indicating lower pressure.\"\n} other regions are not as red, indicating lower pressure.\"\n} other regions are not as red, indicating lower pressure.\"\n} other regions are not as red, indicating lower pressure.\"\n} other regions are not as red, indicating lower pressure.\"\n} other regions are not as red, indicating lower pressure.\"\n} other regions are not as red, indicating lower pressure.\"\n} other regions are not as red, indicating lower pressure.\"\n} other regions are not as red, indicating lower pressure.\"\n} other regions are not as red, indicating lower pressure.\"\n} other regions are not as red, indicating lower pressure.\"\n} other regions are",
+  "parsed": {
+    "choice": "B",
+    "answer_value": "The middle of the front bumper",
+    "rationale": "The visualization shows the highest kinematic pressure in the middle of the front bumper, indicated by the red color on the scale."
+  },
+  "chosen_letter": "B",
+  "is_correct": true,
+  "parse_error": null
+}

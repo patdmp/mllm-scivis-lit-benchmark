@@ -1,0 +1,36 @@
+{
+  "item_id": "item54",
+  "model": "qwen",
+  "run": 5,
+  "seed": 5,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 1,
+      "text": "remains the same size but gradually fades out"
+    },
+    "B": {
+      "original_idx": 2,
+      "text": "shrinks inward toward the center"
+    },
+    "C": {
+      "original_idx": 4,
+      "text": "rotates around the center in a spiral pattern"
+    },
+    "D": {
+      "original_idx": 3,
+      "text": "pulsates symmetrically inward and outward"
+    }
+  },
+  "correct_answer_original_idx": 4,
+  "correct_letter": "C",
+  "raw_response": "```json\n{\n  \"choice\": \"C\",\n  \"answer_value\": \"rotates around the center in a spiral pattern\",\n  \"rationale\": \"The animation shows the red internal gas moving in a rotational manner around the central point. The movement follows a curved, spiral-like trajectory rather than a straight line or simple oscillation. This pattern is consistent with rotational dynamics observed in the simulation. The gas does not shrink or fade out, but maintains its presence while rotating. Therefore, the most accurate description of the gas's movement is that it rotates around the center in a spiral pattern.\"\n}\n```\n",
+  "parsed": {
+    "choice": "C",
+    "answer_value": "rotates around the center in a spiral pattern",
+    "rationale": "The animation shows the red internal gas moving in a rotational manner around the central point. The movement follows a curved, spiral-like trajectory rather than a straight line or simple oscillation. This pattern is consistent with rotational dynamics observed in the simulation. The gas does not shrink or fade out, but maintains its presence while rotating. Therefore, the most accurate description of the gas's movement is that it rotates around the center in a spiral pattern."
+  },
+  "chosen_letter": "C",
+  "is_correct": true,
+  "parse_error": null
+}

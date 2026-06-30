@@ -1,0 +1,36 @@
+{
+  "item_id": "item01",
+  "model": "internvl",
+  "run": 9,
+  "seed": 9,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 1,
+      "text": "6624 ft"
+    },
+    "B": {
+      "original_idx": 2,
+      "text": "6728 ft"
+    },
+    "C": {
+      "original_idx": 3,
+      "text": "6863 ft"
+    },
+    "D": {
+      "original_idx": 4,
+      "text": "6942 ft"
+    }
+  },
+  "correct_answer_original_idx": 3,
+  "correct_letter": "C",
+  "raw_response": "<think>\nThe contour lines on the map show elevation in feet, with a contour interval of 40 feet. Waypoint D is located near the contour line labeled 6800 feet. Since the contour interval is 40 feet, the next contour line after 6800 feet would be 6840 feet, and the one after that would be 6880 feet. However, the closest contour line to waypoint D is 6800 feet, and it is likely that waypoint D is situated just above this line. Given the options, the closest plausible elevation for waypoint D would be 6863 feet, as it fits within the expected range based on the contour interval.\n</think>\n\n{\n  \"choice\": \"C\",\n  \"answer_value\": \"6863 ft\",\n  \"rationale\": \"Waypoint D is near the 6800 ft contour line, and given the contour interval of 40 feet, the elevation is likely just above this line. The closest option that fits within the expected range is 6863 ft.\"\n}",
+  "parsed": {
+    "choice": "C",
+    "answer_value": "6863 ft",
+    "rationale": "Waypoint D is near the 6800 ft contour line, and given the contour interval of 40 feet, the elevation is likely just above this line. The closest option that fits within the expected range is 6863 ft."
+  },
+  "chosen_letter": "C",
+  "is_correct": true,
+  "parse_error": null
+}

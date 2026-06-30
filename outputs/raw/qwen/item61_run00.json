@@ -1,0 +1,36 @@
+{
+  "item_id": "item61",
+  "model": "qwen",
+  "run": 0,
+  "seed": 0,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 3,
+      "text": "a twisted funnel"
+    },
+    "B": {
+      "original_idx": 1,
+      "text": "a spiral cylinder"
+    },
+    "C": {
+      "original_idx": 2,
+      "text": "a spiral cone"
+    },
+    "D": {
+      "original_idx": 4,
+      "text": "a spherical spiral"
+    }
+  },
+  "correct_answer_original_idx": 3,
+  "correct_letter": "A",
+  "raw_response": "```json\n{\n  \"choice\": \"C\",\n  \"answer_value\": \"a spiral cone\",\n  \"rationale\": \"The visualization shows streamlines forming a structure that is wide at the top and narrows significantly towards the bottom, resembling a cone. The lines spiral around a central axis as they descend, creating a helical pattern. This combination of a tapering shape and rotational movement is best described as a spiral cone. Options A and B are incorrect because the structure is not a simple funnel or cylinder, and option D is incorrect because the shape is elongated rather than spherical.\"\n}\n```\n",
+  "parsed": {
+    "choice": "C",
+    "answer_value": "a spiral cone",
+    "rationale": "The visualization shows streamlines forming a structure that is wide at the top and narrows significantly towards the bottom, resembling a cone. The lines spiral around a central axis as they descend, creating a helical pattern. This combination of a tapering shape and rotational movement is best described as a spiral cone. Options A and B are incorrect because the structure is not a simple funnel or cylinder, and option D is incorrect because the shape is elongated rather than spherical."
+  },
+  "chosen_letter": "C",
+  "is_correct": false,
+  "parse_error": null
+}

@@ -1,0 +1,36 @@
+{
+  "item_id": "item16",
+  "model": "internvl",
+  "run": 6,
+  "seed": 6,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 4,
+      "text": "Both the North and South Pacific are mostly unchanged."
+    },
+    "B": {
+      "original_idx": 3,
+      "text": "Both the North and South Pacific are mostly warming."
+    },
+    "C": {
+      "original_idx": 2,
+      "text": "The North Pacific is mostly unchanged or cooling, while the South Pacific is mostly warming."
+    },
+    "D": {
+      "original_idx": 1,
+      "text": "The North Pacific is mostly warming, while the South Pacific is mostly cooling."
+    }
+  },
+  "correct_answer_original_idx": 2,
+  "correct_letter": "C",
+  "raw_response": "{\n  \"choice\": \"C\",\n  \"answer_value\": \"The North Pacific is mostly unchanged or cooling, while the South Pacific is mostly warming.\",\n  \"rationale\": \"The map shows the North Pacific with cooler colors (blue and green), indicating unchanged or cooling temperatures, while the South Pacific has warmer colors (yellow and red), indicating warming temperatures.\"\n}",
+  "parsed": {
+    "choice": "C",
+    "answer_value": "The North Pacific is mostly unchanged or cooling, while the South Pacific is mostly warming.",
+    "rationale": "The map shows the North Pacific with cooler colors (blue and green), indicating unchanged or cooling temperatures, while the South Pacific has warmer colors (yellow and red), indicating warming temperatures."
+  },
+  "chosen_letter": "C",
+  "is_correct": true,
+  "parse_error": null
+}

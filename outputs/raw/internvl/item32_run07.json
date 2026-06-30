@@ -1,0 +1,36 @@
+{
+  "item_id": "item32",
+  "model": "internvl",
+  "run": 7,
+  "seed": 7,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 4,
+      "text": "Bladder and a lung"
+    },
+    "B": {
+      "original_idx": 2,
+      "text": "Liver and a kidney"
+    },
+    "C": {
+      "original_idx": 1,
+      "text": "Liver and a lung"
+    },
+    "D": {
+      "original_idx": 3,
+      "text": "Bladder and a kidney"
+    }
+  },
+  "correct_answer_original_idx": 4,
+  "correct_letter": "A",
+  "raw_response": "{\"choice\": \"A\", \"answer_value\": \"Bladder and a lung\", \"rationale\": \"The bladder is located in the pelvic region, while the lungs are in the thoracic cavity. This places them at opposite ends of the body, making them the farthest apart pair of organs.\"}",
+  "parsed": {
+    "choice": "A",
+    "answer_value": "Bladder and a lung",
+    "rationale": "The bladder is located in the pelvic region, while the lungs are in the thoracic cavity. This places them at opposite ends of the body, making them the farthest apart pair of organs."
+  },
+  "chosen_letter": "A",
+  "is_correct": true,
+  "parse_error": null
+}

@@ -1,0 +1,36 @@
+{
+  "item_id": "item40",
+  "model": "internvl",
+  "run": 3,
+  "seed": 3,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 4,
+      "text": "RNPs, envelope, RBDs"
+    },
+    "B": {
+      "original_idx": 1,
+      "text": "Envelope, RNPs, RBDs"
+    },
+    "C": {
+      "original_idx": 3,
+      "text": "RBDs, envelope, RNPs"
+    },
+    "D": {
+      "original_idx": 2,
+      "text": "RNPs, RBDs, envelope"
+    }
+  },
+  "correct_answer_original_idx": 4,
+  "correct_letter": "A",
+  "raw_response": "{\n  \"choice\": \"A\",\n  \"answer_value\": \"RNPs, envelope, RBDs\",\n  \"rationale\": \"The visualization shows the RNPs (yellow) located at the center of the particle. Surrounding the RNPs is the gray lipid envelope. The spike proteins, including the RBDs (red and tan), are located on the outer layer of the particle. Therefore, the correct order from the center outward is RNPs, envelope, and then RBDs.\"\n}",
+  "parsed": {
+    "choice": "A",
+    "answer_value": "RNPs, envelope, RBDs",
+    "rationale": "The visualization shows the RNPs (yellow) located at the center of the particle. Surrounding the RNPs is the gray lipid envelope. The spike proteins, including the RBDs (red and tan), are located on the outer layer of the particle. Therefore, the correct order from the center outward is RNPs, envelope, and then RBDs."
+  },
+  "chosen_letter": "A",
+  "is_correct": true,
+  "parse_error": null
+}

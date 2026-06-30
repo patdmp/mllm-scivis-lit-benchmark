@@ -1,0 +1,36 @@
+{
+  "item_id": "item22",
+  "model": "qwen",
+  "run": 7,
+  "seed": 7,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 4,
+      "text": "4"
+    },
+    "B": {
+      "original_idx": 2,
+      "text": "2"
+    },
+    "C": {
+      "original_idx": 1,
+      "text": "1"
+    },
+    "D": {
+      "original_idx": 3,
+      "text": "3"
+    }
+  },
+  "correct_answer_original_idx": 3,
+  "correct_letter": "D",
+  "raw_response": "```json\n{\n  \"choice\": \"B\",\n  \"answer_value\": \"2\",\n  \"rationale\": \"The visualization shows a network where every node (atom) is connected to exactly two other nodes via edges. This linear connectivity pattern is consistent across the entire structure. Therefore, each atom is directly connected to 2 other atoms.\"\n}\n```\n",
+  "parsed": {
+    "choice": "B",
+    "answer_value": "2",
+    "rationale": "The visualization shows a network where every node (atom) is connected to exactly two other nodes via edges. This linear connectivity pattern is consistent across the entire structure. Therefore, each atom is directly connected to 2 other atoms."
+  },
+  "chosen_letter": "B",
+  "is_correct": false,
+  "parse_error": null
+}

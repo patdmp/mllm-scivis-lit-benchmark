@@ -1,0 +1,36 @@
+{
+  "item_id": "item14",
+  "model": "llava",
+  "run": 0,
+  "seed": 0,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 3,
+      "text": "Region C"
+    },
+    "B": {
+      "original_idx": 1,
+      "text": "Region A"
+    },
+    "C": {
+      "original_idx": 2,
+      "text": "Region B"
+    },
+    "D": {
+      "original_idx": 4,
+      "text": "Region D"
+    }
+  },
+  "correct_answer_original_idx": 1,
+  "correct_letter": "B",
+  "raw_response": "{\n  \"choice\": \"B\",\n  \"answer_value\": \"Region A\",\n  \"rationale\": \"Region A is the only area with a significant cooling trend, as indicated by the deep blue color, which represents a temperature decrease of more than 2.0 degC per week.\"\n} other regions show warming trends, with colors ranging from yellow to red, indicating temperature increases.//\"//\"//\"//\"//\"//\"//\"//\"//\"//\"//\"//\"//\"//\"//\"//\"//\"//\"//\"//\"//\"//\"//\"//\"//\"//\"//\"//\"//\"//\"//\"//\"//\"//\"//\"//\"//\"//\"//\"//\"//\"//\"//\"//\"//\"",
+  "parsed": {
+    "choice": "B",
+    "answer_value": "Region A",
+    "rationale": "Region A is the only area with a significant cooling trend, as indicated by the deep blue color, which represents a temperature decrease of more than 2.0 degC per week."
+  },
+  "chosen_letter": "B",
+  "is_correct": true,
+  "parse_error": null
+}

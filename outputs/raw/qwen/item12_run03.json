@@ -1,0 +1,36 @@
+{
+  "item_id": "item12",
+  "model": "qwen",
+  "run": 3,
+  "seed": 3,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 4,
+      "text": "increases then decreases"
+    },
+    "B": {
+      "original_idx": 1,
+      "text": "increases"
+    },
+    "C": {
+      "original_idx": 3,
+      "text": "decreases then increases"
+    },
+    "D": {
+      "original_idx": 2,
+      "text": "decreases"
+    }
+  },
+  "correct_answer_original_idx": 4,
+  "correct_letter": "A",
+  "raw_response": "```json\n{\n  \"choice\": \"A\",\n  \"answer_value\": \"increases then decreases\",\n  \"rationale\": \"The map shows the hurricane's intensity changing over time using specific symbols. At 10 AM Tue, the storm is marked with an 'H', indicating hurricane strength. By 7 PM Wed, it is marked with an 'M', indicating major hurricane status, which represents an increase in wind speed. However, by 7 AM Fri, the symbol changes to an 'S', indicating a drop to tropical storm strength, which represents a decrease in wind speed. Therefore, the wind speed increased and then decreased during this period.\"\n}\n```\n",
+  "parsed": {
+    "choice": "A",
+    "answer_value": "increases then decreases",
+    "rationale": "The map shows the hurricane's intensity changing over time using specific symbols. At 10 AM Tue, the storm is marked with an 'H', indicating hurricane strength. By 7 PM Wed, it is marked with an 'M', indicating major hurricane status, which represents an increase in wind speed. However, by 7 AM Fri, the symbol changes to an 'S', indicating a drop to tropical storm strength, which represents a decrease in wind speed. Therefore, the wind speed increased and then decreased during this period."
+  },
+  "chosen_letter": "A",
+  "is_correct": true,
+  "parse_error": null
+}

@@ -1,0 +1,28 @@
+{
+  "item_id": "item07",
+  "model": "internvl",
+  "run": 9,
+  "seed": 9,
+  "n_choices": 2,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 1,
+      "text": "TRUE"
+    },
+    "B": {
+      "original_idx": 2,
+      "text": "FALSE"
+    }
+  },
+  "correct_answer_original_idx": 2,
+  "correct_letter": "B",
+  "raw_response": "{\n  \"choice\": \"A\",\n  \"answer_value\": \"TRUE\",\n  \"rationale\": \"The forecast track shows that from 7 AM Wednesday to 7 AM Sunday, the storm is expected to be a tropical storm or hurricane with sustained winds below 110 mph, as indicated by the symbols and wind speed categories on the map.\"\n}",
+  "parsed": {
+    "choice": "A",
+    "answer_value": "TRUE",
+    "rationale": "The forecast track shows that from 7 AM Wednesday to 7 AM Sunday, the storm is expected to be a tropical storm or hurricane with sustained winds below 110 mph, as indicated by the symbols and wind speed categories on the map."
+  },
+  "chosen_letter": "A",
+  "is_correct": false,
+  "parse_error": null
+}

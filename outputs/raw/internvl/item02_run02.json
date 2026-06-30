@@ -1,0 +1,36 @@
+{
+  "item_id": "item02",
+  "model": "internvl",
+  "run": 2,
+  "seed": 2,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 2,
+      "text": "Waypoint B"
+    },
+    "B": {
+      "original_idx": 3,
+      "text": "Waypoint C"
+    },
+    "C": {
+      "original_idx": 4,
+      "text": "Waypoint D"
+    },
+    "D": {
+      "original_idx": 1,
+      "text": "Waypoint A"
+    }
+  },
+  "correct_answer_original_idx": 3,
+  "correct_letter": "B",
+  "raw_response": "<think>\nThe contour lines on the map indicate elevation in feet, with intervals of 40 feet. Waypoint D is located near the contour line labeled 7000 feet, which is higher than the contour lines near the other waypoints. Waypoint A is near 7200 feet, but since it is slightly lower than the contour line for 7200 feet, it is not as high as Waypoint D. Therefore, Waypoint D has the highest elevation.\n</think>\n\n{\n  \"choice\": \"C\",\n  \"answer_value\": \"Waypoint D\",\n  \"rationale\": \"Waypoint D is closest to the 7000 feet contour line, indicating it has the highest elevation compared to the other waypoints.\"\n}",
+  "parsed": {
+    "choice": "C",
+    "answer_value": "Waypoint D",
+    "rationale": "Waypoint D is closest to the 7000 feet contour line, indicating it has the highest elevation compared to the other waypoints."
+  },
+  "chosen_letter": "C",
+  "is_correct": false,
+  "parse_error": null
+}

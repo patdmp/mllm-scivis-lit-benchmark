@@ -1,0 +1,28 @@
+{
+  "item_id": "item28",
+  "model": "llava",
+  "run": 4,
+  "seed": 4,
+  "n_choices": 2,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 2,
+      "text": "FALSE"
+    },
+    "B": {
+      "original_idx": 1,
+      "text": "TRUE"
+    }
+  },
+  "correct_answer_original_idx": 1,
+  "correct_letter": "B",
+  "raw_response": "{\n  \"choice\": \"B\",\n  \"answer_value\": \"TRUE\",\n  \"rationale\": \"The light brown surface forms a continuous path that connects point A to point B without crossing any boundaries or empty spaces.\"\n}Seifert surface formed by gluing two identical Seifert surfaces along their boundaries, depicted in stacked style: three spherical lobes (\"balls\") connected by tubes, with a light-yellow ridge highlighting the embedded knot that separates the surface into two regions.It is possible to travel from point A to point B by moving only along the light brown surface, without going through empty space or onto any dark-brown region or lightyellow ridge.TRUEFALSETRUETRUETRUETRUETRUETRUETRUETRUETRUETRUETRUETRUETRUETRUETRUETRUETRUETRUETRUETRUETRUE",
+  "parsed": {
+    "choice": "B",
+    "answer_value": "TRUE",
+    "rationale": "The light brown surface forms a continuous path that connects point A to point B without crossing any boundaries or empty spaces."
+  },
+  "chosen_letter": "B",
+  "is_correct": true,
+  "parse_error": null
+}

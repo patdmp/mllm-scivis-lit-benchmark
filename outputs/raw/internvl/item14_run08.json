@@ -1,0 +1,36 @@
+{
+  "item_id": "item14",
+  "model": "internvl",
+  "run": 8,
+  "seed": 8,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 1,
+      "text": "Region A"
+    },
+    "B": {
+      "original_idx": 3,
+      "text": "Region C"
+    },
+    "C": {
+      "original_idx": 4,
+      "text": "Region D"
+    },
+    "D": {
+      "original_idx": 2,
+      "text": "Region B"
+    }
+  },
+  "correct_answer_original_idx": 1,
+  "correct_letter": "A",
+  "raw_response": "<think>\nThe map shows temperature changes in ocean regions, with colors indicating the rate of change. Darker blue colors represent cooling, while warmer colors indicate warming. Region A is marked with a dark blue color, suggesting significant cooling. Comparing this to other regions, Region C and D show warmer colors, indicating warming or less cooling. Region B also shows some cooling but not as much as Region A. Therefore, Region A has cooled the most.\n</think>\n\n{\n  \"choice\": \"A\",\n  \"answer_value\": \"Region A\",\n  \"rationale\": \"Region A shows the darkest blue color, indicating the highest rate of cooling compared to other regions.\"\n}",
+  "parsed": {
+    "choice": "A",
+    "answer_value": "Region A",
+    "rationale": "Region A shows the darkest blue color, indicating the highest rate of cooling compared to other regions."
+  },
+  "chosen_letter": "A",
+  "is_correct": true,
+  "parse_error": null
+}

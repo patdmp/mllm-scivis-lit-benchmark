@@ -1,0 +1,36 @@
+{
+  "item_id": "item25",
+  "model": "internvl",
+  "run": 5,
+  "seed": 5,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 1,
+      "text": "1"
+    },
+    "B": {
+      "original_idx": 2,
+      "text": "2"
+    },
+    "C": {
+      "original_idx": 4,
+      "text": "4"
+    },
+    "D": {
+      "original_idx": 3,
+      "text": "3"
+    }
+  },
+  "correct_answer_original_idx": 2,
+  "correct_letter": "B",
+  "raw_response": "{\"choice\": \"D\", \"answer_value\": \"3\", \"rationale\": \"The object has three spherical lobes connected by tubes, forming a structure that resembles a trefoil knot. The tubes connecting the lobes create three distinct holes or passageways through the surface.\"}",
+  "parsed": {
+    "choice": "D",
+    "answer_value": "3",
+    "rationale": "The object has three spherical lobes connected by tubes, forming a structure that resembles a trefoil knot. The tubes connecting the lobes create three distinct holes or passageways through the surface."
+  },
+  "chosen_letter": "D",
+  "is_correct": false,
+  "parse_error": null
+}

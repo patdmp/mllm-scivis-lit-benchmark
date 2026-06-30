@@ -1,0 +1,36 @@
+{
+  "item_id": "item05",
+  "model": "internvl",
+  "run": 0,
+  "seed": 0,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 3,
+      "text": "consistently getting gentler"
+    },
+    "B": {
+      "original_idx": 1,
+      "text": "steep at first, then gentler"
+    },
+    "C": {
+      "original_idx": 2,
+      "text": "gentle at first, then steeper"
+    },
+    "D": {
+      "original_idx": 4,
+      "text": "consistently getting steeper"
+    }
+  },
+  "correct_answer_original_idx": 1,
+  "correct_letter": "B",
+  "raw_response": "<think>\nThe contour lines on the map represent different elevations, with the contour interval being 40 feet. Moving from waypoint C to waypoint B, the contour lines become closer together, indicating a steeper slope. This suggests that the slope is getting steeper as you move from C to B.\n</think>\n\n{\n  \"choice\": \"D\",\n  \"answer_value\": \"consistently getting steeper\",\n  \"rationale\": \"The contour lines become closer together as you move from C to B, indicating an increase in slope steepness.\"\n}",
+  "parsed": {
+    "choice": "D",
+    "answer_value": "consistently getting steeper",
+    "rationale": "The contour lines become closer together as you move from C to B, indicating an increase in slope steepness."
+  },
+  "chosen_letter": "D",
+  "is_correct": false,
+  "parse_error": null
+}

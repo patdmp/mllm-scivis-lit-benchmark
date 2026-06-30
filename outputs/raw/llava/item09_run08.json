@@ -1,0 +1,36 @@
+{
+  "item_id": "item09",
+  "model": "llava",
+  "run": 8,
+  "seed": 8,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 1,
+      "text": "Southeast"
+    },
+    "B": {
+      "original_idx": 3,
+      "text": "South"
+    },
+    "C": {
+      "original_idx": 4,
+      "text": "North"
+    },
+    "D": {
+      "original_idx": 2,
+      "text": "Northwest"
+    }
+  },
+  "correct_answer_original_idx": 2,
+  "correct_letter": "D",
+  "raw_response": "{\n  \"choice\": \"D\",\n  \"answer_value\": \"Northwest\",\n  \"rationale\": \"The forecast track shows the hurricane moving from the southeast towards the northwest direction from 10 AM Tue to 7 PM Wed.\"\n} landfall. Category 4 hurricane. 10 AM Tue to 7 PM Wed. 10 AM Tue to 7 PM Wed. 10 AM Tue to 7 PM Wed. 10 AM Tue to 7 PM Wed. 10 AM Tue to 7 PM Wed. 10 AM Tue to 7 PM Wed. 10 AM Tue to 7 PM Wed. 10 AM Tue to 7 PM Wed. 10 AM Tue to 7 PM Wed. 10 AM Tue to 7 PM Wed. 10 AM Tue to 7 PM Wed. 10 AM Tue to 7 PM Wed. 10 AM Tue to 7 PM Wed. 10 AM Tue to 7 PM Wed. 10 AM Tue to 7 PM Wed. 10 AM Tue to 7 PM Wed. 10 AM Tue to 7 PM Wed. 10 AM Tue to 7 PM Wed. 10 AM Tue to 7 PM Wed. 10 AM Tue to",
+  "parsed": {
+    "choice": "D",
+    "answer_value": "Northwest",
+    "rationale": "The forecast track shows the hurricane moving from the southeast towards the northwest direction from 10 AM Tue to 7 PM Wed."
+  },
+  "chosen_letter": "D",
+  "is_correct": true,
+  "parse_error": null
+}

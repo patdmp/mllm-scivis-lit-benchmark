@@ -1,0 +1,36 @@
+{
+  "item_id": "item71",
+  "model": "internvl",
+  "run": 6,
+  "seed": 6,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 4,
+      "text": "1250 m2/s2"
+    },
+    "B": {
+      "original_idx": 3,
+      "text": "1000 m2/s2"
+    },
+    "C": {
+      "original_idx": 2,
+      "text": "750 m2/s2"
+    },
+    "D": {
+      "original_idx": 1,
+      "text": "500 m2/s2"
+    }
+  },
+  "correct_answer_original_idx": 3,
+  "correct_letter": "B",
+  "raw_response": "{\n  \"choice\": \"A\",\n  \"answer_value\": \"1250 m2/s2\",\n  \"rationale\": \"The visualization shows the kinematic pressure on the windshield with a color gradient. The maximum pressure appears to be around 800 m2/s2, and the minimum is around -450 m2/s2. The difference between these values is approximately 1250 m2/s2.\"\n}",
+  "parsed": {
+    "choice": "A",
+    "answer_value": "1250 m2/s2",
+    "rationale": "The visualization shows the kinematic pressure on the windshield with a color gradient. The maximum pressure appears to be around 800 m2/s2, and the minimum is around -450 m2/s2. The difference between these values is approximately 1250 m2/s2."
+  },
+  "chosen_letter": "A",
+  "is_correct": false,
+  "parse_error": null
+}

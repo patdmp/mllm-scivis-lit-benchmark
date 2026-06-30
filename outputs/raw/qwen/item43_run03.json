@@ -1,0 +1,36 @@
+{
+  "item_id": "item43",
+  "model": "qwen",
+  "run": 3,
+  "seed": 3,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 4,
+      "text": "10"
+    },
+    "B": {
+      "original_idx": 1,
+      "text": "5"
+    },
+    "C": {
+      "original_idx": 3,
+      "text": "9"
+    },
+    "D": {
+      "original_idx": 2,
+      "text": "7"
+    }
+  },
+  "correct_answer_original_idx": 4,
+  "correct_letter": "A",
+  "raw_response": "```json\n{\n  \"choice\": \"A\",\n  \"answer_value\": \"10\",\n  \"rationale\": \"The image displays a diagram of a female dragonfly with its abdomen clearly labeled. The segments are marked sequentially from S1 to S10, indicating a total of 10 segments. This visual evidence directly supports the count of 10.\"\n}\n```\n",
+  "parsed": {
+    "choice": "A",
+    "answer_value": "10",
+    "rationale": "The image displays a diagram of a female dragonfly with its abdomen clearly labeled. The segments are marked sequentially from S1 to S10, indicating a total of 10 segments. This visual evidence directly supports the count of 10."
+  },
+  "chosen_letter": "A",
+  "is_correct": true,
+  "parse_error": null
+}

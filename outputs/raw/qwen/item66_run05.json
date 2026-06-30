@@ -1,0 +1,36 @@
+{
+  "item_id": "item66",
+  "model": "qwen",
+  "run": 5,
+  "seed": 5,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 1,
+      "text": "immediately beneath the rocket nozzle"
+    },
+    "B": {
+      "original_idx": 2,
+      "text": "along the sloping ramp in the trench below the rocket"
+    },
+    "C": {
+      "original_idx": 4,
+      "text": "evenly throughout the plume"
+    },
+    "D": {
+      "original_idx": 3,
+      "text": "near the far end of the trench, away from the rocket"
+    }
+  },
+  "correct_answer_original_idx": 2,
+  "correct_letter": "B",
+  "raw_response": "```json\n{\n  \"choice\": \"A\",\n  \"answer_value\": \"immediately beneath the rocket nozzle\",\n  \"rationale\": \"The visualization shows the rocket exhaust plume and surrounding flow during launch ignition. The colors indicate the exhaust gas temperature, with brighter/darker regions representing hotter/cooler gas. The hottest exhaust is concentrated mainly immediately beneath the rocket nozzle, as indicated by the brightest colors in that region. The sloping ramp in the trench below the rocket and the far end of the trench are not the primary locations of the hottest exhaust. The plume is not evenly distributed, with the hottest regions being more localized.\"\n}\n```\n",
+  "parsed": {
+    "choice": "A",
+    "answer_value": "immediately beneath the rocket nozzle",
+    "rationale": "The visualization shows the rocket exhaust plume and surrounding flow during launch ignition. The colors indicate the exhaust gas temperature, with brighter/darker regions representing hotter/cooler gas. The hottest exhaust is concentrated mainly immediately beneath the rocket nozzle, as indicated by the brightest colors in that region. The sloping ramp in the trench below the rocket and the far end of the trench are not the primary locations of the hottest exhaust. The plume is not evenly distributed, with the hottest regions being more localized."
+  },
+  "chosen_letter": "A",
+  "is_correct": false,
+  "parse_error": null
+}

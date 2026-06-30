@@ -1,0 +1,28 @@
+{
+  "item_id": "item20",
+  "model": "llava",
+  "run": 6,
+  "seed": 6,
+  "n_choices": 2,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 2,
+      "text": "FALSE"
+    },
+    "B": {
+      "original_idx": 1,
+      "text": "TRUE"
+    }
+  },
+  "correct_answer_original_idx": 1,
+  "correct_letter": "B",
+  "raw_response": "{\n  \"choice\": \"B\",\n  \"answer_value\": \"TRUE\",\n  \"rationale\": \"The map shows wind patterns with arrows indicating the direction of the wind. In the regions near Chicago and Houston, the arrows are aligned in a similar direction, suggesting that the winds are flowing in roughly the same direction.\"\n} arrow wind patterns with arrows indicating the direction of the wind. In the regions near Chicago and Houston, the arrows are aligned in a similar direction, suggesting that the winds are flowing in roughly the same direction.",
+  "parsed": {
+    "choice": "B",
+    "answer_value": "TRUE",
+    "rationale": "The map shows wind patterns with arrows indicating the direction of the wind. In the regions near Chicago and Houston, the arrows are aligned in a similar direction, suggesting that the winds are flowing in roughly the same direction."
+  },
+  "chosen_letter": "B",
+  "is_correct": true,
+  "parse_error": null
+}

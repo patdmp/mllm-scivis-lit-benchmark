@@ -1,0 +1,28 @@
+{
+  "item_id": "item28",
+  "model": "llava",
+  "run": 7,
+  "seed": 7,
+  "n_choices": 2,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 1,
+      "text": "TRUE"
+    },
+    "B": {
+      "original_idx": 2,
+      "text": "FALSE"
+    }
+  },
+  "correct_answer_original_idx": 1,
+  "correct_letter": "A",
+  "raw_response": "{\n  \"choice\": \"A\",\n  \"answer_value\": \"TRUE\",\n  \"rationale\": \"The light brown surface forms a continuous path that connects point A to point B without intersecting the dark-brown regions or the light-yellow ridge, as indicated by the structure of the Seifert surface.\"\n}",
+  "parsed": {
+    "choice": "A",
+    "answer_value": "TRUE",
+    "rationale": "The light brown surface forms a continuous path that connects point A to point B without intersecting the dark-brown regions or the light-yellow ridge, as indicated by the structure of the Seifert surface."
+  },
+  "chosen_letter": "A",
+  "is_correct": true,
+  "parse_error": null
+}

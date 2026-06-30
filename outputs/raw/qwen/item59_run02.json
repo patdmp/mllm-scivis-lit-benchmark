@@ -1,0 +1,36 @@
+{
+  "item_id": "item59",
+  "model": "qwen",
+  "run": 2,
+  "seed": 2,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 2,
+      "text": "The electric field lines around plate 1 exhibit a divergent pattern."
+    },
+    "B": {
+      "original_idx": 3,
+      "text": "The electric field lines around plate 2 exhibit a convergent pattern."
+    },
+    "C": {
+      "original_idx": 4,
+      "text": "Between the two plates, the electric field lines point from plate 2 toward plate 1."
+    },
+    "D": {
+      "original_idx": 1,
+      "text": "Electric field lines can cross in space."
+    }
+  },
+  "correct_answer_original_idx": 4,
+  "correct_letter": "C",
+  "raw_response": "```json\n{\n  \"choice\": \"A\",\n  \"answer_value\": \"The electric field lines around plate 1 exhibit a divergent pattern.\",\n  \"rationale\": \"Observing the diagram, the electric field lines originating from Metal Plate 1 spread outwards into the surrounding space, which is the definition of a divergent pattern. Conversely, the lines near Metal Plate 2 are converging towards it. The arrows on the lines between the plates clearly point upwards, from Plate 2 to Plate 1, making option C incorrect. Finally, a fundamental property of electric field lines is that they never cross, so option D is false.\"\n}\n```\n",
+  "parsed": {
+    "choice": "A",
+    "answer_value": "The electric field lines around plate 1 exhibit a divergent pattern.",
+    "rationale": "Observing the diagram, the electric field lines originating from Metal Plate 1 spread outwards into the surrounding space, which is the definition of a divergent pattern. Conversely, the lines near Metal Plate 2 are converging towards it. The arrows on the lines between the plates clearly point upwards, from Plate 2 to Plate 1, making option C incorrect. Finally, a fundamental property of electric field lines is that they never cross, so option D is false."
+  },
+  "chosen_letter": "A",
+  "is_correct": false,
+  "parse_error": null
+}

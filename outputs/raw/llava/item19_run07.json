@@ -1,0 +1,36 @@
+{
+  "item_id": "item19",
+  "model": "llava",
+  "run": 7,
+  "seed": 7,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 4,
+      "text": "spiral outward from a central point"
+    },
+    "B": {
+      "original_idx": 2,
+      "text": "circulate around a central point"
+    },
+    "C": {
+      "original_idx": 1,
+      "text": "flow from west to east"
+    },
+    "D": {
+      "original_idx": 3,
+      "text": "spiral inward toward a central point"
+    }
+  },
+  "correct_answer_original_idx": 3,
+  "correct_letter": "D",
+  "raw_response": "{\n  \"choice\": \"D\",\n  \"answer_value\": \"spiral inward toward a central point\",\n  \"rationale\": \"The wind patterns between Columbus and New York show a spiral inward motion, indicating a low-pressure system or cyclone.\"\n}airarrangement of the wind lines, which are converging towards a central point.\"\n}arrangement of the wind lines, which are converging towards a central point.\"\n}arrangement of the wind lines, which are converging towards a central point.\"\n}arrangement of the wind lines, which are converging towards a central point.\"\n}arrangement of the wind lines, which are converging towards a central point.\"\n}arrangement of the wind lines, which are converging towards a central point.\"\n}arrangement of the wind lines, which are converging towards a central point.\"\n}arrangement of the wind lines, which are converging towards a central point.\"\n}arrangement of the wind lines, which are converging towards a central point.\"\n}arrangement of the wind lines, which are conver",
+  "parsed": {
+    "choice": "D",
+    "answer_value": "spiral inward toward a central point",
+    "rationale": "The wind patterns between Columbus and New York show a spiral inward motion, indicating a low-pressure system or cyclone."
+  },
+  "chosen_letter": "D",
+  "is_correct": true,
+  "parse_error": null
+}

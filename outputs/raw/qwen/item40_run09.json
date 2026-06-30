@@ -1,0 +1,36 @@
+{
+  "item_id": "item40",
+  "model": "qwen",
+  "run": 9,
+  "seed": 9,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 1,
+      "text": "Envelope, RNPs, RBDs"
+    },
+    "B": {
+      "original_idx": 2,
+      "text": "RNPs, RBDs, envelope"
+    },
+    "C": {
+      "original_idx": 3,
+      "text": "RBDs, envelope, RNPs"
+    },
+    "D": {
+      "original_idx": 4,
+      "text": "RNPs, envelope, RBDs"
+    }
+  },
+  "correct_answer_original_idx": 4,
+  "correct_letter": "D",
+  "raw_response": "```json\n{\n  \"choice\": \"D\",\n  \"answer_value\": \"RNPs, envelope, RBDs\",\n  \"rationale\": \"The visualization shows yellow RNP complexes located at the very center of the particle. Surrounding these central complexes is the gray lipid envelope. Finally, the spike proteins (RBDs) are depicted on the outermost surface of the virus.\"\n}\n```\n",
+  "parsed": {
+    "choice": "D",
+    "answer_value": "RNPs, envelope, RBDs",
+    "rationale": "The visualization shows yellow RNP complexes located at the very center of the particle. Surrounding these central complexes is the gray lipid envelope. Finally, the spike proteins (RBDs) are depicted on the outermost surface of the virus."
+  },
+  "chosen_letter": "D",
+  "is_correct": true,
+  "parse_error": null
+}

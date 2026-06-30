@@ -1,0 +1,36 @@
+{
+  "item_id": "item02",
+  "model": "qwen",
+  "run": 2,
+  "seed": 2,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 2,
+      "text": "Waypoint B"
+    },
+    "B": {
+      "original_idx": 3,
+      "text": "Waypoint C"
+    },
+    "C": {
+      "original_idx": 4,
+      "text": "Waypoint D"
+    },
+    "D": {
+      "original_idx": 1,
+      "text": "Waypoint A"
+    }
+  },
+  "correct_answer_original_idx": 3,
+  "correct_letter": "B",
+  "raw_response": "```json\n{\n  \"choice\": \"B\",\n  \"answer_value\": \"Waypoint B\",\n  \"rationale\": \"Waypoint B is located in a region with the lowest contour lines, specifically below the 7000-foot line. In contrast, Waypoints A and C are situated within closed loops labeled 7400, indicating they are at the highest elevations on the map. Waypoint D is located in a white area with no specific elevation markings, but it is clearly at a lower elevation than the peaks at A and C. Therefore, Waypoint B has the highest elevation among the options provided.\"\n}\n```\n",
+  "parsed": {
+    "choice": "B",
+    "answer_value": "Waypoint B",
+    "rationale": "Waypoint B is located in a region with the lowest contour lines, specifically below the 7000-foot line. In contrast, Waypoints A and C are situated within closed loops labeled 7400, indicating they are at the highest elevations on the map. Waypoint D is located in a white area with no specific elevation markings, but it is clearly at a lower elevation than the peaks at A and C. Therefore, Waypoint B has the highest elevation among the options provided."
+  },
+  "chosen_letter": "B",
+  "is_correct": true,
+  "parse_error": null
+}

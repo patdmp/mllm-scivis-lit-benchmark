@@ -1,0 +1,36 @@
+{
+  "item_id": "item23",
+  "model": "qwen",
+  "run": 8,
+  "seed": 8,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 1,
+      "text": "Two pentagons share a common edge."
+    },
+    "B": {
+      "original_idx": 3,
+      "text": "Each hexagon is adjacent only to pentagons."
+    },
+    "C": {
+      "original_idx": 4,
+      "text": "Each pentagon is adjacent only to hexagons."
+    },
+    "D": {
+      "original_idx": 2,
+      "text": "No two hexagons share a common edge."
+    }
+  },
+  "correct_answer_original_idx": 4,
+  "correct_letter": "C",
+  "raw_response": "{\n  \"choice\": \"D\",\n  \"answer_value\": \"No two hexagons share a common edge.\",\n  \"rationale\": \"The image shows a spherical molecular structure composed of interconnected polygons, characteristic of a fullerene. In such structures, the fundamental rule is that no two hexagons can share an edge; they are always separated by at least one pentagon. This arrangement allows the structure to curve and close into a sphere. Observing the connections in the provided visualization confirms this pattern, as every hexagonal face is bordered by pentagons, not other hexagons. Therefore, the correct observation is that no two hexagons share a common edge.\"\n}\n",
+  "parsed": {
+    "choice": "D",
+    "answer_value": "No two hexagons share a common edge.",
+    "rationale": "The image shows a spherical molecular structure composed of interconnected polygons, characteristic of a fullerene. In such structures, the fundamental rule is that no two hexagons can share an edge; they are always separated by at least one pentagon. This arrangement allows the structure to curve and close into a sphere. Observing the connections in the provided visualization confirms this pattern, as every hexagonal face is bordered by pentagons, not other hexagons. Therefore, the correct observation is that no two hexagons share a common edge."
+  },
+  "chosen_letter": "D",
+  "is_correct": false,
+  "parse_error": null
+}

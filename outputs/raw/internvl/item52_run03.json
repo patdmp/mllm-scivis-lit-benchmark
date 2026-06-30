@@ -1,0 +1,36 @@
+{
+  "item_id": "item52",
+  "model": "internvl",
+  "run": 3,
+  "seed": 3,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 4,
+      "text": "A thin band above and below the disk, but not near the center"
+    },
+    "B": {
+      "original_idx": 1,
+      "text": "The inner parts of the disk, close to the black hole"
+    },
+    "C": {
+      "original_idx": 3,
+      "text": "All over the disk"
+    },
+    "D": {
+      "original_idx": 2,
+      "text": "The edges of the disk"
+    }
+  },
+  "correct_answer_original_idx": 1,
+  "correct_letter": "B",
+  "raw_response": "{\n  \"choice\": \"B\",\n  \"answer_value\": \"The inner parts of the disk, close to the black hole\",\n  \"rationale\": \"In the middle stage, the inner parts of the disk, close to the black hole, are depicted with the brightest colors, indicating the highest energy density. The color gradient shows that the energy density decreases as you move away from the center.\"\n}",
+  "parsed": {
+    "choice": "B",
+    "answer_value": "The inner parts of the disk, close to the black hole",
+    "rationale": "In the middle stage, the inner parts of the disk, close to the black hole, are depicted with the brightest colors, indicating the highest energy density. The color gradient shows that the energy density decreases as you move away from the center."
+  },
+  "chosen_letter": "B",
+  "is_correct": true,
+  "parse_error": null
+}

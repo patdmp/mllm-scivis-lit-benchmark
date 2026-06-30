@@ -1,0 +1,36 @@
+{
+  "item_id": "item12",
+  "model": "qwen",
+  "run": 0,
+  "seed": 0,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 3,
+      "text": "decreases then increases"
+    },
+    "B": {
+      "original_idx": 1,
+      "text": "increases"
+    },
+    "C": {
+      "original_idx": 2,
+      "text": "decreases"
+    },
+    "D": {
+      "original_idx": 4,
+      "text": "increases then decreases"
+    }
+  },
+  "correct_answer_original_idx": 4,
+  "correct_letter": "D",
+  "raw_response": "```json\n{\n  \"choice\": \"A\",\n  \"answer_value\": \"decreases then increases\",\n  \"rationale\": \"The map shows the hurricane's intensity changing over time using specific symbols. At 10 AM Tue, the storm is marked with an 'H', indicating hurricane strength. By 7 PM Wed, it is marked with an 'M', indicating a decrease in intensity. Finally, at 7 AM Fri, it is marked with an 'H' again, showing an increase in intensity. This sequence of symbols clearly demonstrates a decrease followed by an increase in sustained wind speed.\"\n}\n```\n",
+  "parsed": {
+    "choice": "A",
+    "answer_value": "decreases then increases",
+    "rationale": "The map shows the hurricane's intensity changing over time using specific symbols. At 10 AM Tue, the storm is marked with an 'H', indicating hurricane strength. By 7 PM Wed, it is marked with an 'M', indicating a decrease in intensity. Finally, at 7 AM Fri, it is marked with an 'H' again, showing an increase in intensity. This sequence of symbols clearly demonstrates a decrease followed by an increase in sustained wind speed."
+  },
+  "chosen_letter": "A",
+  "is_correct": false,
+  "parse_error": null
+}

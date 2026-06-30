@@ -1,0 +1,28 @@
+{
+  "item_id": "item60",
+  "model": "internvl",
+  "run": 6,
+  "seed": 6,
+  "n_choices": 2,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 2,
+      "text": "FALSE"
+    },
+    "B": {
+      "original_idx": 1,
+      "text": "TRUE"
+    }
+  },
+  "correct_answer_original_idx": 2,
+  "correct_letter": "A",
+  "raw_response": "{\n  \"choice\": \"A\",\n  \"answer_value\": \"FALSE\",\n  \"rationale\": \"The visualization shows the tornado with streamlines and arrows indicating the direction of the velocity field. The arrows are oriented in a counterclockwise direction when viewed from above, which suggests that the tornado rotates counterclockwise, not clockwise.\"\n}",
+  "parsed": {
+    "choice": "A",
+    "answer_value": "FALSE",
+    "rationale": "The visualization shows the tornado with streamlines and arrows indicating the direction of the velocity field. The arrows are oriented in a counterclockwise direction when viewed from above, which suggests that the tornado rotates counterclockwise, not clockwise."
+  },
+  "chosen_letter": "A",
+  "is_correct": true,
+  "parse_error": null
+}

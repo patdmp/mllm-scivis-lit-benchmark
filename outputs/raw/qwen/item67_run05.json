@@ -1,0 +1,36 @@
+{
+  "item_id": "item67",
+  "model": "qwen",
+  "run": 5,
+  "seed": 5,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 1,
+      "text": "It disappears almost immediately."
+    },
+    "B": {
+      "original_idx": 2,
+      "text": "It remains confined to a narrow column beneath the nozzle."
+    },
+    "C": {
+      "original_idx": 4,
+      "text": "t moves upward, away from the pad, without touching the trench."
+    },
+    "D": {
+      "original_idx": 3,
+      "text": "It spreads along the trench, away from the rocket."
+    }
+  },
+  "correct_answer_original_idx": 3,
+  "correct_letter": "D",
+  "raw_response": "{\n  \"choice\": \"D\",\n  \"answer_value\": \"It spreads along the trench, away from the rocket.\",\n  \"rationale\": \"The visualization shows the exhaust plume expanding and spreading horizontally along the ground level, which appears to be a trench or containment area. The plume is clearly moving away from the rocket's position rather than staying confined or moving upward. This behavior indicates that the exhaust is dispersing along the surface, consistent with option D. Options A, B, and C are incorrect because the plume does not disappear, remain narrow, or move upward without touching the trench.\"\n}\n",
+  "parsed": {
+    "choice": "D",
+    "answer_value": "It spreads along the trench, away from the rocket.",
+    "rationale": "The visualization shows the exhaust plume expanding and spreading horizontally along the ground level, which appears to be a trench or containment area. The plume is clearly moving away from the rocket's position rather than staying confined or moving upward. This behavior indicates that the exhaust is dispersing along the surface, consistent with option D. Options A, B, and C are incorrect because the plume does not disappear, remain narrow, or move upward without touching the trench."
+  },
+  "chosen_letter": "D",
+  "is_correct": true,
+  "parse_error": null
+}

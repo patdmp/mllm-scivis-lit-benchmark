@@ -1,0 +1,36 @@
+{
+  "item_id": "item03",
+  "model": "llava",
+  "run": 9,
+  "seed": 9,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 1,
+      "text": "275 ft"
+    },
+    "B": {
+      "original_idx": 2,
+      "text": "350 ft"
+    },
+    "C": {
+      "original_idx": 3,
+      "text": "425 ft"
+    },
+    "D": {
+      "original_idx": 4,
+      "text": "500 ft"
+    }
+  },
+  "correct_answer_original_idx": 2,
+  "correct_letter": "B",
+  "raw_response": "{\n  \"choice\": \"B\",\n  \"answer_value\": \"350 ft\",\n  \"rationale\": \"Waypoint A is at an elevation of 7200 feet, and waypoint D is at 6800 feet. The difference in elevation is 400 feet, which is closest to option B, 350 ft.\"\n}400 feet400 feet400 feet400 feet400 feet400 feet400 feet400 feet400 feet400 feet400 feet400 feet400 feet400 feet400 feet400 feet400 feet400 feet400 feet400 feet400 feet400 feet400 feet400 feet400 feet400 feet400 feet400 feet400 feet400 feet400 feet400 feet400 feet400 feet400 feet400 feet400 feet400 feet",
+  "parsed": {
+    "choice": "B",
+    "answer_value": "350 ft",
+    "rationale": "Waypoint A is at an elevation of 7200 feet, and waypoint D is at 6800 feet. The difference in elevation is 400 feet, which is closest to option B, 350 ft."
+  },
+  "chosen_letter": "B",
+  "is_correct": true,
+  "parse_error": null
+}

@@ -1,0 +1,36 @@
+{
+  "item_id": "item04",
+  "model": "internvl",
+  "run": 9,
+  "seed": 9,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 1,
+      "text": "increases"
+    },
+    "B": {
+      "original_idx": 2,
+      "text": "decreases"
+    },
+    "C": {
+      "original_idx": 3,
+      "text": "increases, then decreases"
+    },
+    "D": {
+      "original_idx": 4,
+      "text": "decreases, then increases"
+    }
+  },
+  "correct_answer_original_idx": 4,
+  "correct_letter": "D",
+  "raw_response": "<think>\nThe contour lines on the map show elevation changes. Moving from waypoint C to waypoint A, the contour lines indicate a general increase in elevation. The contour lines are closer together where the elevation changes more rapidly, and they show a clear upward trend from C to A. Therefore, the elevation increases as you move from C to A.\n</think>\n\n{\n  \"choice\": \"A\",\n  \"answer_value\": \"increases\",\n  \"rationale\": \"The contour lines show a general upward trend from waypoint C to waypoint A, indicating an increase in elevation.\"\n}",
+  "parsed": {
+    "choice": "A",
+    "answer_value": "increases",
+    "rationale": "The contour lines show a general upward trend from waypoint C to waypoint A, indicating an increase in elevation."
+  },
+  "chosen_letter": "A",
+  "is_correct": false,
+  "parse_error": null
+}

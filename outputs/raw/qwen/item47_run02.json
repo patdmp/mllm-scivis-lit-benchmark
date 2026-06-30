@@ -1,0 +1,36 @@
+{
+  "item_id": "item47",
+  "model": "qwen",
+  "run": 2,
+  "seed": 2,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 2,
+      "text": "Caudal fin"
+    },
+    "B": {
+      "original_idx": 3,
+      "text": "Dorsal fin"
+    },
+    "C": {
+      "original_idx": 4,
+      "text": "Pelvic fin"
+    },
+    "D": {
+      "original_idx": 1,
+      "text": "Anal fin"
+    }
+  },
+  "correct_answer_original_idx": 2,
+  "correct_letter": "A",
+  "raw_response": "```json\n{\n  \"choice\": \"A\",\n  \"answer_value\": \"Caudal fin\",\n  \"rationale\": \"The Caudal fin is located at the posterior end of the fish and is visibly the largest and most expansive fin in the diagram. The individual rays extending from the base of the Caudal fin are significantly longer than those of the Dorsal, Pelvic, or Anal fins. This anatomical structure is typical for fish, where the tail fin provides the primary propulsion and requires the longest support rays. Therefore, the Caudal fin has the longest fin rays.\"\n}\n```\n",
+  "parsed": {
+    "choice": "A",
+    "answer_value": "Caudal fin",
+    "rationale": "The Caudal fin is located at the posterior end of the fish and is visibly the largest and most expansive fin in the diagram. The individual rays extending from the base of the Caudal fin are significantly longer than those of the Dorsal, Pelvic, or Anal fins. This anatomical structure is typical for fish, where the tail fin provides the primary propulsion and requires the longest support rays. Therefore, the Caudal fin has the longest fin rays."
+  },
+  "chosen_letter": "A",
+  "is_correct": true,
+  "parse_error": null
+}

@@ -1,0 +1,36 @@
+{
+  "item_id": "item35",
+  "model": "qwen",
+  "run": 7,
+  "seed": 7,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 4,
+      "text": "Region D"
+    },
+    "B": {
+      "original_idx": 2,
+      "text": "Region B"
+    },
+    "C": {
+      "original_idx": 1,
+      "text": "Region A"
+    },
+    "D": {
+      "original_idx": 3,
+      "text": "Region C"
+    }
+  },
+  "correct_answer_original_idx": 2,
+  "correct_letter": "B",
+  "raw_response": "```json\n{\n  \"choice\": \"D\",\n  \"answer_value\": \"Region D\",\n  \"rationale\": \"Region D contains a dense, tightly packed bundle of fibers, which is characteristic of the corpus callosum. In contrast, Regions A and B show more dispersed and diverging fiber tracts. Region C displays a complex intersection of fibers rather than a single high-density bundle.\"\n}\n```\n",
+  "parsed": {
+    "choice": "D",
+    "answer_value": "Region D",
+    "rationale": "Region D contains a dense, tightly packed bundle of fibers, which is characteristic of the corpus callosum. In contrast, Regions A and B show more dispersed and diverging fiber tracts. Region C displays a complex intersection of fibers rather than a single high-density bundle."
+  },
+  "chosen_letter": "D",
+  "is_correct": false,
+  "parse_error": null
+}

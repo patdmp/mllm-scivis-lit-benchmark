@@ -1,0 +1,36 @@
+{
+  "item_id": "item13",
+  "model": "llava",
+  "run": 6,
+  "seed": 6,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 4,
+      "text": "increased by 1.25 degC per week"
+    },
+    "B": {
+      "original_idx": 3,
+      "text": "stayed approximately the same"
+    },
+    "C": {
+      "original_idx": 2,
+      "text": "decreased by 1.25 degC per week"
+    },
+    "D": {
+      "original_idx": 1,
+      "text": "decreased by 2.25 degC per week"
+    }
+  },
+  "correct_answer_original_idx": 3,
+  "correct_letter": "B",
+  "raw_response": "{\n  \"choice\": \"A\",\n  \"answer_value\": \"increased by 1.25 degC per week\",\n  \"rationale\": \"The color in the Pacific Ocean between 0-20N and 140-160E is yellow, which corresponds to an increase of 1.25 degC per week according to the color scale.\"\n}0.50.50.50.50.50.50.50.50.50.50.50.50.50.50.50.50.50.50.50.50.50.50.50.50.50.50.50.50.50.50.50.50.50.50.50.50.50.50.50.50.50.50.50.50.50.50.50.50.50.50.50.5",
+  "parsed": {
+    "choice": "A",
+    "answer_value": "increased by 1.25 degC per week",
+    "rationale": "The color in the Pacific Ocean between 0-20N and 140-160E is yellow, which corresponds to an increase of 1.25 degC per week according to the color scale."
+  },
+  "chosen_letter": "A",
+  "is_correct": false,
+  "parse_error": null
+}

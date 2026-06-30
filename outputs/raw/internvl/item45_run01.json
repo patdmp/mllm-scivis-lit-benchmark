@@ -1,0 +1,36 @@
+{
+  "item_id": "item45",
+  "model": "internvl",
+  "run": 1,
+  "seed": 1,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 4,
+      "text": "Cercus"
+    },
+    "B": {
+      "original_idx": 1,
+      "text": "Epiproct"
+    },
+    "C": {
+      "original_idx": 3,
+      "text": "Postclypeus"
+    },
+    "D": {
+      "original_idx": 2,
+      "text": "Metepisternum"
+    }
+  },
+  "correct_answer_original_idx": 1,
+  "correct_letter": "B",
+  "raw_response": "{\"choice\": \"B\", \"answer_value\": \"Epiproct\", \"rationale\": \"The epiproct is labeled only on the male side of the dragonfly in the illustration, indicating it is present only in males. The other parts listed are present in both males and females.\"}",
+  "parsed": {
+    "choice": "B",
+    "answer_value": "Epiproct",
+    "rationale": "The epiproct is labeled only on the male side of the dragonfly in the illustration, indicating it is present only in males. The other parts listed are present in both males and females."
+  },
+  "chosen_letter": "B",
+  "is_correct": true,
+  "parse_error": null
+}

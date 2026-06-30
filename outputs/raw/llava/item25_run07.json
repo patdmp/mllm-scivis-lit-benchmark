@@ -1,0 +1,36 @@
+{
+  "item_id": "item25",
+  "model": "llava",
+  "run": 7,
+  "seed": 7,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 4,
+      "text": "4"
+    },
+    "B": {
+      "original_idx": 2,
+      "text": "2"
+    },
+    "C": {
+      "original_idx": 1,
+      "text": "1"
+    },
+    "D": {
+      "original_idx": 3,
+      "text": "3"
+    }
+  },
+  "correct_answer_original_idx": 2,
+  "correct_letter": "B",
+  "raw_response": "{\n  \"choice\": \"B\",\n  \"answer_value\": \"2\",\n  \"rationale\": \"The object has two distinct loops or tubes connecting the spherical lobes, which can be considered as holes in the context of the question.\"\n}There are two loops connecting the lobes, which can be considered as holes.There are two loops connecting the lobes, which can be considered as holes.There are two loops connecting the lobes, which can be considered as holes.There are two loops connecting the lobes, which can be considered as holes.There are two loops connecting the lobes, which can be considered as holes.There are two loops connecting the lobes, which can be considered as holes.There are two loops connecting the lobes, which can be considered as holes.There are two loops connecting the lobes, which can be considered as holes.There are two loops connecting the lobes, which can be considered as holes.There are two loops connecting the lobes, which can be considered as holes.There are two loops connecting the lobes, which can be considered as holes.There are two loops connecting the lobes, which can be considered as holes.There are two loops connecting the lobes",
+  "parsed": {
+    "choice": "B",
+    "answer_value": "2",
+    "rationale": "The object has two distinct loops or tubes connecting the spherical lobes, which can be considered as holes in the context of the question."
+  },
+  "chosen_letter": "B",
+  "is_correct": true,
+  "parse_error": null
+}

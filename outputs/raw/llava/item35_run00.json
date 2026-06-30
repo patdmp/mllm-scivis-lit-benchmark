@@ -1,0 +1,36 @@
+{
+  "item_id": "item35",
+  "model": "llava",
+  "run": 0,
+  "seed": 0,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 3,
+      "text": "Region C"
+    },
+    "B": {
+      "original_idx": 1,
+      "text": "Region A"
+    },
+    "C": {
+      "original_idx": 2,
+      "text": "Region B"
+    },
+    "D": {
+      "original_idx": 4,
+      "text": "Region D"
+    }
+  },
+  "correct_answer_original_idx": 2,
+  "correct_letter": "C",
+  "raw_response": "{\n  \"choice\": \"A\",\n  \"answer_value\": \"Region C\",\n  \"rationale\": \"Region C has the highest density of fiber bundles as it shows the most concentrated and numerous lines within the circled area.\"\n}Region CRegion C has the highest density of fiber bundles as it shows the most concentrated and numerous lines within the circled area. tractography image of an adult human brain showing the brain's white-matter fiber pathways. Colors indicate fiber orientation: red, green, and blue correspond to left-right, front-back, and up-down directions, respectively. circled area.",
+  "parsed": {
+    "choice": "A",
+    "answer_value": "Region C",
+    "rationale": "Region C has the highest density of fiber bundles as it shows the most concentrated and numerous lines within the circled area."
+  },
+  "chosen_letter": "A",
+  "is_correct": false,
+  "parse_error": null
+}

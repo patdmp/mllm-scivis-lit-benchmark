@@ -1,0 +1,36 @@
+{
+  "item_id": "item35",
+  "model": "qwen",
+  "run": 4,
+  "seed": 4,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 3,
+      "text": "Region C"
+    },
+    "B": {
+      "original_idx": 1,
+      "text": "Region A"
+    },
+    "C": {
+      "original_idx": 4,
+      "text": "Region D"
+    },
+    "D": {
+      "original_idx": 2,
+      "text": "Region B"
+    }
+  },
+  "correct_answer_original_idx": 2,
+  "correct_letter": "D",
+  "raw_response": "```json\n{\n  \"choice\": \"A\",\n  \"answer_value\": \"Region A\",\n  \"rationale\": \"Region A contains a dense, vertical bundle of fibers, which is characteristic of the corpus callosum, the brain's largest white matter tract. The other regions show either less dense fiber arrangements or different orientations. Therefore, Region A has the highest density of fiber bundles.\"\n}\n```\n",
+  "parsed": {
+    "choice": "A",
+    "answer_value": "Region A",
+    "rationale": "Region A contains a dense, vertical bundle of fibers, which is characteristic of the corpus callosum, the brain's largest white matter tract. The other regions show either less dense fiber arrangements or different orientations. Therefore, Region A has the highest density of fiber bundles."
+  },
+  "chosen_letter": "A",
+  "is_correct": false,
+  "parse_error": null
+}

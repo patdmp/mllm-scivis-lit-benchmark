@@ -1,0 +1,36 @@
+{
+  "item_id": "item70",
+  "model": "qwen",
+  "run": 5,
+  "seed": 5,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 1,
+      "text": "The lower half of the windshield"
+    },
+    "B": {
+      "original_idx": 2,
+      "text": "The backend of the hood"
+    },
+    "C": {
+      "original_idx": 4,
+      "text": "The center of the roof"
+    },
+    "D": {
+      "original_idx": 3,
+      "text": "The middle of the front bumper"
+    }
+  },
+  "correct_answer_original_idx": 3,
+  "correct_letter": "D",
+  "raw_response": "```json\n{\n  \"choice\": \"B\",\n  \"answer_value\": \"The backend of the hood\",\n  \"rationale\": \"The kinematic pressure is represented by the color scale at the bottom of the image, where red indicates higher values. The backend of the hood shows a significant red color, indicating high kinematic pressure. Other regions like the lower half of the windshield, center of the roof, and middle of the front bumper do not show the same intensity of red, suggesting lower kinematic pressure in those areas.\"\n}\n```\n",
+  "parsed": {
+    "choice": "B",
+    "answer_value": "The backend of the hood",
+    "rationale": "The kinematic pressure is represented by the color scale at the bottom of the image, where red indicates higher values. The backend of the hood shows a significant red color, indicating high kinematic pressure. Other regions like the lower half of the windshield, center of the roof, and middle of the front bumper do not show the same intensity of red, suggesting lower kinematic pressure in those areas."
+  },
+  "chosen_letter": "B",
+  "is_correct": false,
+  "parse_error": null
+}

@@ -1,0 +1,36 @@
+{
+  "item_id": "item22",
+  "model": "qwen",
+  "run": 6,
+  "seed": 6,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 4,
+      "text": "4"
+    },
+    "B": {
+      "original_idx": 3,
+      "text": "3"
+    },
+    "C": {
+      "original_idx": 2,
+      "text": "2"
+    },
+    "D": {
+      "original_idx": 1,
+      "text": "1"
+    }
+  },
+  "correct_answer_original_idx": 3,
+  "correct_letter": "B",
+  "raw_response": "```json\n{\n  \"choice\": \"B\",\n  \"answer_value\": \"3\",\n  \"rationale\": \"The image displays a molecular structure where each blue sphere (atom) is connected to exactly three other spheres via brown rods (bonds). This consistent connectivity across the entire structure indicates that every atom has a coordination number of 3. Therefore, each atom is directly connected to 3 other atoms.\"\n}\n```\n",
+  "parsed": {
+    "choice": "B",
+    "answer_value": "3",
+    "rationale": "The image displays a molecular structure where each blue sphere (atom) is connected to exactly three other spheres via brown rods (bonds). This consistent connectivity across the entire structure indicates that every atom has a coordination number of 3. Therefore, each atom is directly connected to 3 other atoms."
+  },
+  "chosen_letter": "B",
+  "is_correct": true,
+  "parse_error": null
+}

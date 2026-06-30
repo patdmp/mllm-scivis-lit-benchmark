@@ -1,0 +1,36 @@
+{
+  "item_id": "item23",
+  "model": "internvl",
+  "run": 6,
+  "seed": 6,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 4,
+      "text": "Each pentagon is adjacent only to hexagons."
+    },
+    "B": {
+      "original_idx": 3,
+      "text": "Each hexagon is adjacent only to pentagons."
+    },
+    "C": {
+      "original_idx": 2,
+      "text": "No two hexagons share a common edge."
+    },
+    "D": {
+      "original_idx": 1,
+      "text": "Two pentagons share a common edge."
+    }
+  },
+  "correct_answer_original_idx": 4,
+  "correct_letter": "A",
+  "raw_response": "{\n  \"choice\": \"B\",\n  \"answer_value\": \"Each hexagon is adjacent only to pentagons.\",\n  \"rationale\": \"The structure shows hexagons and pentagons. Each hexagon is surrounded by pentagons, indicating that hexagons are adjacent only to pentagons.\"\n}",
+  "parsed": {
+    "choice": "B",
+    "answer_value": "Each hexagon is adjacent only to pentagons.",
+    "rationale": "The structure shows hexagons and pentagons. Each hexagon is surrounded by pentagons, indicating that hexagons are adjacent only to pentagons."
+  },
+  "chosen_letter": "B",
+  "is_correct": false,
+  "parse_error": null
+}

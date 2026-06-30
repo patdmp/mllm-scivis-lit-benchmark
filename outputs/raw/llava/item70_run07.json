@@ -1,0 +1,36 @@
+{
+  "item_id": "item70",
+  "model": "llava",
+  "run": 7,
+  "seed": 7,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 4,
+      "text": "The center of the roof"
+    },
+    "B": {
+      "original_idx": 2,
+      "text": "The backend of the hood"
+    },
+    "C": {
+      "original_idx": 1,
+      "text": "The lower half of the windshield"
+    },
+    "D": {
+      "original_idx": 3,
+      "text": "The middle of the front bumper"
+    }
+  },
+  "correct_answer_original_idx": 3,
+  "correct_letter": "D",
+  "raw_response": "{\n  \"choice\": \"D\",\n  \"answer_value\": \"The middle of the front bumper\",\n  \"rationale\": \"The visualization shows the highest kinematic pressure in the red area, which is located at the middle of the front bumper.\"\n} regions of the car show the highest kinematic pressure?A. The center of the roof\nB. The backend of the hood\nC. The lower half of the windshield\nD. The middle of the front bumper\nAnswer: DThe middle of the front bumperThe middle of the front bumperThe middle of the front bumperThe middle of the front bumperThe middle",
+  "parsed": {
+    "choice": "D",
+    "answer_value": "The middle of the front bumper",
+    "rationale": "The visualization shows the highest kinematic pressure in the red area, which is located at the middle of the front bumper."
+  },
+  "chosen_letter": "D",
+  "is_correct": true,
+  "parse_error": null
+}

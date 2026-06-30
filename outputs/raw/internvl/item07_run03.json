@@ -1,0 +1,28 @@
+{
+  "item_id": "item07",
+  "model": "internvl",
+  "run": 3,
+  "seed": 3,
+  "n_choices": 2,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 2,
+      "text": "FALSE"
+    },
+    "B": {
+      "original_idx": 1,
+      "text": "TRUE"
+    }
+  },
+  "correct_answer_original_idx": 2,
+  "correct_letter": "A",
+  "raw_response": "{\n  \"choice\": \"A\",\n  \"answer_value\": \"FALSE\",\n  \"rationale\": \"The forecast track shows that Hurricane Laura is expected to have sustained winds exceeding 110 mph from 7 AM Wednesday to 7 AM Sunday, as indicated by the 'H' symbols along the track.\"\n}",
+  "parsed": {
+    "choice": "A",
+    "answer_value": "FALSE",
+    "rationale": "The forecast track shows that Hurricane Laura is expected to have sustained winds exceeding 110 mph from 7 AM Wednesday to 7 AM Sunday, as indicated by the 'H' symbols along the track."
+  },
+  "chosen_letter": "A",
+  "is_correct": true,
+  "parse_error": null
+}

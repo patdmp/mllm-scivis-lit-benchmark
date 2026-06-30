@@ -1,0 +1,36 @@
+{
+  "item_id": "item27",
+  "model": "internvl",
+  "run": 8,
+  "seed": 8,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 1,
+      "text": "The bottom and middle balls remain connected, but the top ball separates."
+    },
+    "B": {
+      "original_idx": 3,
+      "text": "All three balls remain attached as a single piece."
+    },
+    "C": {
+      "original_idx": 4,
+      "text": "All three balls detach and fall off as separate pieces."
+    },
+    "D": {
+      "original_idx": 2,
+      "text": "The top and middle balls remain connected, but the bottom ball separates."
+    }
+  },
+  "correct_answer_original_idx": 3,
+  "correct_letter": "B",
+  "raw_response": "{\n  \"choice\": \"A\",\n  \"answer_value\": \"The bottom and middle balls remain connected, but the top ball separates.\",\n  \"rationale\": \"The cut through the curved tube halfway between the top and middle balls would sever the connection between the top ball and the rest of the structure. The bottom and middle balls are connected through the tubes, so they would remain attached, while the top ball would separate.\"\n}",
+  "parsed": {
+    "choice": "A",
+    "answer_value": "The bottom and middle balls remain connected, but the top ball separates.",
+    "rationale": "The cut through the curved tube halfway between the top and middle balls would sever the connection between the top ball and the rest of the structure. The bottom and middle balls are connected through the tubes, so they would remain attached, while the top ball would separate."
+  },
+  "chosen_letter": "A",
+  "is_correct": false,
+  "parse_error": null
+}

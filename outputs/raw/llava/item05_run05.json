@@ -1,0 +1,36 @@
+{
+  "item_id": "item05",
+  "model": "llava",
+  "run": 5,
+  "seed": 5,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 1,
+      "text": "steep at first, then gentler"
+    },
+    "B": {
+      "original_idx": 2,
+      "text": "gentle at first, then steeper"
+    },
+    "C": {
+      "original_idx": 4,
+      "text": "consistently getting steeper"
+    },
+    "D": {
+      "original_idx": 3,
+      "text": "consistently getting gentler"
+    }
+  },
+  "correct_answer_original_idx": 1,
+  "correct_letter": "A",
+  "raw_response": "{\n  \"choice\": \"A\",\n  \"answer_value\": \"steep at first, then gentler\",\n  \"rationale\": \"The contour lines are closer together near waypoint C, indicating a steeper slope. As the lines spread out towards waypoint B, the slope becomes gentler.\"\n} waypoint B, the slope is consistently getting gentler. waypoint B, the slope is consistently getting gentler. waypoint B, the slope is consistently getting gentler. waypoint B, the slope is consistently getting gentler. waypoint B, the slope is consistently getting gentler. waypoint B, the slope is consistently getting gentler. waypoint B, the slope is consistently getting gentler. waypoint B, the slope is consistently getting gentler. waypoint B, the slope is consistently getting gentler. waypoint B, the slope is consistently getting gentler. waypoint B, the slope is consistently getting gentler. waypoint B, the slope is consistently getting gentler. waypoint B, the slope is consistently getting gentler. waypoint B, the slope is consistently getting gentler. waypoint B, the slope is consistently getting gentler.",
+  "parsed": {
+    "choice": "A",
+    "answer_value": "steep at first, then gentler",
+    "rationale": "The contour lines are closer together near waypoint C, indicating a steeper slope. As the lines spread out towards waypoint B, the slope becomes gentler."
+  },
+  "chosen_letter": "A",
+  "is_correct": true,
+  "parse_error": null
+}

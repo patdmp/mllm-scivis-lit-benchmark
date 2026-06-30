@@ -1,0 +1,36 @@
+{
+  "item_id": "item19",
+  "model": "qwen",
+  "run": 4,
+  "seed": 4,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 3,
+      "text": "spiral inward toward a central point"
+    },
+    "B": {
+      "original_idx": 1,
+      "text": "flow from west to east"
+    },
+    "C": {
+      "original_idx": 4,
+      "text": "spiral outward from a central point"
+    },
+    "D": {
+      "original_idx": 2,
+      "text": "circulate around a central point"
+    }
+  },
+  "correct_answer_original_idx": 3,
+  "correct_letter": "A",
+  "raw_response": "```json\n{\n  \"choice\": \"D\",\n  \"answer_value\": \"circulate around a central point\",\n  \"rationale\": \"The wind patterns in the region between Columbus and New York show a clear circular motion. The lines of the wind flow are curved and form a loop, indicating circulation. This pattern is consistent with a low-pressure system where winds circulate around a central point. The direction of the circulation is counterclockwise, which is typical for such systems in the Northern Hemisphere. Therefore, the winds circulate around a central point in this region.\"\n}\n```\n",
+  "parsed": {
+    "choice": "D",
+    "answer_value": "circulate around a central point",
+    "rationale": "The wind patterns in the region between Columbus and New York show a clear circular motion. The lines of the wind flow are curved and form a loop, indicating circulation. This pattern is consistent with a low-pressure system where winds circulate around a central point. The direction of the circulation is counterclockwise, which is typical for such systems in the Northern Hemisphere. Therefore, the winds circulate around a central point in this region."
+  },
+  "chosen_letter": "D",
+  "is_correct": false,
+  "parse_error": null
+}

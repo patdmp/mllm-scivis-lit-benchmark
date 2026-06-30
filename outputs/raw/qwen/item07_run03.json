@@ -1,0 +1,28 @@
+{
+  "item_id": "item07",
+  "model": "qwen",
+  "run": 3,
+  "seed": 3,
+  "n_choices": 2,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 2,
+      "text": "FALSE"
+    },
+    "B": {
+      "original_idx": 1,
+      "text": "TRUE"
+    }
+  },
+  "correct_answer_original_idx": 2,
+  "correct_letter": "A",
+  "raw_response": "```json\n{\n  \"choice\": \"A\",\n  \"answer_value\": \"FALSE\",\n  \"rationale\": \"The legend indicates that a red line represents Hurricane warnings, which correspond to sustained winds of 74-110 mph. The forecast track shows a red line segment between 7 AM Wednesday and 7 PM Thursday, indicating winds in this range. However, the forecast track also shows a black dot labeled 'H' at 7 AM Thursday, which the legend defines as winds of 110 mph or greater. Since the track includes a point where winds are forecast to be greater than 110 mph, the statement that winds do not exceed 110 mph is false.\"\n}\n```\n",
+  "parsed": {
+    "choice": "A",
+    "answer_value": "FALSE",
+    "rationale": "The legend indicates that a red line represents Hurricane warnings, which correspond to sustained winds of 74-110 mph. The forecast track shows a red line segment between 7 AM Wednesday and 7 PM Thursday, indicating winds in this range. However, the forecast track also shows a black dot labeled 'H' at 7 AM Thursday, which the legend defines as winds of 110 mph or greater. Since the track includes a point where winds are forecast to be greater than 110 mph, the statement that winds do not exceed 110 mph is false."
+  },
+  "chosen_letter": "A",
+  "is_correct": true,
+  "parse_error": null
+}

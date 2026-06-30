@@ -1,0 +1,40 @@
+name: ai-scivis
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      # PyTorch — change the index URL to match your platform:
+      #   CUDA 12.8 (Linux/Windows): --extra-index-url https://download.pytorch.org/whl/cu128
+      #   CUDA 12.1 (Linux/Windows): --extra-index-url https://download.pytorch.org/whl/cu121
+      #   CUDA 11.8:                 --extra-index-url https://download.pytorch.org/whl/cu118
+      #   CPU only:                  --extra-index-url https://download.pytorch.org/whl/cpu
+      - --extra-index-url https://download.pytorch.org/whl/cu128
+      - torch>=2.3.0
+      - torchvision>=0.18.0
+
+      # Core ML
+      - transformers>=4.45.0
+      - accelerate>=0.30.0
+      - huggingface_hub>=0.23.0
+
+      # Vision
+      - pillow>=10.0.0
+      - opencv-python>=4.8.0
+
+      # Model utilities
+      - einops>=0.7.0
+      - timm>=0.9.0
+      - sentencepiece>=0.1.99
+
+      # Quantization (optional — omit on CPU-only or macOS/MPS)
+      - bitsandbytes>=0.43.0
+
+      # Data / output
+      - openpyxl>=3.1.0
+      - numpy>=1.24.0
+      - pandas>=2.0.0

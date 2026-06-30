@@ -1,0 +1,36 @@
+{
+  "item_id": "item13",
+  "model": "qwen",
+  "run": 5,
+  "seed": 5,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 1,
+      "text": "decreased by 2.25 degC per week"
+    },
+    "B": {
+      "original_idx": 2,
+      "text": "decreased by 1.25 degC per week"
+    },
+    "C": {
+      "original_idx": 4,
+      "text": "increased by 1.25 degC per week"
+    },
+    "D": {
+      "original_idx": 3,
+      "text": "stayed approximately the same"
+    }
+  },
+  "correct_answer_original_idx": 3,
+  "correct_letter": "D",
+  "raw_response": "```json\n{\n  \"choice\": \"D\",\n  \"answer_value\": \"stayed approximately the same\",\n  \"rationale\": \"The region specified (Pacific Ocean between 0-20N and 140-160E) is predominantly colored in shades of green and light blue. According to the color scale, these colors correspond to values near 0.0 degC/Week. This indicates that the sea surface temperatures in this area remained relatively stable with little change over the past week.\"\n}\n```\n",
+  "parsed": {
+    "choice": "D",
+    "answer_value": "stayed approximately the same",
+    "rationale": "The region specified (Pacific Ocean between 0-20N and 140-160E) is predominantly colored in shades of green and light blue. According to the color scale, these colors correspond to values near 0.0 degC/Week. This indicates that the sea surface temperatures in this area remained relatively stable with little change over the past week."
+  },
+  "chosen_letter": "D",
+  "is_correct": true,
+  "parse_error": null
+}

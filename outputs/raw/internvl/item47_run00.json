@@ -1,0 +1,36 @@
+{
+  "item_id": "item47",
+  "model": "internvl",
+  "run": 0,
+  "seed": 0,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 3,
+      "text": "Dorsal fin"
+    },
+    "B": {
+      "original_idx": 1,
+      "text": "Anal fin"
+    },
+    "C": {
+      "original_idx": 2,
+      "text": "Caudal fin"
+    },
+    "D": {
+      "original_idx": 4,
+      "text": "Pelvic fin"
+    }
+  },
+  "correct_answer_original_idx": 2,
+  "correct_letter": "C",
+  "raw_response": "{\n  \"choice\": \"C\",\n  \"answer_value\": \"Caudal fin\",\n  \"rationale\": \"The caudal fin is the longest fin in the image, and it is supported by the longest fin rays compared to the other fins labeled.\"\n}",
+  "parsed": {
+    "choice": "C",
+    "answer_value": "Caudal fin",
+    "rationale": "The caudal fin is the longest fin in the image, and it is supported by the longest fin rays compared to the other fins labeled."
+  },
+  "chosen_letter": "C",
+  "is_correct": true,
+  "parse_error": null
+}

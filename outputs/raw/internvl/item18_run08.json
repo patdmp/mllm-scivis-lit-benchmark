@@ -1,0 +1,36 @@
+{
+  "item_id": "item18",
+  "model": "internvl",
+  "run": 8,
+  "seed": 8,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 1,
+      "text": "Seattle"
+    },
+    "B": {
+      "original_idx": 3,
+      "text": "Dallas"
+    },
+    "C": {
+      "original_idx": 4,
+      "text": "New York"
+    },
+    "D": {
+      "original_idx": 2,
+      "text": "Denver"
+    }
+  },
+  "correct_answer_original_idx": 4,
+  "correct_letter": "C",
+  "raw_response": "{\n  \"choice\": \"C\",\n  \"answer_value\": \"New York\",\n  \"rationale\": \"The map shows the highest wind speeds in the northeastern part of the United States, particularly around New York, as indicated by the darkest shading in that region.\"\n}",
+  "parsed": {
+    "choice": "C",
+    "answer_value": "New York",
+    "rationale": "The map shows the highest wind speeds in the northeastern part of the United States, particularly around New York, as indicated by the darkest shading in that region."
+  },
+  "chosen_letter": "C",
+  "is_correct": true,
+  "parse_error": null
+}

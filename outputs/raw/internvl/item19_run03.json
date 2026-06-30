@@ -1,0 +1,36 @@
+{
+  "item_id": "item19",
+  "model": "internvl",
+  "run": 3,
+  "seed": 3,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 4,
+      "text": "spiral outward from a central point"
+    },
+    "B": {
+      "original_idx": 1,
+      "text": "flow from west to east"
+    },
+    "C": {
+      "original_idx": 3,
+      "text": "spiral inward toward a central point"
+    },
+    "D": {
+      "original_idx": 2,
+      "text": "circulate around a central point"
+    }
+  },
+  "correct_answer_original_idx": 3,
+  "correct_letter": "C",
+  "raw_response": "{\n  \"choice\": \"D\",\n  \"answer_value\": \"circulate around a central point\",\n  \"rationale\": \"The wind patterns between Columbus and New York show a circular motion, indicating circulation around a central point.\"\n}",
+  "parsed": {
+    "choice": "D",
+    "answer_value": "circulate around a central point",
+    "rationale": "The wind patterns between Columbus and New York show a circular motion, indicating circulation around a central point."
+  },
+  "chosen_letter": "D",
+  "is_correct": false,
+  "parse_error": null
+}

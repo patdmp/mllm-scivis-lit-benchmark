@@ -1,0 +1,36 @@
+{
+  "item_id": "item10",
+  "model": "internvl",
+  "run": 5,
+  "seed": 5,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 1,
+      "text": "7 AM Wed and 7 PM Wed"
+    },
+    "B": {
+      "original_idx": 2,
+      "text": "7 PM Wed and 7 AM Thu"
+    },
+    "C": {
+      "original_idx": 4,
+      "text": "7 AM Fri and 7 AM Sat"
+    },
+    "D": {
+      "original_idx": 3,
+      "text": "7 AM Thu and 7 PM Thu"
+    }
+  },
+  "correct_answer_original_idx": 2,
+  "correct_letter": "B",
+  "raw_response": "{\n  \"choice\": \"D\",\n  \"answer_value\": \"7 AM Thu and 7 PM Thu\",\n  \"rationale\": \"The forecast track shows the hurricane moving towards the coast between 7 AM Thu and 7 PM Thu, as indicated by the path on the map.\"\n}",
+  "parsed": {
+    "choice": "D",
+    "answer_value": "7 AM Thu and 7 PM Thu",
+    "rationale": "The forecast track shows the hurricane moving towards the coast between 7 AM Thu and 7 PM Thu, as indicated by the path on the map."
+  },
+  "chosen_letter": "D",
+  "is_correct": false,
+  "parse_error": null
+}

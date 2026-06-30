@@ -1,0 +1,36 @@
+{
+  "item_id": "item62",
+  "model": "llava",
+  "run": 6,
+  "seed": 6,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 4,
+      "text": "Randomly distributed throughout"
+    },
+    "B": {
+      "original_idx": 3,
+      "text": "The lower part"
+    },
+    "C": {
+      "original_idx": 2,
+      "text": "A ring around the center"
+    },
+    "D": {
+      "original_idx": 1,
+      "text": "The central core"
+    }
+  },
+  "correct_answer_original_idx": 2,
+  "correct_letter": "C",
+  "raw_response": "{\n  \"choice\": \"D\",\n  \"answer_value\": \"The central core\",\n  \"rationale\": \"The color scale indicates that the highest velocity magnitudes are represented by the red color, which is concentrated in the central core of the tornado.\"\n}\"\" brightest color in the visualization is red, which is located in the central core of the tornado.",
+  "parsed": {
+    "choice": "D",
+    "answer_value": "The central core",
+    "rationale": "The color scale indicates that the highest velocity magnitudes are represented by the red color, which is concentrated in the central core of the tornado."
+  },
+  "chosen_letter": "D",
+  "is_correct": false,
+  "parse_error": null
+}

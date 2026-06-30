@@ -1,0 +1,36 @@
+{
+  "item_id": "item14",
+  "model": "qwen",
+  "run": 0,
+  "seed": 0,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 3,
+      "text": "Region C"
+    },
+    "B": {
+      "original_idx": 1,
+      "text": "Region A"
+    },
+    "C": {
+      "original_idx": 2,
+      "text": "Region B"
+    },
+    "D": {
+      "original_idx": 4,
+      "text": "Region D"
+    }
+  },
+  "correct_answer_original_idx": 1,
+  "correct_letter": "B",
+  "raw_response": "```json\n{\n  \"choice\": \"A\",\n  \"answer_value\": \"Region A\",\n  \"rationale\": \"The color bar indicates that dark blue and purple colors represent the most significant cooling, corresponding to values between -2.0 and -3.0 degC/Week. Region A is predominantly colored in these dark blue and purple shades, indicating a strong cooling trend. In contrast, Region B is mostly green and yellow (near 0.0 degC/Week), Region C is blue but lighter than A, and Region D is green and yellow. Therefore, Region A shows the most intense cooling.\"\n}\n```\n",
+  "parsed": {
+    "choice": "A",
+    "answer_value": "Region A",
+    "rationale": "The color bar indicates that dark blue and purple colors represent the most significant cooling, corresponding to values between -2.0 and -3.0 degC/Week. Region A is predominantly colored in these dark blue and purple shades, indicating a strong cooling trend. In contrast, Region B is mostly green and yellow (near 0.0 degC/Week), Region C is blue but lighter than A, and Region D is green and yellow. Therefore, Region A shows the most intense cooling."
+  },
+  "chosen_letter": "A",
+  "is_correct": false,
+  "parse_error": null
+}

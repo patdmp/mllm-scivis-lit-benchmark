@@ -1,0 +1,36 @@
+{
+  "item_id": "item02",
+  "model": "llava",
+  "run": 9,
+  "seed": 9,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 1,
+      "text": "Waypoint A"
+    },
+    "B": {
+      "original_idx": 2,
+      "text": "Waypoint B"
+    },
+    "C": {
+      "original_idx": 3,
+      "text": "Waypoint C"
+    },
+    "D": {
+      "original_idx": 4,
+      "text": "Waypoint D"
+    }
+  },
+  "correct_answer_original_idx": 3,
+  "correct_letter": "C",
+  "raw_response": "{\n  \"choice\": \"A\",\n  \"answer_value\": \"Waypoint A\",\n  \"rationale\": \"Waypoint A is located at the highest contour line labeled 7400 feet, indicating it has the highest elevation among the waypoints.\"\n} other waypoints are at lower contour lines, such as 7200 feet for Waypoints B and D, and 7400 feet for Waypoint C, but not at the highest line.\"\n}\"7400 feet, which is higher than the other waypoints.\"",
+  "parsed": {
+    "choice": "A",
+    "answer_value": "Waypoint A",
+    "rationale": "Waypoint A is located at the highest contour line labeled 7400 feet, indicating it has the highest elevation among the waypoints."
+  },
+  "chosen_letter": "A",
+  "is_correct": false,
+  "parse_error": null
+}

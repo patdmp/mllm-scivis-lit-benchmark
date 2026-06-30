@@ -1,0 +1,36 @@
+{
+  "item_id": "item04",
+  "model": "qwen",
+  "run": 7,
+  "seed": 7,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 4,
+      "text": "decreases, then increases"
+    },
+    "B": {
+      "original_idx": 2,
+      "text": "decreases"
+    },
+    "C": {
+      "original_idx": 1,
+      "text": "increases"
+    },
+    "D": {
+      "original_idx": 3,
+      "text": "increases, then decreases"
+    }
+  },
+  "correct_answer_original_idx": 4,
+  "correct_letter": "A",
+  "raw_response": "```json\n{\n  \"choice\": \"A\",\n  \"answer_value\": \"decreases, then increases\",\n  \"rationale\": \"Waypoint C is located inside a closed contour labeled 7400, indicating it is at a high elevation. Waypoint A is located on a contour line labeled 7200, which is a lower elevation. Moving from C to A, the elevation must decrease. However, the path between them crosses a saddle point (a low point between two peaks) before reaching A, meaning the elevation will dip and then rise slightly to reach the 7200 contour. Therefore, the overall trend is a decrease followed by a slight increase.\"\n}\n```\n",
+  "parsed": {
+    "choice": "A",
+    "answer_value": "decreases, then increases",
+    "rationale": "Waypoint C is located inside a closed contour labeled 7400, indicating it is at a high elevation. Waypoint A is located on a contour line labeled 7200, which is a lower elevation. Moving from C to A, the elevation must decrease. However, the path between them crosses a saddle point (a low point between two peaks) before reaching A, meaning the elevation will dip and then rise slightly to reach the 7200 contour. Therefore, the overall trend is a decrease followed by a slight increase."
+  },
+  "chosen_letter": "A",
+  "is_correct": true,
+  "parse_error": null
+}

@@ -1,0 +1,36 @@
+{
+  "item_id": "item32",
+  "model": "qwen",
+  "run": 4,
+  "seed": 4,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 3,
+      "text": "Bladder and a kidney"
+    },
+    "B": {
+      "original_idx": 1,
+      "text": "Liver and a lung"
+    },
+    "C": {
+      "original_idx": 4,
+      "text": "Bladder and a lung"
+    },
+    "D": {
+      "original_idx": 2,
+      "text": "Liver and a kidney"
+    }
+  },
+  "correct_answer_original_idx": 4,
+  "correct_letter": "C",
+  "raw_response": "```json\n{\n  \"choice\": \"C\",\n  \"answer_value\": \"Bladder and a lung\",\n  \"rationale\": \"The image shows the lungs located in the upper thoracic cavity and the bladder located in the lower pelvic cavity. This represents the greatest vertical distance between any two organs shown. The liver and kidneys are situated in the abdominal cavity, which is closer to the lungs than the bladder is. Therefore, the pair with the farthest separation is the bladder and a lung.\"\n}\n```\n",
+  "parsed": {
+    "choice": "C",
+    "answer_value": "Bladder and a lung",
+    "rationale": "The image shows the lungs located in the upper thoracic cavity and the bladder located in the lower pelvic cavity. This represents the greatest vertical distance between any two organs shown. The liver and kidneys are situated in the abdominal cavity, which is closer to the lungs than the bladder is. Therefore, the pair with the farthest separation is the bladder and a lung."
+  },
+  "chosen_letter": "C",
+  "is_correct": true,
+  "parse_error": null
+}

@@ -1,0 +1,36 @@
+{
+  "item_id": "item13",
+  "model": "llava",
+  "run": 7,
+  "seed": 7,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 4,
+      "text": "increased by 1.25 degC per week"
+    },
+    "B": {
+      "original_idx": 2,
+      "text": "decreased by 1.25 degC per week"
+    },
+    "C": {
+      "original_idx": 1,
+      "text": "decreased by 2.25 degC per week"
+    },
+    "D": {
+      "original_idx": 3,
+      "text": "stayed approximately the same"
+    }
+  },
+  "correct_answer_original_idx": 3,
+  "correct_letter": "D",
+  "raw_response": "{\n  \"choice\": \"A\",\n  \"answer_value\": \"increased by 1.25 degC per week\",\n  \"rationale\": \"The color in the Pacific Ocean between 0-20N and 140-160E is red, which corresponds to an increase in temperature. The color scale indicates that red represents an increase of 1.25 degC per week.\"\n}codecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecode",
+  "parsed": {
+    "choice": "A",
+    "answer_value": "increased by 1.25 degC per week",
+    "rationale": "The color in the Pacific Ocean between 0-20N and 140-160E is red, which corresponds to an increase in temperature. The color scale indicates that red represents an increase of 1.25 degC per week."
+  },
+  "chosen_letter": "A",
+  "is_correct": false,
+  "parse_error": null
+}

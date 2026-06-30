@@ -1,0 +1,36 @@
+{
+  "item_id": "item36",
+  "model": "qwen",
+  "run": 7,
+  "seed": 7,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 4,
+      "text": "on one side of a backbone, without connecting to the opposite backbone"
+    },
+    "B": {
+      "original_idx": 2,
+      "text": "only at the start and end of each backbone"
+    },
+    "C": {
+      "original_idx": 1,
+      "text": "along the outer surface of each backbone"
+    },
+    "D": {
+      "original_idx": 3,
+      "text": "between the two backbones"
+    }
+  },
+  "correct_answer_original_idx": 3,
+  "correct_letter": "D",
+  "raw_response": "{\n  \"choice\": \"D\",\n  \"answer_value\": \"between the two backbones\",\n  \"rationale\": \"The image clearly shows the nitrogen bases (colored blocks) positioned in the center of the double helix structure. They are depicted connecting the two separate sugar-phosphate backbones that form the outer sides of the helix. This arrangement places the bases directly between the two backbones, rather than on the outside or at the ends.\"\n}\n",
+  "parsed": {
+    "choice": "D",
+    "answer_value": "between the two backbones",
+    "rationale": "The image clearly shows the nitrogen bases (colored blocks) positioned in the center of the double helix structure. They are depicted connecting the two separate sugar-phosphate backbones that form the outer sides of the helix. This arrangement places the bases directly between the two backbones, rather than on the outside or at the ends."
+  },
+  "chosen_letter": "D",
+  "is_correct": true,
+  "parse_error": null
+}

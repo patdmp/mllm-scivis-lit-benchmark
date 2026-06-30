@@ -1,0 +1,28 @@
+{
+  "item_id": "item60",
+  "model": "llava",
+  "run": 6,
+  "seed": 6,
+  "n_choices": 2,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 2,
+      "text": "FALSE"
+    },
+    "B": {
+      "original_idx": 1,
+      "text": "TRUE"
+    }
+  },
+  "correct_answer_original_idx": 2,
+  "correct_letter": "A",
+  "raw_response": "{\n  \"choice\": \"B\",\n  \"answer_value\": \"TRUE\",\n  \"rationale\": \"The visualization shows the tornado with streamlines and arrows indicating the direction of the velocity field. The arrows in the lower part of the tornado point in a clockwise direction, indicating that the tornado rotates clockwise from a top-down perspective.\"\n} tornado rotates clockwise. tornado rotates clockwise. tornado rotates clockwise. tornado rotates clockwise. tornado rotates clockwise. tornado rotates clockwise. tornado rotates clockwise. tornado rotates clockwise. tornado rotates clockwise. tornado rotates clockwise. tornado rotates clockwise. tornado rotates clockwise. tornado rotates clockwise. tornado rotates clockwise. tornado rotates clockwise. tornado rotates clockwise. tornado rotates clockwise. tornado rotates clockwise. tornado rotates clockwise. tornado rotates clockwise. tornado rotates clockwise. tornado rotates clockwise. tornado rotates clockwise. tornado rotates clockwise. tornado rotates clockwise. tornado rotates",
+  "parsed": {
+    "choice": "B",
+    "answer_value": "TRUE",
+    "rationale": "The visualization shows the tornado with streamlines and arrows indicating the direction of the velocity field. The arrows in the lower part of the tornado point in a clockwise direction, indicating that the tornado rotates clockwise from a top-down perspective."
+  },
+  "chosen_letter": "B",
+  "is_correct": false,
+  "parse_error": null
+}

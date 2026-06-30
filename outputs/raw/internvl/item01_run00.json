@@ -1,0 +1,36 @@
+{
+  "item_id": "item01",
+  "model": "internvl",
+  "run": 0,
+  "seed": 0,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 3,
+      "text": "6863 ft"
+    },
+    "B": {
+      "original_idx": 1,
+      "text": "6624 ft"
+    },
+    "C": {
+      "original_idx": 2,
+      "text": "6728 ft"
+    },
+    "D": {
+      "original_idx": 4,
+      "text": "6942 ft"
+    }
+  },
+  "correct_answer_original_idx": 3,
+  "correct_letter": "A",
+  "raw_response": "{\n  \"choice\": \"A\",\n  \"answer_value\": \"6863 ft\",\n  \"rationale\": \"Waypoint D is located on a contour line labeled 6800 ft. Given the contour interval is 40 feet, the closest elevation value above 6800 ft is 6863 ft.\"\n}",
+  "parsed": {
+    "choice": "A",
+    "answer_value": "6863 ft",
+    "rationale": "Waypoint D is located on a contour line labeled 6800 ft. Given the contour interval is 40 feet, the closest elevation value above 6800 ft is 6863 ft."
+  },
+  "chosen_letter": "A",
+  "is_correct": true,
+  "parse_error": null
+}

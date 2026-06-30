@@ -1,0 +1,36 @@
+{
+  "item_id": "item56",
+  "model": "qwen",
+  "run": 9,
+  "seed": 9,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 1,
+      "text": "expands as well but remains intact, keeping the gas inside"
+    },
+    "B": {
+      "original_idx": 2,
+      "text": "is pulled inward toward the center"
+    },
+    "C": {
+      "original_idx": 3,
+      "text": "dissolves and mixes with the gas"
+    },
+    "D": {
+      "original_idx": 4,
+      "text": "ruptures, allowing the gas to escape freely"
+    }
+  },
+  "correct_answer_original_idx": 1,
+  "correct_letter": "A",
+  "raw_response": "```json\n{\n  \"choice\": \"A\",\n  \"answer_value\": \"expands as well but remains intact, keeping the gas inside\",\n  \"rationale\": \"The visualization shows a semi-transparent outer shell that encloses the internal structures, indicating it remains intact. The internal gas is depicted as expanding within this shell, suggesting the shell expands along with it. The color gradient represents entropy, which is a measure of turbulence, but does not indicate shell rupture. The overall structure suggests the shell maintains its integrity while the internal gas expands.\"\n}\n```\n",
+  "parsed": {
+    "choice": "A",
+    "answer_value": "expands as well but remains intact, keeping the gas inside",
+    "rationale": "The visualization shows a semi-transparent outer shell that encloses the internal structures, indicating it remains intact. The internal gas is depicted as expanding within this shell, suggesting the shell expands along with it. The color gradient represents entropy, which is a measure of turbulence, but does not indicate shell rupture. The overall structure suggests the shell maintains its integrity while the internal gas expands."
+  },
+  "chosen_letter": "A",
+  "is_correct": true,
+  "parse_error": null
+}

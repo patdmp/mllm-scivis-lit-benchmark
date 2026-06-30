@@ -1,0 +1,36 @@
+{
+  "item_id": "item45",
+  "model": "llava",
+  "run": 5,
+  "seed": 5,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 1,
+      "text": "Epiproct"
+    },
+    "B": {
+      "original_idx": 2,
+      "text": "Metepisternum"
+    },
+    "C": {
+      "original_idx": 4,
+      "text": "Cercus"
+    },
+    "D": {
+      "original_idx": 3,
+      "text": "Postclypeus"
+    }
+  },
+  "correct_answer_original_idx": 1,
+  "correct_letter": "A",
+  "raw_response": "{\n  \"choice\": \"C\",\n  \"answer_value\": \"Cercus\",\n  \"rationale\": \"The cercus is labeled as a part of the male dragonfly's anatomy, while the female dragonfly is shown with a different structure labeled as 'Cercus'. This indicates that the cercus is a male-specific part.\"\n} \"choice\": \"C\", \"answer_value\": \"Cercus\", \"rationale\": \"The cercus is labeled as a part of the male dragonfly's anatomy, while the female dragonfly is shown with a different structure labeled as 'Cercus'. This indicates that the cercus is a male-specific part.\" \"choice\": \"C\", \"answer_value\": \"Cercus\", \"rationale\": \"The cercus is labeled as a part of the male dragonfly's anatomy, while the female dragonfly is shown with a different structure labeled as 'Cercus'. This indicates that the cercus is a male-specific part.\" \"choice\": \"C\", \"answer_value\": \"Cercus\", \"rationale\": \"The cercus is labeled as a part of the male dragonfly's anatomy, while the female dragonfly is shown with a different structure labeled as 'Cercus'. This indicates that the cercus is a male-specific part.\" \"choice\": \"C\", \"answer_value\": \"Cercus",
+  "parsed": {
+    "choice": "C",
+    "answer_value": "Cercus",
+    "rationale": "The cercus is labeled as a part of the male dragonfly's anatomy, while the female dragonfly is shown with a different structure labeled as 'Cercus'. This indicates that the cercus is a male-specific part."
+  },
+  "chosen_letter": "C",
+  "is_correct": false,
+  "parse_error": null
+}

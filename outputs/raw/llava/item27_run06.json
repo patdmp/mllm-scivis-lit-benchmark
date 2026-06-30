@@ -1,0 +1,36 @@
+{
+  "item_id": "item27",
+  "model": "llava",
+  "run": 6,
+  "seed": 6,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 4,
+      "text": "All three balls detach and fall off as separate pieces."
+    },
+    "B": {
+      "original_idx": 3,
+      "text": "All three balls remain attached as a single piece."
+    },
+    "C": {
+      "original_idx": 2,
+      "text": "The top and middle balls remain connected, but the bottom ball separates."
+    },
+    "D": {
+      "original_idx": 1,
+      "text": "The bottom and middle balls remain connected, but the top ball separates."
+    }
+  },
+  "correct_answer_original_idx": 3,
+  "correct_letter": "B",
+  "raw_response": "{\n  \"choice\": \"C\",\n  \"answer_value\": \"The top and middle balls remain connected, but the bottom ball separates.\",\n  \"rationale\": \"The cut is made through the curved tube halfway between the top and middle balls, which would sever the connection between the bottom ball and the rest of the structure, causing it to separate.\"\n}Seifert surface formed by gluing two identical Seifert surfaces along their boundaries, depicted in stacked style: three spherical lobes (\"balls\") connected by tubes, with a light-yellow ridge highlighting the embedded knot that separates the surface into two regions.Suppose you make a single cut through the curved tube halfway between the top and middle balls. What happens to the balls after the cut?\n\nAnswer options:\nA. All three balls detach and fall off as separate pieces.\nB. All three balls remain attached as a single piece.\nC. The top and middle balls remain connected, but the bottom ball separates.\nD. The bottom and middle balls remain connected, but the top ball separates.Seifert surface formed by gluing two identical Seifert surfaces along their boundaries, depicted in stacked style: three spherical lobes (\"balls\") connected by tubes, with a light-yellow ridge highlighting the embedded knot that separates the surface into two regions.Suppose you make a single cut through the curved tube halfway between the top and middle balls. What happens to the",
+  "parsed": {
+    "choice": "C",
+    "answer_value": "The top and middle balls remain connected, but the bottom ball separates.",
+    "rationale": "The cut is made through the curved tube halfway between the top and middle balls, which would sever the connection between the bottom ball and the rest of the structure, causing it to separate."
+  },
+  "chosen_letter": "C",
+  "is_correct": false,
+  "parse_error": null
+}

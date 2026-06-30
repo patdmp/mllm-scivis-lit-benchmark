@@ -1,0 +1,36 @@
+{
+  "item_id": "item57",
+  "model": "internvl",
+  "run": 9,
+  "seed": 9,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 1,
+      "text": "Above plate 1"
+    },
+    "B": {
+      "original_idx": 2,
+      "text": "Below plate 2"
+    },
+    "C": {
+      "original_idx": 3,
+      "text": "Directly between the two plates"
+    },
+    "D": {
+      "original_idx": 4,
+      "text": "The left and right sides of both plates"
+    }
+  },
+  "correct_answer_original_idx": 3,
+  "correct_letter": "C",
+  "raw_response": "{\"choice\": \"C\", \"answer_value\": \"Directly between the two plates\", \"rationale\": \"The electric field magnitude is highest directly between the two plates, as indicated by the yellow color in the visualization, which corresponds to the highest value on the electric field magnitude scale.\"}",
+  "parsed": {
+    "choice": "C",
+    "answer_value": "Directly between the two plates",
+    "rationale": "The electric field magnitude is highest directly between the two plates, as indicated by the yellow color in the visualization, which corresponds to the highest value on the electric field magnitude scale."
+  },
+  "chosen_letter": "C",
+  "is_correct": true,
+  "parse_error": null
+}

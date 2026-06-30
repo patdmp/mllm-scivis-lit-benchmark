@@ -1,0 +1,36 @@
+{
+  "item_id": "item17",
+  "model": "qwen",
+  "run": 8,
+  "seed": 8,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 1,
+      "text": "Wind speeds are higher along the West Coast than in the central United States."
+    },
+    "B": {
+      "original_idx": 3,
+      "text": "The range of wind speeds is smaller in the central United States than along the East Coast."
+    },
+    "C": {
+      "original_idx": 4,
+      "text": "Wind speeds are approximately equal along the East and West Coasts."
+    },
+    "D": {
+      "original_idx": 2,
+      "text": "The range of wind speeds is larger in the central United States than along the West Coast."
+    }
+  },
+  "correct_answer_original_idx": 2,
+  "correct_letter": "D",
+  "raw_response": "```json\n{\n  \"choice\": \"D\",\n  \"answer_value\": \"The range of wind speeds is larger in the central United States than along the West Coast.\",\n  \"rationale\": \"The map shows a clear gradient of wind speeds, with the central United States displaying a wider range of speeds compared to the West Coast. The West Coast has more uniform, lower wind speeds, while the central region shows significant variation. This indicates a larger range of wind speeds in the central United States. The visual evidence supports this conclusion without needing additional context.\"\n}\n```\n",
+  "parsed": {
+    "choice": "D",
+    "answer_value": "The range of wind speeds is larger in the central United States than along the West Coast.",
+    "rationale": "The map shows a clear gradient of wind speeds, with the central United States displaying a wider range of speeds compared to the West Coast. The West Coast has more uniform, lower wind speeds, while the central region shows significant variation. This indicates a larger range of wind speeds in the central United States. The visual evidence supports this conclusion without needing additional context."
+  },
+  "chosen_letter": "D",
+  "is_correct": true,
+  "parse_error": null
+}

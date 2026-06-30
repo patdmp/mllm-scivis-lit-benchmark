@@ -1,0 +1,36 @@
+{
+  "item_id": "item01",
+  "model": "qwen",
+  "run": 0,
+  "seed": 0,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 3,
+      "text": "6863 ft"
+    },
+    "B": {
+      "original_idx": 1,
+      "text": "6624 ft"
+    },
+    "C": {
+      "original_idx": 2,
+      "text": "6728 ft"
+    },
+    "D": {
+      "original_idx": 4,
+      "text": "6942 ft"
+    }
+  },
+  "correct_answer_original_idx": 3,
+  "correct_letter": "A",
+  "raw_response": "```json\n{\n  \"choice\": \"C\",\n  \"answer_value\": \"6728 ft\",\n  \"rationale\": \"The map indicates a contour interval of 40 feet. Waypoint D is located between the 6800 ft and 6400 ft contour lines. The 6800 ft line is the closest labeled contour, and the next lower line would be 6760 ft. Waypoint D is situated just below the 6800 ft line, placing its elevation in the 6760-6800 ft range. Among the options, 6728 ft is the only value that fits this specific range.\"\n}\n```\n",
+  "parsed": {
+    "choice": "C",
+    "answer_value": "6728 ft",
+    "rationale": "The map indicates a contour interval of 40 feet. Waypoint D is located between the 6800 ft and 6400 ft contour lines. The 6800 ft line is the closest labeled contour, and the next lower line would be 6760 ft. Waypoint D is situated just below the 6800 ft line, placing its elevation in the 6760-6800 ft range. Among the options, 6728 ft is the only value that fits this specific range."
+  },
+  "chosen_letter": "C",
+  "is_correct": false,
+  "parse_error": null
+}

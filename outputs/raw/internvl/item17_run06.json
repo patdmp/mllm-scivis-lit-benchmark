@@ -1,0 +1,36 @@
+{
+  "item_id": "item17",
+  "model": "internvl",
+  "run": 6,
+  "seed": 6,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 4,
+      "text": "Wind speeds are approximately equal along the East and West Coasts."
+    },
+    "B": {
+      "original_idx": 3,
+      "text": "The range of wind speeds is smaller in the central United States than along the East Coast."
+    },
+    "C": {
+      "original_idx": 2,
+      "text": "The range of wind speeds is larger in the central United States than along the West Coast."
+    },
+    "D": {
+      "original_idx": 1,
+      "text": "Wind speeds are higher along the West Coast than in the central United States."
+    }
+  },
+  "correct_answer_original_idx": 2,
+  "correct_letter": "C",
+  "raw_response": "{\n  \"choice\": \"C\",\n  \"answer_value\": \"The range of wind speeds is larger in the central United States than along the West Coast.\",\n  \"rationale\": \"The map shows a wider range of wind speeds in the central United States, with darker shades indicating higher wind speeds, compared to the West Coast, which has lighter shades indicating lower wind speeds.\"\n}",
+  "parsed": {
+    "choice": "C",
+    "answer_value": "The range of wind speeds is larger in the central United States than along the West Coast.",
+    "rationale": "The map shows a wider range of wind speeds in the central United States, with darker shades indicating higher wind speeds, compared to the West Coast, which has lighter shades indicating lower wind speeds."
+  },
+  "chosen_letter": "C",
+  "is_correct": true,
+  "parse_error": null
+}

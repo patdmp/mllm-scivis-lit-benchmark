@@ -1,0 +1,36 @@
+{
+  "item_id": "item25",
+  "model": "llava",
+  "run": 2,
+  "seed": 2,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 2,
+      "text": "2"
+    },
+    "B": {
+      "original_idx": 3,
+      "text": "3"
+    },
+    "C": {
+      "original_idx": 4,
+      "text": "4"
+    },
+    "D": {
+      "original_idx": 1,
+      "text": "1"
+    }
+  },
+  "correct_answer_original_idx": 2,
+  "correct_letter": "A",
+  "raw_response": "{\n  \"choice\": \"D\",\n  \"answer_value\": \"1\",\n  \"rationale\": \"The object has a single continuous loop with no additional holes or openings.\"\n} only. material. 1 hole. 1 hole. 1 hole. 1 hole. 1 hole. 1 hole. 1 hole. 1 hole. 1 hole. 1 hole. 1 hole. 1 hole. 1 hole. 1 hole. 1 hole. 1 hole. 1 hole. 1 hole. 1 hole. 1 hole. 1 hole. 1 hole. 1 hole. 1 hole. 1 hole. 1 hole. 1 hole. 1 hole. 1 hole. 1 hole. 1 hole. 1 hole. 1 hole. 1 hole. 1 hole",
+  "parsed": {
+    "choice": "D",
+    "answer_value": "1",
+    "rationale": "The object has a single continuous loop with no additional holes or openings."
+  },
+  "chosen_letter": "D",
+  "is_correct": false,
+  "parse_error": null
+}

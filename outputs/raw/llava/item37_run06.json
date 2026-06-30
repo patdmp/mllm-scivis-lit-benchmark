@@ -1,0 +1,36 @@
+{
+  "item_id": "item37",
+  "model": "llava",
+  "run": 6,
+  "seed": 6,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 4,
+      "text": "DNA, chromosome, cell, nucleus, gene"
+    },
+    "B": {
+      "original_idx": 3,
+      "text": "Chromosome, DNA, cell, gene, nucleus"
+    },
+    "C": {
+      "original_idx": 2,
+      "text": "Cell, nucleus, chromosome, DNA, gene"
+    },
+    "D": {
+      "original_idx": 1,
+      "text": "Chromosome, cell, nucleus, DNA, gene"
+    }
+  },
+  "correct_answer_original_idx": 2,
+  "correct_letter": "C",
+  "raw_response": "{\n  \"choice\": \"C\",\n  \"answer_value\": \"Cell, nucleus, chromosome, DNA, gene\",\n  \"rationale\": \"The image shows a cell containing a nucleus, which contains a chromosome. The chromosome is made up of DNA, and a gene is a segment of DNA. Therefore, the correct order from largest to smallest is cell, nucleus, chromosome, DNA, gene.\"\n}0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+  "parsed": {
+    "choice": "C",
+    "answer_value": "Cell, nucleus, chromosome, DNA, gene",
+    "rationale": "The image shows a cell containing a nucleus, which contains a chromosome. The chromosome is made up of DNA, and a gene is a segment of DNA. Therefore, the correct order from largest to smallest is cell, nucleus, chromosome, DNA, gene."
+  },
+  "chosen_letter": "C",
+  "is_correct": true,
+  "parse_error": null
+}

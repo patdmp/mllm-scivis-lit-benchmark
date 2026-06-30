@@ -1,0 +1,36 @@
+{
+  "item_id": "item02",
+  "model": "qwen",
+  "run": 4,
+  "seed": 4,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 3,
+      "text": "Waypoint C"
+    },
+    "B": {
+      "original_idx": 1,
+      "text": "Waypoint A"
+    },
+    "C": {
+      "original_idx": 4,
+      "text": "Waypoint D"
+    },
+    "D": {
+      "original_idx": 2,
+      "text": "Waypoint B"
+    }
+  },
+  "correct_answer_original_idx": 3,
+  "correct_letter": "A",
+  "raw_response": "```json\n{\n  \"choice\": \"A\",\n  \"answer_value\": \"Waypoint C\",\n  \"rationale\": \"Waypoint C is located inside the innermost contour line labeled 7400, indicating it is at the peak of that hill. Waypoint A is situated on the 7200 contour line, which is a lower elevation than 7400. Waypoints B and D are located in areas with lower elevation contour lines, such as 7000 or 6800. Therefore, Waypoint C has the highest elevation among the options.\"\n}\n```\n",
+  "parsed": {
+    "choice": "A",
+    "answer_value": "Waypoint C",
+    "rationale": "Waypoint C is located inside the innermost contour line labeled 7400, indicating it is at the peak of that hill. Waypoint A is situated on the 7200 contour line, which is a lower elevation than 7400. Waypoints B and D are located in areas with lower elevation contour lines, such as 7000 or 6800. Therefore, Waypoint C has the highest elevation among the options."
+  },
+  "chosen_letter": "A",
+  "is_correct": true,
+  "parse_error": null
+}

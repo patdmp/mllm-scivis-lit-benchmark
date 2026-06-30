@@ -1,0 +1,36 @@
+{
+  "item_id": "item35",
+  "model": "internvl",
+  "run": 4,
+  "seed": 4,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 3,
+      "text": "Region C"
+    },
+    "B": {
+      "original_idx": 1,
+      "text": "Region A"
+    },
+    "C": {
+      "original_idx": 4,
+      "text": "Region D"
+    },
+    "D": {
+      "original_idx": 2,
+      "text": "Region B"
+    }
+  },
+  "correct_answer_original_idx": 2,
+  "correct_letter": "D",
+  "raw_response": "{\n  \"choice\": \"A\",\n  \"answer_value\": \"Region A\",\n  \"rationale\": \"Region C appears to have the densest concentration of fiber bundles, as indicated by the overlapping and closely packed colors in that area compared to the other regions.\"\n}",
+  "parsed": {
+    "choice": "A",
+    "answer_value": "Region A",
+    "rationale": "Region C appears to have the densest concentration of fiber bundles, as indicated by the overlapping and closely packed colors in that area compared to the other regions."
+  },
+  "chosen_letter": "A",
+  "is_correct": false,
+  "parse_error": null
+}

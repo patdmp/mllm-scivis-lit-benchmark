@@ -1,0 +1,36 @@
+{
+  "item_id": "item32",
+  "model": "qwen",
+  "run": 8,
+  "seed": 8,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 1,
+      "text": "Liver and a lung"
+    },
+    "B": {
+      "original_idx": 3,
+      "text": "Bladder and a kidney"
+    },
+    "C": {
+      "original_idx": 4,
+      "text": "Bladder and a lung"
+    },
+    "D": {
+      "original_idx": 2,
+      "text": "Liver and a kidney"
+    }
+  },
+  "correct_answer_original_idx": 4,
+  "correct_letter": "C",
+  "raw_response": "```json\n{\n  \"choice\": \"C\",\n  \"answer_value\": \"Bladder and a lung\",\n  \"rationale\": \"The image shows the lungs located in the upper thoracic cavity and the bladder located in the lower pelvic cavity. This represents the greatest vertical distance between any two organs shown. The other pairs, such as the liver and a lung, are located in adjacent regions of the torso. Therefore, the bladder and a lung are the farthest apart.\"\n}\n```\n",
+  "parsed": {
+    "choice": "C",
+    "answer_value": "Bladder and a lung",
+    "rationale": "The image shows the lungs located in the upper thoracic cavity and the bladder located in the lower pelvic cavity. This represents the greatest vertical distance between any two organs shown. The other pairs, such as the liver and a lung, are located in adjacent regions of the torso. Therefore, the bladder and a lung are the farthest apart."
+  },
+  "chosen_letter": "C",
+  "is_correct": true,
+  "parse_error": null
+}

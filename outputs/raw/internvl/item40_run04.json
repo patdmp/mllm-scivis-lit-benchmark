@@ -1,0 +1,36 @@
+{
+  "item_id": "item40",
+  "model": "internvl",
+  "run": 4,
+  "seed": 4,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 3,
+      "text": "RBDs, envelope, RNPs"
+    },
+    "B": {
+      "original_idx": 1,
+      "text": "Envelope, RNPs, RBDs"
+    },
+    "C": {
+      "original_idx": 4,
+      "text": "RNPs, envelope, RBDs"
+    },
+    "D": {
+      "original_idx": 2,
+      "text": "RNPs, RBDs, envelope"
+    }
+  },
+  "correct_answer_original_idx": 4,
+  "correct_letter": "C",
+  "raw_response": "{\n  \"choice\": \"C\",\n  \"answer_value\": \"RNPs, envelope, RBDs\",\n  \"rationale\": \"The visualization shows that the ribonucleoprotein (RNP) complexes are located at the center, followed by the lipid envelope, and then the spike proteins (RBDs) extending outward. This order matches option C.\"\n}",
+  "parsed": {
+    "choice": "C",
+    "answer_value": "RNPs, envelope, RBDs",
+    "rationale": "The visualization shows that the ribonucleoprotein (RNP) complexes are located at the center, followed by the lipid envelope, and then the spike proteins (RBDs) extending outward. This order matches option C."
+  },
+  "chosen_letter": "C",
+  "is_correct": true,
+  "parse_error": null
+}

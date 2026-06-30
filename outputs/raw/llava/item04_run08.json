@@ -1,0 +1,36 @@
+{
+  "item_id": "item04",
+  "model": "llava",
+  "run": 8,
+  "seed": 8,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 1,
+      "text": "increases"
+    },
+    "B": {
+      "original_idx": 3,
+      "text": "increases, then decreases"
+    },
+    "C": {
+      "original_idx": 4,
+      "text": "decreases, then increases"
+    },
+    "D": {
+      "original_idx": 2,
+      "text": "decreases"
+    }
+  },
+  "correct_answer_original_idx": 4,
+  "correct_letter": "C",
+  "raw_response": "{\n  \"choice\": \"D\",\n  \"answer_value\": \"decreases\",\n  \"rationale\": \"The contour lines indicate that the elevation decreases as you move from waypoint C to waypoint A.\"\n} contour lines are closer together, indicating a steeper slope, and the elevation numbers decrease from 7400 to 7200.\"\n} elevation decreases as you move from waypoint C to waypoint A.\" elevation decreases as you move from waypoint C to waypoint A.\" elevation decreases as you move from waypoint C to waypoint A.\" elevation decreases as you move from waypoint C to waypoint A.\" elevation decreases as you move from waypoint C to waypoint A.\" elevation decreases as you move from waypoint C to waypoint A.\" elevation decreases as you move from waypoint C to waypoint A.\" elevation decreases as you move from waypoint C to waypoint A.\" elevation decreases as you move",
+  "parsed": {
+    "choice": "D",
+    "answer_value": "decreases",
+    "rationale": "The contour lines indicate that the elevation decreases as you move from waypoint C to waypoint A."
+  },
+  "chosen_letter": "D",
+  "is_correct": false,
+  "parse_error": null
+}

@@ -1,0 +1,28 @@
+{
+  "item_id": "item15",
+  "model": "internvl",
+  "run": 7,
+  "seed": 7,
+  "n_choices": 2,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 1,
+      "text": "TRUE"
+    },
+    "B": {
+      "original_idx": 2,
+      "text": "FALSE"
+    }
+  },
+  "correct_answer_original_idx": 1,
+  "correct_letter": "A",
+  "raw_response": "{\n  \"choice\": \"A\",\n  \"answer_value\": \"TRUE\",\n  \"rationale\": \"The map shows regions of the Atlantic Ocean with colors indicating temperatures greater than 2degC per week, particularly in the northern and southern parts of the ocean. These areas are marked with red and orange hues, signifying strong warming.\"\n}",
+  "parsed": {
+    "choice": "A",
+    "answer_value": "TRUE",
+    "rationale": "The map shows regions of the Atlantic Ocean with colors indicating temperatures greater than 2degC per week, particularly in the northern and southern parts of the ocean. These areas are marked with red and orange hues, signifying strong warming."
+  },
+  "chosen_letter": "A",
+  "is_correct": true,
+  "parse_error": null
+}

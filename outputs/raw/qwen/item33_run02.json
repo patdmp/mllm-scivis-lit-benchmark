@@ -1,0 +1,28 @@
+{
+  "item_id": "item33",
+  "model": "qwen",
+  "run": 2,
+  "seed": 2,
+  "n_choices": 2,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 2,
+      "text": "FALSE"
+    },
+    "B": {
+      "original_idx": 1,
+      "text": "TRUE"
+    }
+  },
+  "correct_answer_original_idx": 2,
+  "correct_letter": "A",
+  "raw_response": "```json\n{\n  \"choice\": \"A\",\n  \"answer_value\": \"FALSE\",\n  \"rationale\": \"The caption states that green indicates front-back fiber orientation. The fibers within the marked region are predominantly red and orange. According to the legend, red corresponds to left-right orientation. Therefore, the fibers in this region do not generally run front-back.\"\n}\n```\n",
+  "parsed": {
+    "choice": "A",
+    "answer_value": "FALSE",
+    "rationale": "The caption states that green indicates front-back fiber orientation. The fibers within the marked region are predominantly red and orange. According to the legend, red corresponds to left-right orientation. Therefore, the fibers in this region do not generally run front-back."
+  },
+  "chosen_letter": "A",
+  "is_correct": true,
+  "parse_error": null
+}

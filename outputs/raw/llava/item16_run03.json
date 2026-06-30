@@ -1,0 +1,36 @@
+{
+  "item_id": "item16",
+  "model": "llava",
+  "run": 3,
+  "seed": 3,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 4,
+      "text": "Both the North and South Pacific are mostly unchanged."
+    },
+    "B": {
+      "original_idx": 1,
+      "text": "The North Pacific is mostly warming, while the South Pacific is mostly cooling."
+    },
+    "C": {
+      "original_idx": 3,
+      "text": "Both the North and South Pacific are mostly warming."
+    },
+    "D": {
+      "original_idx": 2,
+      "text": "The North Pacific is mostly unchanged or cooling, while the South Pacific is mostly warming."
+    }
+  },
+  "correct_answer_original_idx": 2,
+  "correct_letter": "D",
+  "raw_response": "{\n  \"choice\": \"D\",\n  \"answer_value\": \"The North Pacific is mostly unchanged or cooling, while the South Pacific is mostly warming.\",\n  \"rationale\": \"The North Pacific shows a mix of colors, with more blues and greens indicating cooling or no change, while the South Pacific has more reds and oranges, indicating warming.\"\n}contrast between the North and South Pacific regions in the visualization supports this choice.\"contrast between the North and South Pacific regions in the visualization supports this choice.\"contrast between the North and South Pacific regions in the visualization supports this choice.\"contrast between the North and South Pacific regions in the visualization supports this choice.\"contrast between the North and South Pacific regions in the visualization supports this choice.\"contrast between the North and South Pacific regions in the visualization supports this choice.\"contrast between the North and South Pacific regions in the visualization supports this choice.\"contrast between the North and South Pacific regions in the visualization supports this choice.\"contrast between the North and South Pacific regions in the visualization supports this choice.\"contrast between the North and South Pacific regions in the visualization supports this choice.\"contrast between the North and South Pacific regions in the visualization supports this choice.\"contrast between the North and South Pacific regions in the visualization supports this choice.\"contrast between the North and South Pacific regions in the visualization supports this choice.\"contrast between the North and South Pacific regions in the visualization supports this",
+  "parsed": {
+    "choice": "D",
+    "answer_value": "The North Pacific is mostly unchanged or cooling, while the South Pacific is mostly warming.",
+    "rationale": "The North Pacific shows a mix of colors, with more blues and greens indicating cooling or no change, while the South Pacific has more reds and oranges, indicating warming."
+  },
+  "chosen_letter": "D",
+  "is_correct": true,
+  "parse_error": null
+}

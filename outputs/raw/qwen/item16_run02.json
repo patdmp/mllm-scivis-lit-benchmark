@@ -1,0 +1,36 @@
+{
+  "item_id": "item16",
+  "model": "qwen",
+  "run": 2,
+  "seed": 2,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 2,
+      "text": "The North Pacific is mostly unchanged or cooling, while the South Pacific is mostly warming."
+    },
+    "B": {
+      "original_idx": 3,
+      "text": "Both the North and South Pacific are mostly warming."
+    },
+    "C": {
+      "original_idx": 4,
+      "text": "Both the North and South Pacific are mostly unchanged."
+    },
+    "D": {
+      "original_idx": 1,
+      "text": "The North Pacific is mostly warming, while the South Pacific is mostly cooling."
+    }
+  },
+  "correct_answer_original_idx": 2,
+  "correct_letter": "A",
+  "raw_response": "```json\n{\n  \"choice\": \"A\",\n  \"answer_value\": \"The North Pacific is mostly unchanged or cooling, while the South Pacific is mostly warming.\",\n  \"rationale\": \"The map shows the North Pacific Ocean (north of the equator) is predominantly colored in shades of blue and cyan, which correspond to negative values on the scale, indicating cooling or no change. In contrast, the South Pacific Ocean (south of the equator) displays significant areas of yellow, orange, and red, representing positive values and thus warming. This visual evidence directly supports the statement that the North Pacific is cooling/unchanged while the South Pacific is warming.\"\n}\n```\n",
+  "parsed": {
+    "choice": "A",
+    "answer_value": "The North Pacific is mostly unchanged or cooling, while the South Pacific is mostly warming.",
+    "rationale": "The map shows the North Pacific Ocean (north of the equator) is predominantly colored in shades of blue and cyan, which correspond to negative values on the scale, indicating cooling or no change. In contrast, the South Pacific Ocean (south of the equator) displays significant areas of yellow, orange, and red, representing positive values and thus warming. This visual evidence directly supports the statement that the North Pacific is cooling/unchanged while the South Pacific is warming."
+  },
+  "chosen_letter": "A",
+  "is_correct": true,
+  "parse_error": null
+}

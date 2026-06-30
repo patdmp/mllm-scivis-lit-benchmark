@@ -1,0 +1,36 @@
+{
+  "item_id": "item10",
+  "model": "qwen",
+  "run": 9,
+  "seed": 9,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 1,
+      "text": "7 AM Wed and 7 PM Wed"
+    },
+    "B": {
+      "original_idx": 2,
+      "text": "7 PM Wed and 7 AM Thu"
+    },
+    "C": {
+      "original_idx": 3,
+      "text": "7 AM Thu and 7 PM Thu"
+    },
+    "D": {
+      "original_idx": 4,
+      "text": "7 AM Fri and 7 AM Sat"
+    }
+  },
+  "correct_answer_original_idx": 2,
+  "correct_letter": "B",
+  "raw_response": "```json\n{\n  \"choice\": \"C\",\n  \"answer_value\": \"7 AM Thu and 7 PM Thu\",\n  \"rationale\": \"The map shows the hurricane's forecast track moving northward along the Louisiana coast. The position labeled '7 AM Thu' is located directly on the coastline of Louisiana. The subsequent position, '7 PM Thu', is shown further inland, indicating the storm has already made landfall. Therefore, the landfall occurred between these two timestamps.\"\n}\n```\n",
+  "parsed": {
+    "choice": "C",
+    "answer_value": "7 AM Thu and 7 PM Thu",
+    "rationale": "The map shows the hurricane's forecast track moving northward along the Louisiana coast. The position labeled '7 AM Thu' is located directly on the coastline of Louisiana. The subsequent position, '7 PM Thu', is shown further inland, indicating the storm has already made landfall. Therefore, the landfall occurred between these two timestamps."
+  },
+  "chosen_letter": "C",
+  "is_correct": false,
+  "parse_error": null
+}

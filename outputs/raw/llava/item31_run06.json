@@ -1,0 +1,32 @@
+{
+  "item_id": "item31",
+  "model": "llava",
+  "run": 6,
+  "seed": 6,
+  "n_choices": 3,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 2,
+      "text": "Kidneys"
+    },
+    "B": {
+      "original_idx": 1,
+      "text": "Liver"
+    },
+    "C": {
+      "original_idx": 3,
+      "text": "Bladder"
+    }
+  },
+  "correct_answer_original_idx": 1,
+  "correct_letter": "B",
+  "raw_response": "{\n  \"choice\": \"C\",\n  \"answer_value\": \"Bladder\",\n  \"rationale\": \"The bladder is the organ closest to the viewer as it is positioned at the bottom of the image, in front of the other organs.\"\n}://://://://://://://://://://://://://://://://://://://://://://://://://://://://://://://://://://://://://://://://://://://://://://://://://://://://://://://://://://://://://://://://://://://://://://://://://://://://://://://://://://://://://://://://://://://://://://://://://://://://://://://://://://://://://://://://",
+  "parsed": {
+    "choice": "C",
+    "answer_value": "Bladder",
+    "rationale": "The bladder is the organ closest to the viewer as it is positioned at the bottom of the image, in front of the other organs."
+  },
+  "chosen_letter": "C",
+  "is_correct": false,
+  "parse_error": null
+}

@@ -1,0 +1,36 @@
+{
+  "item_id": "item54",
+  "model": "llava",
+  "run": 0,
+  "seed": 0,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 3,
+      "text": "pulsates symmetrically inward and outward"
+    },
+    "B": {
+      "original_idx": 1,
+      "text": "remains the same size but gradually fades out"
+    },
+    "C": {
+      "original_idx": 2,
+      "text": "shrinks inward toward the center"
+    },
+    "D": {
+      "original_idx": 4,
+      "text": "rotates around the center in a spiral pattern"
+    }
+  },
+  "correct_answer_original_idx": 4,
+  "correct_letter": "D",
+  "raw_response": "{\n  \"choice\": \"C\",\n  \"answer_value\": \"shrinks inward toward the center\",\n  \"rationale\": \"The red internal gas appears to be moving inward, as indicated by the shrinking appearance of the red area over time in the animation.\"\n}contracting inward toward the centercontracting inward toward the centercontracting inward toward the centercontracting inward toward the centercontracting inward toward the centercontracting inward toward the centercontracting inward toward the centercontracting inward toward the centercontracting inward toward the centercontracting inward toward the centercontracting inward toward the centercontracting inward toward the centercontracting inward toward the centercontracting inward toward the centercontracting inward toward the centercontracting inward toward the centercontracting inward toward the centercontracting inward toward the centercontracting inward toward the centercontracting inward toward the centercontracting inward toward the centercontracting inward toward the centercontracting inward toward the centercontracting inward toward the centercontracting inward toward the centercontracting inward toward the center",
+  "parsed": {
+    "choice": "C",
+    "answer_value": "shrinks inward toward the center",
+    "rationale": "The red internal gas appears to be moving inward, as indicated by the shrinking appearance of the red area over time in the animation."
+  },
+  "chosen_letter": "C",
+  "is_correct": false,
+  "parse_error": null
+}

@@ -1,0 +1,36 @@
+{
+  "item_id": "item01",
+  "model": "llava",
+  "run": 4,
+  "seed": 4,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 3,
+      "text": "6863 ft"
+    },
+    "B": {
+      "original_idx": 1,
+      "text": "6624 ft"
+    },
+    "C": {
+      "original_idx": 4,
+      "text": "6942 ft"
+    },
+    "D": {
+      "original_idx": 2,
+      "text": "6728 ft"
+    }
+  },
+  "correct_answer_original_idx": 3,
+  "correct_letter": "A",
+  "raw_response": "{\n  \"choice\": \"A\",\n  \"answer_value\": \"6863 ft\",\n  \"rationale\": \"The contour line closest to waypoint D is labeled 6800 ft. Since the contour interval is 40 feet, the elevation of waypoint D is 6800 ft + 63 ft = 6863 ft.\"\n}000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+  "parsed": {
+    "choice": "A",
+    "answer_value": "6863 ft",
+    "rationale": "The contour line closest to waypoint D is labeled 6800 ft. Since the contour interval is 40 feet, the elevation of waypoint D is 6800 ft + 63 ft = 6863 ft."
+  },
+  "chosen_letter": "A",
+  "is_correct": true,
+  "parse_error": null
+}

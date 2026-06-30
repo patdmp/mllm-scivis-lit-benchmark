@@ -1,0 +1,36 @@
+{
+  "item_id": "item02",
+  "model": "internvl",
+  "run": 9,
+  "seed": 9,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 1,
+      "text": "Waypoint A"
+    },
+    "B": {
+      "original_idx": 2,
+      "text": "Waypoint B"
+    },
+    "C": {
+      "original_idx": 3,
+      "text": "Waypoint C"
+    },
+    "D": {
+      "original_idx": 4,
+      "text": "Waypoint D"
+    }
+  },
+  "correct_answer_original_idx": 3,
+  "correct_letter": "C",
+  "raw_response": "{\n  \"choice\": \"D\",\n  \"answer_value\": \"Waypoint D\",\n  \"rationale\": \"Waypoint D is located on a contour line labeled 7000 feet, which is higher than the contour lines around the other waypoints. The contour lines around Waypoint A are labeled 7400 feet, but since Waypoint D is on a higher contour line, it indicates a higher elevation.\"\n}",
+  "parsed": {
+    "choice": "D",
+    "answer_value": "Waypoint D",
+    "rationale": "Waypoint D is located on a contour line labeled 7000 feet, which is higher than the contour lines around the other waypoints. The contour lines around Waypoint A are labeled 7400 feet, but since Waypoint D is on a higher contour line, it indicates a higher elevation."
+  },
+  "chosen_letter": "D",
+  "is_correct": false,
+  "parse_error": null
+}

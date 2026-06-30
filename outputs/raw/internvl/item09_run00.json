@@ -1,0 +1,36 @@
+{
+  "item_id": "item09",
+  "model": "internvl",
+  "run": 0,
+  "seed": 0,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 3,
+      "text": "South"
+    },
+    "B": {
+      "original_idx": 1,
+      "text": "Southeast"
+    },
+    "C": {
+      "original_idx": 2,
+      "text": "Northwest"
+    },
+    "D": {
+      "original_idx": 4,
+      "text": "North"
+    }
+  },
+  "correct_answer_original_idx": 2,
+  "correct_letter": "C",
+  "raw_response": "{\n  \"choice\": \"D\",\n  \"answer_value\": \"North\",\n  \"rationale\": \"The forecast track shows the hurricane moving northward from 10 AM Tuesday to 7 PM Wednesday.\"\n}",
+  "parsed": {
+    "choice": "D",
+    "answer_value": "North",
+    "rationale": "The forecast track shows the hurricane moving northward from 10 AM Tuesday to 7 PM Wednesday."
+  },
+  "chosen_letter": "D",
+  "is_correct": false,
+  "parse_error": null
+}

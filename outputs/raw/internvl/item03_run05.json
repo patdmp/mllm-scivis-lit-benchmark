@@ -1,0 +1,36 @@
+{
+  "item_id": "item03",
+  "model": "internvl",
+  "run": 5,
+  "seed": 5,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 1,
+      "text": "275 ft"
+    },
+    "B": {
+      "original_idx": 2,
+      "text": "350 ft"
+    },
+    "C": {
+      "original_idx": 4,
+      "text": "500 ft"
+    },
+    "D": {
+      "original_idx": 3,
+      "text": "425 ft"
+    }
+  },
+  "correct_answer_original_idx": 2,
+  "correct_letter": "B",
+  "raw_response": "<think>\nThe contour lines on the map indicate elevation in feet, with a contour interval of 40 feet. Waypoint A is located near the 7200-foot contour line, while waypoint D is near the 6800-foot contour line. The difference in elevation between these two points can be estimated by the difference in their contour lines. Since the contour interval is 40 feet, the difference between 7200 feet and 6800 feet is 400 feet. However, since the exact position of the waypoints within the contour lines is not specified, the closest answer to this estimation is 350 feet.\n</think>\n\n{\n  \"choice\": \"B\",\n  \"answer_value\": \"350 ft\",\n  \"rationale\": \"Waypoint A is near the 7200-foot contour line, and waypoint D is near the 6800-foot contour line. The difference in elevation is approximately 400 feet, but considering the closest answer option, 350 feet is the best estimate.\"\n}",
+  "parsed": {
+    "choice": "B",
+    "answer_value": "350 ft",
+    "rationale": "Waypoint A is near the 7200-foot contour line, and waypoint D is near the 6800-foot contour line. The difference in elevation is approximately 400 feet, but considering the closest answer option, 350 feet is the best estimate."
+  },
+  "chosen_letter": "B",
+  "is_correct": true,
+  "parse_error": null
+}

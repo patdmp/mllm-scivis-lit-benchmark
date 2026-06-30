@@ -1,0 +1,36 @@
+{
+  "item_id": "item25",
+  "model": "llava",
+  "run": 0,
+  "seed": 0,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 3,
+      "text": "3"
+    },
+    "B": {
+      "original_idx": 1,
+      "text": "1"
+    },
+    "C": {
+      "original_idx": 2,
+      "text": "2"
+    },
+    "D": {
+      "original_idx": 4,
+      "text": "4"
+    }
+  },
+  "correct_answer_original_idx": 2,
+  "correct_letter": "C",
+  "raw_response": "{\n  \"choice\": \"B\",\n  \"answer_value\": \"1\",\n  \"rationale\": \"The object has a single continuous loop with no additional holes, as indicated by the single light-yellow ridge that highlights the embedded knot.\"\n} only. \"choice\": \"B\", \"answer_value\": \"1\", \"rationale\": \"The object has a single continuous loop with no additional holes, as indicated by the single light-yellow ridge that highlights the embedded knot.\"0",
+  "parsed": {
+    "choice": "B",
+    "answer_value": "1",
+    "rationale": "The object has a single continuous loop with no additional holes, as indicated by the single light-yellow ridge that highlights the embedded knot."
+  },
+  "chosen_letter": "B",
+  "is_correct": false,
+  "parse_error": null
+}

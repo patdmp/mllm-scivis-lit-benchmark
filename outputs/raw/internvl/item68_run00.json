@@ -1,0 +1,36 @@
+{
+  "item_id": "item68",
+  "model": "internvl",
+  "run": 0,
+  "seed": 0,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 3,
+      "text": "only goes under the car"
+    },
+    "B": {
+      "original_idx": 1,
+      "text": "stops and builds up in front of the car"
+    },
+    "C": {
+      "original_idx": 2,
+      "text": "splits and flows over the roof and under the car"
+    },
+    "D": {
+      "original_idx": 4,
+      "text": "only moves straight up into the sky"
+    }
+  },
+  "correct_answer_original_idx": 2,
+  "correct_letter": "C",
+  "raw_response": "{\n  \"choice\": \"C\",\n  \"answer_value\": \"splits and flows over the roof and under the car\",\n  \"rationale\": \"The visualization shows the airflow splitting around the car, with some air flowing over the roof and some under the car, indicating a typical airflow pattern around a vehicle.\"\n}",
+  "parsed": {
+    "choice": "C",
+    "answer_value": "splits and flows over the roof and under the car",
+    "rationale": "The visualization shows the airflow splitting around the car, with some air flowing over the roof and some under the car, indicating a typical airflow pattern around a vehicle."
+  },
+  "chosen_letter": "C",
+  "is_correct": true,
+  "parse_error": null
+}

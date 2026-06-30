@@ -1,0 +1,28 @@
+{
+  "item_id": "item28",
+  "model": "qwen",
+  "run": 3,
+  "seed": 3,
+  "n_choices": 2,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 2,
+      "text": "FALSE"
+    },
+    "B": {
+      "original_idx": 1,
+      "text": "TRUE"
+    }
+  },
+  "correct_answer_original_idx": 1,
+  "correct_letter": "B",
+  "raw_response": "```json\n{\n  \"choice\": \"B\",\n  \"answer_value\": \"TRUE\",\n  \"rationale\": \"The image depicts a continuous, closed surface where the light brown material forms a single connected component. Point A is located on the top lobe and point B is on the bottom lobe. The caption describes the structure as a 'closed Seifert surface' formed by gluing two identical surfaces, which implies a continuous path exists between any two points on the surface. Therefore, one can travel from A to B along the surface without crossing the empty space or the yellow ridge.\"\n}\n```\n",
+  "parsed": {
+    "choice": "B",
+    "answer_value": "TRUE",
+    "rationale": "The image depicts a continuous, closed surface where the light brown material forms a single connected component. Point A is located on the top lobe and point B is on the bottom lobe. The caption describes the structure as a 'closed Seifert surface' formed by gluing two identical surfaces, which implies a continuous path exists between any two points on the surface. Therefore, one can travel from A to B along the surface without crossing the empty space or the yellow ridge."
+  },
+  "chosen_letter": "B",
+  "is_correct": true,
+  "parse_error": null
+}

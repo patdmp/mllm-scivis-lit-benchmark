@@ -1,0 +1,36 @@
+{
+  "item_id": "item46",
+  "model": "llava",
+  "run": 1,
+  "seed": 1,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 4,
+      "text": "Wings"
+    },
+    "B": {
+      "original_idx": 1,
+      "text": "Head"
+    },
+    "C": {
+      "original_idx": 3,
+      "text": "Abdomen"
+    },
+    "D": {
+      "original_idx": 2,
+      "text": "Thorax"
+    }
+  },
+  "correct_answer_original_idx": 2,
+  "correct_letter": "D",
+  "raw_response": "{\n  \"choice\": \"D\",\n  \"answer_value\": \"Thorax\",\n  \"rationale\": \"The legs are attached to the thorax, as indicated by the labels for the femur, tibia, and tarsus, which are all parts of the leg structure located on the thorax.\"\n}000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+  "parsed": {
+    "choice": "D",
+    "answer_value": "Thorax",
+    "rationale": "The legs are attached to the thorax, as indicated by the labels for the femur, tibia, and tarsus, which are all parts of the leg structure located on the thorax."
+  },
+  "chosen_letter": "D",
+  "is_correct": true,
+  "parse_error": null
+}

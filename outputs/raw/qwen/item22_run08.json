@@ -1,0 +1,36 @@
+{
+  "item_id": "item22",
+  "model": "qwen",
+  "run": 8,
+  "seed": 8,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 1,
+      "text": "1"
+    },
+    "B": {
+      "original_idx": 3,
+      "text": "3"
+    },
+    "C": {
+      "original_idx": 4,
+      "text": "4"
+    },
+    "D": {
+      "original_idx": 2,
+      "text": "2"
+    }
+  },
+  "correct_answer_original_idx": 3,
+  "correct_letter": "B",
+  "raw_response": "```json\n{\n  \"choice\": \"D\",\n  \"answer_value\": \"2\",\n  \"rationale\": \"The visualization shows a structure where every atom (blue sphere) is connected to exactly two other atoms (brown rods). This forms a continuous chain or loop, characteristic of a linear or cyclic molecule. Therefore, each atom has a coordination number of 2.\"\n}\n```\n",
+  "parsed": {
+    "choice": "D",
+    "answer_value": "2",
+    "rationale": "The visualization shows a structure where every atom (blue sphere) is connected to exactly two other atoms (brown rods). This forms a continuous chain or loop, characteristic of a linear or cyclic molecule. Therefore, each atom has a coordination number of 2."
+  },
+  "chosen_letter": "D",
+  "is_correct": false,
+  "parse_error": null
+}

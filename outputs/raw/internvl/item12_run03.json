@@ -1,0 +1,36 @@
+{
+  "item_id": "item12",
+  "model": "internvl",
+  "run": 3,
+  "seed": 3,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 4,
+      "text": "increases then decreases"
+    },
+    "B": {
+      "original_idx": 1,
+      "text": "increases"
+    },
+    "C": {
+      "original_idx": 3,
+      "text": "decreases then increases"
+    },
+    "D": {
+      "original_idx": 2,
+      "text": "decreases"
+    }
+  },
+  "correct_answer_original_idx": 4,
+  "correct_letter": "A",
+  "raw_response": "{\n  \"choice\": \"B\",\n  \"answer_value\": \"increases\",\n  \"rationale\": \"The forecast positions show the hurricane moving from a tropical storm to a hurricane, indicating an increase in sustained wind speed from 39-73 mph to 74-110 mph between 10 AM Tue and 7 AM Fri.\"\n}",
+  "parsed": {
+    "choice": "B",
+    "answer_value": "increases",
+    "rationale": "The forecast positions show the hurricane moving from a tropical storm to a hurricane, indicating an increase in sustained wind speed from 39-73 mph to 74-110 mph between 10 AM Tue and 7 AM Fri."
+  },
+  "chosen_letter": "B",
+  "is_correct": false,
+  "parse_error": null
+}

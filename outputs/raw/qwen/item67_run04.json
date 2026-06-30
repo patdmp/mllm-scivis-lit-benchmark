@@ -1,0 +1,36 @@
+{
+  "item_id": "item67",
+  "model": "qwen",
+  "run": 4,
+  "seed": 4,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 3,
+      "text": "It spreads along the trench, away from the rocket."
+    },
+    "B": {
+      "original_idx": 1,
+      "text": "It disappears almost immediately."
+    },
+    "C": {
+      "original_idx": 4,
+      "text": "t moves upward, away from the pad, without touching the trench."
+    },
+    "D": {
+      "original_idx": 2,
+      "text": "It remains confined to a narrow column beneath the nozzle."
+    }
+  },
+  "correct_answer_original_idx": 3,
+  "correct_letter": "A",
+  "raw_response": "{\n  \"choice\": \"A\",\n  \"answer_value\": \"It spreads along the trench, away from the rocket.\",\n  \"rationale\": \"The visualization shows the exhaust plume expanding and spreading horizontally along the ground level after ignition. The colored regions representing hot gas clearly move outward from the rocket's base in a lateral direction. This movement is consistent with spreading along a trench or containment area designed to manage exhaust during launch. The plume does not disappear, move upward, or remain confined to a narrow column. Therefore, option A accurately describes the observed behavior of the exhaust plume.\"\n}\n",
+  "parsed": {
+    "choice": "A",
+    "answer_value": "It spreads along the trench, away from the rocket.",
+    "rationale": "The visualization shows the exhaust plume expanding and spreading horizontally along the ground level after ignition. The colored regions representing hot gas clearly move outward from the rocket's base in a lateral direction. This movement is consistent with spreading along a trench or containment area designed to manage exhaust during launch. The plume does not disappear, move upward, or remain confined to a narrow column. Therefore, option A accurately describes the observed behavior of the exhaust plume."
+  },
+  "chosen_letter": "A",
+  "is_correct": true,
+  "parse_error": null
+}

@@ -1,0 +1,36 @@
+{
+  "item_id": "item10",
+  "model": "llava",
+  "run": 8,
+  "seed": 8,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 1,
+      "text": "7 AM Wed and 7 PM Wed"
+    },
+    "B": {
+      "original_idx": 3,
+      "text": "7 AM Thu and 7 PM Thu"
+    },
+    "C": {
+      "original_idx": 4,
+      "text": "7 AM Fri and 7 AM Sat"
+    },
+    "D": {
+      "original_idx": 2,
+      "text": "7 PM Wed and 7 AM Thu"
+    }
+  },
+  "correct_answer_original_idx": 2,
+  "correct_letter": "D",
+  "raw_response": "{\n  \"choice\": \"B\",\n  \"answer_value\": \"7 AM Thu and 7 PM Thu\",\n  \"rationale\": \"The forecast track shows the hurricane's path reaching the coast between 7 AM Thu and 7 PM Thu.\"\n} \"choice\": \"B\", \"answer_value\": \"7 AM Thu and 7 PM Thu\", \"rationale\": \"The forecast track shows the hurricane's path reaching the coast between 7 AM Thu and 7 PM Thu.\" \"choice\": \"B\", \"answer_value\": \"7 AM Thu and 7 PM Thu\", \"rationale\": \"The forecast track shows the hurricane's path reaching the coast between 7 AM Thu and 7 PM Thu.\" \"choice\": \"B\", \"answer_value\": \"7 AM Thu and 7 PM Thu\", \"rationale\": \"The forecast track shows the hurricane's path reaching the coast between 7 AM Thu and 7 PM Thu.\" \"choice\": \"B\", \"answer_value\": \"7 AM Thu and 7 PM Thu\", \"rationale\": \"The forecast track shows the hurricane's path reaching the coast between 7 AM Thu and 7 PM Thu.\" \"choice\": \"B\", \"answer_value\": \"7 AM Thu and 7 PM Thu\", \"rationale\": \"The forecast track shows the hurricane's path reaching the coast between 7",
+  "parsed": {
+    "choice": "B",
+    "answer_value": "7 AM Thu and 7 PM Thu",
+    "rationale": "The forecast track shows the hurricane's path reaching the coast between 7 AM Thu and 7 PM Thu."
+  },
+  "chosen_letter": "B",
+  "is_correct": false,
+  "parse_error": null
+}

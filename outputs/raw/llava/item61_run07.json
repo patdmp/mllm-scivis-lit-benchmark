@@ -1,0 +1,36 @@
+{
+  "item_id": "item61",
+  "model": "llava",
+  "run": 7,
+  "seed": 7,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 4,
+      "text": "a spherical spiral"
+    },
+    "B": {
+      "original_idx": 2,
+      "text": "a spiral cone"
+    },
+    "C": {
+      "original_idx": 1,
+      "text": "a spiral cylinder"
+    },
+    "D": {
+      "original_idx": 3,
+      "text": "a twisted funnel"
+    }
+  },
+  "correct_answer_original_idx": 3,
+  "correct_letter": "D",
+  "raw_response": "{\n  \"choice\": \"D\",\n  \"answer_value\": \"a twisted funnel\",\n  \"rationale\": \"The streamlines form a twisted funnel shape, which is characteristic of a tornado's structure. The twisting and narrowing of the streamlines indicate the funnel shape, and the color gradient shows the velocity magnitude, which is higher at the center and decreases towards the edges.\"\n}000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+  "parsed": {
+    "choice": "D",
+    "answer_value": "a twisted funnel",
+    "rationale": "The streamlines form a twisted funnel shape, which is characteristic of a tornado's structure. The twisting and narrowing of the streamlines indicate the funnel shape, and the color gradient shows the velocity magnitude, which is higher at the center and decreases towards the edges."
+  },
+  "chosen_letter": "D",
+  "is_correct": true,
+  "parse_error": null
+}

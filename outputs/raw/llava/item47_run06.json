@@ -1,0 +1,36 @@
+{
+  "item_id": "item47",
+  "model": "llava",
+  "run": 6,
+  "seed": 6,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 4,
+      "text": "Pelvic fin"
+    },
+    "B": {
+      "original_idx": 3,
+      "text": "Dorsal fin"
+    },
+    "C": {
+      "original_idx": 2,
+      "text": "Caudal fin"
+    },
+    "D": {
+      "original_idx": 1,
+      "text": "Anal fin"
+    }
+  },
+  "correct_answer_original_idx": 2,
+  "correct_letter": "C",
+  "raw_response": "{\n  \"choice\": \"C\",\n  \"answer_value\": \"Caudal fin\",\n  \"rationale\": \"The caudal fin, also known as the tail fin, typically has the longest fin rays to provide propulsion and maneuverability in water.\"\n} fins fins fins fins fins fins fins fins fins fins fins fins fins fins fins fins fins fins fins fins fins fins fins fins fins fins fins fins fins fins fins fins fins fins fins fins fins fins fins fins fins fins fins fins fins fins fins fins fins fins fins fins fins fins fins fins fins fins fins fins fins fins fins fins fins fins fins fins fins fins fins fins fins fins fins fins fins fins fins fins fins fins fins fins fins fins fins fins",
+  "parsed": {
+    "choice": "C",
+    "answer_value": "Caudal fin",
+    "rationale": "The caudal fin, also known as the tail fin, typically has the longest fin rays to provide propulsion and maneuverability in water."
+  },
+  "chosen_letter": "C",
+  "is_correct": true,
+  "parse_error": null
+}

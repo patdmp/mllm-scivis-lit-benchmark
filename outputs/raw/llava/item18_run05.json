@@ -1,0 +1,36 @@
+{
+  "item_id": "item18",
+  "model": "llava",
+  "run": 5,
+  "seed": 5,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 1,
+      "text": "Seattle"
+    },
+    "B": {
+      "original_idx": 2,
+      "text": "Denver"
+    },
+    "C": {
+      "original_idx": 4,
+      "text": "New York"
+    },
+    "D": {
+      "original_idx": 3,
+      "text": "Dallas"
+    }
+  },
+  "correct_answer_original_idx": 4,
+  "correct_letter": "C",
+  "raw_response": "{\n  \"choice\": \"C\",\n  \"answer_value\": \"New York\",\n  \"rationale\": \"The map shows wind patterns with varying speeds. New York is located in the area with the darkest shading, indicating the highest wind speed.\"\n}0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+  "parsed": {
+    "choice": "C",
+    "answer_value": "New York",
+    "rationale": "The map shows wind patterns with varying speeds. New York is located in the area with the darkest shading, indicating the highest wind speed."
+  },
+  "chosen_letter": "C",
+  "is_correct": true,
+  "parse_error": null
+}

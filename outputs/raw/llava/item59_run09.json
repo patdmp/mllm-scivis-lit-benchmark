@@ -1,0 +1,36 @@
+{
+  "item_id": "item59",
+  "model": "llava",
+  "run": 9,
+  "seed": 9,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 1,
+      "text": "Electric field lines can cross in space."
+    },
+    "B": {
+      "original_idx": 2,
+      "text": "The electric field lines around plate 1 exhibit a divergent pattern."
+    },
+    "C": {
+      "original_idx": 3,
+      "text": "The electric field lines around plate 2 exhibit a convergent pattern."
+    },
+    "D": {
+      "original_idx": 4,
+      "text": "Between the two plates, the electric field lines point from plate 2 toward plate 1."
+    }
+  },
+  "correct_answer_original_idx": 4,
+  "correct_letter": "D",
+  "raw_response": "{\n  \"choice\": \"D\",\n  \"answer_value\": \"Between the two plates, the electric field lines point from plate 2 toward plate 1.\",\n  \"rationale\": \"The electric field lines are directed from the positive plate (plate 2) to the negative plate (plate 1), indicating the direction of the electric field between the plates.\"\n}plate 1 toward plate 2.\"field lines are parallel and evenly spaced.\"\" \"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"",
+  "parsed": {
+    "choice": "D",
+    "answer_value": "Between the two plates, the electric field lines point from plate 2 toward plate 1.",
+    "rationale": "The electric field lines are directed from the positive plate (plate 2) to the negative plate (plate 1), indicating the direction of the electric field between the plates."
+  },
+  "chosen_letter": "D",
+  "is_correct": true,
+  "parse_error": null
+}

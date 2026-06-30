@@ -1,0 +1,36 @@
+{
+  "item_id": "item12",
+  "model": "qwen",
+  "run": 9,
+  "seed": 9,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 1,
+      "text": "increases"
+    },
+    "B": {
+      "original_idx": 2,
+      "text": "decreases"
+    },
+    "C": {
+      "original_idx": 3,
+      "text": "decreases then increases"
+    },
+    "D": {
+      "original_idx": 4,
+      "text": "increases then decreases"
+    }
+  },
+  "correct_answer_original_idx": 4,
+  "correct_letter": "D",
+  "raw_response": "```json\n{\n  \"choice\": \"A\",\n  \"answer_value\": \"increases\",\n  \"rationale\": \"The map shows the hurricane's position at 10 AM Tue, 7 PM Wed, 7 AM Thu, and 7 PM Thu. The symbols change from 'H' (Hurricane) to 'M' (Major Hurricane) and then to 'S' (Strong Hurricane), indicating an increase in intensity. The legend confirms that 'M' represents winds > 110 mph and 'S' represents winds 39-73 mph, but the progression of symbols implies intensification. Therefore, the sustained wind speed increases during this period.\"\n}\n```\n",
+  "parsed": {
+    "choice": "A",
+    "answer_value": "increases",
+    "rationale": "The map shows the hurricane's position at 10 AM Tue, 7 PM Wed, 7 AM Thu, and 7 PM Thu. The symbols change from 'H' (Hurricane) to 'M' (Major Hurricane) and then to 'S' (Strong Hurricane), indicating an increase in intensity. The legend confirms that 'M' represents winds > 110 mph and 'S' represents winds 39-73 mph, but the progression of symbols implies intensification. Therefore, the sustained wind speed increases during this period."
+  },
+  "chosen_letter": "A",
+  "is_correct": false,
+  "parse_error": null
+}

@@ -1,0 +1,30 @@
+# ── Core ML ───────────────────────────────────────────────────────────────────
+# PyTorch: install the version matching your CUDA from https://pytorch.org/get-started/locally/
+# e.g. for CUDA 12.1:  pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+# e.g. for CPU only:   pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
+torch>=2.3.0
+torchvision>=0.18.0
+
+transformers>=4.45.0
+accelerate>=0.30.0
+huggingface_hub>=0.23.0
+
+# ── Vision ────────────────────────────────────────────────────────────────────
+pillow>=10.0.0
+opencv-python>=4.8.0
+
+# ── Model utilities ───────────────────────────────────────────────────────────
+einops>=0.7.0
+timm>=0.9.0
+sentencepiece>=0.1.99
+
+# ── Quantization (optional) ───────────────────────────────────────────────────
+# Enables 4-bit loading for large models (e.g. Qwen3.5-35B on limited VRAM).
+# Linux/Windows (CUDA): pip install bitsandbytes>=0.43.0
+# macOS (MPS) or CPU-only: omit this package.
+bitsandbytes>=0.43.0
+
+# ── Data / output ─────────────────────────────────────────────────────────────
+openpyxl>=3.1.0
+numpy>=1.24.0
+pandas>=2.0.0

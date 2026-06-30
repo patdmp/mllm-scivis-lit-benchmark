@@ -1,0 +1,36 @@
+{
+  "item_id": "item51",
+  "model": "internvl",
+  "run": 6,
+  "seed": 6,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 4,
+      "text": "It starts as a donut, becomes a disk, and then breaks apart into thin streams."
+    },
+    "B": {
+      "original_idx": 3,
+      "text": "It starts as a donut, becomes a disk, and then splits into two separate disks that move apart."
+    },
+    "C": {
+      "original_idx": 2,
+      "text": "It starts as a thin and rough disk and becomes a thicker, smoother disk."
+    },
+    "D": {
+      "original_idx": 1,
+      "text": "It stays as a smooth, thick disk throughout."
+    }
+  },
+  "correct_answer_original_idx": 4,
+  "correct_letter": "A",
+  "raw_response": "{\n  \"choice\": \"A\",\n  \"answer_value\": \"It starts as a donut, becomes a disk, and then breaks apart into thin streams.\",\n  \"rationale\": \"The gas starts as a donut shape in the early stage, then evolves into a disk shape in the middle stage, and finally breaks apart into thin streams in the late stage.\"\n}",
+  "parsed": {
+    "choice": "A",
+    "answer_value": "It starts as a donut, becomes a disk, and then breaks apart into thin streams.",
+    "rationale": "The gas starts as a donut shape in the early stage, then evolves into a disk shape in the middle stage, and finally breaks apart into thin streams in the late stage."
+  },
+  "chosen_letter": "A",
+  "is_correct": true,
+  "parse_error": null
+}

@@ -1,0 +1,36 @@
+{
+  "item_id": "item57",
+  "model": "llava",
+  "run": 2,
+  "seed": 2,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 2,
+      "text": "Below plate 2"
+    },
+    "B": {
+      "original_idx": 3,
+      "text": "Directly between the two plates"
+    },
+    "C": {
+      "original_idx": 4,
+      "text": "The left and right sides of both plates"
+    },
+    "D": {
+      "original_idx": 1,
+      "text": "Above plate 1"
+    }
+  },
+  "correct_answer_original_idx": 3,
+  "correct_letter": "B",
+  "raw_response": "{\n  \"choice\": \"B\",\n  \"answer_value\": \"Directly between the two plates\",\n  \"rationale\": \"The electric field lines are closest together directly between the two plates, indicating a higher electric field magnitude. The color gradient also shows a brighter yellow, which corresponds to a higher magnitude, in this central region.\"\n} closer together, indicating a stronger electric field. The color gradient also shows a brighter yellow, which corresponds to a higher magnitude, in this central region. below plate 2, indicating a higher electric field magnitude. The color gradient also shows a brighter yellow, which corresponds to a higher magnitude, in this central region. below plate 2, indicating a higher electric field magnitude. The color gradient also shows a brighter yellow, which corresponds to a higher magnitude, in this central region. below plate 2, indicating a higher electric field magnitude. The color gradient also shows a brighter yellow, which corresponds to a higher magnitude, in this central region.",
+  "parsed": {
+    "choice": "B",
+    "answer_value": "Directly between the two plates",
+    "rationale": "The electric field lines are closest together directly between the two plates, indicating a higher electric field magnitude. The color gradient also shows a brighter yellow, which corresponds to a higher magnitude, in this central region."
+  },
+  "chosen_letter": "B",
+  "is_correct": true,
+  "parse_error": null
+}

@@ -1,0 +1,36 @@
+{
+  "item_id": "item14",
+  "model": "internvl",
+  "run": 7,
+  "seed": 7,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 4,
+      "text": "Region D"
+    },
+    "B": {
+      "original_idx": 2,
+      "text": "Region B"
+    },
+    "C": {
+      "original_idx": 1,
+      "text": "Region A"
+    },
+    "D": {
+      "original_idx": 3,
+      "text": "Region C"
+    }
+  },
+  "correct_answer_original_idx": 1,
+  "correct_letter": "C",
+  "raw_response": "<think>\nThe map shows temperature changes in different ocean regions. The color scale indicates that cooler temperatures are represented by blue shades, while warmer temperatures are shown in red shades. Region D is marked with a blue color, indicating a cooling trend. The other regions (A, B, and C) show warmer colors, suggesting they have experienced warming rather than cooling. Therefore, Region D has cooled the most.\n</think>\n\n{\n  \"choice\": \"A\",\n  \"answer_value\": \"Region D\",\n  \"rationale\": \"Region D is colored in blue, indicating a cooling trend, while other regions show warmer colors, suggesting they have warmed. Thus, Region D has cooled the most.\"\n}",
+  "parsed": {
+    "choice": "A",
+    "answer_value": "Region D",
+    "rationale": "Region D is colored in blue, indicating a cooling trend, while other regions show warmer colors, suggesting they have warmed. Thus, Region D has cooled the most."
+  },
+  "chosen_letter": "A",
+  "is_correct": false,
+  "parse_error": null
+}

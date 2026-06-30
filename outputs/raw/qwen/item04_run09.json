@@ -1,0 +1,32 @@
+{
+  "item_id": "item04",
+  "model": "qwen",
+  "run": 9,
+  "seed": 9,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 1,
+      "text": "increases"
+    },
+    "B": {
+      "original_idx": 2,
+      "text": "decreases"
+    },
+    "C": {
+      "original_idx": 3,
+      "text": "increases, then decreases"
+    },
+    "D": {
+      "original_idx": 4,
+      "text": "decreases, then increases"
+    }
+  },
+  "correct_answer_original_idx": 4,
+  "correct_letter": "D",
+  "raw_response": "```json\n{\n  \"choice\": \"C\",\n  \"answer_value\": \"increases, then decreases\",\n  \"rationale\": \"Waypoint C is located inside a closed contour loop labeled 7400, indicating it is at the peak of a hill. Moving in a straight line from C to A, the path must first cross the 7400 contour and then the 7200 contour, meaning the elevation decreases. However, the question asks for the change moving from C to A. Re-evaluating the map: C is at the peak (7400). A is located on the 7200 contour line. Therefore, moving from C to A involves a decrease in elevation. Let's re-read the options. A: increases, B: decreases, C: increases then decreases, D: decreases then increases. The direct path from C (peak) to A (lower elevation) is a decrease. Wait, let me look closer at the path. C is at the center of the 7400 loop. A is on the 7200 line. The path goes from 7400 down to 7200. This is a decrease. Is there a saddle point? No, the path is direct. Let me re-examine the image. Ah, I see. C is at the peak. A is on the 7200 contour. The",
+  "parsed": null,
+  "chosen_letter": null,
+  "is_correct": false,
+  "parse_error": null
+}

@@ -1,0 +1,36 @@
+{
+  "item_id": "item03",
+  "model": "qwen",
+  "run": 8,
+  "seed": 8,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 1,
+      "text": "275 ft"
+    },
+    "B": {
+      "original_idx": 3,
+      "text": "425 ft"
+    },
+    "C": {
+      "original_idx": 4,
+      "text": "500 ft"
+    },
+    "D": {
+      "original_idx": 2,
+      "text": "350 ft"
+    }
+  },
+  "correct_answer_original_idx": 2,
+  "correct_letter": "D",
+  "raw_response": "```json\n{\n  \"choice\": \"A\",\n  \"answer_value\": \"275 ft\",\n  \"rationale\": \"The contour interval is 40 feet. Waypoint A is located on the 7200 ft contour line. Waypoint D is located in a white area between the 6800 ft and 7000 ft contour lines, placing its elevation at approximately 6900 ft. The difference between 7200 ft and 6900 ft is 300 ft. Among the given options, 275 ft is the closest value to this calculated difference.\"\n}\n```\n",
+  "parsed": {
+    "choice": "A",
+    "answer_value": "275 ft",
+    "rationale": "The contour interval is 40 feet. Waypoint A is located on the 7200 ft contour line. Waypoint D is located in a white area between the 6800 ft and 7000 ft contour lines, placing its elevation at approximately 6900 ft. The difference between 7200 ft and 6900 ft is 300 ft. Among the given options, 275 ft is the closest value to this calculated difference."
+  },
+  "chosen_letter": "A",
+  "is_correct": false,
+  "parse_error": null
+}

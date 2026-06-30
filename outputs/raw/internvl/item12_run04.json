@@ -1,0 +1,36 @@
+{
+  "item_id": "item12",
+  "model": "internvl",
+  "run": 4,
+  "seed": 4,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 3,
+      "text": "decreases then increases"
+    },
+    "B": {
+      "original_idx": 1,
+      "text": "increases"
+    },
+    "C": {
+      "original_idx": 4,
+      "text": "increases then decreases"
+    },
+    "D": {
+      "original_idx": 2,
+      "text": "decreases"
+    }
+  },
+  "correct_answer_original_idx": 4,
+  "correct_letter": "C",
+  "raw_response": "{\n  \"choice\": \"C\",\n  \"answer_value\": \"increases then decreases\",\n  \"rationale\": \"The map shows the hurricane's wind speed increasing from 'H' (74-110 mph) on Tuesday to 'M' (> 110 mph) by Wednesday, then decreasing to 'H' again by Friday.\"\n}",
+  "parsed": {
+    "choice": "C",
+    "answer_value": "increases then decreases",
+    "rationale": "The map shows the hurricane's wind speed increasing from 'H' (74-110 mph) on Tuesday to 'M' (> 110 mph) by Wednesday, then decreasing to 'H' again by Friday."
+  },
+  "chosen_letter": "C",
+  "is_correct": true,
+  "parse_error": null
+}

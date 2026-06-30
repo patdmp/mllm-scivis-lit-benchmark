@@ -1,0 +1,36 @@
+{
+  "item_id": "item04",
+  "model": "qwen",
+  "run": 8,
+  "seed": 8,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 1,
+      "text": "increases"
+    },
+    "B": {
+      "original_idx": 3,
+      "text": "increases, then decreases"
+    },
+    "C": {
+      "original_idx": 4,
+      "text": "decreases, then increases"
+    },
+    "D": {
+      "original_idx": 2,
+      "text": "decreases"
+    }
+  },
+  "correct_answer_original_idx": 4,
+  "correct_letter": "C",
+  "raw_response": "```json\n{\n  \"choice\": \"C\",\n  \"answer_value\": \"decreases, then increases\",\n  \"rationale\": \"Waypoint C is located at the peak of a hill, indicated by the innermost 7400-foot contour line. Moving in a straight line from C to A, the path must cross the 7200-foot and 7000-foot contour lines, indicating a decrease in elevation. Waypoint A is situated on a ridge or saddle between two peaks, which is at a higher elevation than the valley floor between them. Therefore, after reaching the lower point between the peaks, the elevation increases again to reach A.\"\n}\n```\n",
+  "parsed": {
+    "choice": "C",
+    "answer_value": "decreases, then increases",
+    "rationale": "Waypoint C is located at the peak of a hill, indicated by the innermost 7400-foot contour line. Moving in a straight line from C to A, the path must cross the 7200-foot and 7000-foot contour lines, indicating a decrease in elevation. Waypoint A is situated on a ridge or saddle between two peaks, which is at a higher elevation than the valley floor between them. Therefore, after reaching the lower point between the peaks, the elevation increases again to reach A."
+  },
+  "chosen_letter": "C",
+  "is_correct": true,
+  "parse_error": null
+}

@@ -1,0 +1,28 @@
+{
+  "item_id": "item20",
+  "model": "qwen",
+  "run": 4,
+  "seed": 4,
+  "n_choices": 2,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 2,
+      "text": "FALSE"
+    },
+    "B": {
+      "original_idx": 1,
+      "text": "TRUE"
+    }
+  },
+  "correct_answer_original_idx": 1,
+  "correct_letter": "B",
+  "raw_response": "```json\n{\n  \"choice\": \"A\",\n  \"answer_value\": \"FALSE\",\n  \"rationale\": \"The wind patterns near Chicago and Houston are flowing in different directions. Chicago's winds are moving from the west to the east, while Houston's winds are moving from the south to the north. Therefore, the statement that they flow in roughly the same direction is false.\"\n}\n```\n",
+  "parsed": {
+    "choice": "A",
+    "answer_value": "FALSE",
+    "rationale": "The wind patterns near Chicago and Houston are flowing in different directions. Chicago's winds are moving from the west to the east, while Houston's winds are moving from the south to the north. Therefore, the statement that they flow in roughly the same direction is false."
+  },
+  "chosen_letter": "A",
+  "is_correct": false,
+  "parse_error": null
+}

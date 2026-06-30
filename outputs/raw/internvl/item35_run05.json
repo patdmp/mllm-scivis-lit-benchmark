@@ -1,0 +1,36 @@
+{
+  "item_id": "item35",
+  "model": "internvl",
+  "run": 5,
+  "seed": 5,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 1,
+      "text": "Region A"
+    },
+    "B": {
+      "original_idx": 2,
+      "text": "Region B"
+    },
+    "C": {
+      "original_idx": 4,
+      "text": "Region D"
+    },
+    "D": {
+      "original_idx": 3,
+      "text": "Region C"
+    }
+  },
+  "correct_answer_original_idx": 2,
+  "correct_letter": "B",
+  "raw_response": "<think>\nThe image shows a tractography of the brain with different regions labeled A, B, C, and D. The density of fiber bundles can be inferred from the concentration of lines in each region. Region C appears to have the most overlapping and dense lines, indicating a higher density of fiber bundles compared to the other regions.\n</think>\n\n{\n  \"choice\": \"D\",\n  \"answer_value\": \"Region C\",\n  \"rationale\": \"Region C shows a high concentration of overlapping lines, indicating a dense network of fiber bundles compared to the other regions.\"\n}",
+  "parsed": {
+    "choice": "D",
+    "answer_value": "Region C",
+    "rationale": "Region C shows a high concentration of overlapping lines, indicating a dense network of fiber bundles compared to the other regions."
+  },
+  "chosen_letter": "D",
+  "is_correct": false,
+  "parse_error": null
+}

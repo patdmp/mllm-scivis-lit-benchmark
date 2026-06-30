@@ -1,0 +1,28 @@
+{
+  "item_id": "item33",
+  "model": "internvl",
+  "run": 9,
+  "seed": 9,
+  "n_choices": 2,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 1,
+      "text": "TRUE"
+    },
+    "B": {
+      "original_idx": 2,
+      "text": "FALSE"
+    }
+  },
+  "correct_answer_original_idx": 2,
+  "correct_letter": "B",
+  "raw_response": "{\n  \"choice\": \"B\",\n  \"answer_value\": \"FALSE\",\n  \"rationale\": \"The marked region shows fiber bundles primarily oriented in the left-right direction, indicated by the red color, rather than front-back, which would be represented by green.\"\n}",
+  "parsed": {
+    "choice": "B",
+    "answer_value": "FALSE",
+    "rationale": "The marked region shows fiber bundles primarily oriented in the left-right direction, indicated by the red color, rather than front-back, which would be represented by green."
+  },
+  "chosen_letter": "B",
+  "is_correct": true,
+  "parse_error": null
+}

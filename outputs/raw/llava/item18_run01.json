@@ -1,0 +1,36 @@
+{
+  "item_id": "item18",
+  "model": "llava",
+  "run": 1,
+  "seed": 1,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 4,
+      "text": "New York"
+    },
+    "B": {
+      "original_idx": 1,
+      "text": "Seattle"
+    },
+    "C": {
+      "original_idx": 3,
+      "text": "Dallas"
+    },
+    "D": {
+      "original_idx": 2,
+      "text": "Denver"
+    }
+  },
+  "correct_answer_original_idx": 4,
+  "correct_letter": "A",
+  "raw_response": "{\n  \"choice\": \"A\",\n  \"answer_value\": \"New York\",\n  \"rationale\": \"The map shows wind patterns with varying speeds across the United States. The darkest areas indicate the highest wind speeds. New York is located in the darkest area, indicating it has the highest wind speed.\"\n} darkest area, indicating it has the highest wind speed. darkest area, indicating it has the highest wind speed. darkest area, indicating it has the highest wind speed. darkest area, indicating it has the highest wind speed. darkest area, indicating it has the highest wind speed. darkest area, indicating it has the highest wind speed. darkest area, indicating it has the highest wind speed. darkest area, indicating it has the highest wind speed. darkest area, indicating it has the highest wind speed. darkest area, indicating it has the highest wind speed. darkest area, indicating it has the highest wind speed. darkest area, indicating it has the highest wind speed. darkest area, indicating it has the highest wind speed. darkest area, indicating it has the highest wind speed. darkest area, indicating it has the highest wind speed. darkest area, indicating it has the highest wind speed. darkest area, indicating it has the highest wind speed. darkest area, indicating it has the highest wind speed. darkest area, indicating it has the highest wind speed.",
+  "parsed": {
+    "choice": "A",
+    "answer_value": "New York",
+    "rationale": "The map shows wind patterns with varying speeds across the United States. The darkest areas indicate the highest wind speeds. New York is located in the darkest area, indicating it has the highest wind speed."
+  },
+  "chosen_letter": "A",
+  "is_correct": true,
+  "parse_error": null
+}

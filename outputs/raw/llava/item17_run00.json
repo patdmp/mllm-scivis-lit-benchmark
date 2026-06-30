@@ -1,0 +1,36 @@
+{
+  "item_id": "item17",
+  "model": "llava",
+  "run": 0,
+  "seed": 0,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 3,
+      "text": "The range of wind speeds is smaller in the central United States than along the East Coast."
+    },
+    "B": {
+      "original_idx": 1,
+      "text": "Wind speeds are higher along the West Coast than in the central United States."
+    },
+    "C": {
+      "original_idx": 2,
+      "text": "The range of wind speeds is larger in the central United States than along the West Coast."
+    },
+    "D": {
+      "original_idx": 4,
+      "text": "Wind speeds are approximately equal along the East and West Coasts."
+    }
+  },
+  "correct_answer_original_idx": 2,
+  "correct_letter": "C",
+  "raw_response": "{\n  \"choice\": \"C\",\n  \"answer_value\": \"The range of wind speeds is larger in the central United States than along the West Coast.\",\n  \"rationale\": \"The central United States shows a wider range of wind speeds, with more variation in shades indicating different speeds, compared to the West Coast, which has more uniform shading.\"\n} gradients lighter shades indicating higher speeds. The central U.S. has more variation in these shades, suggesting a larger range of wind speeds.\"\n} lighter shades indicating higher speeds. The central U.S. has more variation in these shades, suggesting a larger range of wind speeds.\"\n} lighter shades indicating higher speeds. The central U.S. has more variation in these shades, suggesting a larger range of wind speeds.\"\n} lighter shades indicating higher speeds. The central U.S. has more variation in these shades, suggesting a larger range of wind speeds.\"\n} lighter shades indicating higher speeds. The central U.S. has more variation in these shades, suggesting a larger range of wind speeds.\"\n} lighter shades indicating higher speeds. The central U.S. has more variation in these shades",
+  "parsed": {
+    "choice": "C",
+    "answer_value": "The range of wind speeds is larger in the central United States than along the West Coast.",
+    "rationale": "The central United States shows a wider range of wind speeds, with more variation in shades indicating different speeds, compared to the West Coast, which has more uniform shading."
+  },
+  "chosen_letter": "C",
+  "is_correct": true,
+  "parse_error": null
+}

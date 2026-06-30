@@ -1,0 +1,32 @@
+{
+  "item_id": "item31",
+  "model": "internvl",
+  "run": 4,
+  "seed": 4,
+  "n_choices": 3,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 3,
+      "text": "Bladder"
+    },
+    "B": {
+      "original_idx": 2,
+      "text": "Kidneys"
+    },
+    "C": {
+      "original_idx": 1,
+      "text": "Liver"
+    }
+  },
+  "correct_answer_original_idx": 1,
+  "correct_letter": "C",
+  "raw_response": "{\"choice\": \"A\", \"answer_value\": \"Bladder\", \"rationale\": \"The bladder is positioned at the bottom of the image, making it the closest organ to the viewer from this viewpoint.\"}",
+  "parsed": {
+    "choice": "A",
+    "answer_value": "Bladder",
+    "rationale": "The bladder is positioned at the bottom of the image, making it the closest organ to the viewer from this viewpoint."
+  },
+  "chosen_letter": "A",
+  "is_correct": false,
+  "parse_error": null
+}

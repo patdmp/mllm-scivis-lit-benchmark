@@ -1,0 +1,36 @@
+{
+  "item_id": "item40",
+  "model": "llava",
+  "run": 9,
+  "seed": 9,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 1,
+      "text": "Envelope, RNPs, RBDs"
+    },
+    "B": {
+      "original_idx": 2,
+      "text": "RNPs, RBDs, envelope"
+    },
+    "C": {
+      "original_idx": 3,
+      "text": "RBDs, envelope, RNPs"
+    },
+    "D": {
+      "original_idx": 4,
+      "text": "RNPs, envelope, RBDs"
+    }
+  },
+  "correct_answer_original_idx": 4,
+  "correct_letter": "D",
+  "raw_response": "{\n  \"choice\": \"B\",\n  \"answer_value\": \"RNPs, RBDs, envelope\",\n  \"rationale\": \"The visualization shows the internal structure of the SARS-CoV-2 particle. The center of the particle is occupied by the ribonucleoprotein (RNP) complexes, which are yellow. Surrounding the RNPs are the spike proteins (RBDs), depicted in red. The outermost layer is the lipid envelope, shown in gray. Therefore, the correct order from the center outward is RNPs, RBDs, and then the envelope.\"\n} legends0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm",
+  "parsed": {
+    "choice": "B",
+    "answer_value": "RNPs, RBDs, envelope",
+    "rationale": "The visualization shows the internal structure of the SARS-CoV-2 particle. The center of the particle is occupied by the ribonucleoprotein (RNP) complexes, which are yellow. Surrounding the RNPs are the spike proteins (RBDs), depicted in red. The outermost layer is the lipid envelope, shown in gray. Therefore, the correct order from the center outward is RNPs, RBDs, and then the envelope."
+  },
+  "chosen_letter": "B",
+  "is_correct": false,
+  "parse_error": null
+}

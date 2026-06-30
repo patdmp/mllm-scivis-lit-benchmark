@@ -1,0 +1,36 @@
+{
+  "item_id": "item54",
+  "model": "internvl",
+  "run": 8,
+  "seed": 8,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 1,
+      "text": "remains the same size but gradually fades out"
+    },
+    "B": {
+      "original_idx": 3,
+      "text": "pulsates symmetrically inward and outward"
+    },
+    "C": {
+      "original_idx": 4,
+      "text": "rotates around the center in a spiral pattern"
+    },
+    "D": {
+      "original_idx": 2,
+      "text": "shrinks inward toward the center"
+    }
+  },
+  "correct_answer_original_idx": 4,
+  "correct_letter": "C",
+  "raw_response": "{\n  \"choice\": \"D\",\n  \"answer_value\": \"shrinks inward toward the center\",\n  \"rationale\": \"The red internal gas visibly shrinks inward toward the center over the course of the animation, indicating a movement towards the core.\"\n}",
+  "parsed": {
+    "choice": "D",
+    "answer_value": "shrinks inward toward the center",
+    "rationale": "The red internal gas visibly shrinks inward toward the center over the course of the animation, indicating a movement towards the core."
+  },
+  "chosen_letter": "D",
+  "is_correct": false,
+  "parse_error": null
+}

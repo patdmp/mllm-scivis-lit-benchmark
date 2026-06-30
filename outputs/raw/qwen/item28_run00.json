@@ -1,0 +1,28 @@
+{
+  "item_id": "item28",
+  "model": "qwen",
+  "run": 0,
+  "seed": 0,
+  "n_choices": 2,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 1,
+      "text": "TRUE"
+    },
+    "B": {
+      "original_idx": 2,
+      "text": "FALSE"
+    }
+  },
+  "correct_answer_original_idx": 1,
+  "correct_letter": "A",
+  "raw_response": "```json\n{\n  \"choice\": \"A\",\n  \"answer_value\": \"TRUE\",\n  \"rationale\": \"The image displays a continuous, connected surface structure where the light brown material forms a single, unbroken entity. Point A is located on the upper lobe and point B is on the lower lobe of this same structure. The caption describes the object as a 'Closed Seifert surface,' which implies a continuous manifold. Therefore, a path exists entirely along the light brown surface connecting these two points.\"\n}\n```\n",
+  "parsed": {
+    "choice": "A",
+    "answer_value": "TRUE",
+    "rationale": "The image displays a continuous, connected surface structure where the light brown material forms a single, unbroken entity. Point A is located on the upper lobe and point B is on the lower lobe of this same structure. The caption describes the object as a 'Closed Seifert surface,' which implies a continuous manifold. Therefore, a path exists entirely along the light brown surface connecting these two points."
+  },
+  "chosen_letter": "A",
+  "is_correct": true,
+  "parse_error": null
+}

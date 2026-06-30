@@ -1,0 +1,36 @@
+{
+  "item_id": "item12",
+  "model": "llava",
+  "run": 9,
+  "seed": 9,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 1,
+      "text": "increases"
+    },
+    "B": {
+      "original_idx": 2,
+      "text": "decreases"
+    },
+    "C": {
+      "original_idx": 3,
+      "text": "decreases then increases"
+    },
+    "D": {
+      "original_idx": 4,
+      "text": "increases then decreases"
+    }
+  },
+  "correct_answer_original_idx": 4,
+  "correct_letter": "D",
+  "raw_response": "{\n  \"choice\": \"A\",\n  \"answer_value\": \"increases\",\n  \"rationale\": \"The forecast track shows the hurricane moving from a lower wind speed category (D < 39 mph) to a higher category (H 74-110 mph) by 7 AM Fri.\"\n}",
+  "parsed": {
+    "choice": "A",
+    "answer_value": "increases",
+    "rationale": "The forecast track shows the hurricane moving from a lower wind speed category (D < 39 mph) to a higher category (H 74-110 mph) by 7 AM Fri."
+  },
+  "chosen_letter": "A",
+  "is_correct": false,
+  "parse_error": null
+}

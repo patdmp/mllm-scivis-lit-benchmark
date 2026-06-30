@@ -1,0 +1,36 @@
+{
+  "item_id": "item68",
+  "model": "llava",
+  "run": 5,
+  "seed": 5,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 1,
+      "text": "stops and builds up in front of the car"
+    },
+    "B": {
+      "original_idx": 2,
+      "text": "splits and flows over the roof and under the car"
+    },
+    "C": {
+      "original_idx": 4,
+      "text": "only moves straight up into the sky"
+    },
+    "D": {
+      "original_idx": 3,
+      "text": "only goes under the car"
+    }
+  },
+  "correct_answer_original_idx": 2,
+  "correct_letter": "B",
+  "raw_response": "{\n  \"choice\": \"B\",\n  \"answer_value\": \"splits and flows over the roof and under the car\",\n  \"rationale\": \"The visualization shows the airflow around the car, with the air splitting and flowing over the roof and under the car, as indicated by the color gradients and flow patterns.\"\n}airairairairairairairairairairairairairairairairairairairairairairairairairairairairairairairairairairairairairairairairairairairairairairairairairairairairairairairairairairairairairairairairairairairairairairairairairairairairairairairairairairairairairairairair",
+  "parsed": {
+    "choice": "B",
+    "answer_value": "splits and flows over the roof and under the car",
+    "rationale": "The visualization shows the airflow around the car, with the air splitting and flowing over the roof and under the car, as indicated by the color gradients and flow patterns."
+  },
+  "chosen_letter": "B",
+  "is_correct": true,
+  "parse_error": null
+}

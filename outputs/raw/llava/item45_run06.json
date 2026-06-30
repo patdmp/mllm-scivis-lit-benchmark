@@ -1,0 +1,36 @@
+{
+  "item_id": "item45",
+  "model": "llava",
+  "run": 6,
+  "seed": 6,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 4,
+      "text": "Cercus"
+    },
+    "B": {
+      "original_idx": 3,
+      "text": "Postclypeus"
+    },
+    "C": {
+      "original_idx": 2,
+      "text": "Metepisternum"
+    },
+    "D": {
+      "original_idx": 1,
+      "text": "Epiproct"
+    }
+  },
+  "correct_answer_original_idx": 1,
+  "correct_letter": "D",
+  "raw_response": "{\n  \"choice\": \"D\",\n  \"answer_value\": \"Epiproct\",\n  \"rationale\": \"The epiproct is labeled as a part of the male dragonfly's anatomy, while the cercus is labeled for both male and female. The other options, postclypeus and metepisternum, are not marked as gender-specific in the image.\"\n} \"choice\": \"D\", \"answer_value\": \"Epiproct\", \"rationale\": \"The epiproct is labeled as a part of the male dragonfly's anatomy, while the cercus is labeled for both male and female. The other options, postclypeus and metepisternum, are not marked as gender-specific in the image.\" \"choice\": \"D\", \"answer_value\": \"Epiproct\", \"rationale\": \"The epiproct is labeled as a part of the male dragonfly's anatomy, while the cercus is labeled for both male and female. The other options, postclypeus and metepisternum, are not marked as gender-specific in the image.\" \"choice\": \"D\", \"answer_value\": \"Epiproct\", \"rationale\": \"The epiproct is labeled as a part of the male dragonfly's anatomy, while the cercus is labeled for both male and female. The other options, postclype",
+  "parsed": {
+    "choice": "D",
+    "answer_value": "Epiproct",
+    "rationale": "The epiproct is labeled as a part of the male dragonfly's anatomy, while the cercus is labeled for both male and female. The other options, postclypeus and metepisternum, are not marked as gender-specific in the image."
+  },
+  "chosen_letter": "D",
+  "is_correct": true,
+  "parse_error": null
+}

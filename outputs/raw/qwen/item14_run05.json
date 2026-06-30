@@ -1,0 +1,36 @@
+{
+  "item_id": "item14",
+  "model": "qwen",
+  "run": 5,
+  "seed": 5,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 1,
+      "text": "Region A"
+    },
+    "B": {
+      "original_idx": 2,
+      "text": "Region B"
+    },
+    "C": {
+      "original_idx": 4,
+      "text": "Region D"
+    },
+    "D": {
+      "original_idx": 3,
+      "text": "Region C"
+    }
+  },
+  "correct_answer_original_idx": 1,
+  "correct_letter": "A",
+  "raw_response": "```json\n{\n  \"choice\": \"C\",\n  \"answer_value\": \"Region C\",\n  \"rationale\": \"The color bar indicates that dark blue represents the most significant cooling, corresponding to values around -2.5degC/Week. Region C is the only area marked with this dark blue color, indicating the strongest cooling trend. The other regions (A, B, and D) are colored in lighter shades of blue or green, which represent much smaller temperature changes.\"\n}\n```\n",
+  "parsed": {
+    "choice": "C",
+    "answer_value": "Region C",
+    "rationale": "The color bar indicates that dark blue represents the most significant cooling, corresponding to values around -2.5degC/Week. Region C is the only area marked with this dark blue color, indicating the strongest cooling trend. The other regions (A, B, and D) are colored in lighter shades of blue or green, which represent much smaller temperature changes."
+  },
+  "chosen_letter": "C",
+  "is_correct": false,
+  "parse_error": null
+}

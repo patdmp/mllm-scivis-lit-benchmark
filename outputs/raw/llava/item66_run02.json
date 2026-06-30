@@ -1,0 +1,36 @@
+{
+  "item_id": "item66",
+  "model": "llava",
+  "run": 2,
+  "seed": 2,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 2,
+      "text": "along the sloping ramp in the trench below the rocket"
+    },
+    "B": {
+      "original_idx": 3,
+      "text": "near the far end of the trench, away from the rocket"
+    },
+    "C": {
+      "original_idx": 4,
+      "text": "evenly throughout the plume"
+    },
+    "D": {
+      "original_idx": 1,
+      "text": "immediately beneath the rocket nozzle"
+    }
+  },
+  "correct_answer_original_idx": 2,
+  "correct_letter": "A",
+  "raw_response": "{\n  \"choice\": \"D\",\n  \"answer_value\": \"immediately beneath the rocket nozzle\",\n  \"rationale\": \"The visualization shows the rocket exhaust plume with temperature indicated by color. The hottest exhaust, represented by the brightest colors, is concentrated immediately beneath the rocket nozzle, indicating the highest temperature at the point of ignition.\"\n}0.175 s after launch, the hottest exhaust is concentrated mainly immediately beneath the rocket nozzle.0.175 s after launch, the hottest exhaust is concentrated mainly immediately beneath the rocket nozzle.0.175 s after launch, the hottest exhaust is concentrated mainly immediately beneath the rocket nozzle.0.175 s after launch, the hottest exhaust is concentrated mainly immediately beneath the rocket nozzle.0.175 s after launch, the hottest exhaust is concentrated mainly immediately beneath the rocket nozzle.0.175 s after launch, the hottest exhaust is concentrated mainly immediately beneath the rocket nozzle.0.175 s after launch, the hottest exhaust is concentrated mainly immediately beneath the rocket nozzle.0.175 s after launch, the hottest exhaust is concentrated mainly immediately beneath the rocket nozzle.0.175 s after launch, the hottest exhaust is concentrated mainly immediately beneath the rocket nozzle.0.175 s after launch, the hottest exhaust is concentrated mainly immediately beneath the rocket nozzle.",
+  "parsed": {
+    "choice": "D",
+    "answer_value": "immediately beneath the rocket nozzle",
+    "rationale": "The visualization shows the rocket exhaust plume with temperature indicated by color. The hottest exhaust, represented by the brightest colors, is concentrated immediately beneath the rocket nozzle, indicating the highest temperature at the point of ignition."
+  },
+  "chosen_letter": "D",
+  "is_correct": false,
+  "parse_error": null
+}

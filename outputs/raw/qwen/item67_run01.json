@@ -1,0 +1,36 @@
+{
+  "item_id": "item67",
+  "model": "qwen",
+  "run": 1,
+  "seed": 1,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 4,
+      "text": "t moves upward, away from the pad, without touching the trench."
+    },
+    "B": {
+      "original_idx": 1,
+      "text": "It disappears almost immediately."
+    },
+    "C": {
+      "original_idx": 3,
+      "text": "It spreads along the trench, away from the rocket."
+    },
+    "D": {
+      "original_idx": 2,
+      "text": "It remains confined to a narrow column beneath the nozzle."
+    }
+  },
+  "correct_answer_original_idx": 3,
+  "correct_letter": "C",
+  "raw_response": "{\n  \"choice\": \"C\",\n  \"answer_value\": \"It spreads along the trench, away from the rocket.\",\n  \"rationale\": \"The visualization shows the exhaust plume expanding horizontally after ignition. The plume clearly moves away from the rocket's nozzle and spreads along the ground level. This horizontal spread is visible as the orange and purple colored gas extends outward. The plume does not move upward or disappear, but rather expands laterally. Therefore, the exhaust spreads along the trench, away from the rocket.\"\n}\n",
+  "parsed": {
+    "choice": "C",
+    "answer_value": "It spreads along the trench, away from the rocket.",
+    "rationale": "The visualization shows the exhaust plume expanding horizontally after ignition. The plume clearly moves away from the rocket's nozzle and spreads along the ground level. This horizontal spread is visible as the orange and purple colored gas extends outward. The plume does not move upward or disappear, but rather expands laterally. Therefore, the exhaust spreads along the trench, away from the rocket."
+  },
+  "chosen_letter": "C",
+  "is_correct": true,
+  "parse_error": null
+}

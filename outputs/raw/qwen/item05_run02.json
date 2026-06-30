@@ -1,0 +1,36 @@
+{
+  "item_id": "item05",
+  "model": "qwen",
+  "run": 2,
+  "seed": 2,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 2,
+      "text": "gentle at first, then steeper"
+    },
+    "B": {
+      "original_idx": 3,
+      "text": "consistently getting gentler"
+    },
+    "C": {
+      "original_idx": 4,
+      "text": "consistently getting steeper"
+    },
+    "D": {
+      "original_idx": 1,
+      "text": "steep at first, then gentler"
+    }
+  },
+  "correct_answer_original_idx": 1,
+  "correct_letter": "D",
+  "raw_response": "```json\n{\n  \"choice\": \"C\",\n  \"answer_value\": \"consistently getting steeper\",\n  \"rationale\": \"Waypoint C is located near the center of a hill, indicated by the 7400 ft contour line. Waypoint B is located in a lower elevation area, indicated by the 7000 ft contour line. Moving from C to B involves crossing multiple contour lines (7400, 7200, 7000) over a relatively short distance. The contour lines are closely spaced between these points, which signifies a steep slope. As the path continues towards B, the lines remain close together, indicating the slope does not become gentler but rather maintains or increases its steepness.\"\n}\n```\n",
+  "parsed": {
+    "choice": "C",
+    "answer_value": "consistently getting steeper",
+    "rationale": "Waypoint C is located near the center of a hill, indicated by the 7400 ft contour line. Waypoint B is located in a lower elevation area, indicated by the 7000 ft contour line. Moving from C to B involves crossing multiple contour lines (7400, 7200, 7000) over a relatively short distance. The contour lines are closely spaced between these points, which signifies a steep slope. As the path continues towards B, the lines remain close together, indicating the slope does not become gentler but rather maintains or increases its steepness."
+  },
+  "chosen_letter": "C",
+  "is_correct": false,
+  "parse_error": null
+}

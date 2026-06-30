@@ -1,0 +1,36 @@
+{
+  "item_id": "item14",
+  "model": "llava",
+  "run": 9,
+  "seed": 9,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 1,
+      "text": "Region A"
+    },
+    "B": {
+      "original_idx": 2,
+      "text": "Region B"
+    },
+    "C": {
+      "original_idx": 3,
+      "text": "Region C"
+    },
+    "D": {
+      "original_idx": 4,
+      "text": "Region D"
+    }
+  },
+  "correct_answer_original_idx": 1,
+  "correct_letter": "A",
+  "raw_response": "{\n  \"choice\": \"A\",\n  \"answer_value\": \"Region A\",\n  \"rationale\": \"Region A is the only area on the map that shows a significant cooling trend, indicated by the deep blue color, which represents a temperature decrease of more than 2.0 degC per week.\"\n} other regions show warming trends, with colors ranging from yellow to red, indicating temperature increases. north of the equator, and the color scale at the bottom of the image confirms that blue represents cooling. north of the equator, and the color scale at the bottom of the image confirms that blue represents cooling.",
+  "parsed": {
+    "choice": "A",
+    "answer_value": "Region A",
+    "rationale": "Region A is the only area on the map that shows a significant cooling trend, indicated by the deep blue color, which represents a temperature decrease of more than 2.0 degC per week."
+  },
+  "chosen_letter": "A",
+  "is_correct": true,
+  "parse_error": null
+}

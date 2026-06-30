@@ -1,0 +1,36 @@
+{
+  "item_id": "item59",
+  "model": "qwen",
+  "run": 8,
+  "seed": 8,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 1,
+      "text": "Electric field lines can cross in space."
+    },
+    "B": {
+      "original_idx": 3,
+      "text": "The electric field lines around plate 2 exhibit a convergent pattern."
+    },
+    "C": {
+      "original_idx": 4,
+      "text": "Between the two plates, the electric field lines point from plate 2 toward plate 1."
+    },
+    "D": {
+      "original_idx": 2,
+      "text": "The electric field lines around plate 1 exhibit a divergent pattern."
+    }
+  },
+  "correct_answer_original_idx": 4,
+  "correct_letter": "C",
+  "raw_response": "{\n  \"choice\": \"D\",\n  \"answer_value\": \"The electric field lines around plate 1 exhibit a divergent pattern.\",\n  \"rationale\": \"Observing the visualization, the electric field lines originating from Metal Plate 1 spread outwards in all directions, which is the definition of a divergent pattern. In contrast, the lines around Metal Plate 2 converge towards it, making option B incorrect for plate 1. The arrows on the lines between the plates clearly point from plate 1 to plate 2, contradicting option C. Furthermore, electric field lines never cross each other in space, as this would imply two different field directions at a single point, invalidating option A.\"\n}\n",
+  "parsed": {
+    "choice": "D",
+    "answer_value": "The electric field lines around plate 1 exhibit a divergent pattern.",
+    "rationale": "Observing the visualization, the electric field lines originating from Metal Plate 1 spread outwards in all directions, which is the definition of a divergent pattern. In contrast, the lines around Metal Plate 2 converge towards it, making option B incorrect for plate 1. The arrows on the lines between the plates clearly point from plate 1 to plate 2, contradicting option C. Furthermore, electric field lines never cross each other in space, as this would imply two different field directions at a single point, invalidating option A."
+  },
+  "chosen_letter": "D",
+  "is_correct": false,
+  "parse_error": null
+}

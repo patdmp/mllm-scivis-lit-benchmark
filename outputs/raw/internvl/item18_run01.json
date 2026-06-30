@@ -1,0 +1,36 @@
+{
+  "item_id": "item18",
+  "model": "internvl",
+  "run": 1,
+  "seed": 1,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 4,
+      "text": "New York"
+    },
+    "B": {
+      "original_idx": 1,
+      "text": "Seattle"
+    },
+    "C": {
+      "original_idx": 3,
+      "text": "Dallas"
+    },
+    "D": {
+      "original_idx": 2,
+      "text": "Denver"
+    }
+  },
+  "correct_answer_original_idx": 4,
+  "correct_letter": "A",
+  "raw_response": "{\n  \"choice\": \"D\",\n  \"answer_value\": \"Denver\",\n  \"rationale\": \"The darkest shading, indicating the highest wind speed, is concentrated around Denver. The caption and map show Denver with the darkest color, suggesting it has the highest wind speed among the cities listed.\"\n}",
+  "parsed": {
+    "choice": "D",
+    "answer_value": "Denver",
+    "rationale": "The darkest shading, indicating the highest wind speed, is concentrated around Denver. The caption and map show Denver with the darkest color, suggesting it has the highest wind speed among the cities listed."
+  },
+  "chosen_letter": "D",
+  "is_correct": false,
+  "parse_error": null
+}

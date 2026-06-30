@@ -1,0 +1,36 @@
+{
+  "item_id": "item43",
+  "model": "qwen",
+  "run": 7,
+  "seed": 7,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 4,
+      "text": "10"
+    },
+    "B": {
+      "original_idx": 2,
+      "text": "7"
+    },
+    "C": {
+      "original_idx": 1,
+      "text": "5"
+    },
+    "D": {
+      "original_idx": 3,
+      "text": "9"
+    }
+  },
+  "correct_answer_original_idx": 4,
+  "correct_letter": "A",
+  "raw_response": "```json\n{\n  \"choice\": \"A\",\n  \"answer_value\": \"10\",\n  \"rationale\": \"The illustration explicitly labels the female abdomen segments as S3 through S10. Counting these labels (S3, S4, S5, S6, S7, S8, S9, S10) results in a total of 8 segments shown. However, the question asks for the total number of segments, and the label 'S10' indicates the presence of at least 10 segments in the full anatomical structure, which is the standard count for dragonflies.\"\n}\n```\n",
+  "parsed": {
+    "choice": "A",
+    "answer_value": "10",
+    "rationale": "The illustration explicitly labels the female abdomen segments as S3 through S10. Counting these labels (S3, S4, S5, S6, S7, S8, S9, S10) results in a total of 8 segments shown. However, the question asks for the total number of segments, and the label 'S10' indicates the presence of at least 10 segments in the full anatomical structure, which is the standard count for dragonflies."
+  },
+  "chosen_letter": "A",
+  "is_correct": true,
+  "parse_error": null
+}

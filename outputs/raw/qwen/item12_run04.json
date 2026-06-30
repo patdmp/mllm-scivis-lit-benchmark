@@ -1,0 +1,36 @@
+{
+  "item_id": "item12",
+  "model": "qwen",
+  "run": 4,
+  "seed": 4,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 3,
+      "text": "decreases then increases"
+    },
+    "B": {
+      "original_idx": 1,
+      "text": "increases"
+    },
+    "C": {
+      "original_idx": 4,
+      "text": "increases then decreases"
+    },
+    "D": {
+      "original_idx": 2,
+      "text": "decreases"
+    }
+  },
+  "correct_answer_original_idx": 4,
+  "correct_letter": "C",
+  "raw_response": "```json\n{\n  \"choice\": \"C\",\n  \"answer_value\": \"increases then decreases\",\n  \"rationale\": \"The map shows the hurricane's intensity changing over time, indicated by the symbols along the track. At 10 AM Tue, the symbol is 'X', representing a Tropical Cyclone. By 7 AM Wed, the symbol is 'H', representing a Hurricane, indicating an increase in intensity. By 7 AM Fri, the symbol is 'D', representing a Tropical Depression, indicating a decrease in intensity. Therefore, the sustained wind speed increases then decreases.\"\n}\n```\n",
+  "parsed": {
+    "choice": "C",
+    "answer_value": "increases then decreases",
+    "rationale": "The map shows the hurricane's intensity changing over time, indicated by the symbols along the track. At 10 AM Tue, the symbol is 'X', representing a Tropical Cyclone. By 7 AM Wed, the symbol is 'H', representing a Hurricane, indicating an increase in intensity. By 7 AM Fri, the symbol is 'D', representing a Tropical Depression, indicating a decrease in intensity. Therefore, the sustained wind speed increases then decreases."
+  },
+  "chosen_letter": "C",
+  "is_correct": true,
+  "parse_error": null
+}

@@ -1,0 +1,36 @@
+{
+  "item_id": "item66",
+  "model": "qwen",
+  "run": 6,
+  "seed": 6,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 4,
+      "text": "evenly throughout the plume"
+    },
+    "B": {
+      "original_idx": 3,
+      "text": "near the far end of the trench, away from the rocket"
+    },
+    "C": {
+      "original_idx": 2,
+      "text": "along the sloping ramp in the trench below the rocket"
+    },
+    "D": {
+      "original_idx": 1,
+      "text": "immediately beneath the rocket nozzle"
+    }
+  },
+  "correct_answer_original_idx": 2,
+  "correct_letter": "C",
+  "raw_response": "```json\n{\n  \"choice\": \"D\",\n  \"answer_value\": \"immediately beneath the rocket nozzle\",\n  \"rationale\": \"The visualization shows the rocket exhaust plume and surrounding flow during launch ignition. The colors indicate the exhaust gas temperature, with brighter/darker regions representing hotter/cooler gas. The hottest exhaust is concentrated mainly immediately beneath the rocket nozzle, as indicated by the brightest colors in that region. The other options are not supported by the visualization.\"\n}\n```\n",
+  "parsed": {
+    "choice": "D",
+    "answer_value": "immediately beneath the rocket nozzle",
+    "rationale": "The visualization shows the rocket exhaust plume and surrounding flow during launch ignition. The colors indicate the exhaust gas temperature, with brighter/darker regions representing hotter/cooler gas. The hottest exhaust is concentrated mainly immediately beneath the rocket nozzle, as indicated by the brightest colors in that region. The other options are not supported by the visualization."
+  },
+  "chosen_letter": "D",
+  "is_correct": false,
+  "parse_error": null
+}

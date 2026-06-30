@@ -1,0 +1,36 @@
+{
+  "item_id": "item40",
+  "model": "internvl",
+  "run": 9,
+  "seed": 9,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 1,
+      "text": "Envelope, RNPs, RBDs"
+    },
+    "B": {
+      "original_idx": 2,
+      "text": "RNPs, RBDs, envelope"
+    },
+    "C": {
+      "original_idx": 3,
+      "text": "RBDs, envelope, RNPs"
+    },
+    "D": {
+      "original_idx": 4,
+      "text": "RNPs, envelope, RBDs"
+    }
+  },
+  "correct_answer_original_idx": 4,
+  "correct_letter": "D",
+  "raw_response": "{\n  \"choice\": \"D\",\n  \"answer_value\": \"RNPs, envelope, RBDs\",\n  \"rationale\": \"The visualization shows the RNPs (yellow) at the center, surrounded by the lipid envelope (gray), and the spike proteins (red and tan) on the outer layer. This indicates the correct order from the center outward is RNPs, envelope, and then RBDs.\"\n}",
+  "parsed": {
+    "choice": "D",
+    "answer_value": "RNPs, envelope, RBDs",
+    "rationale": "The visualization shows the RNPs (yellow) at the center, surrounded by the lipid envelope (gray), and the spike proteins (red and tan) on the outer layer. This indicates the correct order from the center outward is RNPs, envelope, and then RBDs."
+  },
+  "chosen_letter": "D",
+  "is_correct": true,
+  "parse_error": null
+}

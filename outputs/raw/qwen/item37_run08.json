@@ -1,0 +1,36 @@
+{
+  "item_id": "item37",
+  "model": "qwen",
+  "run": 8,
+  "seed": 8,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 1,
+      "text": "Chromosome, cell, nucleus, DNA, gene"
+    },
+    "B": {
+      "original_idx": 3,
+      "text": "Chromosome, DNA, cell, gene, nucleus"
+    },
+    "C": {
+      "original_idx": 4,
+      "text": "DNA, chromosome, cell, nucleus, gene"
+    },
+    "D": {
+      "original_idx": 2,
+      "text": "Cell, nucleus, chromosome, DNA, gene"
+    }
+  },
+  "correct_answer_original_idx": 2,
+  "correct_letter": "D",
+  "raw_response": "{\n  \"choice\": \"D\",\n  \"answer_value\": \"Cell, nucleus, chromosome, DNA, gene\",\n  \"rationale\": \"The image visually demonstrates the hierarchical scale of biological structures. It starts with the entire cell, which contains the nucleus. Inside the nucleus, the DNA is shown coiled into a chromosome. The chromosome is then depicted as a long strand of DNA, which is further broken down into a specific segment labeled as a gene. Therefore, the correct order from largest to smallest is cell, nucleus, chromosome, DNA, and gene.\"\n}\n",
+  "parsed": {
+    "choice": "D",
+    "answer_value": "Cell, nucleus, chromosome, DNA, gene",
+    "rationale": "The image visually demonstrates the hierarchical scale of biological structures. It starts with the entire cell, which contains the nucleus. Inside the nucleus, the DNA is shown coiled into a chromosome. The chromosome is then depicted as a long strand of DNA, which is further broken down into a specific segment labeled as a gene. Therefore, the correct order from largest to smallest is cell, nucleus, chromosome, DNA, and gene."
+  },
+  "chosen_letter": "D",
+  "is_correct": true,
+  "parse_error": null
+}

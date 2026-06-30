@@ -1,0 +1,36 @@
+{
+  "item_id": "item18",
+  "model": "qwen",
+  "run": 8,
+  "seed": 8,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 1,
+      "text": "Seattle"
+    },
+    "B": {
+      "original_idx": 3,
+      "text": "Dallas"
+    },
+    "C": {
+      "original_idx": 4,
+      "text": "New York"
+    },
+    "D": {
+      "original_idx": 2,
+      "text": "Denver"
+    }
+  },
+  "correct_answer_original_idx": 4,
+  "correct_letter": "C",
+  "raw_response": "```json\n{\n  \"choice\": \"C\",\n  \"answer_value\": \"New York\",\n  \"rationale\": \"The map shows wind patterns across the United States with a legend indicating wind speeds. New York is located in an area with the lightest shading, which corresponds to the highest wind speeds according to the legend. The other cities are in areas with darker shading, indicating lower wind speeds. Therefore, New York has the highest wind speed.\"\n}\n```\n",
+  "parsed": {
+    "choice": "C",
+    "answer_value": "New York",
+    "rationale": "The map shows wind patterns across the United States with a legend indicating wind speeds. New York is located in an area with the lightest shading, which corresponds to the highest wind speeds according to the legend. The other cities are in areas with darker shading, indicating lower wind speeds. Therefore, New York has the highest wind speed."
+  },
+  "chosen_letter": "C",
+  "is_correct": true,
+  "parse_error": null
+}

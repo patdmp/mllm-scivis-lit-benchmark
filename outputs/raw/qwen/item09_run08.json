@@ -1,0 +1,36 @@
+{
+  "item_id": "item09",
+  "model": "qwen",
+  "run": 8,
+  "seed": 8,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 1,
+      "text": "Southeast"
+    },
+    "B": {
+      "original_idx": 3,
+      "text": "South"
+    },
+    "C": {
+      "original_idx": 4,
+      "text": "North"
+    },
+    "D": {
+      "original_idx": 2,
+      "text": "Northwest"
+    }
+  },
+  "correct_answer_original_idx": 2,
+  "correct_letter": "D",
+  "raw_response": "```json\n{\n  \"choice\": \"D\",\n  \"answer_value\": \"Northwest\",\n  \"rationale\": \"The map shows the hurricane's position at 10 AM Tuesday near the Bahamas and its position at 7 PM Wednesday off the coast of Louisiana. Comparing these two points reveals a clear movement towards the northwest. The forecast track line connecting these points also visually confirms this northwestward trajectory.\"\n}\n```\n",
+  "parsed": {
+    "choice": "D",
+    "answer_value": "Northwest",
+    "rationale": "The map shows the hurricane's position at 10 AM Tuesday near the Bahamas and its position at 7 PM Wednesday off the coast of Louisiana. Comparing these two points reveals a clear movement towards the northwest. The forecast track line connecting these points also visually confirms this northwestward trajectory."
+  },
+  "chosen_letter": "D",
+  "is_correct": true,
+  "parse_error": null
+}

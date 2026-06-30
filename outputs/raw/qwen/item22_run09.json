@@ -1,0 +1,36 @@
+{
+  "item_id": "item22",
+  "model": "qwen",
+  "run": 9,
+  "seed": 9,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 1,
+      "text": "1"
+    },
+    "B": {
+      "original_idx": 2,
+      "text": "2"
+    },
+    "C": {
+      "original_idx": 3,
+      "text": "3"
+    },
+    "D": {
+      "original_idx": 4,
+      "text": "4"
+    }
+  },
+  "correct_answer_original_idx": 3,
+  "correct_letter": "C",
+  "raw_response": "```json\n{\n  \"choice\": \"B\",\n  \"answer_value\": \"2\",\n  \"rationale\": \"The visualization shows a network where every blue sphere (atom) is connected by exactly two brown rods (bonds). This uniformity indicates that each atom has a coordination number of 2. Therefore, each atom is directly connected to exactly two other atoms.\"\n}\n```\n",
+  "parsed": {
+    "choice": "B",
+    "answer_value": "2",
+    "rationale": "The visualization shows a network where every blue sphere (atom) is connected by exactly two brown rods (bonds). This uniformity indicates that each atom has a coordination number of 2. Therefore, each atom is directly connected to exactly two other atoms."
+  },
+  "chosen_letter": "B",
+  "is_correct": false,
+  "parse_error": null
+}

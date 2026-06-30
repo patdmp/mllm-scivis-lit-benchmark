@@ -1,0 +1,28 @@
+{
+  "item_id": "item15",
+  "model": "llava",
+  "run": 5,
+  "seed": 5,
+  "n_choices": 2,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 1,
+      "text": "TRUE"
+    },
+    "B": {
+      "original_idx": 2,
+      "text": "FALSE"
+    }
+  },
+  "correct_answer_original_idx": 1,
+  "correct_letter": "A",
+  "raw_response": "{\n  \"choice\": \"A\",\n  \"answer_value\": \"TRUE\",\n  \"rationale\": \"The visualization shows regions of the Atlantic Ocean with colors indicating temperature changes. The presence of red and orange hues, which correspond to temperature increases greater than 2degC per week, suggests that at least one region of the Atlantic Ocean is experiencing strong warming.\"\n}0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+  "parsed": {
+    "choice": "A",
+    "answer_value": "TRUE",
+    "rationale": "The visualization shows regions of the Atlantic Ocean with colors indicating temperature changes. The presence of red and orange hues, which correspond to temperature increases greater than 2degC per week, suggests that at least one region of the Atlantic Ocean is experiencing strong warming."
+  },
+  "chosen_letter": "A",
+  "is_correct": true,
+  "parse_error": null
+}

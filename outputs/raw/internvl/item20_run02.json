@@ -1,0 +1,28 @@
+{
+  "item_id": "item20",
+  "model": "internvl",
+  "run": 2,
+  "seed": 2,
+  "n_choices": 2,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 2,
+      "text": "FALSE"
+    },
+    "B": {
+      "original_idx": 1,
+      "text": "TRUE"
+    }
+  },
+  "correct_answer_original_idx": 1,
+  "correct_letter": "B",
+  "raw_response": "{\n  \"choice\": \"B\",\n  \"answer_value\": \"TRUE\",\n  \"rationale\": \"The wind patterns near Chicago and Houston both show a general flow from the west to the east, indicating they are moving in roughly the same direction.\"\n}",
+  "parsed": {
+    "choice": "B",
+    "answer_value": "TRUE",
+    "rationale": "The wind patterns near Chicago and Houston both show a general flow from the west to the east, indicating they are moving in roughly the same direction."
+  },
+  "chosen_letter": "B",
+  "is_correct": true,
+  "parse_error": null
+}

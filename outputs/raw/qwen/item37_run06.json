@@ -1,0 +1,36 @@
+{
+  "item_id": "item37",
+  "model": "qwen",
+  "run": 6,
+  "seed": 6,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 4,
+      "text": "DNA, chromosome, cell, nucleus, gene"
+    },
+    "B": {
+      "original_idx": 3,
+      "text": "Chromosome, DNA, cell, gene, nucleus"
+    },
+    "C": {
+      "original_idx": 2,
+      "text": "Cell, nucleus, chromosome, DNA, gene"
+    },
+    "D": {
+      "original_idx": 1,
+      "text": "Chromosome, cell, nucleus, DNA, gene"
+    }
+  },
+  "correct_answer_original_idx": 2,
+  "correct_letter": "C",
+  "raw_response": "```json\n{\n  \"choice\": \"C\",\n  \"answer_value\": \"Cell, nucleus, chromosome, DNA, gene\",\n  \"rationale\": \"The image visually depicts a cell containing a nucleus, which in turn contains a chromosome. The chromosome is shown to be composed of a long strand of DNA. Finally, a specific segment of this DNA strand is labeled as a gene. This visual hierarchy clearly establishes the order of size from largest to smallest.\"\n}\n```\n",
+  "parsed": {
+    "choice": "C",
+    "answer_value": "Cell, nucleus, chromosome, DNA, gene",
+    "rationale": "The image visually depicts a cell containing a nucleus, which in turn contains a chromosome. The chromosome is shown to be composed of a long strand of DNA. Finally, a specific segment of this DNA strand is labeled as a gene. This visual hierarchy clearly establishes the order of size from largest to smallest."
+  },
+  "chosen_letter": "C",
+  "is_correct": true,
+  "parse_error": null
+}

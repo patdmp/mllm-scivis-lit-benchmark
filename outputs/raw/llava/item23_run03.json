@@ -1,0 +1,36 @@
+{
+  "item_id": "item23",
+  "model": "llava",
+  "run": 3,
+  "seed": 3,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 4,
+      "text": "Each pentagon is adjacent only to hexagons."
+    },
+    "B": {
+      "original_idx": 1,
+      "text": "Two pentagons share a common edge."
+    },
+    "C": {
+      "original_idx": 3,
+      "text": "Each hexagon is adjacent only to pentagons."
+    },
+    "D": {
+      "original_idx": 2,
+      "text": "No two hexagons share a common edge."
+    }
+  },
+  "correct_answer_original_idx": 4,
+  "correct_letter": "A",
+  "raw_response": "{\n  \"choice\": \"B\",\n  \"answer_value\": \"Two pentagons share a common edge.\",\n  \"rationale\": \"The visualization shows a structure where two pentagons are connected by a common edge, indicating that option B is correct.\"\n}0.0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+  "parsed": {
+    "choice": "B",
+    "answer_value": "Two pentagons share a common edge.",
+    "rationale": "The visualization shows a structure where two pentagons are connected by a common edge, indicating that option B is correct."
+  },
+  "chosen_letter": "B",
+  "is_correct": false,
+  "parse_error": null
+}

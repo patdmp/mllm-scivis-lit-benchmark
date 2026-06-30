@@ -1,0 +1,28 @@
+{
+  "item_id": "item33",
+  "model": "llava",
+  "run": 2,
+  "seed": 2,
+  "n_choices": 2,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 2,
+      "text": "FALSE"
+    },
+    "B": {
+      "original_idx": 1,
+      "text": "TRUE"
+    }
+  },
+  "correct_answer_original_idx": 2,
+  "correct_letter": "A",
+  "raw_response": "{\n  \"choice\": \"A\",\n  \"answer_value\": \"FALSE\",\n  \"rationale\": \"The marked region shows fiber bundles that are oriented more horizontally, suggesting a left-right orientation rather than front-back.\"\n}0.0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+  "parsed": {
+    "choice": "A",
+    "answer_value": "FALSE",
+    "rationale": "The marked region shows fiber bundles that are oriented more horizontally, suggesting a left-right orientation rather than front-back."
+  },
+  "chosen_letter": "A",
+  "is_correct": true,
+  "parse_error": null
+}

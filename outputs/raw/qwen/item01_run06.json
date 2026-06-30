@@ -1,0 +1,36 @@
+{
+  "item_id": "item01",
+  "model": "qwen",
+  "run": 6,
+  "seed": 6,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 4,
+      "text": "6942 ft"
+    },
+    "B": {
+      "original_idx": 3,
+      "text": "6863 ft"
+    },
+    "C": {
+      "original_idx": 2,
+      "text": "6728 ft"
+    },
+    "D": {
+      "original_idx": 1,
+      "text": "6624 ft"
+    }
+  },
+  "correct_answer_original_idx": 3,
+  "correct_letter": "B",
+  "raw_response": "```json\n{\n  \"choice\": \"A\",\n  \"answer_value\": \"6942 ft\",\n  \"rationale\": \"The map shows a contour line labeled 6800 ft near waypoint D. The caption states the contour interval is 40 feet. Waypoint D is located between the 6800 ft contour line and the next higher contour line, which would be 6840 ft. Therefore, the elevation must be greater than 6800 ft but less than 6840 ft. Among the options, only 6942 ft is greater than 6800 ft, making it the only plausible answer.\"\n}\n```\n",
+  "parsed": {
+    "choice": "A",
+    "answer_value": "6942 ft",
+    "rationale": "The map shows a contour line labeled 6800 ft near waypoint D. The caption states the contour interval is 40 feet. Waypoint D is located between the 6800 ft contour line and the next higher contour line, which would be 6840 ft. Therefore, the elevation must be greater than 6800 ft but less than 6840 ft. Among the options, only 6942 ft is greater than 6800 ft, making it the only plausible answer."
+  },
+  "chosen_letter": "A",
+  "is_correct": false,
+  "parse_error": null
+}

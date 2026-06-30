@@ -1,0 +1,36 @@
+{
+  "item_id": "item12",
+  "model": "internvl",
+  "run": 6,
+  "seed": 6,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 4,
+      "text": "increases then decreases"
+    },
+    "B": {
+      "original_idx": 3,
+      "text": "decreases then increases"
+    },
+    "C": {
+      "original_idx": 2,
+      "text": "decreases"
+    },
+    "D": {
+      "original_idx": 1,
+      "text": "increases"
+    }
+  },
+  "correct_answer_original_idx": 4,
+  "correct_letter": "A",
+  "raw_response": "{\n  \"choice\": \"D\",\n  \"answer_value\": \"increases\",\n  \"rationale\": \"The map shows the hurricane's path with increasing wind speeds from 10 AM Tuesday to 7 AM Friday, as indicated by the transition from 'H' (74-110 mph) to 'M' (>110 mph).\"\n}",
+  "parsed": {
+    "choice": "D",
+    "answer_value": "increases",
+    "rationale": "The map shows the hurricane's path with increasing wind speeds from 10 AM Tuesday to 7 AM Friday, as indicated by the transition from 'H' (74-110 mph) to 'M' (>110 mph)."
+  },
+  "chosen_letter": "D",
+  "is_correct": false,
+  "parse_error": null
+}

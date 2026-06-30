@@ -1,0 +1,36 @@
+{
+  "item_id": "item68",
+  "model": "qwen",
+  "run": 4,
+  "seed": 4,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 3,
+      "text": "only goes under the car"
+    },
+    "B": {
+      "original_idx": 1,
+      "text": "stops and builds up in front of the car"
+    },
+    "C": {
+      "original_idx": 4,
+      "text": "only moves straight up into the sky"
+    },
+    "D": {
+      "original_idx": 2,
+      "text": "splits and flows over the roof and under the car"
+    }
+  },
+  "correct_answer_original_idx": 2,
+  "correct_letter": "D",
+  "raw_response": "{\n  \"choice\": \"D\",\n  \"answer_value\": \"splits and flows over the roof and under the car\",\n  \"rationale\": \"The visualization shows airflow patterns around the car, with air visibly splitting at the front. Some air flows over the roof while other air moves underneath the vehicle. This indicates that the air does not only go under or stop, but rather divides into multiple paths. The color gradients and flow lines support this observation of air splitting and following different trajectories.\"\n}\n",
+  "parsed": {
+    "choice": "D",
+    "answer_value": "splits and flows over the roof and under the car",
+    "rationale": "The visualization shows airflow patterns around the car, with air visibly splitting at the front. Some air flows over the roof while other air moves underneath the vehicle. This indicates that the air does not only go under or stop, but rather divides into multiple paths. The color gradients and flow lines support this observation of air splitting and following different trajectories."
+  },
+  "chosen_letter": "D",
+  "is_correct": true,
+  "parse_error": null
+}

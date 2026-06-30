@@ -1,0 +1,36 @@
+{
+  "item_id": "item59",
+  "model": "internvl",
+  "run": 8,
+  "seed": 8,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 1,
+      "text": "Electric field lines can cross in space."
+    },
+    "B": {
+      "original_idx": 3,
+      "text": "The electric field lines around plate 2 exhibit a convergent pattern."
+    },
+    "C": {
+      "original_idx": 4,
+      "text": "Between the two plates, the electric field lines point from plate 2 toward plate 1."
+    },
+    "D": {
+      "original_idx": 2,
+      "text": "The electric field lines around plate 1 exhibit a divergent pattern."
+    }
+  },
+  "correct_answer_original_idx": 4,
+  "correct_letter": "C",
+  "raw_response": "{\"choice\": \"D\", \"answer_value\": \"The electric field lines around plate 1 exhibit a divergent pattern.\", \"rationale\": \"The electric field lines around plate 1 are shown diverging outward, indicating that the field is spreading away from the plate. This is consistent with the behavior of electric field lines emanating from a positive charge or a positively charged plate.\"}",
+  "parsed": {
+    "choice": "D",
+    "answer_value": "The electric field lines around plate 1 exhibit a divergent pattern.",
+    "rationale": "The electric field lines around plate 1 are shown diverging outward, indicating that the field is spreading away from the plate. This is consistent with the behavior of electric field lines emanating from a positive charge or a positively charged plate."
+  },
+  "chosen_letter": "D",
+  "is_correct": false,
+  "parse_error": null
+}

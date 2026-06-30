@@ -1,0 +1,36 @@
+{
+  "item_id": "item04",
+  "model": "internvl",
+  "run": 3,
+  "seed": 3,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 4,
+      "text": "decreases, then increases"
+    },
+    "B": {
+      "original_idx": 1,
+      "text": "increases"
+    },
+    "C": {
+      "original_idx": 3,
+      "text": "increases, then decreases"
+    },
+    "D": {
+      "original_idx": 2,
+      "text": "decreases"
+    }
+  },
+  "correct_answer_original_idx": 4,
+  "correct_letter": "A",
+  "raw_response": "<think>\nThe contour lines on the map show elevation changes. Moving from waypoint C to waypoint A, the contour lines indicate a general decrease in elevation initially, followed by an increase. This suggests that the elevation first decreases and then increases along the path.\n</think>\n\n{\n  \"choice\": \"A\",\n  \"answer_value\": \"decreases, then increases\",\n  \"rationale\": \"The contour lines show a decrease in elevation from C to the lowest point, then an increase towards A.\"\n}",
+  "parsed": {
+    "choice": "A",
+    "answer_value": "decreases, then increases",
+    "rationale": "The contour lines show a decrease in elevation from C to the lowest point, then an increase towards A."
+  },
+  "chosen_letter": "A",
+  "is_correct": true,
+  "parse_error": null
+}

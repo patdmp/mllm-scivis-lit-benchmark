@@ -1,0 +1,36 @@
+{
+  "item_id": "item05",
+  "model": "qwen",
+  "run": 4,
+  "seed": 4,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 3,
+      "text": "consistently getting gentler"
+    },
+    "B": {
+      "original_idx": 1,
+      "text": "steep at first, then gentler"
+    },
+    "C": {
+      "original_idx": 4,
+      "text": "consistently getting steeper"
+    },
+    "D": {
+      "original_idx": 2,
+      "text": "gentle at first, then steeper"
+    }
+  },
+  "correct_answer_original_idx": 1,
+  "correct_letter": "B",
+  "raw_response": "```json\n{\n  \"choice\": \"B\",\n  \"answer_value\": \"steep at first, then gentler\",\n  \"rationale\": \"Moving from waypoint C to waypoint B, the contour lines are initially very close together, indicating a steep slope. As the path continues towards B, the contour lines spread out significantly, showing that the terrain becomes much gentler.\"\n}\n```\n",
+  "parsed": {
+    "choice": "B",
+    "answer_value": "steep at first, then gentler",
+    "rationale": "Moving from waypoint C to waypoint B, the contour lines are initially very close together, indicating a steep slope. As the path continues towards B, the contour lines spread out significantly, showing that the terrain becomes much gentler."
+  },
+  "chosen_letter": "B",
+  "is_correct": true,
+  "parse_error": null
+}

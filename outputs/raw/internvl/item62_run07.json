@@ -1,0 +1,36 @@
+{
+  "item_id": "item62",
+  "model": "internvl",
+  "run": 7,
+  "seed": 7,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 4,
+      "text": "Randomly distributed throughout"
+    },
+    "B": {
+      "original_idx": 2,
+      "text": "A ring around the center"
+    },
+    "C": {
+      "original_idx": 1,
+      "text": "The central core"
+    },
+    "D": {
+      "original_idx": 3,
+      "text": "The lower part"
+    }
+  },
+  "correct_answer_original_idx": 2,
+  "correct_letter": "B",
+  "raw_response": "{\n  \"choice\": \"C\",\n  \"answer_value\": \"The central core\",\n  \"rationale\": \"The color gradient indicates that the highest velocity magnitude is represented by red. The central core of the tornado is predominantly red, indicating the highest velocity magnitude in that region.\"\n}",
+  "parsed": {
+    "choice": "C",
+    "answer_value": "The central core",
+    "rationale": "The color gradient indicates that the highest velocity magnitude is represented by red. The central core of the tornado is predominantly red, indicating the highest velocity magnitude in that region."
+  },
+  "chosen_letter": "C",
+  "is_correct": false,
+  "parse_error": null
+}

@@ -1,0 +1,36 @@
+{
+  "item_id": "item22",
+  "model": "internvl",
+  "run": 9,
+  "seed": 9,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 1,
+      "text": "1"
+    },
+    "B": {
+      "original_idx": 2,
+      "text": "2"
+    },
+    "C": {
+      "original_idx": 3,
+      "text": "3"
+    },
+    "D": {
+      "original_idx": 4,
+      "text": "4"
+    }
+  },
+  "correct_answer_original_idx": 3,
+  "correct_letter": "C",
+  "raw_response": "{\n  \"choice\": \"C\",\n  \"answer_value\": \"3\",\n  \"rationale\": \"Each atom in the structure is connected to three other atoms, as seen by the three links extending from each node in the visualization.\"\n}",
+  "parsed": {
+    "choice": "C",
+    "answer_value": "3",
+    "rationale": "Each atom in the structure is connected to three other atoms, as seen by the three links extending from each node in the visualization."
+  },
+  "chosen_letter": "C",
+  "is_correct": true,
+  "parse_error": null
+}

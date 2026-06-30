@@ -1,0 +1,36 @@
+{
+  "item_id": "item12",
+  "model": "llava",
+  "run": 8,
+  "seed": 8,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 1,
+      "text": "increases"
+    },
+    "B": {
+      "original_idx": 3,
+      "text": "decreases then increases"
+    },
+    "C": {
+      "original_idx": 4,
+      "text": "increases then decreases"
+    },
+    "D": {
+      "original_idx": 2,
+      "text": "decreases"
+    }
+  },
+  "correct_answer_original_idx": 4,
+  "correct_letter": "C",
+  "raw_response": "{\n  \"choice\": \"A\",\n  \"answer_value\": \"increases\",\n  \"rationale\": \"The forecast track shows the hurricane moving from a lower wind speed category (D < 39 mph) to a higher category (H 74-110 mph) by 7 AM Fri.\"\n} colored dots on the map represent the hurricane's position at specific times. The color of the dots indicates the wind speed category, with red representing the highest category (H 74-110 mph). The progression from a lower category to a higher category indicates an increase in wind speed. colored dots on the map represent the hurricane's position at specific times. The color of the dots indicates the wind speed category, with red representing the highest category (H 74-110 mph). The progression from a lower category to a higher category indicates an increase in wind speed. colored dots on the map represent the hurricane's position at specific times. The color of the dots indicates the wind speed category, with red representing the highest category (H 74-110 mph). The progression from a lower category to a higher category indicates an increase in wind speed. colored dots on the map represent the hurricane's position at specific times. The color of the dots indicates the wind speed category, with red representing the highest category (H 74-1",
+  "parsed": {
+    "choice": "A",
+    "answer_value": "increases",
+    "rationale": "The forecast track shows the hurricane moving from a lower wind speed category (D < 39 mph) to a higher category (H 74-110 mph) by 7 AM Fri."
+  },
+  "chosen_letter": "A",
+  "is_correct": false,
+  "parse_error": null
+}

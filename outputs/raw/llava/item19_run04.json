@@ -1,0 +1,36 @@
+{
+  "item_id": "item19",
+  "model": "llava",
+  "run": 4,
+  "seed": 4,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 3,
+      "text": "spiral inward toward a central point"
+    },
+    "B": {
+      "original_idx": 1,
+      "text": "flow from west to east"
+    },
+    "C": {
+      "original_idx": 4,
+      "text": "spiral outward from a central point"
+    },
+    "D": {
+      "original_idx": 2,
+      "text": "circulate around a central point"
+    }
+  },
+  "correct_answer_original_idx": 3,
+  "correct_letter": "A",
+  "raw_response": "{\n  \"choice\": \"B\",\n  \"answer_value\": \"flow from west to east\",\n  \"rationale\": \"The lines in the region between Columbus and New York are oriented from west to east, indicating the direction of the wind flow.\"\n}streamlinesstreamlinesstreamlinesstreamlinesstreamlinesstreamlinesstreamlinesstreamlinesstreamlinesstreamlinesstreamlinesstreamlinesstreamlinesstreamlinesstreamlinesstreamlinesstreamlinesstreamlinesstreamlinesstreamlinesstreamlinesstreamlinesstreamlinesstreamlinesstreamlinesstreamlinesstreamlinesstreamlinesstreamlinesstreamlinesstreamlinesstreamlinesstreamlinesstreamlinesstreamlinesstreamlinesstreamlinesstreamlinesstreamlinesstreamlinesstreamlinesstreamlinesstreamlinesstreamlinesstreamlinesstreamlinesstreamlinesstreamlinesstreamlinesstreamlinesstreamlinesstreamlinesstreamlinesstreamlinesstreamlinesstreamlinesstreamlinesstreamlinesstreamlinesstreamlinesstreamlinesstreamlinesstreamlinesstreamlinesstreamlinesstreamlinesstreamlinesstreamlinesstreamlinesstreamlinesstreamlinesstreamlinesstreamlinesstreamlinesstreamlinesstreamlinesstreamlinesstreamlinesstreamlinesstreamlines",
+  "parsed": {
+    "choice": "B",
+    "answer_value": "flow from west to east",
+    "rationale": "The lines in the region between Columbus and New York are oriented from west to east, indicating the direction of the wind flow."
+  },
+  "chosen_letter": "B",
+  "is_correct": false,
+  "parse_error": null
+}

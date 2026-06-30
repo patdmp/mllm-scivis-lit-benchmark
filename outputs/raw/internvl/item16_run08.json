@@ -1,0 +1,36 @@
+{
+  "item_id": "item16",
+  "model": "internvl",
+  "run": 8,
+  "seed": 8,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 1,
+      "text": "The North Pacific is mostly warming, while the South Pacific is mostly cooling."
+    },
+    "B": {
+      "original_idx": 3,
+      "text": "Both the North and South Pacific are mostly warming."
+    },
+    "C": {
+      "original_idx": 4,
+      "text": "Both the North and South Pacific are mostly unchanged."
+    },
+    "D": {
+      "original_idx": 2,
+      "text": "The North Pacific is mostly unchanged or cooling, while the South Pacific is mostly warming."
+    }
+  },
+  "correct_answer_original_idx": 2,
+  "correct_letter": "D",
+  "raw_response": "{\n  \"choice\": \"B\",\n  \"answer_value\": \"Both the North and South Pacific are mostly warming.\",\n  \"rationale\": \"The map shows a predominance of warm colors (yellow to red) across both the North and South Pacific, indicating a warming trend in sea surface temperatures over the past week.\"\n}",
+  "parsed": {
+    "choice": "B",
+    "answer_value": "Both the North and South Pacific are mostly warming.",
+    "rationale": "The map shows a predominance of warm colors (yellow to red) across both the North and South Pacific, indicating a warming trend in sea surface temperatures over the past week."
+  },
+  "chosen_letter": "B",
+  "is_correct": false,
+  "parse_error": null
+}

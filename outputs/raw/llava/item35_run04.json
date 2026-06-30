@@ -1,0 +1,36 @@
+{
+  "item_id": "item35",
+  "model": "llava",
+  "run": 4,
+  "seed": 4,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 3,
+      "text": "Region C"
+    },
+    "B": {
+      "original_idx": 1,
+      "text": "Region A"
+    },
+    "C": {
+      "original_idx": 4,
+      "text": "Region D"
+    },
+    "D": {
+      "original_idx": 2,
+      "text": "Region B"
+    }
+  },
+  "correct_answer_original_idx": 2,
+  "correct_letter": "D",
+  "raw_response": "{\n  \"choice\": \"D\",\n  \"answer_value\": \"Region B\",\n  \"rationale\": \"Region B has the highest density of fiber bundles as it shows the most concentrated and numerous lines within the circled area.\"\n}\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"",
+  "parsed": {
+    "choice": "D",
+    "answer_value": "Region B",
+    "rationale": "Region B has the highest density of fiber bundles as it shows the most concentrated and numerous lines within the circled area."
+  },
+  "chosen_letter": "D",
+  "is_correct": true,
+  "parse_error": null
+}

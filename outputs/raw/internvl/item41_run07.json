@@ -1,0 +1,36 @@
+{
+  "item_id": "item41",
+  "model": "internvl",
+  "run": 7,
+  "seed": 7,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 4,
+      "text": "60 nm"
+    },
+    "B": {
+      "original_idx": 2,
+      "text": "40 nm"
+    },
+    "C": {
+      "original_idx": 1,
+      "text": "30 nm"
+    },
+    "D": {
+      "original_idx": 3,
+      "text": "50 nm"
+    }
+  },
+  "correct_answer_original_idx": 2,
+  "correct_letter": "B",
+  "raw_response": "{\n  \"choice\": \"B\",\n  \"answer_value\": \"40 nm\",\n  \"rationale\": \"The scale bar indicates 20 nm, and the diameter of the lipid envelope appears to be roughly twice this length, suggesting a radius of approximately 40 nm.\"\n}",
+  "parsed": {
+    "choice": "B",
+    "answer_value": "40 nm",
+    "rationale": "The scale bar indicates 20 nm, and the diameter of the lipid envelope appears to be roughly twice this length, suggesting a radius of approximately 40 nm."
+  },
+  "chosen_letter": "B",
+  "is_correct": true,
+  "parse_error": null
+}

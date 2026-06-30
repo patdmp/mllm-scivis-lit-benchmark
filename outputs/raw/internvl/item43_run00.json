@@ -1,0 +1,36 @@
+{
+  "item_id": "item43",
+  "model": "internvl",
+  "run": 0,
+  "seed": 0,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 3,
+      "text": "9"
+    },
+    "B": {
+      "original_idx": 1,
+      "text": "5"
+    },
+    "C": {
+      "original_idx": 2,
+      "text": "7"
+    },
+    "D": {
+      "original_idx": 4,
+      "text": "10"
+    }
+  },
+  "correct_answer_original_idx": 4,
+  "correct_letter": "D",
+  "raw_response": "{\n  \"choice\": \"D\",\n  \"answer_value\": \"10\",\n  \"rationale\": \"The abdomen of the female dragonfly is labeled with segments S1 through S10, indicating a total of 10 segments.\"\n}",
+  "parsed": {
+    "choice": "D",
+    "answer_value": "10",
+    "rationale": "The abdomen of the female dragonfly is labeled with segments S1 through S10, indicating a total of 10 segments."
+  },
+  "chosen_letter": "D",
+  "is_correct": true,
+  "parse_error": null
+}

@@ -1,0 +1,36 @@
+{
+  "item_id": "item56",
+  "model": "qwen",
+  "run": 5,
+  "seed": 5,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 1,
+      "text": "expands as well but remains intact, keeping the gas inside"
+    },
+    "B": {
+      "original_idx": 2,
+      "text": "is pulled inward toward the center"
+    },
+    "C": {
+      "original_idx": 4,
+      "text": "ruptures, allowing the gas to escape freely"
+    },
+    "D": {
+      "original_idx": 3,
+      "text": "dissolves and mixes with the gas"
+    }
+  },
+  "correct_answer_original_idx": 1,
+  "correct_letter": "A",
+  "raw_response": "```json\n{\n  \"choice\": \"A\",\n  \"answer_value\": \"expands as well but remains intact, keeping the gas inside\",\n  \"rationale\": \"The visualization shows a semi-transparent outer shell containing internal structures of shocked gas. The red gas represents high entropy regions that are expanding within the confines of this shell. The shell appears to be stretching and deforming in response to the internal pressure but maintains its overall structure. This indicates the shell is expanding along with the internal gas rather than rupturing or dissolving. The intact nature of the shell suggests it continues to contain the expanding gas.\"\n}\n```\n",
+  "parsed": {
+    "choice": "A",
+    "answer_value": "expands as well but remains intact, keeping the gas inside",
+    "rationale": "The visualization shows a semi-transparent outer shell containing internal structures of shocked gas. The red gas represents high entropy regions that are expanding within the confines of this shell. The shell appears to be stretching and deforming in response to the internal pressure but maintains its overall structure. This indicates the shell is expanding along with the internal gas rather than rupturing or dissolving. The intact nature of the shell suggests it continues to contain the expanding gas."
+  },
+  "chosen_letter": "A",
+  "is_correct": true,
+  "parse_error": null
+}

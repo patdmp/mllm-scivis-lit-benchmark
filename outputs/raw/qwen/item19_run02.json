@@ -1,0 +1,36 @@
+{
+  "item_id": "item19",
+  "model": "qwen",
+  "run": 2,
+  "seed": 2,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 2,
+      "text": "circulate around a central point"
+    },
+    "B": {
+      "original_idx": 3,
+      "text": "spiral inward toward a central point"
+    },
+    "C": {
+      "original_idx": 4,
+      "text": "spiral outward from a central point"
+    },
+    "D": {
+      "original_idx": 1,
+      "text": "flow from west to east"
+    }
+  },
+  "correct_answer_original_idx": 3,
+  "correct_letter": "B",
+  "raw_response": "```json\n{\n  \"choice\": \"A\",\n  \"answer_value\": \"circulate around a central point\",\n  \"rationale\": \"The wind patterns in the region between Columbus and New York show a circular motion. This indicates that the winds are circulating around a central point rather than spiraling inward or outward. The flow is not linear from west to east but rather follows a curved path. Therefore, the best description of the wind behavior in this area is that they circulate around a central point.\"\n}\n```\n",
+  "parsed": {
+    "choice": "A",
+    "answer_value": "circulate around a central point",
+    "rationale": "The wind patterns in the region between Columbus and New York show a circular motion. This indicates that the winds are circulating around a central point rather than spiraling inward or outward. The flow is not linear from west to east but rather follows a curved path. Therefore, the best description of the wind behavior in this area is that they circulate around a central point."
+  },
+  "chosen_letter": "A",
+  "is_correct": false,
+  "parse_error": null
+}

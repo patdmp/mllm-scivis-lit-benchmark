@@ -1,0 +1,28 @@
+{
+  "item_id": "item55",
+  "model": "internvl",
+  "run": 4,
+  "seed": 4,
+  "n_choices": 2,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 2,
+      "text": "FALSE"
+    },
+    "B": {
+      "original_idx": 1,
+      "text": "TRUE"
+    }
+  },
+  "correct_answer_original_idx": 2,
+  "correct_letter": "A",
+  "raw_response": "{\n  \"choice\": \"A\",\n  \"answer_value\": \"FALSE\",\n  \"rationale\": \"The visualization shows that the internal shocked gas, represented by yellow and red colors, has higher entropy compared to the stalled shockwave, which is depicted by the outer shell. The color scale indicates that red corresponds to higher entropy, suggesting that the internal gas has higher entropy than the stalled shockwave.\"\n}",
+  "parsed": {
+    "choice": "A",
+    "answer_value": "FALSE",
+    "rationale": "The visualization shows that the internal shocked gas, represented by yellow and red colors, has higher entropy compared to the stalled shockwave, which is depicted by the outer shell. The color scale indicates that red corresponds to higher entropy, suggesting that the internal gas has higher entropy than the stalled shockwave."
+  },
+  "chosen_letter": "A",
+  "is_correct": true,
+  "parse_error": null
+}

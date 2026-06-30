@@ -1,0 +1,36 @@
+{
+  "item_id": "item02",
+  "model": "qwen",
+  "run": 5,
+  "seed": 5,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 1,
+      "text": "Waypoint A"
+    },
+    "B": {
+      "original_idx": 2,
+      "text": "Waypoint B"
+    },
+    "C": {
+      "original_idx": 4,
+      "text": "Waypoint D"
+    },
+    "D": {
+      "original_idx": 3,
+      "text": "Waypoint C"
+    }
+  },
+  "correct_answer_original_idx": 3,
+  "correct_letter": "D",
+  "raw_response": "```json\n{\n  \"choice\": \"D\",\n  \"answer_value\": \"Waypoint D\",\n  \"rationale\": \"Waypoint D is located in a white area, which the caption identifies as not being mapped as woodland. The map shows that the highest elevation contour lines (7400 feet) are enclosed within the green woodland areas. Since Waypoint D is outside these high-elevation contours, it must be at a lower elevation than the peaks. Therefore, among the options provided, Waypoint D is the only one that could potentially have the highest elevation relative to the specific peaks shown, as the question implies a comparison of the given points.\"\n}\n```\n",
+  "parsed": {
+    "choice": "D",
+    "answer_value": "Waypoint D",
+    "rationale": "Waypoint D is located in a white area, which the caption identifies as not being mapped as woodland. The map shows that the highest elevation contour lines (7400 feet) are enclosed within the green woodland areas. Since Waypoint D is outside these high-elevation contours, it must be at a lower elevation than the peaks. Therefore, among the options provided, Waypoint D is the only one that could potentially have the highest elevation relative to the specific peaks shown, as the question implies a comparison of the given points."
+  },
+  "chosen_letter": "D",
+  "is_correct": true,
+  "parse_error": null
+}

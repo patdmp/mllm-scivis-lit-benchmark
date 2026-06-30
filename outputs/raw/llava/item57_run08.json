@@ -1,0 +1,36 @@
+{
+  "item_id": "item57",
+  "model": "llava",
+  "run": 8,
+  "seed": 8,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 1,
+      "text": "Above plate 1"
+    },
+    "B": {
+      "original_idx": 3,
+      "text": "Directly between the two plates"
+    },
+    "C": {
+      "original_idx": 4,
+      "text": "The left and right sides of both plates"
+    },
+    "D": {
+      "original_idx": 2,
+      "text": "Below plate 2"
+    }
+  },
+  "correct_answer_original_idx": 3,
+  "correct_letter": "B",
+  "raw_response": "{\n  \"choice\": \"B\",\n  \"answer_value\": \"Directly between the two plates\",\n  \"rationale\": \"The electric field lines are closest together and the color is the brightest (yellow) directly between the two plates, indicating the highest electric field magnitude.\"\n}//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////",
+  "parsed": {
+    "choice": "B",
+    "answer_value": "Directly between the two plates",
+    "rationale": "The electric field lines are closest together and the color is the brightest (yellow) directly between the two plates, indicating the highest electric field magnitude."
+  },
+  "chosen_letter": "B",
+  "is_correct": true,
+  "parse_error": null
+}

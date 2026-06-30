@@ -1,0 +1,36 @@
+{
+  "item_id": "item23",
+  "model": "llava",
+  "run": 7,
+  "seed": 7,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 4,
+      "text": "Each pentagon is adjacent only to hexagons."
+    },
+    "B": {
+      "original_idx": 2,
+      "text": "No two hexagons share a common edge."
+    },
+    "C": {
+      "original_idx": 1,
+      "text": "Two pentagons share a common edge."
+    },
+    "D": {
+      "original_idx": 3,
+      "text": "Each hexagon is adjacent only to pentagons."
+    }
+  },
+  "correct_answer_original_idx": 4,
+  "correct_letter": "A",
+  "raw_response": "{\n  \"choice\": \"C\",\n  \"answer_value\": \"Two pentagons share a common edge.\",\n  \"rationale\": \"The visualization shows a structure where two pentagons are connected by a common edge, indicating that option C is correct.\"\n}fullCTwo pentagons share a common edge.The visualization shows a structure where two pentagons are connected by a common edge, indicating that option C is correct.Two pentagons share a common edge.The visualization shows a structure where two pentagons are connected by a common edge, indicating that option C is correct.Two pentagons share a common edge.The visualization shows a structure where two pentagons are connected by a common edge, indicating that option C is correct.",
+  "parsed": {
+    "choice": "C",
+    "answer_value": "Two pentagons share a common edge.",
+    "rationale": "The visualization shows a structure where two pentagons are connected by a common edge, indicating that option C is correct."
+  },
+  "chosen_letter": "C",
+  "is_correct": false,
+  "parse_error": null
+}

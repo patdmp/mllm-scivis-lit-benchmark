@@ -1,0 +1,28 @@
+{
+  "item_id": "item28",
+  "model": "internvl",
+  "run": 2,
+  "seed": 2,
+  "n_choices": 2,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 2,
+      "text": "FALSE"
+    },
+    "B": {
+      "original_idx": 1,
+      "text": "TRUE"
+    }
+  },
+  "correct_answer_original_idx": 1,
+  "correct_letter": "B",
+  "raw_response": "{\"choice\": \"B\", \"answer_value\": \"TRUE\", \"rationale\": \"The light brown surface forms a continuous path from point A to point B, allowing travel without crossing empty space or onto dark-brown regions or the lightyellow ridge.\"}",
+  "parsed": {
+    "choice": "B",
+    "answer_value": "TRUE",
+    "rationale": "The light brown surface forms a continuous path from point A to point B, allowing travel without crossing empty space or onto dark-brown regions or the lightyellow ridge."
+  },
+  "chosen_letter": "B",
+  "is_correct": true,
+  "parse_error": null
+}

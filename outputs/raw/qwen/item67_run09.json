@@ -1,0 +1,36 @@
+{
+  "item_id": "item67",
+  "model": "qwen",
+  "run": 9,
+  "seed": 9,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 1,
+      "text": "It disappears almost immediately."
+    },
+    "B": {
+      "original_idx": 2,
+      "text": "It remains confined to a narrow column beneath the nozzle."
+    },
+    "C": {
+      "original_idx": 3,
+      "text": "It spreads along the trench, away from the rocket."
+    },
+    "D": {
+      "original_idx": 4,
+      "text": "t moves upward, away from the pad, without touching the trench."
+    }
+  },
+  "correct_answer_original_idx": 3,
+  "correct_letter": "C",
+  "raw_response": "```json\n{\n  \"choice\": \"C\",\n  \"answer_value\": \"It spreads along the trench, away from the rocket.\",\n  \"rationale\": \"The visualization shows the exhaust plume expanding and spreading outwards from the rocket's nozzle. The colors indicate temperature variations, with the plume moving away from the rocket and along the trench. This behavior is consistent with the expected dynamics of rocket exhaust during launch ignition.\"\n}\n```\n",
+  "parsed": {
+    "choice": "C",
+    "answer_value": "It spreads along the trench, away from the rocket.",
+    "rationale": "The visualization shows the exhaust plume expanding and spreading outwards from the rocket's nozzle. The colors indicate temperature variations, with the plume moving away from the rocket and along the trench. This behavior is consistent with the expected dynamics of rocket exhaust during launch ignition."
+  },
+  "chosen_letter": "C",
+  "is_correct": true,
+  "parse_error": null
+}

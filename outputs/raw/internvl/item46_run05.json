@@ -1,0 +1,36 @@
+{
+  "item_id": "item46",
+  "model": "internvl",
+  "run": 5,
+  "seed": 5,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 1,
+      "text": "Head"
+    },
+    "B": {
+      "original_idx": 2,
+      "text": "Thorax"
+    },
+    "C": {
+      "original_idx": 4,
+      "text": "Wings"
+    },
+    "D": {
+      "original_idx": 3,
+      "text": "Abdomen"
+    }
+  },
+  "correct_answer_original_idx": 2,
+  "correct_letter": "B",
+  "raw_response": "{\"choice\": \"B\", \"answer_value\": \"Thorax\", \"rationale\": \"The legs are attached to the thorax, as indicated by the labels on the diagram showing the legs connected to the thorax section.\"}",
+  "parsed": {
+    "choice": "B",
+    "answer_value": "Thorax",
+    "rationale": "The legs are attached to the thorax, as indicated by the labels on the diagram showing the legs connected to the thorax section."
+  },
+  "chosen_letter": "B",
+  "is_correct": true,
+  "parse_error": null
+}

@@ -1,0 +1,36 @@
+{
+  "item_id": "item45",
+  "model": "qwen",
+  "run": 2,
+  "seed": 2,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 2,
+      "text": "Metepisternum"
+    },
+    "B": {
+      "original_idx": 3,
+      "text": "Postclypeus"
+    },
+    "C": {
+      "original_idx": 4,
+      "text": "Cercus"
+    },
+    "D": {
+      "original_idx": 1,
+      "text": "Epiproct"
+    }
+  },
+  "correct_answer_original_idx": 1,
+  "correct_letter": "D",
+  "raw_response": "```json\n{\n  \"choice\": \"D\",\n  \"answer_value\": \"Epiproct\",\n  \"rationale\": \"The diagram explicitly labels the Epiproct as a structure located at the tip of the male abdomen. In contrast, the female abdomen is labeled with a Cercus, which is also present in the male diagram. The Metepisternum and Postclypeus are labeled on the thorax and head, respectively, which are common to both sexes.\"\n}\n```\n",
+  "parsed": {
+    "choice": "D",
+    "answer_value": "Epiproct",
+    "rationale": "The diagram explicitly labels the Epiproct as a structure located at the tip of the male abdomen. In contrast, the female abdomen is labeled with a Cercus, which is also present in the male diagram. The Metepisternum and Postclypeus are labeled on the thorax and head, respectively, which are common to both sexes."
+  },
+  "chosen_letter": "D",
+  "is_correct": true,
+  "parse_error": null
+}

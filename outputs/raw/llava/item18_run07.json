@@ -1,0 +1,36 @@
+{
+  "item_id": "item18",
+  "model": "llava",
+  "run": 7,
+  "seed": 7,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 4,
+      "text": "New York"
+    },
+    "B": {
+      "original_idx": 2,
+      "text": "Denver"
+    },
+    "C": {
+      "original_idx": 1,
+      "text": "Seattle"
+    },
+    "D": {
+      "original_idx": 3,
+      "text": "Dallas"
+    }
+  },
+  "correct_answer_original_idx": 4,
+  "correct_letter": "A",
+  "raw_response": "{\n  \"choice\": \"A\",\n  \"answer_value\": \"New York\",\n  \"rationale\": \"The map shows wind patterns with varying speeds, and New York is located in the area with the darkest shading, indicating the highest wind speed.\"\n}0 darkest shading, indicating the highest wind speed. darkest shading, indicating the highest wind speed. darkest shading, indicating the highest wind speed. darkest shading, indicating the highest wind speed. darkest shading, indicating the highest wind speed. darkest shading, indicating the highest wind speed. darkest shading, indicating the highest wind speed. darkest shading, indicating the highest wind speed. darkest shading, indicating the highest wind speed. darkest shading, indicating the highest wind speed. darkest shading, indicating the highest wind speed. darkest shading, indicating the highest wind speed. darkest shading, indicating the highest wind speed. darkest shading, indicating the highest",
+  "parsed": {
+    "choice": "A",
+    "answer_value": "New York",
+    "rationale": "The map shows wind patterns with varying speeds, and New York is located in the area with the darkest shading, indicating the highest wind speed."
+  },
+  "chosen_letter": "A",
+  "is_correct": true,
+  "parse_error": null
+}

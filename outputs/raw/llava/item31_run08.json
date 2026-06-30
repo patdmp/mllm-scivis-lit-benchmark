@@ -1,0 +1,32 @@
+{
+  "item_id": "item31",
+  "model": "llava",
+  "run": 8,
+  "seed": 8,
+  "n_choices": 3,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 3,
+      "text": "Bladder"
+    },
+    "B": {
+      "original_idx": 2,
+      "text": "Kidneys"
+    },
+    "C": {
+      "original_idx": 1,
+      "text": "Liver"
+    }
+  },
+  "correct_answer_original_idx": 1,
+  "correct_letter": "C",
+  "raw_response": "{\n  \"choice\": \"A\",\n  \"answer_value\": \"Bladder\",\n  \"rationale\": \"The bladder is the organ that appears closest to the viewer in the provided image. It is located at the bottom of the torso, in front of the spine, and is the lowest organ in the image.\"\n} rendered in pink, making it the most forward-facing organ in the image.\" \"The bladder is the organ that appears closest to the viewer in the provided image. It is located at the bottom of the torso, in front of the spine, and is the lowest organ in the image.\" \"The bladder is the organ that appears closest to the viewer in the provided image. It is located at the bottom of the torso, in front of the spine, and is the lowest organ in the image.\" \"The bladder is the organ that appears closest to the viewer in the provided image. It is located at the bottom of the torso, in front of the spine, and is the lowest organ in the image.\" \"The bladder is the organ that appears closest to the viewer in the provided image. It is located at the bottom of the torso, in front of the spine, and is the lowest organ in the image.\"",
+  "parsed": {
+    "choice": "A",
+    "answer_value": "Bladder",
+    "rationale": "The bladder is the organ that appears closest to the viewer in the provided image. It is located at the bottom of the torso, in front of the spine, and is the lowest organ in the image."
+  },
+  "chosen_letter": "A",
+  "is_correct": false,
+  "parse_error": null
+}

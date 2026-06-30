@@ -1,0 +1,36 @@
+{
+  "item_id": "item01",
+  "model": "llava",
+  "run": 3,
+  "seed": 3,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 4,
+      "text": "6942 ft"
+    },
+    "B": {
+      "original_idx": 1,
+      "text": "6624 ft"
+    },
+    "C": {
+      "original_idx": 3,
+      "text": "6863 ft"
+    },
+    "D": {
+      "original_idx": 2,
+      "text": "6728 ft"
+    }
+  },
+  "correct_answer_original_idx": 3,
+  "correct_letter": "C",
+  "raw_response": "{\n  \"choice\": \"C\",\n  \"answer_value\": \"6863 ft\",\n  \"rationale\": \"The contour lines around waypoint D are labeled with the elevation 6800 ft. Since the contour interval is 40 feet, the elevation of waypoint D is 6800 ft + 63 ft, which equals 6863 ft.\"\n}0.2 0.3 0.4 km0.1 0.2 0.3 0.4 km0.1 0.2 0.3 0.4 km0.1 0.2 0.3 0.4 km0.1 0.2 0.3 0.4 km0.1 0.2 0.3 0.4 km0.1 0.2 0.3 0.4 km0.1 0.2 0.3 0.4 km0.1 0.2 0.3 0.4 km0.1 0.2 0.3 0.4 km0.1 0.2 0.3 0.4 km0.1 0.2 0.3 0.4 km0.1 0.2 0.3 0",
+  "parsed": {
+    "choice": "C",
+    "answer_value": "6863 ft",
+    "rationale": "The contour lines around waypoint D are labeled with the elevation 6800 ft. Since the contour interval is 40 feet, the elevation of waypoint D is 6800 ft + 63 ft, which equals 6863 ft."
+  },
+  "chosen_letter": "C",
+  "is_correct": true,
+  "parse_error": null
+}

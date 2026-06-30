@@ -1,0 +1,36 @@
+{
+  "item_id": "item46",
+  "model": "internvl",
+  "run": 2,
+  "seed": 2,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 2,
+      "text": "Thorax"
+    },
+    "B": {
+      "original_idx": 3,
+      "text": "Abdomen"
+    },
+    "C": {
+      "original_idx": 4,
+      "text": "Wings"
+    },
+    "D": {
+      "original_idx": 1,
+      "text": "Head"
+    }
+  },
+  "correct_answer_original_idx": 2,
+  "correct_letter": "A",
+  "raw_response": "{\"choice\": \"A\", \"answer_value\": \"Thorax\", \"rationale\": \"The legs are attached to the thorax, as indicated by the labels on the diagram showing the legs connected to the thorax section of the dragonfly's body.\"}",
+  "parsed": {
+    "choice": "A",
+    "answer_value": "Thorax",
+    "rationale": "The legs are attached to the thorax, as indicated by the labels on the diagram showing the legs connected to the thorax section of the dragonfly's body."
+  },
+  "chosen_letter": "A",
+  "is_correct": true,
+  "parse_error": null
+}

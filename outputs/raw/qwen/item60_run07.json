@@ -1,0 +1,28 @@
+{
+  "item_id": "item60",
+  "model": "qwen",
+  "run": 7,
+  "seed": 7,
+  "n_choices": 2,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 1,
+      "text": "TRUE"
+    },
+    "B": {
+      "original_idx": 2,
+      "text": "FALSE"
+    }
+  },
+  "correct_answer_original_idx": 2,
+  "correct_letter": "B",
+  "raw_response": "```json\n{\n  \"choice\": \"B\",\n  \"answer_value\": \"FALSE\",\n  \"rationale\": \"The visualization shows a 3D perspective where the streamlines spiral upwards and outwards. In this specific view, the rotation appears counter-clockwise. Therefore, the statement that it rotates clockwise is false.\"\n}\n```\n",
+  "parsed": {
+    "choice": "B",
+    "answer_value": "FALSE",
+    "rationale": "The visualization shows a 3D perspective where the streamlines spiral upwards and outwards. In this specific view, the rotation appears counter-clockwise. Therefore, the statement that it rotates clockwise is false."
+  },
+  "chosen_letter": "B",
+  "is_correct": true,
+  "parse_error": null
+}

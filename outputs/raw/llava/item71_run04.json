@@ -1,0 +1,36 @@
+{
+  "item_id": "item71",
+  "model": "llava",
+  "run": 4,
+  "seed": 4,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 3,
+      "text": "1000 m2/s2"
+    },
+    "B": {
+      "original_idx": 1,
+      "text": "500 m2/s2"
+    },
+    "C": {
+      "original_idx": 4,
+      "text": "1250 m2/s2"
+    },
+    "D": {
+      "original_idx": 2,
+      "text": "750 m2/s2"
+    }
+  },
+  "correct_answer_original_idx": 3,
+  "correct_letter": "A",
+  "raw_response": "{\n  \"choice\": \"C\",\n  \"answer_value\": \"1250 m2/s2\",\n  \"rationale\": \"The visualization shows a range of kinematic pressure values from -800 to 800 m2/s2. The windshield appears to have a significant pressure difference, with the highest value near 800 m2/s2 and the lowest near -800 m2/s2, resulting in a difference of approximately 1600 m2/s2. However, considering the options provided, the closest and most reasonable estimate is 1250 m2/s2.\"\n}0 m2/s20 m2/s20 m2/s20 m2/s20 m2/s20 m2/s20 m2/s20 m2/s20 m2/s20 m2/s20 m2/s20 m2/s20 m2/s20 m2/s20 m2/s20 m2/s20 m2/s20 m2/s20 m2/s20 m2/s20 m2/s20 m",
+  "parsed": {
+    "choice": "C",
+    "answer_value": "1250 m2/s2",
+    "rationale": "The visualization shows a range of kinematic pressure values from -800 to 800 m2/s2. The windshield appears to have a significant pressure difference, with the highest value near 800 m2/s2 and the lowest near -800 m2/s2, resulting in a difference of approximately 1600 m2/s2. However, considering the options provided, the closest and most reasonable estimate is 1250 m2/s2."
+  },
+  "chosen_letter": "C",
+  "is_correct": false,
+  "parse_error": null
+}

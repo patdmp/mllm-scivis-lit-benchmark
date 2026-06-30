@@ -1,0 +1,32 @@
+{
+  "item_id": "item31",
+  "model": "qwen",
+  "run": 3,
+  "seed": 3,
+  "n_choices": 3,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 2,
+      "text": "Kidneys"
+    },
+    "B": {
+      "original_idx": 3,
+      "text": "Bladder"
+    },
+    "C": {
+      "original_idx": 1,
+      "text": "Liver"
+    }
+  },
+  "correct_answer_original_idx": 1,
+  "correct_letter": "C",
+  "raw_response": "```json\n{\n  \"choice\": \"C\",\n  \"answer_value\": \"Liver\",\n  \"rationale\": \"The image displays a 3D surface rendering of internal organs. The liver is colored blue and is positioned in the upper abdomen, appearing in front of the kidneys and bladder. The kidneys are green and located posteriorly on either side of the spine. The bladder is pink and situated at the bottom of the torso, behind the liver. Therefore, the liver is the organ closest to the viewer.\"\n}\n```\n",
+  "parsed": {
+    "choice": "C",
+    "answer_value": "Liver",
+    "rationale": "The image displays a 3D surface rendering of internal organs. The liver is colored blue and is positioned in the upper abdomen, appearing in front of the kidneys and bladder. The kidneys are green and located posteriorly on either side of the spine. The bladder is pink and situated at the bottom of the torso, behind the liver. Therefore, the liver is the organ closest to the viewer."
+  },
+  "chosen_letter": "C",
+  "is_correct": true,
+  "parse_error": null
+}

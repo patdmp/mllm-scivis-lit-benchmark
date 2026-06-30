@@ -1,0 +1,36 @@
+{
+  "item_id": "item71",
+  "model": "qwen",
+  "run": 4,
+  "seed": 4,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 3,
+      "text": "1000 m2/s2"
+    },
+    "B": {
+      "original_idx": 1,
+      "text": "500 m2/s2"
+    },
+    "C": {
+      "original_idx": 4,
+      "text": "1250 m2/s2"
+    },
+    "D": {
+      "original_idx": 2,
+      "text": "750 m2/s2"
+    }
+  },
+  "correct_answer_original_idx": 3,
+  "correct_letter": "A",
+  "raw_response": "```json\n{\n  \"choice\": \"A\",\n  \"answer_value\": \"1000 m2/s2\",\n  \"rationale\": \"The kinematic pressure scale ranges from -800 to 800 m2/s2, indicating a total range of 1600 m2/s2. The windshield shows a gradient from blue (low pressure) to red (high pressure), suggesting a significant pressure difference. Given the options, 1000 m2/s2 is the most reasonable estimate for the difference between the maximum and minimum pressures on the windshield. The other options are either too small or too large to accurately represent the observed pressure gradient.\"\n}\n```\n",
+  "parsed": {
+    "choice": "A",
+    "answer_value": "1000 m2/s2",
+    "rationale": "The kinematic pressure scale ranges from -800 to 800 m2/s2, indicating a total range of 1600 m2/s2. The windshield shows a gradient from blue (low pressure) to red (high pressure), suggesting a significant pressure difference. Given the options, 1000 m2/s2 is the most reasonable estimate for the difference between the maximum and minimum pressures on the windshield. The other options are either too small or too large to accurately represent the observed pressure gradient."
+  },
+  "chosen_letter": "A",
+  "is_correct": true,
+  "parse_error": null
+}

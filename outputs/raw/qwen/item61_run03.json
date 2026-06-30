@@ -1,0 +1,36 @@
+{
+  "item_id": "item61",
+  "model": "qwen",
+  "run": 3,
+  "seed": 3,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 4,
+      "text": "a spherical spiral"
+    },
+    "B": {
+      "original_idx": 1,
+      "text": "a spiral cylinder"
+    },
+    "C": {
+      "original_idx": 3,
+      "text": "a twisted funnel"
+    },
+    "D": {
+      "original_idx": 2,
+      "text": "a spiral cone"
+    }
+  },
+  "correct_answer_original_idx": 3,
+  "correct_letter": "C",
+  "raw_response": "```json\n{\n  \"choice\": \"C\",\n  \"answer_value\": \"a twisted funnel\",\n  \"rationale\": \"The visualization shows a vortex structure that is wide at the top and narrows significantly towards the bottom, which is the defining characteristic of a funnel shape. The streamlines clearly twist and spiral around a central axis as they descend. This specific combination of a narrowing, spiraling structure is best described as a twisted funnel, matching the visual representation of a tornado.\"\n}\n```\n",
+  "parsed": {
+    "choice": "C",
+    "answer_value": "a twisted funnel",
+    "rationale": "The visualization shows a vortex structure that is wide at the top and narrows significantly towards the bottom, which is the defining characteristic of a funnel shape. The streamlines clearly twist and spiral around a central axis as they descend. This specific combination of a narrowing, spiraling structure is best described as a twisted funnel, matching the visual representation of a tornado."
+  },
+  "chosen_letter": "C",
+  "is_correct": true,
+  "parse_error": null
+}

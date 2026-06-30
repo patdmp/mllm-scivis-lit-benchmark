@@ -1,0 +1,28 @@
+{
+  "item_id": "item07",
+  "model": "llava",
+  "run": 0,
+  "seed": 0,
+  "n_choices": 2,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 1,
+      "text": "TRUE"
+    },
+    "B": {
+      "original_idx": 2,
+      "text": "FALSE"
+    }
+  },
+  "correct_answer_original_idx": 2,
+  "correct_letter": "B",
+  "raw_response": "{\n  \"choice\": \"A\",\n  \"answer_value\": \"TRUE\",\n  \"rationale\": \"The forecast track shows that the storm is expected to be a tropical cyclone with sustained winds of 39-73 mph and a post/potential tropical cyclone with sustained winds of 74-110 mph. There is no indication of the storm reaching hurricane strength (sustained winds of 110 mph or higher) along the entire forecast track from 7 AM Wed to 7 AM Sun.\"\n}000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+  "parsed": {
+    "choice": "A",
+    "answer_value": "TRUE",
+    "rationale": "The forecast track shows that the storm is expected to be a tropical cyclone with sustained winds of 39-73 mph and a post/potential tropical cyclone with sustained winds of 74-110 mph. There is no indication of the storm reaching hurricane strength (sustained winds of 110 mph or higher) along the entire forecast track from 7 AM Wed to 7 AM Sun."
+  },
+  "chosen_letter": "A",
+  "is_correct": false,
+  "parse_error": null
+}

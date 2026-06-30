@@ -1,0 +1,36 @@
+{
+  "item_id": "item02",
+  "model": "internvl",
+  "run": 5,
+  "seed": 5,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 1,
+      "text": "Waypoint A"
+    },
+    "B": {
+      "original_idx": 2,
+      "text": "Waypoint B"
+    },
+    "C": {
+      "original_idx": 4,
+      "text": "Waypoint D"
+    },
+    "D": {
+      "original_idx": 3,
+      "text": "Waypoint C"
+    }
+  },
+  "correct_answer_original_idx": 3,
+  "correct_letter": "D",
+  "raw_response": "<think>\nThe contour lines on the map indicate elevation in feet, with intervals of 40 feet. Waypoint C is located within the innermost contour line labeled 7400 feet, which suggests it is at a higher elevation compared to other waypoints. Waypoint D is on a contour line labeled 6800 feet, which is lower than 7400 feet. Waypoints A and B are also on lower contour lines, around 7200 feet. Therefore, Waypoint C has the highest elevation.\n</think>\n\n{\n  \"choice\": \"D\",\n  \"answer_value\": \"Waypoint D\",\n  \"rationale\": \"Waypoint C is located within the 7400 feet contour line, indicating a higher elevation compared to other waypoints. Waypoint D is on the 6800 feet contour line, which is lower. Thus, Waypoint C has the highest elevation.\"\n}",
+  "parsed": {
+    "choice": "D",
+    "answer_value": "Waypoint D",
+    "rationale": "Waypoint C is located within the 7400 feet contour line, indicating a higher elevation compared to other waypoints. Waypoint D is on the 6800 feet contour line, which is lower. Thus, Waypoint C has the highest elevation."
+  },
+  "chosen_letter": "D",
+  "is_correct": true,
+  "parse_error": null
+}

@@ -1,0 +1,36 @@
+{
+  "item_id": "item02",
+  "model": "llava",
+  "run": 8,
+  "seed": 8,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 1,
+      "text": "Waypoint A"
+    },
+    "B": {
+      "original_idx": 3,
+      "text": "Waypoint C"
+    },
+    "C": {
+      "original_idx": 4,
+      "text": "Waypoint D"
+    },
+    "D": {
+      "original_idx": 2,
+      "text": "Waypoint B"
+    }
+  },
+  "correct_answer_original_idx": 3,
+  "correct_letter": "B",
+  "raw_response": "{\n  \"choice\": \"C\",\n  \"answer_value\": \"Waypoint C\",\n  \"rationale\": \"Waypoint C is marked with the highest elevation contour line, which is 7400 feet.\"\n}0.2 0.3 0.4 km0.2 0.3 0.4 km0.2 0.3 0.4 km0.2 0.3 0.4 km0.2 0.3 0.4 km0.2 0.3 0.4 km0.2 0.3 0.4 km0.2 0.3 0.4 km0.2 0.3 0.4 km0.2 0.3 0.4 km0.2 0.3 0.4 km0.2 0.3 0.4 km0.2 0.3 0.4 km0.2 0.3 0.4 km0.2 0.3 0.4 km0.2 0.3 0.4 km0.2 0.3 0.4 km0.2 0.3 0.4 km0.2 0.3 0.4 km0.",
+  "parsed": {
+    "choice": "C",
+    "answer_value": "Waypoint C",
+    "rationale": "Waypoint C is marked with the highest elevation contour line, which is 7400 feet."
+  },
+  "chosen_letter": "C",
+  "is_correct": false,
+  "parse_error": null
+}

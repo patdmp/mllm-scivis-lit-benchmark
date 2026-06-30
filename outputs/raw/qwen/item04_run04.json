@@ -1,0 +1,32 @@
+{
+  "item_id": "item04",
+  "model": "qwen",
+  "run": 4,
+  "seed": 4,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 3,
+      "text": "increases, then decreases"
+    },
+    "B": {
+      "original_idx": 1,
+      "text": "increases"
+    },
+    "C": {
+      "original_idx": 4,
+      "text": "decreases, then increases"
+    },
+    "D": {
+      "original_idx": 2,
+      "text": "decreases"
+    }
+  },
+  "correct_answer_original_idx": 4,
+  "correct_letter": "C",
+  "raw_response": "```json\n{\n  \"choice\": \"A\",\n  \"answer_value\": \"increases, then decreases\",\n  \"rationale\": \"Waypoint C is located inside a closed contour labeled 7400, indicating it is at the peak of a hill. Waypoint A is located on a contour line labeled 7200, which is a lower elevation than the peak at C. Moving from C to A, the elevation must first decrease to reach the 7200 contour. However, the path from C to A crosses the 7200 contour and enters the area between the 7200 and 7400 contours before reaching A, implying a rise in elevation relative to the immediate surroundings of A, or simply that the path traverses the terrain between two peaks. Re-evaluating the direct path: C is at ~7400. A is at 7200. The path goes from the high point of the lower hill (C) down towards the saddle, then up towards the high point of the upper hill (A). Wait, A is at 7200. C is at 7400. So moving from C (7400) to A (7200) is a net decrease. Let's re-examine the map. C is at the center of a 7400 loop. A is on the 72",
+  "parsed": null,
+  "chosen_letter": null,
+  "is_correct": false,
+  "parse_error": null
+}

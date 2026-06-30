@@ -1,0 +1,36 @@
+{
+  "item_id": "item71",
+  "model": "internvl",
+  "run": 3,
+  "seed": 3,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 4,
+      "text": "1250 m2/s2"
+    },
+    "B": {
+      "original_idx": 1,
+      "text": "500 m2/s2"
+    },
+    "C": {
+      "original_idx": 3,
+      "text": "1000 m2/s2"
+    },
+    "D": {
+      "original_idx": 2,
+      "text": "750 m2/s2"
+    }
+  },
+  "correct_answer_original_idx": 3,
+  "correct_letter": "C",
+  "raw_response": "{\n  \"choice\": \"A\",\n  \"answer_value\": \"1250 m2/s2\",\n  \"rationale\": \"The visualization shows the kinematic pressure on the windshield with a color gradient. The maximum pressure appears near the front of the windshield, indicated by a red color, while the minimum pressure is towards the rear, indicated by a blue color. The scale at the bottom shows the pressure range, and the difference between the red and blue areas corresponds to approximately 1250 m2/s2.\"\n}",
+  "parsed": {
+    "choice": "A",
+    "answer_value": "1250 m2/s2",
+    "rationale": "The visualization shows the kinematic pressure on the windshield with a color gradient. The maximum pressure appears near the front of the windshield, indicated by a red color, while the minimum pressure is towards the rear, indicated by a blue color. The scale at the bottom shows the pressure range, and the difference between the red and blue areas corresponds to approximately 1250 m2/s2."
+  },
+  "chosen_letter": "A",
+  "is_correct": false,
+  "parse_error": null
+}

@@ -1,0 +1,32 @@
+{
+  "item_id": "item31",
+  "model": "llava",
+  "run": 5,
+  "seed": 5,
+  "n_choices": 3,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 1,
+      "text": "Liver"
+    },
+    "B": {
+      "original_idx": 2,
+      "text": "Kidneys"
+    },
+    "C": {
+      "original_idx": 3,
+      "text": "Bladder"
+    }
+  },
+  "correct_answer_original_idx": 1,
+  "correct_letter": "A",
+  "raw_response": "{\n  \"choice\": \"C\",\n  \"answer_value\": \"Bladder\",\n  \"rationale\": \"The bladder is the organ that appears closest to the viewer in the provided image. It is located at the bottom of the image, in front of the pelvic bones.\"\n}heartheartheartheartheartheartheartheartheartheartheartheartheartheartheartheartheartheartheartheartheartheartheartheartheartheartheartheartheartheartheartheartheartheartheartheartheartheartheartheartheartheartheartheartheart",
+  "parsed": {
+    "choice": "C",
+    "answer_value": "Bladder",
+    "rationale": "The bladder is the organ that appears closest to the viewer in the provided image. It is located at the bottom of the image, in front of the pelvic bones."
+  },
+  "chosen_letter": "C",
+  "is_correct": false,
+  "parse_error": null
+}

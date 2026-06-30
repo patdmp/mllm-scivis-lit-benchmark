@@ -1,0 +1,36 @@
+{
+  "item_id": "item32",
+  "model": "qwen",
+  "run": 3,
+  "seed": 3,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 4,
+      "text": "Bladder and a lung"
+    },
+    "B": {
+      "original_idx": 1,
+      "text": "Liver and a lung"
+    },
+    "C": {
+      "original_idx": 3,
+      "text": "Bladder and a kidney"
+    },
+    "D": {
+      "original_idx": 2,
+      "text": "Liver and a kidney"
+    }
+  },
+  "correct_answer_original_idx": 4,
+  "correct_letter": "A",
+  "raw_response": "```json\n{\n  \"choice\": \"A\",\n  \"answer_value\": \"Bladder and a lung\",\n  \"rationale\": \"The image displays the lungs in the upper thoracic cavity and the bladder in the lower pelvic cavity. This represents the greatest vertical distance between any two organs shown. The liver and lungs are adjacent in the upper abdomen, while the liver and kidneys are close in the upper abdomen. The bladder and kidneys are also relatively close in the lower abdomen.\"\n}\n```\n",
+  "parsed": {
+    "choice": "A",
+    "answer_value": "Bladder and a lung",
+    "rationale": "The image displays the lungs in the upper thoracic cavity and the bladder in the lower pelvic cavity. This represents the greatest vertical distance between any two organs shown. The liver and lungs are adjacent in the upper abdomen, while the liver and kidneys are close in the upper abdomen. The bladder and kidneys are also relatively close in the lower abdomen."
+  },
+  "chosen_letter": "A",
+  "is_correct": true,
+  "parse_error": null
+}

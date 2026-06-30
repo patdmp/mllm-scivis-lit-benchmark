@@ -1,0 +1,32 @@
+{
+  "item_id": "item31",
+  "model": "internvl",
+  "run": 9,
+  "seed": 9,
+  "n_choices": 3,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 1,
+      "text": "Liver"
+    },
+    "B": {
+      "original_idx": 3,
+      "text": "Bladder"
+    },
+    "C": {
+      "original_idx": 2,
+      "text": "Kidneys"
+    }
+  },
+  "correct_answer_original_idx": 1,
+  "correct_letter": "A",
+  "raw_response": "{\"choice\": \"B\", \"answer_value\": \"Bladder\", \"rationale\": \"The bladder is positioned at the bottom of the image, closest to the viewer's perspective. The other organs, such as the liver and kidneys, are located higher up in the body and thus appear further away from the viewer.\"}",
+  "parsed": {
+    "choice": "B",
+    "answer_value": "Bladder",
+    "rationale": "The bladder is positioned at the bottom of the image, closest to the viewer's perspective. The other organs, such as the liver and kidneys, are located higher up in the body and thus appear further away from the viewer."
+  },
+  "chosen_letter": "B",
+  "is_correct": false,
+  "parse_error": null
+}

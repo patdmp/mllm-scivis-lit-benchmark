@@ -1,0 +1,36 @@
+{
+  "item_id": "item16",
+  "model": "llava",
+  "run": 2,
+  "seed": 2,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 2,
+      "text": "The North Pacific is mostly unchanged or cooling, while the South Pacific is mostly warming."
+    },
+    "B": {
+      "original_idx": 3,
+      "text": "Both the North and South Pacific are mostly warming."
+    },
+    "C": {
+      "original_idx": 4,
+      "text": "Both the North and South Pacific are mostly unchanged."
+    },
+    "D": {
+      "original_idx": 1,
+      "text": "The North Pacific is mostly warming, while the South Pacific is mostly cooling."
+    }
+  },
+  "correct_answer_original_idx": 2,
+  "correct_letter": "A",
+  "raw_response": "{\n  \"choice\": \"A\",\n  \"answer_value\": \"The North Pacific is mostly unchanged or cooling, while the South Pacific is mostly warming.\",\n  \"rationale\": \"The North Pacific shows a mix of colors close to 0degC/week, indicating little change or slight cooling. The South Pacific has more red and yellow areas, indicating warming.\"\n}contrast between the North and South Pacific regions in the visualization.able to confidently determine the trends across the entire Pacific Ocean based on the provided visualization and caption.Not sure\" and explain why in your rationale.The North Pacific is mostly unchanged or cooling, while the South Pacific is mostly warming.rationale\": \"The North Pacific shows a mix of colors close to 0degC/week, indicating little change or slight cooling. The South Pacific has more red and yellow areas, indicating warming.\"able to confidently determine the trends across the entire Pacific Ocean based on the provided visualization and caption.  \"Not sure\" and explain why in your rationale.  \"The North Pacific is mostly unchanged or cooling, while the South Pacific is mostly warming.  \"rationale\": \"The North Pacific shows a mix of colors close to 0degC/week, indicating little change or slight cooling. The South Pacific has more red",
+  "parsed": {
+    "choice": "A",
+    "answer_value": "The North Pacific is mostly unchanged or cooling, while the South Pacific is mostly warming.",
+    "rationale": "The North Pacific shows a mix of colors close to 0degC/week, indicating little change or slight cooling. The South Pacific has more red and yellow areas, indicating warming."
+  },
+  "chosen_letter": "A",
+  "is_correct": true,
+  "parse_error": null
+}

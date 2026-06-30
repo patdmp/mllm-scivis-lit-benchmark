@@ -1,0 +1,36 @@
+{
+  "item_id": "item70",
+  "model": "llava",
+  "run": 1,
+  "seed": 1,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 4,
+      "text": "The center of the roof"
+    },
+    "B": {
+      "original_idx": 1,
+      "text": "The lower half of the windshield"
+    },
+    "C": {
+      "original_idx": 3,
+      "text": "The middle of the front bumper"
+    },
+    "D": {
+      "original_idx": 2,
+      "text": "The backend of the hood"
+    }
+  },
+  "correct_answer_original_idx": 3,
+  "correct_letter": "C",
+  "raw_response": "{\n  \"choice\": \"C\",\n  \"answer_value\": \"The middle of the front bumper\",\n  \"rationale\": \"The visualization shows the highest kinematic pressure in the middle of the front bumper, indicated by the red color on the scale.\"\n} brightest red color on the visualization corresponds to the highest kinematic pressure, which is located at the middle of the front bumper.\"\n} brightest red color on the visualization corresponds to the highest kinematic pressure, which is located at the middle of the front bumper.\"\n} brightest red color on the visualization corresponds to the highest kinematic pressure, which is located at the middle of the front bumper.\"\n} brightest red color on the visualization corresponds to the highest kinematic pressure, which is located at the middle of the front bumper.\"\n} brightest red color on the visualization corresponds to the highest kinematic pressure, which is located at the middle of the front bumper.\"\n} brightest red color on the visualization corresponds to the highest kinematic pressure, which is located at the middle of the front bumper.\"\n} brightest red color on the visualization corresponds to the highest kinematic pressure, which is located at the middle of the front bumper.\"\n} brightest red color on the visualization corresponds to the highest kinematic pressure, which is located at the middle of the front bumper.\"\n} brightest red color on the visualization corresponds to the highest kinematic pressure, which is located at the middle",
+  "parsed": {
+    "choice": "C",
+    "answer_value": "The middle of the front bumper",
+    "rationale": "The visualization shows the highest kinematic pressure in the middle of the front bumper, indicated by the red color on the scale."
+  },
+  "chosen_letter": "C",
+  "is_correct": true,
+  "parse_error": null
+}

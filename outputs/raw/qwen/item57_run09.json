@@ -1,0 +1,36 @@
+{
+  "item_id": "item57",
+  "model": "qwen",
+  "run": 9,
+  "seed": 9,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 1,
+      "text": "Above plate 1"
+    },
+    "B": {
+      "original_idx": 2,
+      "text": "Below plate 2"
+    },
+    "C": {
+      "original_idx": 3,
+      "text": "Directly between the two plates"
+    },
+    "D": {
+      "original_idx": 4,
+      "text": "The left and right sides of both plates"
+    }
+  },
+  "correct_answer_original_idx": 3,
+  "correct_letter": "C",
+  "raw_response": "{\n  \"choice\": \"C\",\n  \"answer_value\": \"Directly between the two plates\",\n  \"rationale\": \"The color bar at the bottom indicates that yellow represents the highest electric field magnitude (30), while purple represents the lowest (5). The lines directly between the two plates are colored yellow, indicating the maximum field strength. In contrast, the lines above plate 1, below plate 2, and on the sides are colored green, blue, or purple, which correspond to lower magnitudes. Therefore, the electric field is strongest in the region directly between the plates.\"\n}\n",
+  "parsed": {
+    "choice": "C",
+    "answer_value": "Directly between the two plates",
+    "rationale": "The color bar at the bottom indicates that yellow represents the highest electric field magnitude (30), while purple represents the lowest (5). The lines directly between the two plates are colored yellow, indicating the maximum field strength. In contrast, the lines above plate 1, below plate 2, and on the sides are colored green, blue, or purple, which correspond to lower magnitudes. Therefore, the electric field is strongest in the region directly between the plates."
+  },
+  "chosen_letter": "C",
+  "is_correct": true,
+  "parse_error": null
+}

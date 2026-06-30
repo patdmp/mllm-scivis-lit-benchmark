@@ -1,0 +1,36 @@
+{
+  "item_id": "item12",
+  "model": "internvl",
+  "run": 8,
+  "seed": 8,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 1,
+      "text": "increases"
+    },
+    "B": {
+      "original_idx": 3,
+      "text": "decreases then increases"
+    },
+    "C": {
+      "original_idx": 4,
+      "text": "increases then decreases"
+    },
+    "D": {
+      "original_idx": 2,
+      "text": "decreases"
+    }
+  },
+  "correct_answer_original_idx": 4,
+  "correct_letter": "C",
+  "raw_response": "{\n  \"choice\": \"C\",\n  \"answer_value\": \"increases then decreases\",\n  \"rationale\": \"The map shows the hurricane's path with wind speed categories. From 10 AM on Tuesday to 7 AM on Wednesday, the hurricane is in the 'H' category (74-110 mph), indicating an increase. From 7 AM on Wednesday to 7 PM on Thursday, it moves into the 'S' category (39-73 mph), indicating a decrease in wind speed.\"\n}",
+  "parsed": {
+    "choice": "C",
+    "answer_value": "increases then decreases",
+    "rationale": "The map shows the hurricane's path with wind speed categories. From 10 AM on Tuesday to 7 AM on Wednesday, the hurricane is in the 'H' category (74-110 mph), indicating an increase. From 7 AM on Wednesday to 7 PM on Thursday, it moves into the 'S' category (39-73 mph), indicating a decrease in wind speed."
+  },
+  "chosen_letter": "C",
+  "is_correct": true,
+  "parse_error": null
+}

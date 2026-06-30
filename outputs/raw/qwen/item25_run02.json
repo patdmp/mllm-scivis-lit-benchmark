@@ -1,0 +1,36 @@
+{
+  "item_id": "item25",
+  "model": "qwen",
+  "run": 2,
+  "seed": 2,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 2,
+      "text": "2"
+    },
+    "B": {
+      "original_idx": 3,
+      "text": "3"
+    },
+    "C": {
+      "original_idx": 4,
+      "text": "4"
+    },
+    "D": {
+      "original_idx": 1,
+      "text": "1"
+    }
+  },
+  "correct_answer_original_idx": 2,
+  "correct_letter": "A",
+  "raw_response": "```json\n{\n  \"choice\": \"A\",\n  \"answer_value\": \"2\",\n  \"rationale\": \"The caption describes the object as a 'Closed Seifert surface' formed by gluing two identical surfaces together. In topology, a closed surface created by joining two surfaces along their boundaries typically results in a genus-1 surface, which is topologically equivalent to a torus. A torus has exactly one hole.\"\n}\n```\n",
+  "parsed": {
+    "choice": "A",
+    "answer_value": "2",
+    "rationale": "The caption describes the object as a 'Closed Seifert surface' formed by gluing two identical surfaces together. In topology, a closed surface created by joining two surfaces along their boundaries typically results in a genus-1 surface, which is topologically equivalent to a torus. A torus has exactly one hole."
+  },
+  "chosen_letter": "A",
+  "is_correct": true,
+  "parse_error": null
+}

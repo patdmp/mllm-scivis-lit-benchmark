@@ -1,0 +1,36 @@
+{
+  "item_id": "item62",
+  "model": "qwen",
+  "run": 1,
+  "seed": 1,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 4,
+      "text": "Randomly distributed throughout"
+    },
+    "B": {
+      "original_idx": 1,
+      "text": "The central core"
+    },
+    "C": {
+      "original_idx": 3,
+      "text": "The lower part"
+    },
+    "D": {
+      "original_idx": 2,
+      "text": "A ring around the center"
+    }
+  },
+  "correct_answer_original_idx": 2,
+  "correct_letter": "D",
+  "raw_response": "```json\n{\n  \"choice\": \"D\",\n  \"answer_value\": \"A ring around the center\",\n  \"rationale\": \"The color bar indicates that red represents the highest velocity magnitude (1.0e+00). Observing the visualization, the most intense red coloring is concentrated in a distinct band or ring within the upper section of the tornado structure. The very center of the vortex is colored blue, which corresponds to the lowest velocity magnitude on the scale. Therefore, the highest velocity is not in the center but in the surrounding ring.\"\n}\n```\n",
+  "parsed": {
+    "choice": "D",
+    "answer_value": "A ring around the center",
+    "rationale": "The color bar indicates that red represents the highest velocity magnitude (1.0e+00). Observing the visualization, the most intense red coloring is concentrated in a distinct band or ring within the upper section of the tornado structure. The very center of the vortex is colored blue, which corresponds to the lowest velocity magnitude on the scale. Therefore, the highest velocity is not in the center but in the surrounding ring."
+  },
+  "chosen_letter": "D",
+  "is_correct": true,
+  "parse_error": null
+}

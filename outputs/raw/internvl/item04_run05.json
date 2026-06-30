@@ -1,0 +1,36 @@
+{
+  "item_id": "item04",
+  "model": "internvl",
+  "run": 5,
+  "seed": 5,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 1,
+      "text": "increases"
+    },
+    "B": {
+      "original_idx": 2,
+      "text": "decreases"
+    },
+    "C": {
+      "original_idx": 4,
+      "text": "decreases, then increases"
+    },
+    "D": {
+      "original_idx": 3,
+      "text": "increases, then decreases"
+    }
+  },
+  "correct_answer_original_idx": 4,
+  "correct_letter": "C",
+  "raw_response": "<think>\nThe contour lines on the map show elevation changes. Moving from waypoint C to waypoint A, the contour lines indicate a general increase in elevation. The path from C to A crosses from lower elevation contours (around 7200 feet) to higher elevation contours (around 7400 feet), suggesting an increase in elevation.\n</think>\n\n{\n  \"choice\": \"A\",\n  \"answer_value\": \"increases\",\n  \"rationale\": \"The contour lines show an increase in elevation from waypoint C to waypoint A, as the elevation numbers increase from 7200 to 7400 feet.\"\n}",
+  "parsed": {
+    "choice": "A",
+    "answer_value": "increases",
+    "rationale": "The contour lines show an increase in elevation from waypoint C to waypoint A, as the elevation numbers increase from 7200 to 7400 feet."
+  },
+  "chosen_letter": "A",
+  "is_correct": false,
+  "parse_error": null
+}

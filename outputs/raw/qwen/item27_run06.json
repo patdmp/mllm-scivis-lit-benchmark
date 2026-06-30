@@ -1,0 +1,36 @@
+{
+  "item_id": "item27",
+  "model": "qwen",
+  "run": 6,
+  "seed": 6,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 4,
+      "text": "All three balls detach and fall off as separate pieces."
+    },
+    "B": {
+      "original_idx": 3,
+      "text": "All three balls remain attached as a single piece."
+    },
+    "C": {
+      "original_idx": 2,
+      "text": "The top and middle balls remain connected, but the bottom ball separates."
+    },
+    "D": {
+      "original_idx": 1,
+      "text": "The bottom and middle balls remain connected, but the top ball separates."
+    }
+  },
+  "correct_answer_original_idx": 3,
+  "correct_letter": "B",
+  "raw_response": "```json\n{\n  \"choice\": \"C\",\n  \"answer_value\": \"The top and middle balls remain connected, but the bottom ball separates.\",\n  \"rationale\": \"The cut is positioned on the tube connecting the top and middle balls, which are part of the same continuous loop. The bottom ball is connected to the middle ball via a separate tube that is not intersected by the cut. Therefore, the top and middle balls stay connected, while the bottom ball becomes detached.\"\n}\n```\n",
+  "parsed": {
+    "choice": "C",
+    "answer_value": "The top and middle balls remain connected, but the bottom ball separates.",
+    "rationale": "The cut is positioned on the tube connecting the top and middle balls, which are part of the same continuous loop. The bottom ball is connected to the middle ball via a separate tube that is not intersected by the cut. Therefore, the top and middle balls stay connected, while the bottom ball becomes detached."
+  },
+  "chosen_letter": "C",
+  "is_correct": false,
+  "parse_error": null
+}

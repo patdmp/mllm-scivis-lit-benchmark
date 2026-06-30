@@ -1,0 +1,36 @@
+{
+  "item_id": "item10",
+  "model": "qwen",
+  "run": 4,
+  "seed": 4,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 3,
+      "text": "7 AM Thu and 7 PM Thu"
+    },
+    "B": {
+      "original_idx": 1,
+      "text": "7 AM Wed and 7 PM Wed"
+    },
+    "C": {
+      "original_idx": 4,
+      "text": "7 AM Fri and 7 AM Sat"
+    },
+    "D": {
+      "original_idx": 2,
+      "text": "7 PM Wed and 7 AM Thu"
+    }
+  },
+  "correct_answer_original_idx": 2,
+  "correct_letter": "D",
+  "raw_response": "```json\n{\n  \"choice\": \"D\",\n  \"answer_value\": \"7 PM Wed and 7 AM Thu\",\n  \"rationale\": \"The map shows the hurricane's forecast track moving northward along the Louisiana coast. The position labeled '7 PM Wed' is still over the Gulf of Mexico, while the position labeled '7 AM Thu' is clearly on the coast of Louisiana. Therefore, the hurricane is expected to reach the coast between these two timestamps.\"\n}\n```\n",
+  "parsed": {
+    "choice": "D",
+    "answer_value": "7 PM Wed and 7 AM Thu",
+    "rationale": "The map shows the hurricane's forecast track moving northward along the Louisiana coast. The position labeled '7 PM Wed' is still over the Gulf of Mexico, while the position labeled '7 AM Thu' is clearly on the coast of Louisiana. Therefore, the hurricane is expected to reach the coast between these two timestamps."
+  },
+  "chosen_letter": "D",
+  "is_correct": true,
+  "parse_error": null
+}

@@ -1,0 +1,36 @@
+{
+  "item_id": "item13",
+  "model": "internvl",
+  "run": 1,
+  "seed": 1,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 4,
+      "text": "increased by 1.25 degC per week"
+    },
+    "B": {
+      "original_idx": 1,
+      "text": "decreased by 2.25 degC per week"
+    },
+    "C": {
+      "original_idx": 3,
+      "text": "stayed approximately the same"
+    },
+    "D": {
+      "original_idx": 2,
+      "text": "decreased by 1.25 degC per week"
+    }
+  },
+  "correct_answer_original_idx": 3,
+  "correct_letter": "C",
+  "raw_response": "{\n  \"choice\": \"D\",\n  \"answer_value\": \"decreased by 1.25 degC per week\",\n  \"rationale\": \"The map shows the Pacific Ocean between 0-20N and 140-160E with colors indicating temperature changes. The colors in this region are predominantly yellow and green, which correspond to a decrease in temperature. The color scale indicates that these colors represent a decrease of about 1.25 degC per week.\"\n}",
+  "parsed": {
+    "choice": "D",
+    "answer_value": "decreased by 1.25 degC per week",
+    "rationale": "The map shows the Pacific Ocean between 0-20N and 140-160E with colors indicating temperature changes. The colors in this region are predominantly yellow and green, which correspond to a decrease in temperature. The color scale indicates that these colors represent a decrease of about 1.25 degC per week."
+  },
+  "chosen_letter": "D",
+  "is_correct": false,
+  "parse_error": null
+}

@@ -1,0 +1,36 @@
+{
+  "item_id": "item37",
+  "model": "qwen",
+  "run": 2,
+  "seed": 2,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 2,
+      "text": "Cell, nucleus, chromosome, DNA, gene"
+    },
+    "B": {
+      "original_idx": 3,
+      "text": "Chromosome, DNA, cell, gene, nucleus"
+    },
+    "C": {
+      "original_idx": 4,
+      "text": "DNA, chromosome, cell, nucleus, gene"
+    },
+    "D": {
+      "original_idx": 1,
+      "text": "Chromosome, cell, nucleus, DNA, gene"
+    }
+  },
+  "correct_answer_original_idx": 2,
+  "correct_letter": "A",
+  "raw_response": "{\n  \"choice\": \"A\",\n  \"answer_value\": \"Cell, nucleus, chromosome, DNA, gene\",\n  \"rationale\": \"The image visually demonstrates the hierarchical organization of biological structures, starting from the largest unit, the cell. Inside the cell is the nucleus, which contains the chromosomes. The diagram shows a chromosome being composed of a long strand of DNA. Finally, the image explicitly labels a 'Gene' as a specific segment of that DNA strand, making it the smallest structure in this sequence.\"\n}\n",
+  "parsed": {
+    "choice": "A",
+    "answer_value": "Cell, nucleus, chromosome, DNA, gene",
+    "rationale": "The image visually demonstrates the hierarchical organization of biological structures, starting from the largest unit, the cell. Inside the cell is the nucleus, which contains the chromosomes. The diagram shows a chromosome being composed of a long strand of DNA. Finally, the image explicitly labels a 'Gene' as a specific segment of that DNA strand, making it the smallest structure in this sequence."
+  },
+  "chosen_letter": "A",
+  "is_correct": true,
+  "parse_error": null
+}

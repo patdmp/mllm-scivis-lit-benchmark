@@ -1,0 +1,36 @@
+{
+  "item_id": "item47",
+  "model": "qwen",
+  "run": 1,
+  "seed": 1,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 4,
+      "text": "Pelvic fin"
+    },
+    "B": {
+      "original_idx": 1,
+      "text": "Anal fin"
+    },
+    "C": {
+      "original_idx": 3,
+      "text": "Dorsal fin"
+    },
+    "D": {
+      "original_idx": 2,
+      "text": "Caudal fin"
+    }
+  },
+  "correct_answer_original_idx": 2,
+  "correct_letter": "D",
+  "raw_response": "```json\n{\n  \"choice\": \"C\",\n  \"answer_value\": \"Dorsal fin\",\n  \"rationale\": \"The dorsal fin is located on the top of the fish and is visibly the largest and most extended fin in the provided visualization. The fin rays supporting it are clearly longer than those of the pelvic, anal, or caudal fins. This anatomical feature is consistent with the function of the dorsal fin in providing stability and steering. Therefore, the dorsal fin has the longest fin rays among the labeled options.\"\n}\n```\n",
+  "parsed": {
+    "choice": "C",
+    "answer_value": "Dorsal fin",
+    "rationale": "The dorsal fin is located on the top of the fish and is visibly the largest and most extended fin in the provided visualization. The fin rays supporting it are clearly longer than those of the pelvic, anal, or caudal fins. This anatomical feature is consistent with the function of the dorsal fin in providing stability and steering. Therefore, the dorsal fin has the longest fin rays among the labeled options."
+  },
+  "chosen_letter": "C",
+  "is_correct": false,
+  "parse_error": null
+}

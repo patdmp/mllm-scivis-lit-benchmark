@@ -1,0 +1,36 @@
+{
+  "item_id": "item43",
+  "model": "llava",
+  "run": 7,
+  "seed": 7,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 4,
+      "text": "10"
+    },
+    "B": {
+      "original_idx": 2,
+      "text": "7"
+    },
+    "C": {
+      "original_idx": 1,
+      "text": "5"
+    },
+    "D": {
+      "original_idx": 3,
+      "text": "9"
+    }
+  },
+  "correct_answer_original_idx": 4,
+  "correct_letter": "A",
+  "raw_response": "{\n  \"choice\": \"A\",\n  \"answer_value\": \"10\",\n  \"rationale\": \"The abdomen of the female dragonfly is labeled with segments S1 through S10, indicating there are 10 segments.\"\n} other options are incorrect because the image clearly labels 10 segments in the abdomen of the female dragonfly.67891011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556575859606162636465666768697071727374757677787980",
+  "parsed": {
+    "choice": "A",
+    "answer_value": "10",
+    "rationale": "The abdomen of the female dragonfly is labeled with segments S1 through S10, indicating there are 10 segments."
+  },
+  "chosen_letter": "A",
+  "is_correct": true,
+  "parse_error": null
+}

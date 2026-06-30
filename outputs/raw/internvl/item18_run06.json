@@ -1,0 +1,36 @@
+{
+  "item_id": "item18",
+  "model": "internvl",
+  "run": 6,
+  "seed": 6,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 4,
+      "text": "New York"
+    },
+    "B": {
+      "original_idx": 3,
+      "text": "Dallas"
+    },
+    "C": {
+      "original_idx": 2,
+      "text": "Denver"
+    },
+    "D": {
+      "original_idx": 1,
+      "text": "Seattle"
+    }
+  },
+  "correct_answer_original_idx": 4,
+  "correct_letter": "A",
+  "raw_response": "{\n  \"choice\": \"C\",\n  \"answer_value\": \"Denver\",\n  \"rationale\": \"The darkest shading, indicating the highest wind speed, is around Denver. The caption mentions the top speed is 72.1 mph, which aligns with the darkest areas on the map.\"\n}",
+  "parsed": {
+    "choice": "C",
+    "answer_value": "Denver",
+    "rationale": "The darkest shading, indicating the highest wind speed, is around Denver. The caption mentions the top speed is 72.1 mph, which aligns with the darkest areas on the map."
+  },
+  "chosen_letter": "C",
+  "is_correct": false,
+  "parse_error": null
+}

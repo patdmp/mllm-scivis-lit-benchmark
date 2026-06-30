@@ -1,0 +1,36 @@
+{
+  "item_id": "item13",
+  "model": "internvl",
+  "run": 6,
+  "seed": 6,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 4,
+      "text": "increased by 1.25 degC per week"
+    },
+    "B": {
+      "original_idx": 3,
+      "text": "stayed approximately the same"
+    },
+    "C": {
+      "original_idx": 2,
+      "text": "decreased by 1.25 degC per week"
+    },
+    "D": {
+      "original_idx": 1,
+      "text": "decreased by 2.25 degC per week"
+    }
+  },
+  "correct_answer_original_idx": 3,
+  "correct_letter": "B",
+  "raw_response": "{\n  \"choice\": \"A\",\n  \"answer_value\": \"increased by 1.25 degC per week\",\n  \"rationale\": \"The map shows the Pacific Ocean between 0-20N and 140-160E with colors indicating a temperature increase. The color gradient suggests an increase of around 1.25 degC per week in this region.\"\n}",
+  "parsed": {
+    "choice": "A",
+    "answer_value": "increased by 1.25 degC per week",
+    "rationale": "The map shows the Pacific Ocean between 0-20N and 140-160E with colors indicating a temperature increase. The color gradient suggests an increase of around 1.25 degC per week in this region."
+  },
+  "chosen_letter": "A",
+  "is_correct": false,
+  "parse_error": null
+}

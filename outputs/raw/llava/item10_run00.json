@@ -1,0 +1,36 @@
+{
+  "item_id": "item10",
+  "model": "llava",
+  "run": 0,
+  "seed": 0,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 3,
+      "text": "7 AM Thu and 7 PM Thu"
+    },
+    "B": {
+      "original_idx": 1,
+      "text": "7 AM Wed and 7 PM Wed"
+    },
+    "C": {
+      "original_idx": 2,
+      "text": "7 PM Wed and 7 AM Thu"
+    },
+    "D": {
+      "original_idx": 4,
+      "text": "7 AM Fri and 7 AM Sat"
+    }
+  },
+  "correct_answer_original_idx": 2,
+  "correct_letter": "C",
+  "raw_response": "{\n  \"choice\": \"C\",\n  \"answer_value\": \"7 PM Wed and 7 AM Thu\",\n  \"rationale\": \"The forecast track shows the hurricane's path moving from the Gulf of Mexico towards the coast. The closest time markers to the coast are 7 PM Wed and 7 AM Thu, indicating the expected arrival time.\"\n} highlighted area on the map.H\" and \"M\" symbols indicate the hurricane's position at different times. The \"H\" symbols are closer to the coast, with the last \"H\" at 7 PM Wed and the first \"M\" at 7 AM Thu. warnings and watches.7 AM Thu and 7 PM Thu\nB. 7 AM Wed and 7 PM Wed\nC. 7 PM Wed and 7 AM Thu\nD. 7 AM Fri and 7 AM Sat\n}C. 7 PM Wed and 7 AM ThuThe \"H\" symbols are closer to the coast, with the last \"H\" at 7 PM Wed and the first \"M\" at 7 AM Thu.",
+  "parsed": {
+    "choice": "C",
+    "answer_value": "7 PM Wed and 7 AM Thu",
+    "rationale": "The forecast track shows the hurricane's path moving from the Gulf of Mexico towards the coast. The closest time markers to the coast are 7 PM Wed and 7 AM Thu, indicating the expected arrival time."
+  },
+  "chosen_letter": "C",
+  "is_correct": true,
+  "parse_error": null
+}

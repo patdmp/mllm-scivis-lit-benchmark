@@ -1,0 +1,36 @@
+{
+  "item_id": "item40",
+  "model": "qwen",
+  "run": 0,
+  "seed": 0,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 3,
+      "text": "RBDs, envelope, RNPs"
+    },
+    "B": {
+      "original_idx": 1,
+      "text": "Envelope, RNPs, RBDs"
+    },
+    "C": {
+      "original_idx": 2,
+      "text": "RNPs, RBDs, envelope"
+    },
+    "D": {
+      "original_idx": 4,
+      "text": "RNPs, envelope, RBDs"
+    }
+  },
+  "correct_answer_original_idx": 4,
+  "correct_letter": "D",
+  "raw_response": "```json\n{\n  \"choice\": \"D\",\n  \"answer_value\": \"RNPs, envelope, RBDs\",\n  \"rationale\": \"The visualization shows yellow RNP complexes located in the central core of the particle. Surrounding this core is the gray lipid envelope. Protruding from the outer surface of the envelope are the spike proteins, which contain the RBDs.\"\n}\n```\n",
+  "parsed": {
+    "choice": "D",
+    "answer_value": "RNPs, envelope, RBDs",
+    "rationale": "The visualization shows yellow RNP complexes located in the central core of the particle. Surrounding this core is the gray lipid envelope. Protruding from the outer surface of the envelope are the spike proteins, which contain the RBDs."
+  },
+  "chosen_letter": "D",
+  "is_correct": true,
+  "parse_error": null
+}

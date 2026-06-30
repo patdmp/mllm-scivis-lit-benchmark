@@ -1,0 +1,36 @@
+{
+  "item_id": "item22",
+  "model": "qwen",
+  "run": 4,
+  "seed": 4,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 3,
+      "text": "3"
+    },
+    "B": {
+      "original_idx": 1,
+      "text": "1"
+    },
+    "C": {
+      "original_idx": 4,
+      "text": "4"
+    },
+    "D": {
+      "original_idx": 2,
+      "text": "2"
+    }
+  },
+  "correct_answer_original_idx": 3,
+  "correct_letter": "A",
+  "raw_response": "```json\n{\n  \"choice\": \"A\",\n  \"answer_value\": \"3\",\n  \"rationale\": \"The visualization shows a molecular structure where each blue atom (node) is connected to exactly three other atoms via brown links (edges). This consistent connectivity pattern across the entire structure indicates that each atom has a coordination number of 3. Therefore, each atom is directly connected to 3 other atoms.\"\n}\n```\n",
+  "parsed": {
+    "choice": "A",
+    "answer_value": "3",
+    "rationale": "The visualization shows a molecular structure where each blue atom (node) is connected to exactly three other atoms via brown links (edges). This consistent connectivity pattern across the entire structure indicates that each atom has a coordination number of 3. Therefore, each atom is directly connected to 3 other atoms."
+  },
+  "chosen_letter": "A",
+  "is_correct": true,
+  "parse_error": null
+}

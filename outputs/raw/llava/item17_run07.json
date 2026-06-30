@@ -1,0 +1,36 @@
+{
+  "item_id": "item17",
+  "model": "llava",
+  "run": 7,
+  "seed": 7,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 4,
+      "text": "Wind speeds are approximately equal along the East and West Coasts."
+    },
+    "B": {
+      "original_idx": 2,
+      "text": "The range of wind speeds is larger in the central United States than along the West Coast."
+    },
+    "C": {
+      "original_idx": 1,
+      "text": "Wind speeds are higher along the West Coast than in the central United States."
+    },
+    "D": {
+      "original_idx": 3,
+      "text": "The range of wind speeds is smaller in the central United States than along the East Coast."
+    }
+  },
+  "correct_answer_original_idx": 2,
+  "correct_letter": "B",
+  "raw_response": "{\n  \"choice\": \"B\",\n  \"answer_value\": \"The range of wind speeds is larger in the central United States than along the West Coast.\",\n  \"rationale\": \"The central United States shows a wider range of wind speeds, with more variation in shades indicating different speeds, compared to the West Coast, which has more uniform shading.\"\n} prevailing wind direction in the central United States. From the image, it is clear that the wind speeds are higher along the East Coast than in the central United States. The range of wind speeds is larger in the central United States than along the West Coast. The range of wind speeds is smaller in the central United States than along the East Coast. The range of wind speeds is larger in the central United States than along the East Coast. The range of wind speeds is larger in the central United States than along the West Coast. The range of wind speeds is larger in the central United States than along the East Coast. The range of wind speeds is larger in the central United States than along the West Coast. The range of wind speeds is larger in the central United States than along the East Coast. The range of wind speeds is larger in the central United States than along the West Coast. The range of wind speeds is larger in the central United States than along the East Coast. The range of wind speeds is larger in the central United States than along the West Coast. The range of wind speeds is larger in",
+  "parsed": {
+    "choice": "B",
+    "answer_value": "The range of wind speeds is larger in the central United States than along the West Coast.",
+    "rationale": "The central United States shows a wider range of wind speeds, with more variation in shades indicating different speeds, compared to the West Coast, which has more uniform shading."
+  },
+  "chosen_letter": "B",
+  "is_correct": true,
+  "parse_error": null
+}

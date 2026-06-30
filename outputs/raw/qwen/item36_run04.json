@@ -1,0 +1,36 @@
+{
+  "item_id": "item36",
+  "model": "qwen",
+  "run": 4,
+  "seed": 4,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 3,
+      "text": "between the two backbones"
+    },
+    "B": {
+      "original_idx": 1,
+      "text": "along the outer surface of each backbone"
+    },
+    "C": {
+      "original_idx": 4,
+      "text": "on one side of a backbone, without connecting to the opposite backbone"
+    },
+    "D": {
+      "original_idx": 2,
+      "text": "only at the start and end of each backbone"
+    }
+  },
+  "correct_answer_original_idx": 3,
+  "correct_letter": "A",
+  "raw_response": "{\n  \"choice\": \"A\",\n  \"answer_value\": \"between the two backbones\",\n  \"rationale\": \"The image clearly shows the DNA double helix structure where the sugar-phosphate backbones form the outer rails. The nitrogen bases (colored blocks) are depicted connecting the two backbones, positioned in the space between them. This arrangement is characteristic of the DNA ladder model, where the rungs are the base pairs located between the side rails.\"\n}\n",
+  "parsed": {
+    "choice": "A",
+    "answer_value": "between the two backbones",
+    "rationale": "The image clearly shows the DNA double helix structure where the sugar-phosphate backbones form the outer rails. The nitrogen bases (colored blocks) are depicted connecting the two backbones, positioned in the space between them. This arrangement is characteristic of the DNA ladder model, where the rungs are the base pairs located between the side rails."
+  },
+  "chosen_letter": "A",
+  "is_correct": true,
+  "parse_error": null
+}

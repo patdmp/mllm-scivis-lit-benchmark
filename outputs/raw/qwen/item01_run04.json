@@ -1,0 +1,36 @@
+{
+  "item_id": "item01",
+  "model": "qwen",
+  "run": 4,
+  "seed": 4,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 3,
+      "text": "6863 ft"
+    },
+    "B": {
+      "original_idx": 1,
+      "text": "6624 ft"
+    },
+    "C": {
+      "original_idx": 4,
+      "text": "6942 ft"
+    },
+    "D": {
+      "original_idx": 2,
+      "text": "6728 ft"
+    }
+  },
+  "correct_answer_original_idx": 3,
+  "correct_letter": "A",
+  "raw_response": "```json\n{\n  \"choice\": \"A\",\n  \"answer_value\": \"6863 ft\",\n  \"rationale\": \"The map shows a contour line labeled '6800' passing directly through waypoint D. The caption specifies a contour interval of 40 feet. Since the next higher contour line is 7000, the elevation of D must be between 6800 and 7000. Among the options, 6863 ft is the only value that falls within this range.\"\n}\n```\n",
+  "parsed": {
+    "choice": "A",
+    "answer_value": "6863 ft",
+    "rationale": "The map shows a contour line labeled '6800' passing directly through waypoint D. The caption specifies a contour interval of 40 feet. Since the next higher contour line is 7000, the elevation of D must be between 6800 and 7000. Among the options, 6863 ft is the only value that falls within this range."
+  },
+  "chosen_letter": "A",
+  "is_correct": true,
+  "parse_error": null
+}

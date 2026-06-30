@@ -1,0 +1,36 @@
+{
+  "item_id": "item02",
+  "model": "internvl",
+  "run": 7,
+  "seed": 7,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 4,
+      "text": "Waypoint D"
+    },
+    "B": {
+      "original_idx": 2,
+      "text": "Waypoint B"
+    },
+    "C": {
+      "original_idx": 1,
+      "text": "Waypoint A"
+    },
+    "D": {
+      "original_idx": 3,
+      "text": "Waypoint C"
+    }
+  },
+  "correct_answer_original_idx": 3,
+  "correct_letter": "D",
+  "raw_response": "<think>\nThe contour lines on the map indicate elevation in feet, with intervals of 40 feet. Waypoint D is located near the contour line labeled 6800 feet, which is the highest elevation shown on the map. The other waypoints (A, B, and C) are situated near lower elevation contour lines, specifically around 7400 feet, 7200 feet, and 7400 feet respectively. Since 6800 feet is lower than 7400 feet, Waypoint D is not the highest. However, the question asks for the highest elevation among the waypoints, and since the contour lines around Waypoint D indicate a higher elevation than the others, it is the highest.\n</think>\n\n{\n  \"choice\": \"A\",\n  \"answer_value\": \"Waypoint D\",\n  \"rationale\": \"Waypoint D is located near the highest contour line labeled 6800 feet, which is higher than the contour lines around the other waypoints.\"\n}",
+  "parsed": {
+    "choice": "A",
+    "answer_value": "Waypoint D",
+    "rationale": "Waypoint D is located near the highest contour line labeled 6800 feet, which is higher than the contour lines around the other waypoints."
+  },
+  "chosen_letter": "A",
+  "is_correct": false,
+  "parse_error": null
+}

@@ -1,0 +1,28 @@
+{
+  "item_id": "item60",
+  "model": "llava",
+  "run": 9,
+  "seed": 9,
+  "n_choices": 2,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 1,
+      "text": "TRUE"
+    },
+    "B": {
+      "original_idx": 2,
+      "text": "FALSE"
+    }
+  },
+  "correct_answer_original_idx": 2,
+  "correct_letter": "B",
+  "raw_response": "{\n  \"choice\": \"A\",\n  \"answer_value\": \"TRUE\",\n  \"rationale\": \"The visualization shows the tornado with streamlines and arrows indicating the direction of the velocity field. The arrows in the upper part of the tornado, which would be visible from a top-down view, are pointing in a clockwise direction, indicating clockwise rotation.\"\n} spirals in the upper part of the tornado, which would be visible from a top-down view, are pointing in a clockwise direction, indicating clockwise rotation. funnels in the upper part of the tornado, which would be visible from a top-down view, are pointing in a clockwise direction, indicating clockwise rotation.",
+  "parsed": {
+    "choice": "A",
+    "answer_value": "TRUE",
+    "rationale": "The visualization shows the tornado with streamlines and arrows indicating the direction of the velocity field. The arrows in the upper part of the tornado, which would be visible from a top-down view, are pointing in a clockwise direction, indicating clockwise rotation."
+  },
+  "chosen_letter": "A",
+  "is_correct": false,
+  "parse_error": null
+}

@@ -1,0 +1,36 @@
+{
+  "item_id": "item61",
+  "model": "internvl",
+  "run": 7,
+  "seed": 7,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 4,
+      "text": "a spherical spiral"
+    },
+    "B": {
+      "original_idx": 2,
+      "text": "a spiral cone"
+    },
+    "C": {
+      "original_idx": 1,
+      "text": "a spiral cylinder"
+    },
+    "D": {
+      "original_idx": 3,
+      "text": "a twisted funnel"
+    }
+  },
+  "correct_answer_original_idx": 3,
+  "correct_letter": "D",
+  "raw_response": "{\n  \"choice\": \"D\",\n  \"answer_value\": \"a twisted funnel\",\n  \"rationale\": \"The streamlines in the visualization form a funnel-like structure that twists as it descends, resembling a tornado's shape. The twisting and narrowing of the streamlines indicate a funnel shape, which aligns with the description of a 'twisted funnel'.\"\n}",
+  "parsed": {
+    "choice": "D",
+    "answer_value": "a twisted funnel",
+    "rationale": "The streamlines in the visualization form a funnel-like structure that twists as it descends, resembling a tornado's shape. The twisting and narrowing of the streamlines indicate a funnel shape, which aligns with the description of a 'twisted funnel'."
+  },
+  "chosen_letter": "D",
+  "is_correct": true,
+  "parse_error": null
+}

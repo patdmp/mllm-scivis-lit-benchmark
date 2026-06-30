@@ -1,0 +1,36 @@
+{
+  "item_id": "item23",
+  "model": "llava",
+  "run": 0,
+  "seed": 0,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 3,
+      "text": "Each hexagon is adjacent only to pentagons."
+    },
+    "B": {
+      "original_idx": 1,
+      "text": "Two pentagons share a common edge."
+    },
+    "C": {
+      "original_idx": 2,
+      "text": "No two hexagons share a common edge."
+    },
+    "D": {
+      "original_idx": 4,
+      "text": "Each pentagon is adjacent only to hexagons."
+    }
+  },
+  "correct_answer_original_idx": 4,
+  "correct_letter": "D",
+  "raw_response": "{\n  \"choice\": \"D\",\n  \"answer_value\": \"Each pentagon is adjacent only to hexagons.\",\n  \"rationale\": \"The visualization shows a structure where each pentagon is surrounded by hexagons, indicating that each pentagon is adjacent only to hexagons.\"\n} fullerene molecule.truncated icosahedron.truncated icosahedron.truncated icosahedron.truncated icosahedron.truncated icosahedron.truncated icosahedron.truncated icosahedron.truncated icosahedron.truncated icosahedron.truncated icosahedron.truncated icosahedron.truncated icosahedron.truncated icosahedron.truncated icosahedron.truncated icosahedron.truncated icosahedron.truncated icosahedron.truncated icosahedron.truncated icosahedron.truncated icosahedron.truncated icosahedron.truncated icosahedron.truncated icosahedron.truncated icosahedron.truncated icosahedron.tr",
+  "parsed": {
+    "choice": "D",
+    "answer_value": "Each pentagon is adjacent only to hexagons.",
+    "rationale": "The visualization shows a structure where each pentagon is surrounded by hexagons, indicating that each pentagon is adjacent only to hexagons."
+  },
+  "chosen_letter": "D",
+  "is_correct": true,
+  "parse_error": null
+}

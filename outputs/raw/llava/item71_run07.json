@@ -1,0 +1,36 @@
+{
+  "item_id": "item71",
+  "model": "llava",
+  "run": 7,
+  "seed": 7,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 4,
+      "text": "1250 m2/s2"
+    },
+    "B": {
+      "original_idx": 2,
+      "text": "750 m2/s2"
+    },
+    "C": {
+      "original_idx": 1,
+      "text": "500 m2/s2"
+    },
+    "D": {
+      "original_idx": 3,
+      "text": "1000 m2/s2"
+    }
+  },
+  "correct_answer_original_idx": 3,
+  "correct_letter": "D",
+  "raw_response": "{\n  \"choice\": \"A\",\n  \"answer_value\": \"1250 m2/s2\",\n  \"rationale\": \"The visualization shows a range of kinematic pressure values on the windshield, with the highest value near the top and the lowest near the bottom. The difference between these values is approximately 1250 m2/s2.\"\n}00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+  "parsed": {
+    "choice": "A",
+    "answer_value": "1250 m2/s2",
+    "rationale": "The visualization shows a range of kinematic pressure values on the windshield, with the highest value near the top and the lowest near the bottom. The difference between these values is approximately 1250 m2/s2."
+  },
+  "chosen_letter": "A",
+  "is_correct": false,
+  "parse_error": null
+}

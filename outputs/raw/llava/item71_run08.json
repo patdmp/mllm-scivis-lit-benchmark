@@ -1,0 +1,36 @@
+{
+  "item_id": "item71",
+  "model": "llava",
+  "run": 8,
+  "seed": 8,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 1,
+      "text": "500 m2/s2"
+    },
+    "B": {
+      "original_idx": 3,
+      "text": "1000 m2/s2"
+    },
+    "C": {
+      "original_idx": 4,
+      "text": "1250 m2/s2"
+    },
+    "D": {
+      "original_idx": 2,
+      "text": "750 m2/s2"
+    }
+  },
+  "correct_answer_original_idx": 3,
+  "correct_letter": "B",
+  "raw_response": "{\n  \"choice\": \"B\",\n  \"answer_value\": \"1000 m2/s2\",\n  \"rationale\": \"The kinematic pressure on the windshield varies from a minimum of around -700 m2/s2 to a maximum of around 300 m2/s2, resulting in a difference of approximately 1000 m2/s2.\"\n} shades of blue and green indicate lower pressure, while shades of red and orange indicate higher pressure. The difference between the highest and lowest values on the scale is 1500 m2/s2, but the actual difference on the windshield is less due to the range of values it covers.\"\n} shades of blue and green indicate lower pressure, while shades of red and orange indicate higher pressure. The difference between the highest and lowest values on the scale is 1500 m2/s2, but the actual difference on the windshield is less due to the range of values it covers.\"\n} shades of blue and green indicate lower pressure, while shades of red and orange indicate higher pressure. The difference between the highest and lowest values on the scale is 1500 m2/s2, but the actual difference on the windshield is less due to the range of values it covers.\"\n} shades of blue and green indicate lower pressure, while shades of red and orange indicate higher pressure.",
+  "parsed": {
+    "choice": "B",
+    "answer_value": "1000 m2/s2",
+    "rationale": "The kinematic pressure on the windshield varies from a minimum of around -700 m2/s2 to a maximum of around 300 m2/s2, resulting in a difference of approximately 1000 m2/s2."
+  },
+  "chosen_letter": "B",
+  "is_correct": true,
+  "parse_error": null
+}

@@ -1,0 +1,36 @@
+{
+  "item_id": "item56",
+  "model": "llava",
+  "run": 8,
+  "seed": 8,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 1,
+      "text": "expands as well but remains intact, keeping the gas inside"
+    },
+    "B": {
+      "original_idx": 3,
+      "text": "dissolves and mixes with the gas"
+    },
+    "C": {
+      "original_idx": 4,
+      "text": "ruptures, allowing the gas to escape freely"
+    },
+    "D": {
+      "original_idx": 2,
+      "text": "is pulled inward toward the center"
+    }
+  },
+  "correct_answer_original_idx": 1,
+  "correct_letter": "A",
+  "raw_response": "{\n  \"choice\": \"C\",\n  \"answer_value\": \"ruptures, allowing the gas to escape freely\",\n  \"rationale\": \"The visualization shows a semi-transparent outer shell, which represents a stalled shockwave. As the red internal gas expands on one side, it exerts pressure on the outer shell, causing it to rupture and allowing the gas to escape freely.\"\n}clips from the movie \"The Martian\" (2015)0.00.00.00.00.00.00.00.00.00.00.00.00.00.00.00.00.00.00.00.00.00.00.00.00.00.00.00.00.00.00.00.00.00.00.00.00.00.00.00.00.00.00.00.00.00.00.00.00.00.00.00.00.00.00.00.00.00.00.00.00.00.00.00.",
+  "parsed": {
+    "choice": "C",
+    "answer_value": "ruptures, allowing the gas to escape freely",
+    "rationale": "The visualization shows a semi-transparent outer shell, which represents a stalled shockwave. As the red internal gas expands on one side, it exerts pressure on the outer shell, causing it to rupture and allowing the gas to escape freely."
+  },
+  "chosen_letter": "C",
+  "is_correct": false,
+  "parse_error": null
+}

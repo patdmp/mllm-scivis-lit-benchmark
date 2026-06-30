@@ -1,0 +1,36 @@
+{
+  "item_id": "item68",
+  "model": "qwen",
+  "run": 6,
+  "seed": 6,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 4,
+      "text": "only moves straight up into the sky"
+    },
+    "B": {
+      "original_idx": 3,
+      "text": "only goes under the car"
+    },
+    "C": {
+      "original_idx": 2,
+      "text": "splits and flows over the roof and under the car"
+    },
+    "D": {
+      "original_idx": 1,
+      "text": "stops and builds up in front of the car"
+    }
+  },
+  "correct_answer_original_idx": 2,
+  "correct_letter": "C",
+  "raw_response": "```json\n{\n  \"choice\": \"C\",\n  \"answer_value\": \"splits and flows over the roof and under the car\",\n  \"rationale\": \"The visualization shows airflow patterns around the car, indicating that air splits at the front. The flow is depicted moving both over the roof and under the car, as evidenced by the color gradients and flow lines. This behavior is typical for aerodynamic flow around vehicles. Options A, B, and D do not accurately describe the observed airflow patterns.\"\n}\n```\n",
+  "parsed": {
+    "choice": "C",
+    "answer_value": "splits and flows over the roof and under the car",
+    "rationale": "The visualization shows airflow patterns around the car, indicating that air splits at the front. The flow is depicted moving both over the roof and under the car, as evidenced by the color gradients and flow lines. This behavior is typical for aerodynamic flow around vehicles. Options A, B, and D do not accurately describe the observed airflow patterns."
+  },
+  "chosen_letter": "C",
+  "is_correct": true,
+  "parse_error": null
+}

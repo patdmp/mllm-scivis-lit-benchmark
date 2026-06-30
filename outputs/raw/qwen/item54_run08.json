@@ -1,0 +1,36 @@
+{
+  "item_id": "item54",
+  "model": "qwen",
+  "run": 8,
+  "seed": 8,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 1,
+      "text": "remains the same size but gradually fades out"
+    },
+    "B": {
+      "original_idx": 3,
+      "text": "pulsates symmetrically inward and outward"
+    },
+    "C": {
+      "original_idx": 4,
+      "text": "rotates around the center in a spiral pattern"
+    },
+    "D": {
+      "original_idx": 2,
+      "text": "shrinks inward toward the center"
+    }
+  },
+  "correct_answer_original_idx": 4,
+  "correct_letter": "C",
+  "raw_response": "```json\n{\n  \"choice\": \"D\",\n  \"answer_value\": \"shrinks inward toward the center\",\n  \"rationale\": \"The animation shows the red internal gas structures contracting and moving closer to the center of the sphere over time. The visual evidence clearly depicts a shrinking motion rather than expansion, rotation, or fading. The color coding indicates entropy changes, but the primary observable movement is the inward contraction of the red regions.\"\n}\n```\n",
+  "parsed": {
+    "choice": "D",
+    "answer_value": "shrinks inward toward the center",
+    "rationale": "The animation shows the red internal gas structures contracting and moving closer to the center of the sphere over time. The visual evidence clearly depicts a shrinking motion rather than expansion, rotation, or fading. The color coding indicates entropy changes, but the primary observable movement is the inward contraction of the red regions."
+  },
+  "chosen_letter": "D",
+  "is_correct": false,
+  "parse_error": null
+}

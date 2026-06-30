@@ -1,0 +1,36 @@
+{
+  "item_id": "item05",
+  "model": "llava",
+  "run": 7,
+  "seed": 7,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 4,
+      "text": "consistently getting steeper"
+    },
+    "B": {
+      "original_idx": 2,
+      "text": "gentle at first, then steeper"
+    },
+    "C": {
+      "original_idx": 1,
+      "text": "steep at first, then gentler"
+    },
+    "D": {
+      "original_idx": 3,
+      "text": "consistently getting gentler"
+    }
+  },
+  "correct_answer_original_idx": 1,
+  "correct_letter": "C",
+  "raw_response": "{\n  \"choice\": \"C\",\n  \"answer_value\": \"steep at first, then gentler\",\n  \"rationale\": \"The contour lines are closer together near waypoint C, indicating a steeper slope, and they become more spaced out as you move towards waypoint B, indicating a gentler slope.\"\n}steep at first, then gentlersteep at first, then gentlerThe contour lines are closer together near waypoint C, indicating a steeper slope, and they become more spaced out as you move towards waypoint B, indicating a gentler slope.steep at first, then gentlerThe contour lines are closer together near waypoint C, indicating a steeper slope, and they become more spaced out as you move towards waypoint B, indicating a gentler slope.steep at first, then gentlerThe contour lines are closer together near waypoint C, indicating a steeper slope, and they become more spaced out as you move towards waypoint B, indicating a gentler slope.steep at first, then gentlerThe contour lines are closer together near waypoint C, indicating a steeper slope, and they become more spaced out as you move towards waypoint B, indicating a gentler slope.",
+  "parsed": {
+    "choice": "C",
+    "answer_value": "steep at first, then gentler",
+    "rationale": "The contour lines are closer together near waypoint C, indicating a steeper slope, and they become more spaced out as you move towards waypoint B, indicating a gentler slope."
+  },
+  "chosen_letter": "C",
+  "is_correct": true,
+  "parse_error": null
+}

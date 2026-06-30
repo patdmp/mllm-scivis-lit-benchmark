@@ -1,0 +1,28 @@
+{
+  "item_id": "item15",
+  "model": "qwen",
+  "run": 2,
+  "seed": 2,
+  "n_choices": 2,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 2,
+      "text": "FALSE"
+    },
+    "B": {
+      "original_idx": 1,
+      "text": "TRUE"
+    }
+  },
+  "correct_answer_original_idx": 1,
+  "correct_letter": "B",
+  "raw_response": "```json\n{\n  \"choice\": \"B\",\n  \"answer_value\": \"TRUE\",\n  \"rationale\": \"The color bar indicates that dark red and brown colors represent temperature trends greater than 2.0 degC/Week. Examining the Atlantic Ocean region on the map, specifically the area south of South America, reveals distinct patches of these dark red and brown colors. This visual evidence confirms that at least one region in the Atlantic Ocean is experiencing strong warming exceeding the 2.0 degC/Week threshold.\"\n}\n```\n",
+  "parsed": {
+    "choice": "B",
+    "answer_value": "TRUE",
+    "rationale": "The color bar indicates that dark red and brown colors represent temperature trends greater than 2.0 degC/Week. Examining the Atlantic Ocean region on the map, specifically the area south of South America, reveals distinct patches of these dark red and brown colors. This visual evidence confirms that at least one region in the Atlantic Ocean is experiencing strong warming exceeding the 2.0 degC/Week threshold."
+  },
+  "chosen_letter": "B",
+  "is_correct": true,
+  "parse_error": null
+}

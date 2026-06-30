@@ -1,0 +1,36 @@
+{
+  "item_id": "item40",
+  "model": "internvl",
+  "run": 5,
+  "seed": 5,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 1,
+      "text": "Envelope, RNPs, RBDs"
+    },
+    "B": {
+      "original_idx": 2,
+      "text": "RNPs, RBDs, envelope"
+    },
+    "C": {
+      "original_idx": 4,
+      "text": "RNPs, envelope, RBDs"
+    },
+    "D": {
+      "original_idx": 3,
+      "text": "RBDs, envelope, RNPs"
+    }
+  },
+  "correct_answer_original_idx": 4,
+  "correct_letter": "C",
+  "raw_response": "{\n  \"choice\": \"C\",\n  \"answer_value\": \"RNPs, envelope, RBDs\",\n  \"rationale\": \"The visualization shows the RNPs (yellow) at the center, surrounded by the lipid envelope (gray), and the spike proteins (red and tan) extending outward. This order matches the description of moving from the center outward.\"\n}",
+  "parsed": {
+    "choice": "C",
+    "answer_value": "RNPs, envelope, RBDs",
+    "rationale": "The visualization shows the RNPs (yellow) at the center, surrounded by the lipid envelope (gray), and the spike proteins (red and tan) extending outward. This order matches the description of moving from the center outward."
+  },
+  "chosen_letter": "C",
+  "is_correct": true,
+  "parse_error": null
+}

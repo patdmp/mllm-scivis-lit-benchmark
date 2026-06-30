@@ -1,0 +1,36 @@
+{
+  "item_id": "item27",
+  "model": "internvl",
+  "run": 0,
+  "seed": 0,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 3,
+      "text": "All three balls remain attached as a single piece."
+    },
+    "B": {
+      "original_idx": 1,
+      "text": "The bottom and middle balls remain connected, but the top ball separates."
+    },
+    "C": {
+      "original_idx": 2,
+      "text": "The top and middle balls remain connected, but the bottom ball separates."
+    },
+    "D": {
+      "original_idx": 4,
+      "text": "All three balls detach and fall off as separate pieces."
+    }
+  },
+  "correct_answer_original_idx": 3,
+  "correct_letter": "A",
+  "raw_response": "{\n  \"choice\": \"A\",\n  \"answer_value\": \"All three balls remain attached as a single piece.\",\n  \"rationale\": \"The cut through the curved tube does not disconnect the structure because the Seifert surface is continuous and the tubes provide structural integrity, keeping all three balls connected.\"\n}",
+  "parsed": {
+    "choice": "A",
+    "answer_value": "All three balls remain attached as a single piece.",
+    "rationale": "The cut through the curved tube does not disconnect the structure because the Seifert surface is continuous and the tubes provide structural integrity, keeping all three balls connected."
+  },
+  "chosen_letter": "A",
+  "is_correct": true,
+  "parse_error": null
+}

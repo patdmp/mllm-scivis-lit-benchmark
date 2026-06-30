@@ -1,0 +1,36 @@
+{
+  "item_id": "item02",
+  "model": "qwen",
+  "run": 7,
+  "seed": 7,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 4,
+      "text": "Waypoint D"
+    },
+    "B": {
+      "original_idx": 2,
+      "text": "Waypoint B"
+    },
+    "C": {
+      "original_idx": 1,
+      "text": "Waypoint A"
+    },
+    "D": {
+      "original_idx": 3,
+      "text": "Waypoint C"
+    }
+  },
+  "correct_answer_original_idx": 3,
+  "correct_letter": "D",
+  "raw_response": "```json\n{\n  \"choice\": \"D\",\n  \"answer_value\": \"Waypoint D\",\n  \"rationale\": \"Waypoint D is located in a white area, which the caption identifies as not being mapped as woodland. The map shows that the highest elevations (7400 feet) are contained within the green woodland areas. Since Waypoint D is outside these high-elevation zones, it must be at a lower elevation than the peaks. The other waypoints (A, B, and C) are all situated within or near the green woodland areas, placing them at higher elevations than D.\"\n}\n```\n",
+  "parsed": {
+    "choice": "D",
+    "answer_value": "Waypoint D",
+    "rationale": "Waypoint D is located in a white area, which the caption identifies as not being mapped as woodland. The map shows that the highest elevations (7400 feet) are contained within the green woodland areas. Since Waypoint D is outside these high-elevation zones, it must be at a lower elevation than the peaks. The other waypoints (A, B, and C) are all situated within or near the green woodland areas, placing them at higher elevations than D."
+  },
+  "chosen_letter": "D",
+  "is_correct": true,
+  "parse_error": null
+}

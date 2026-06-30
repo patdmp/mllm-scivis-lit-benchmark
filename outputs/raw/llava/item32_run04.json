@@ -1,0 +1,36 @@
+{
+  "item_id": "item32",
+  "model": "llava",
+  "run": 4,
+  "seed": 4,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 3,
+      "text": "Bladder and a kidney"
+    },
+    "B": {
+      "original_idx": 1,
+      "text": "Liver and a lung"
+    },
+    "C": {
+      "original_idx": 4,
+      "text": "Bladder and a lung"
+    },
+    "D": {
+      "original_idx": 2,
+      "text": "Liver and a kidney"
+    }
+  },
+  "correct_answer_original_idx": 4,
+  "correct_letter": "C",
+  "raw_response": "{\n  \"choice\": \"C\",\n  \"answer_value\": \"Bladder and a lung\",\n  \"rationale\": \"The bladder is located in the lower abdomen, while the lungs are in the upper chest. This vertical separation makes them the farthest apart among the given options.\"\n} colored regions in the image.explanation: The colored regions in the image represent different organs. The blue region represents the liver, the green regions represent the kidneys, the yellow regions represent the lungs, the pink region represents the bladder, and the gray regions represent the bones.explanation: The colored regions in the image represent different organs. The blue region represents the liver, the green regions represent the kidneys, the yellow regions represent the lungs, the pink region represents the bladder, and the gray regions represent the bones.explanation: The colored regions in the image represent different organs. The blue region represents the liver, the green regions represent the kidneys, the yellow regions represent the lungs, the pink region represents the bladder, and the gray regions represent the bones.explanation: The colored regions in the image represent different organs. The blue region represents the liver, the green regions represent the kidneys, the yellow regions represent the lungs, the pink region represents the bladder, and the gray regions represent the bones.explanation: The colored regions in the image",
+  "parsed": {
+    "choice": "C",
+    "answer_value": "Bladder and a lung",
+    "rationale": "The bladder is located in the lower abdomen, while the lungs are in the upper chest. This vertical separation makes them the farthest apart among the given options."
+  },
+  "chosen_letter": "C",
+  "is_correct": true,
+  "parse_error": null
+}

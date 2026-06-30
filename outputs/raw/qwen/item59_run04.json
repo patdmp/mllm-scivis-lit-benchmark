@@ -1,0 +1,36 @@
+{
+  "item_id": "item59",
+  "model": "qwen",
+  "run": 4,
+  "seed": 4,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 3,
+      "text": "The electric field lines around plate 2 exhibit a convergent pattern."
+    },
+    "B": {
+      "original_idx": 1,
+      "text": "Electric field lines can cross in space."
+    },
+    "C": {
+      "original_idx": 4,
+      "text": "Between the two plates, the electric field lines point from plate 2 toward plate 1."
+    },
+    "D": {
+      "original_idx": 2,
+      "text": "The electric field lines around plate 1 exhibit a divergent pattern."
+    }
+  },
+  "correct_answer_original_idx": 4,
+  "correct_letter": "C",
+  "raw_response": "{\n  \"choice\": \"D\",\n  \"answer_value\": \"The electric field lines around plate 1 exhibit a divergent pattern.\",\n  \"rationale\": \"Observing the image, the electric field lines originating from Metal Plate 1 spread outwards in all directions, which is the definition of a divergent pattern. Conversely, the lines around Metal Plate 2 converge towards it. Electric field lines never cross each other in space, making option B incorrect. The arrows on the lines between the plates clearly point upwards, from Plate 2 to Plate 1, so option C is also incorrect.\"\n}\n",
+  "parsed": {
+    "choice": "D",
+    "answer_value": "The electric field lines around plate 1 exhibit a divergent pattern.",
+    "rationale": "Observing the image, the electric field lines originating from Metal Plate 1 spread outwards in all directions, which is the definition of a divergent pattern. Conversely, the lines around Metal Plate 2 converge towards it. Electric field lines never cross each other in space, making option B incorrect. The arrows on the lines between the plates clearly point upwards, from Plate 2 to Plate 1, so option C is also incorrect."
+  },
+  "chosen_letter": "D",
+  "is_correct": false,
+  "parse_error": null
+}

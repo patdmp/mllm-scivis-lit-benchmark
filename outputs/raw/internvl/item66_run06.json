@@ -1,0 +1,36 @@
+{
+  "item_id": "item66",
+  "model": "internvl",
+  "run": 6,
+  "seed": 6,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 4,
+      "text": "evenly throughout the plume"
+    },
+    "B": {
+      "original_idx": 3,
+      "text": "near the far end of the trench, away from the rocket"
+    },
+    "C": {
+      "original_idx": 2,
+      "text": "along the sloping ramp in the trench below the rocket"
+    },
+    "D": {
+      "original_idx": 1,
+      "text": "immediately beneath the rocket nozzle"
+    }
+  },
+  "correct_answer_original_idx": 2,
+  "correct_letter": "C",
+  "raw_response": "{\n  \"choice\": \"D\",\n  \"answer_value\": \"immediately beneath the rocket nozzle\",\n  \"rationale\": \"The visualization shows that the brightest and hottest regions, indicated by the color intensity, are concentrated directly beneath the rocket nozzle up to T+0.175 s. This suggests that the hottest exhaust is immediately beneath the rocket nozzle.\"\n}",
+  "parsed": {
+    "choice": "D",
+    "answer_value": "immediately beneath the rocket nozzle",
+    "rationale": "The visualization shows that the brightest and hottest regions, indicated by the color intensity, are concentrated directly beneath the rocket nozzle up to T+0.175 s. This suggests that the hottest exhaust is immediately beneath the rocket nozzle."
+  },
+  "chosen_letter": "D",
+  "is_correct": false,
+  "parse_error": null
+}

@@ -1,0 +1,36 @@
+{
+  "item_id": "item02",
+  "model": "qwen",
+  "run": 0,
+  "seed": 0,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 3,
+      "text": "Waypoint C"
+    },
+    "B": {
+      "original_idx": 1,
+      "text": "Waypoint A"
+    },
+    "C": {
+      "original_idx": 2,
+      "text": "Waypoint B"
+    },
+    "D": {
+      "original_idx": 4,
+      "text": "Waypoint D"
+    }
+  },
+  "correct_answer_original_idx": 3,
+  "correct_letter": "A",
+  "raw_response": "```json\n{\n  \"choice\": \"A\",\n  \"answer_value\": \"Waypoint C\",\n  \"rationale\": \"Waypoint C is located inside the innermost contour line labeled 7400, indicating it is at the peak of that hill. Waypoint A is situated on the 7200 contour line, which is a lower elevation than 7400. Waypoint B is located in an area between the 7000 and 7200 contour lines, making it lower than both A and C. Waypoint D is in a white area with no specific contour lines nearby, but its position relative to the 7000 line suggests it is at a lower elevation than C.\"\n}\n```\n",
+  "parsed": {
+    "choice": "A",
+    "answer_value": "Waypoint C",
+    "rationale": "Waypoint C is located inside the innermost contour line labeled 7400, indicating it is at the peak of that hill. Waypoint A is situated on the 7200 contour line, which is a lower elevation than 7400. Waypoint B is located in an area between the 7000 and 7200 contour lines, making it lower than both A and C. Waypoint D is in a white area with no specific contour lines nearby, but its position relative to the 7000 line suggests it is at a lower elevation than C."
+  },
+  "chosen_letter": "A",
+  "is_correct": true,
+  "parse_error": null
+}

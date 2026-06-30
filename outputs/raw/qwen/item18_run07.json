@@ -1,0 +1,36 @@
+{
+  "item_id": "item18",
+  "model": "qwen",
+  "run": 7,
+  "seed": 7,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 4,
+      "text": "New York"
+    },
+    "B": {
+      "original_idx": 2,
+      "text": "Denver"
+    },
+    "C": {
+      "original_idx": 1,
+      "text": "Seattle"
+    },
+    "D": {
+      "original_idx": 3,
+      "text": "Dallas"
+    }
+  },
+  "correct_answer_original_idx": 4,
+  "correct_letter": "A",
+  "raw_response": "```json\n{\n  \"choice\": \"C\",\n  \"answer_value\": \"Seattle\",\n  \"rationale\": \"The map shows wind patterns across the United States with a legend indicating wind speeds. Seattle is located in the top left corner of the map, which corresponds to the highest wind speed range on the legend. The other cities are positioned in areas with lower wind speeds according to the legend. Therefore, Seattle has the highest wind speed.\"\n}\n```\n",
+  "parsed": {
+    "choice": "C",
+    "answer_value": "Seattle",
+    "rationale": "The map shows wind patterns across the United States with a legend indicating wind speeds. Seattle is located in the top left corner of the map, which corresponds to the highest wind speed range on the legend. The other cities are positioned in areas with lower wind speeds according to the legend. Therefore, Seattle has the highest wind speed."
+  },
+  "chosen_letter": "C",
+  "is_correct": false,
+  "parse_error": null
+}

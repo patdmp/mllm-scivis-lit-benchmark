@@ -1,0 +1,36 @@
+{
+  "item_id": "item47",
+  "model": "qwen",
+  "run": 8,
+  "seed": 8,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 1,
+      "text": "Anal fin"
+    },
+    "B": {
+      "original_idx": 3,
+      "text": "Dorsal fin"
+    },
+    "C": {
+      "original_idx": 4,
+      "text": "Pelvic fin"
+    },
+    "D": {
+      "original_idx": 2,
+      "text": "Caudal fin"
+    }
+  },
+  "correct_answer_original_idx": 2,
+  "correct_letter": "D",
+  "raw_response": "```json\n{\n  \"choice\": \"B\",\n  \"answer_value\": \"Dorsal fin\",\n  \"rationale\": \"The dorsal fin is located on the top of the fish and is visibly the largest and most elongated fin in the provided visualization. The fin rays supporting it extend significantly further than those of the anal, pelvic, or caudal fins. Therefore, the fin rays in the dorsal fin are the longest.\"\n}\n```\n",
+  "parsed": {
+    "choice": "B",
+    "answer_value": "Dorsal fin",
+    "rationale": "The dorsal fin is located on the top of the fish and is visibly the largest and most elongated fin in the provided visualization. The fin rays supporting it extend significantly further than those of the anal, pelvic, or caudal fins. Therefore, the fin rays in the dorsal fin are the longest."
+  },
+  "chosen_letter": "B",
+  "is_correct": false,
+  "parse_error": null
+}

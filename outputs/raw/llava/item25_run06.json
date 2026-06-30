@@ -1,0 +1,36 @@
+{
+  "item_id": "item25",
+  "model": "llava",
+  "run": 6,
+  "seed": 6,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 4,
+      "text": "4"
+    },
+    "B": {
+      "original_idx": 3,
+      "text": "3"
+    },
+    "C": {
+      "original_idx": 2,
+      "text": "2"
+    },
+    "D": {
+      "original_idx": 1,
+      "text": "1"
+    }
+  },
+  "correct_answer_original_idx": 2,
+  "correct_letter": "C",
+  "raw_response": "{\n  \"choice\": \"C\",\n  \"answer_value\": \"2\",\n  \"rationale\": \"The object has two distinct loops or tubes connecting the spherical lobes, which can be considered as holes in the context of the object's structure.\"\n}222222222222222222222222222222",
+  "parsed": {
+    "choice": "C",
+    "answer_value": "2",
+    "rationale": "The object has two distinct loops or tubes connecting the spherical lobes, which can be considered as holes in the context of the object's structure."
+  },
+  "chosen_letter": "C",
+  "is_correct": true,
+  "parse_error": null
+}

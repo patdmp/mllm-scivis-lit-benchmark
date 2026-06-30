@@ -1,0 +1,36 @@
+{
+  "item_id": "item23",
+  "model": "qwen",
+  "run": 1,
+  "seed": 1,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 4,
+      "text": "Each pentagon is adjacent only to hexagons."
+    },
+    "B": {
+      "original_idx": 1,
+      "text": "Two pentagons share a common edge."
+    },
+    "C": {
+      "original_idx": 3,
+      "text": "Each hexagon is adjacent only to pentagons."
+    },
+    "D": {
+      "original_idx": 2,
+      "text": "No two hexagons share a common edge."
+    }
+  },
+  "correct_answer_original_idx": 4,
+  "correct_letter": "A",
+  "raw_response": "{\n  \"choice\": \"D\",\n  \"answer_value\": \"No two hexagons share a common edge.\",\n  \"rationale\": \"The image shows a spherical molecular structure composed of interconnected pentagons and hexagons, resembling a fullerene. Upon visual inspection, every pentagon is surrounded by hexagons, and no two hexagons are directly connected by an edge. This arrangement is characteristic of stable fullerenes like C60, where the rule is that no two hexagons share an edge to minimize strain. Therefore, option D accurately describes the observed structural pattern.\"\n}\n",
+  "parsed": {
+    "choice": "D",
+    "answer_value": "No two hexagons share a common edge.",
+    "rationale": "The image shows a spherical molecular structure composed of interconnected pentagons and hexagons, resembling a fullerene. Upon visual inspection, every pentagon is surrounded by hexagons, and no two hexagons are directly connected by an edge. This arrangement is characteristic of stable fullerenes like C60, where the rule is that no two hexagons share an edge to minimize strain. Therefore, option D accurately describes the observed structural pattern."
+  },
+  "chosen_letter": "D",
+  "is_correct": false,
+  "parse_error": null
+}

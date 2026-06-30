@@ -1,0 +1,32 @@
+{
+  "item_id": "item04",
+  "model": "qwen",
+  "run": 0,
+  "seed": 0,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 3,
+      "text": "increases, then decreases"
+    },
+    "B": {
+      "original_idx": 1,
+      "text": "increases"
+    },
+    "C": {
+      "original_idx": 2,
+      "text": "decreases"
+    },
+    "D": {
+      "original_idx": 4,
+      "text": "decreases, then increases"
+    }
+  },
+  "correct_answer_original_idx": 4,
+  "correct_letter": "D",
+  "raw_response": "```json\n{\n  \"choice\": \"A\",\n  \"answer_value\": \"increases, then decreases\",\n  \"rationale\": \"Waypoint C is located inside a closed contour labeled 7400, indicating it is at the peak of a hill. Waypoint A is located on a contour line labeled 7200, which is at a lower elevation than the peak at C. Moving from C to A, the elevation must first decrease to reach the 7200 contour. However, the path from C to A crosses the 7200 contour and enters the area between the 7200 and 7400 contours before reaching A, implying a rise in elevation relative to the immediate surroundings of A, or simply that the path traverses a ridge. Re-evaluating: C is at ~7400. A is at 7200. The direct path goes from the 7400 peak down to the 7200 line. Wait, looking at the map, A is on the 7200 line. C is on the 7400 line. The path from C to A goes from the 7400 peak down to the 7200 line. This is a decrease. Let's re-examine the options. Is there a saddle? No. Is there a ridge? The path from C to A crosses the",
+  "parsed": null,
+  "chosen_letter": null,
+  "is_correct": false,
+  "parse_error": null
+}

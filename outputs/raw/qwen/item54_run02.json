@@ -1,0 +1,36 @@
+{
+  "item_id": "item54",
+  "model": "qwen",
+  "run": 2,
+  "seed": 2,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 2,
+      "text": "shrinks inward toward the center"
+    },
+    "B": {
+      "original_idx": 3,
+      "text": "pulsates symmetrically inward and outward"
+    },
+    "C": {
+      "original_idx": 4,
+      "text": "rotates around the center in a spiral pattern"
+    },
+    "D": {
+      "original_idx": 1,
+      "text": "remains the same size but gradually fades out"
+    }
+  },
+  "correct_answer_original_idx": 4,
+  "correct_letter": "C",
+  "raw_response": "```json\n{\n  \"choice\": \"C\",\n  \"answer_value\": \"rotates around the center in a spiral pattern\",\n  \"rationale\": \"The animation shows the red internal gas moving in a rotational manner around the center. The movement appears to follow a spiral-like trajectory rather than a simple inward or outward pulsation. There is no indication of the gas shrinking or fading out over time. The visual evidence supports a rotational motion pattern.\"\n}\n```\n",
+  "parsed": {
+    "choice": "C",
+    "answer_value": "rotates around the center in a spiral pattern",
+    "rationale": "The animation shows the red internal gas moving in a rotational manner around the center. The movement appears to follow a spiral-like trajectory rather than a simple inward or outward pulsation. There is no indication of the gas shrinking or fading out over time. The visual evidence supports a rotational motion pattern."
+  },
+  "chosen_letter": "C",
+  "is_correct": true,
+  "parse_error": null
+}

@@ -1,0 +1,36 @@
+{
+  "item_id": "item46",
+  "model": "qwen",
+  "run": 7,
+  "seed": 7,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 4,
+      "text": "Wings"
+    },
+    "B": {
+      "original_idx": 2,
+      "text": "Thorax"
+    },
+    "C": {
+      "original_idx": 1,
+      "text": "Head"
+    },
+    "D": {
+      "original_idx": 3,
+      "text": "Abdomen"
+    }
+  },
+  "correct_answer_original_idx": 2,
+  "correct_letter": "B",
+  "raw_response": "```json\n{\n  \"choice\": \"B\",\n  \"answer_value\": \"Thorax\",\n  \"rationale\": \"The image clearly shows the dragonfly's legs originating from the middle section of its body. This section is explicitly labeled as the 'THORAX' in the diagram. The head and abdomen are shown as separate, distinct body parts.\"\n}\n```\n",
+  "parsed": {
+    "choice": "B",
+    "answer_value": "Thorax",
+    "rationale": "The image clearly shows the dragonfly's legs originating from the middle section of its body. This section is explicitly labeled as the 'THORAX' in the diagram. The head and abdomen are shown as separate, distinct body parts."
+  },
+  "chosen_letter": "B",
+  "is_correct": true,
+  "parse_error": null
+}

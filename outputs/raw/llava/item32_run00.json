@@ -1,0 +1,36 @@
+{
+  "item_id": "item32",
+  "model": "llava",
+  "run": 0,
+  "seed": 0,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 3,
+      "text": "Bladder and a kidney"
+    },
+    "B": {
+      "original_idx": 1,
+      "text": "Liver and a lung"
+    },
+    "C": {
+      "original_idx": 2,
+      "text": "Liver and a kidney"
+    },
+    "D": {
+      "original_idx": 4,
+      "text": "Bladder and a lung"
+    }
+  },
+  "correct_answer_original_idx": 4,
+  "correct_letter": "D",
+  "raw_response": "{\n  \"choice\": \"C\",\n  \"answer_value\": \"Liver and a kidney\",\n  \"rationale\": \"The liver is located in the upper right quadrant of the abdomen, while the kidneys are located in the lower back, on either side of the spine. This places them at a greater distance from each other compared to the other organ pairs listed.\"\n}In the image, the liver is shown in blue and the kidneys in green, with the liver positioned higher and more centrally, and the kidneys lower and more laterally, indicating a greater separation between them.vertical distance between the liver and kidneys is greater than the horizontal distance between any other pair of organs shown.vertical distance between the liver and kidneys is greater than the horizontal distance between any other pair of organs shown.vertical distance between the liver and kidneys is greater than the horizontal distance between any other pair of organs shown.vertical distance between the liver and kidneys is greater than the horizontal distance between any other pair of organs shown.vertical distance between the liver and kidneys is greater than the horizontal distance between any other pair of organs shown",
+  "parsed": {
+    "choice": "C",
+    "answer_value": "Liver and a kidney",
+    "rationale": "The liver is located in the upper right quadrant of the abdomen, while the kidneys are located in the lower back, on either side of the spine. This places them at a greater distance from each other compared to the other organ pairs listed."
+  },
+  "chosen_letter": "C",
+  "is_correct": false,
+  "parse_error": null
+}

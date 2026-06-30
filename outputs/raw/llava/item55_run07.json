@@ -1,0 +1,28 @@
+{
+  "item_id": "item55",
+  "model": "llava",
+  "run": 7,
+  "seed": 7,
+  "n_choices": 2,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 1,
+      "text": "TRUE"
+    },
+    "B": {
+      "original_idx": 2,
+      "text": "FALSE"
+    }
+  },
+  "correct_answer_original_idx": 2,
+  "correct_letter": "B",
+  "raw_response": "{\n  \"choice\": \"B\",\n  \"answer_value\": \"FALSE\",\n  \"rationale\": \"The visualization shows that the internal shocked gas, represented by the red and yellow areas, has higher entropy values compared to the stalled shockwave, which is depicted by the green outer shell. This indicates that the internal shocked gas does not always have lower entropy than the stalled shockwave.\"\n} color scale, the internal shocked gas has higher entropy values (red and yellow) compared to the stalled shockwave (green). core-collapse supernova simulation. The internal shocked gas has higher entropy values (red and yellow) compared to the stalled shockwave (green). core-collapse supernova simulation. The internal shocked gas has higher entropy values (red and yellow) compared to the stalled shockwave (green). core-collapse supernova simulation. The internal shocked gas has higher entropy values (red and",
+  "parsed": {
+    "choice": "B",
+    "answer_value": "FALSE",
+    "rationale": "The visualization shows that the internal shocked gas, represented by the red and yellow areas, has higher entropy values compared to the stalled shockwave, which is depicted by the green outer shell. This indicates that the internal shocked gas does not always have lower entropy than the stalled shockwave."
+  },
+  "chosen_letter": "B",
+  "is_correct": true,
+  "parse_error": null
+}

@@ -1,0 +1,36 @@
+{
+  "item_id": "item47",
+  "model": "qwen",
+  "run": 7,
+  "seed": 7,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 4,
+      "text": "Pelvic fin"
+    },
+    "B": {
+      "original_idx": 2,
+      "text": "Caudal fin"
+    },
+    "C": {
+      "original_idx": 1,
+      "text": "Anal fin"
+    },
+    "D": {
+      "original_idx": 3,
+      "text": "Dorsal fin"
+    }
+  },
+  "correct_answer_original_idx": 2,
+  "correct_letter": "B",
+  "raw_response": "```json\n{\n  \"choice\": \"B\",\n  \"answer_value\": \"Caudal fin\",\n  \"rationale\": \"The Caudal fin is located at the posterior end of the fish skeleton. Visually, the rays extending from the Caudal fin are significantly longer than those of the Pelvic, Anal, or Dorsal fins. The other fins are positioned more anteriorly and have shorter supporting structures. Therefore, the Caudal fin has the longest fin rays.\"\n}\n```\n",
+  "parsed": {
+    "choice": "B",
+    "answer_value": "Caudal fin",
+    "rationale": "The Caudal fin is located at the posterior end of the fish skeleton. Visually, the rays extending from the Caudal fin are significantly longer than those of the Pelvic, Anal, or Dorsal fins. The other fins are positioned more anteriorly and have shorter supporting structures. Therefore, the Caudal fin has the longest fin rays."
+  },
+  "chosen_letter": "B",
+  "is_correct": true,
+  "parse_error": null
+}

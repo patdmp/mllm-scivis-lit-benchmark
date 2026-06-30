@@ -1,0 +1,28 @@
+{
+  "item_id": "item55",
+  "model": "qwen",
+  "run": 4,
+  "seed": 4,
+  "n_choices": 2,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 2,
+      "text": "FALSE"
+    },
+    "B": {
+      "original_idx": 1,
+      "text": "TRUE"
+    }
+  },
+  "correct_answer_original_idx": 2,
+  "correct_letter": "A",
+  "raw_response": "```json\n{\n  \"choice\": \"A\",\n  \"answer_value\": \"FALSE\",\n  \"rationale\": \"The visualization shows a color scale where red represents higher entropy values (1.0e+00) and blue represents lower entropy values (-1.0e+00). The internal shocked gas is depicted in red, indicating high entropy. The stalled shockwave is represented by a semi-transparent outer shell, which appears to have lower entropy values compared to the internal gas. Therefore, the statement that the internal shocked gas always has lower entropy than the stalled shockwave is incorrect.\"\n}\n```\n",
+  "parsed": {
+    "choice": "A",
+    "answer_value": "FALSE",
+    "rationale": "The visualization shows a color scale where red represents higher entropy values (1.0e+00) and blue represents lower entropy values (-1.0e+00). The internal shocked gas is depicted in red, indicating high entropy. The stalled shockwave is represented by a semi-transparent outer shell, which appears to have lower entropy values compared to the internal gas. Therefore, the statement that the internal shocked gas always has lower entropy than the stalled shockwave is incorrect."
+  },
+  "chosen_letter": "A",
+  "is_correct": true,
+  "parse_error": null
+}

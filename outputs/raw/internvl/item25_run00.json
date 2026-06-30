@@ -1,0 +1,36 @@
+{
+  "item_id": "item25",
+  "model": "internvl",
+  "run": 0,
+  "seed": 0,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 3,
+      "text": "3"
+    },
+    "B": {
+      "original_idx": 1,
+      "text": "1"
+    },
+    "C": {
+      "original_idx": 2,
+      "text": "2"
+    },
+    "D": {
+      "original_idx": 4,
+      "text": "4"
+    }
+  },
+  "correct_answer_original_idx": 2,
+  "correct_letter": "C",
+  "raw_response": "{\"choice\": \"A\", \"answer_value\": \"3\", \"rationale\": \"The object has three spherical lobes connected by tubes, which suggests there are three holes or regions where the tubes connect the lobes.\"}",
+  "parsed": {
+    "choice": "A",
+    "answer_value": "3",
+    "rationale": "The object has three spherical lobes connected by tubes, which suggests there are three holes or regions where the tubes connect the lobes."
+  },
+  "chosen_letter": "A",
+  "is_correct": false,
+  "parse_error": null
+}

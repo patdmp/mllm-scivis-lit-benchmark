@@ -1,0 +1,36 @@
+{
+  "item_id": "item04",
+  "model": "llava",
+  "run": 4,
+  "seed": 4,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 3,
+      "text": "increases, then decreases"
+    },
+    "B": {
+      "original_idx": 1,
+      "text": "increases"
+    },
+    "C": {
+      "original_idx": 4,
+      "text": "decreases, then increases"
+    },
+    "D": {
+      "original_idx": 2,
+      "text": "decreases"
+    }
+  },
+  "correct_answer_original_idx": 4,
+  "correct_letter": "C",
+  "raw_response": "{\n  \"choice\": \"D\",\n  \"answer_value\": \"decreases\",\n  \"rationale\": \"The contour lines indicate that the elevation decreases as you move from waypoint C to waypoint A.\"\n}0.1 0.2 0.3 0.4 km0.1 0.2 0.3 0.4 km0.1 0.2 0.3 0.4 km0.1 0.2 0.3 0.4 km0.1 0.2 0.3 0.4 km0.1 0.2 0.3 0.4 km0.1 0.2 0.3 0.4 km0.1 0.2 0.3 0.4 km0.1 0.2 0.3 0.4 km0.1 0.2 0.3 0.4 km0.1 0.2 0.3 0.4 km0.1 0.2 0.3 0.4 km0.1 0.2 0.3 0.4 km0.1 0.2 0.3 0.4 km0.1 0.2 ",
+  "parsed": {
+    "choice": "D",
+    "answer_value": "decreases",
+    "rationale": "The contour lines indicate that the elevation decreases as you move from waypoint C to waypoint A."
+  },
+  "chosen_letter": "D",
+  "is_correct": false,
+  "parse_error": null
+}

@@ -1,0 +1,36 @@
+{
+  "item_id": "item46",
+  "model": "qwen",
+  "run": 1,
+  "seed": 1,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 4,
+      "text": "Wings"
+    },
+    "B": {
+      "original_idx": 1,
+      "text": "Head"
+    },
+    "C": {
+      "original_idx": 3,
+      "text": "Abdomen"
+    },
+    "D": {
+      "original_idx": 2,
+      "text": "Thorax"
+    }
+  },
+  "correct_answer_original_idx": 2,
+  "correct_letter": "D",
+  "raw_response": "```json\n{\n  \"choice\": \"D\",\n  \"answer_value\": \"Thorax\",\n  \"rationale\": \"The diagram clearly labels the 'Thorax' as the central body section. The legs are shown originating from this specific section, connecting the head and abdomen. The wings are attached to the thorax, but the legs are not. Therefore, the legs are attached to the thorax.\"\n}\n```\n",
+  "parsed": {
+    "choice": "D",
+    "answer_value": "Thorax",
+    "rationale": "The diagram clearly labels the 'Thorax' as the central body section. The legs are shown originating from this specific section, connecting the head and abdomen. The wings are attached to the thorax, but the legs are not. Therefore, the legs are attached to the thorax."
+  },
+  "chosen_letter": "D",
+  "is_correct": true,
+  "parse_error": null
+}

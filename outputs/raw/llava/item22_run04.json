@@ -1,0 +1,36 @@
+{
+  "item_id": "item22",
+  "model": "llava",
+  "run": 4,
+  "seed": 4,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 3,
+      "text": "3"
+    },
+    "B": {
+      "original_idx": 1,
+      "text": "1"
+    },
+    "C": {
+      "original_idx": 4,
+      "text": "4"
+    },
+    "D": {
+      "original_idx": 2,
+      "text": "2"
+    }
+  },
+  "correct_answer_original_idx": 3,
+  "correct_letter": "A",
+  "raw_response": "{\n  \"choice\": \"C\",\n  \"answer_value\": \"4\",\n  \"rationale\": \"Each atom in the structure is connected to four other atoms, as indicated by the number of links (edges) attached to each node (atom).\"\n}",
+  "parsed": {
+    "choice": "C",
+    "answer_value": "4",
+    "rationale": "Each atom in the structure is connected to four other atoms, as indicated by the number of links (edges) attached to each node (atom)."
+  },
+  "chosen_letter": "C",
+  "is_correct": false,
+  "parse_error": null
+}

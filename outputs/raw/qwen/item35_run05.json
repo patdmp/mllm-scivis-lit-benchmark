@@ -1,0 +1,36 @@
+{
+  "item_id": "item35",
+  "model": "qwen",
+  "run": 5,
+  "seed": 5,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 1,
+      "text": "Region A"
+    },
+    "B": {
+      "original_idx": 2,
+      "text": "Region B"
+    },
+    "C": {
+      "original_idx": 4,
+      "text": "Region D"
+    },
+    "D": {
+      "original_idx": 3,
+      "text": "Region C"
+    }
+  },
+  "correct_answer_original_idx": 2,
+  "correct_letter": "B",
+  "raw_response": "```json\n{\n  \"choice\": \"D\",\n  \"answer_value\": \"Region D\",\n  \"rationale\": \"Region D displays a significantly higher concentration of fiber bundles compared to the other labeled areas. The fibers in this region are tightly packed and form a dense, coherent structure. In contrast, regions A, B, and C show more dispersed or less dense fiber arrangements. Therefore, Region D has the highest density of fiber bundles.\"\n}\n```\n",
+  "parsed": {
+    "choice": "D",
+    "answer_value": "Region D",
+    "rationale": "Region D displays a significantly higher concentration of fiber bundles compared to the other labeled areas. The fibers in this region are tightly packed and form a dense, coherent structure. In contrast, regions A, B, and C show more dispersed or less dense fiber arrangements. Therefore, Region D has the highest density of fiber bundles."
+  },
+  "chosen_letter": "D",
+  "is_correct": false,
+  "parse_error": null
+}

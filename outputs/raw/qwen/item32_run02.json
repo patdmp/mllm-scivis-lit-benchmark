@@ -1,0 +1,36 @@
+{
+  "item_id": "item32",
+  "model": "qwen",
+  "run": 2,
+  "seed": 2,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 2,
+      "text": "Liver and a kidney"
+    },
+    "B": {
+      "original_idx": 3,
+      "text": "Bladder and a kidney"
+    },
+    "C": {
+      "original_idx": 4,
+      "text": "Bladder and a lung"
+    },
+    "D": {
+      "original_idx": 1,
+      "text": "Liver and a lung"
+    }
+  },
+  "correct_answer_original_idx": 4,
+  "correct_letter": "C",
+  "raw_response": "```json\n{\n  \"choice\": \"C\",\n  \"answer_value\": \"Bladder and a lung\",\n  \"rationale\": \"The image displays the lungs in the upper thoracic cavity and the bladder in the lower pelvic cavity. The liver and kidneys are located in the abdominal cavity, situated between these two regions. Therefore, the vertical distance between the bladder and the lungs is significantly greater than the distance between any other pair of organs listed.\"\n}\n```\n",
+  "parsed": {
+    "choice": "C",
+    "answer_value": "Bladder and a lung",
+    "rationale": "The image displays the lungs in the upper thoracic cavity and the bladder in the lower pelvic cavity. The liver and kidneys are located in the abdominal cavity, situated between these two regions. Therefore, the vertical distance between the bladder and the lungs is significantly greater than the distance between any other pair of organs listed."
+  },
+  "chosen_letter": "C",
+  "is_correct": true,
+  "parse_error": null
+}

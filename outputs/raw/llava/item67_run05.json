@@ -1,0 +1,36 @@
+{
+  "item_id": "item67",
+  "model": "llava",
+  "run": 5,
+  "seed": 5,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 1,
+      "text": "It disappears almost immediately."
+    },
+    "B": {
+      "original_idx": 2,
+      "text": "It remains confined to a narrow column beneath the nozzle."
+    },
+    "C": {
+      "original_idx": 4,
+      "text": "t moves upward, away from the pad, without touching the trench."
+    },
+    "D": {
+      "original_idx": 3,
+      "text": "It spreads along the trench, away from the rocket."
+    }
+  },
+  "correct_answer_original_idx": 3,
+  "correct_letter": "D",
+  "raw_response": "{\n  \"choice\": \"B\",\n  \"answer_value\": \"It remains confined to a narrow column beneath the nozzle.\",\n  \"rationale\": \"The visualization shows the exhaust plume starting as a narrow column directly beneath the rocket nozzle, indicating that it remains confined to a narrow column right after ignition.\"\n} only. Do not include Markdown or any extra text outside the JSON object.'t move upward, away from the pad, without touching the trench.\"'t move upward, away from the pad, without touching the trench.\"'t move upward, away from the pad, without touching the trench.\"'t move upward, away from the pad, without touching the trench.\"'t move upward, away from the pad, without touching the trench.\"'t move upward, away from the pad, without touching the trench.\"'t move upward, away from the pad, without touching the trench.\"'t move upward, away from the pad, without touching the trench.\"'t move upward, away from the pad, without touching the trench.\"'t move upward, away from the pad, without touching the trench.\"'t move upward, away from the pad, without touching the trench.\"'t move upward, away from the pad, without touching the trench.\"'t move upward, away from the pad, without touching the trench.\"'t move upward",
+  "parsed": {
+    "choice": "B",
+    "answer_value": "It remains confined to a narrow column beneath the nozzle.",
+    "rationale": "The visualization shows the exhaust plume starting as a narrow column directly beneath the rocket nozzle, indicating that it remains confined to a narrow column right after ignition."
+  },
+  "chosen_letter": "B",
+  "is_correct": false,
+  "parse_error": null
+}

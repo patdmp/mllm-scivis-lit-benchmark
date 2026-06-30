@@ -1,0 +1,36 @@
+{
+  "item_id": "item61",
+  "model": "qwen",
+  "run": 5,
+  "seed": 5,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 1,
+      "text": "a spiral cylinder"
+    },
+    "B": {
+      "original_idx": 2,
+      "text": "a spiral cone"
+    },
+    "C": {
+      "original_idx": 4,
+      "text": "a spherical spiral"
+    },
+    "D": {
+      "original_idx": 3,
+      "text": "a twisted funnel"
+    }
+  },
+  "correct_answer_original_idx": 3,
+  "correct_letter": "D",
+  "raw_response": "{\n  \"choice\": \"B\",\n  \"answer_value\": \"a spiral cone\",\n  \"rationale\": \"The visualization shows streamlines forming a structure that is wide at the top and narrows towards the bottom, resembling a cone shape. The lines also exhibit a clear spiral or helical pattern as they descend. This combination of a tapering form and rotational movement is best described as a spiral cone. While 'twisted funnel' is similar, 'spiral cone' more accurately describes the geometric arrangement shown.\"\n}\n",
+  "parsed": {
+    "choice": "B",
+    "answer_value": "a spiral cone",
+    "rationale": "The visualization shows streamlines forming a structure that is wide at the top and narrows towards the bottom, resembling a cone shape. The lines also exhibit a clear spiral or helical pattern as they descend. This combination of a tapering form and rotational movement is best described as a spiral cone. While 'twisted funnel' is similar, 'spiral cone' more accurately describes the geometric arrangement shown."
+  },
+  "chosen_letter": "B",
+  "is_correct": false,
+  "parse_error": null
+}

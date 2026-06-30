@@ -1,0 +1,36 @@
+{
+  "item_id": "item56",
+  "model": "llava",
+  "run": 6,
+  "seed": 6,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 4,
+      "text": "ruptures, allowing the gas to escape freely"
+    },
+    "B": {
+      "original_idx": 3,
+      "text": "dissolves and mixes with the gas"
+    },
+    "C": {
+      "original_idx": 2,
+      "text": "is pulled inward toward the center"
+    },
+    "D": {
+      "original_idx": 1,
+      "text": "expands as well but remains intact, keeping the gas inside"
+    }
+  },
+  "correct_answer_original_idx": 1,
+  "correct_letter": "D",
+  "raw_response": "{\n  \"choice\": \"D\",\n  \"answer_value\": \"expands as well but remains intact, keeping the gas inside\",\n  \"rationale\": \"The outer shell is semi-transparent and appears to be expanding, but it does not rupture or dissolve. The gas inside the shell is contained, indicating that the shell remains intact.\"\n}expands as well but remains intact, keeping the gas insideThe outer shell is semi-transparent and appears to be expanding, but it does not rupture or dissolve. The gas inside the shell is contained, indicating that the shell remains intact.expands as well but remains intact, keeping the gas insideThe outer shell is semi-transparent and appears to be expanding, but it does not rupture or dissolve. The gas inside the shell is contained, indicating that the shell remains intact.expands as well but remains intact, keeping the gas insideThe outer shell is semi-transparent and appears to be expanding, but it does not rupture or dissolve. The gas inside the shell is contained, indicating that the shell remains",
+  "parsed": {
+    "choice": "D",
+    "answer_value": "expands as well but remains intact, keeping the gas inside",
+    "rationale": "The outer shell is semi-transparent and appears to be expanding, but it does not rupture or dissolve. The gas inside the shell is contained, indicating that the shell remains intact."
+  },
+  "chosen_letter": "D",
+  "is_correct": true,
+  "parse_error": null
+}

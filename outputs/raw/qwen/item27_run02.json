@@ -1,0 +1,36 @@
+{
+  "item_id": "item27",
+  "model": "qwen",
+  "run": 2,
+  "seed": 2,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 2,
+      "text": "The top and middle balls remain connected, but the bottom ball separates."
+    },
+    "B": {
+      "original_idx": 3,
+      "text": "All three balls remain attached as a single piece."
+    },
+    "C": {
+      "original_idx": 4,
+      "text": "All three balls detach and fall off as separate pieces."
+    },
+    "D": {
+      "original_idx": 1,
+      "text": "The bottom and middle balls remain connected, but the top ball separates."
+    }
+  },
+  "correct_answer_original_idx": 3,
+  "correct_letter": "B",
+  "raw_response": "```json\n{\n  \"choice\": \"A\",\n  \"answer_value\": \"The top and middle balls remain connected, but the bottom ball separates.\",\n  \"rationale\": \"The image shows a closed surface where the top and middle balls are linked by a continuous tube structure. A cut made halfway between the top and middle balls would sever the connection to the bottom ball, which is only attached via the lower section of the tube. Therefore, the top and middle balls would stay connected, while the bottom ball would detach.\"\n}\n```\n",
+  "parsed": {
+    "choice": "A",
+    "answer_value": "The top and middle balls remain connected, but the bottom ball separates.",
+    "rationale": "The image shows a closed surface where the top and middle balls are linked by a continuous tube structure. A cut made halfway between the top and middle balls would sever the connection to the bottom ball, which is only attached via the lower section of the tube. Therefore, the top and middle balls would stay connected, while the bottom ball would detach."
+  },
+  "chosen_letter": "A",
+  "is_correct": false,
+  "parse_error": null
+}

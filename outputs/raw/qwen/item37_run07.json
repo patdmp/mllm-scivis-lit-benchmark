@@ -1,0 +1,36 @@
+{
+  "item_id": "item37",
+  "model": "qwen",
+  "run": 7,
+  "seed": 7,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 4,
+      "text": "DNA, chromosome, cell, nucleus, gene"
+    },
+    "B": {
+      "original_idx": 2,
+      "text": "Cell, nucleus, chromosome, DNA, gene"
+    },
+    "C": {
+      "original_idx": 1,
+      "text": "Chromosome, cell, nucleus, DNA, gene"
+    },
+    "D": {
+      "original_idx": 3,
+      "text": "Chromosome, DNA, cell, gene, nucleus"
+    }
+  },
+  "correct_answer_original_idx": 2,
+  "correct_letter": "B",
+  "raw_response": "```json\n{\n  \"choice\": \"B\",\n  \"answer_value\": \"Cell, nucleus, chromosome, DNA, gene\",\n  \"rationale\": \"The image displays a cell containing a nucleus, which is the largest structure shown. Inside the nucleus, a chromosome is depicted, which is smaller than the nucleus. The chromosome is shown to be composed of a long strand of DNA, making DNA smaller than the chromosome. Finally, a gene is identified as a specific segment of the DNA strand, making it the smallest unit in this hierarchy.\"\n}\n```\n",
+  "parsed": {
+    "choice": "B",
+    "answer_value": "Cell, nucleus, chromosome, DNA, gene",
+    "rationale": "The image displays a cell containing a nucleus, which is the largest structure shown. Inside the nucleus, a chromosome is depicted, which is smaller than the nucleus. The chromosome is shown to be composed of a long strand of DNA, making DNA smaller than the chromosome. Finally, a gene is identified as a specific segment of the DNA strand, making it the smallest unit in this hierarchy."
+  },
+  "chosen_letter": "B",
+  "is_correct": true,
+  "parse_error": null
+}

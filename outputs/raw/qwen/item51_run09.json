@@ -1,0 +1,36 @@
+{
+  "item_id": "item51",
+  "model": "qwen",
+  "run": 9,
+  "seed": 9,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 1,
+      "text": "It stays as a smooth, thick disk throughout."
+    },
+    "B": {
+      "original_idx": 2,
+      "text": "It starts as a thin and rough disk and becomes a thicker, smoother disk."
+    },
+    "C": {
+      "original_idx": 3,
+      "text": "It starts as a donut, becomes a disk, and then splits into two separate disks that move apart."
+    },
+    "D": {
+      "original_idx": 4,
+      "text": "It starts as a donut, becomes a disk, and then breaks apart into thin streams."
+    }
+  },
+  "correct_answer_original_idx": 4,
+  "correct_letter": "D",
+  "raw_response": "```json\n{\n  \"choice\": \"D\",\n  \"answer_value\": \"It starts as a donut, becomes a disk, and then breaks apart into thin streams.\",\n  \"rationale\": \"The animation shows the gas initially forming a donut-like structure around the black hole. As the simulation progresses, this donut shape transitions into a more disk-like formation. Finally, the disk breaks apart into thin, irregular streams of gas, indicating a significant change in structure over time.\"\n}\n```\n",
+  "parsed": {
+    "choice": "D",
+    "answer_value": "It starts as a donut, becomes a disk, and then breaks apart into thin streams.",
+    "rationale": "The animation shows the gas initially forming a donut-like structure around the black hole. As the simulation progresses, this donut shape transitions into a more disk-like formation. Finally, the disk breaks apart into thin, irregular streams of gas, indicating a significant change in structure over time."
+  },
+  "chosen_letter": "D",
+  "is_correct": true,
+  "parse_error": null
+}

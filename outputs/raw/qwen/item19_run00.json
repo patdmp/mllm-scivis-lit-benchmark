@@ -1,0 +1,36 @@
+{
+  "item_id": "item19",
+  "model": "qwen",
+  "run": 0,
+  "seed": 0,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 3,
+      "text": "spiral inward toward a central point"
+    },
+    "B": {
+      "original_idx": 1,
+      "text": "flow from west to east"
+    },
+    "C": {
+      "original_idx": 2,
+      "text": "circulate around a central point"
+    },
+    "D": {
+      "original_idx": 4,
+      "text": "spiral outward from a central point"
+    }
+  },
+  "correct_answer_original_idx": 3,
+  "correct_letter": "A",
+  "raw_response": "```json\n{\n  \"choice\": \"A\",\n  \"answer_value\": \"spiral inward toward a central point\",\n  \"rationale\": \"The wind patterns in the region between Columbus and New York show a clear inward spiral. This is evident from the direction of the wind lines converging towards a central point. The visual representation indicates a cyclonic flow pattern. This inward spiral is consistent with the characteristics of a low-pressure system. Therefore, the winds spiral inward toward a central point.\"\n}\n```\n",
+  "parsed": {
+    "choice": "A",
+    "answer_value": "spiral inward toward a central point",
+    "rationale": "The wind patterns in the region between Columbus and New York show a clear inward spiral. This is evident from the direction of the wind lines converging towards a central point. The visual representation indicates a cyclonic flow pattern. This inward spiral is consistent with the characteristics of a low-pressure system. Therefore, the winds spiral inward toward a central point."
+  },
+  "chosen_letter": "A",
+  "is_correct": true,
+  "parse_error": null
+}

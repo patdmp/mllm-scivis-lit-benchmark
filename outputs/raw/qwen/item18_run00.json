@@ -1,0 +1,36 @@
+{
+  "item_id": "item18",
+  "model": "qwen",
+  "run": 0,
+  "seed": 0,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 3,
+      "text": "Dallas"
+    },
+    "B": {
+      "original_idx": 1,
+      "text": "Seattle"
+    },
+    "C": {
+      "original_idx": 2,
+      "text": "Denver"
+    },
+    "D": {
+      "original_idx": 4,
+      "text": "New York"
+    }
+  },
+  "correct_answer_original_idx": 4,
+  "correct_letter": "D",
+  "raw_response": "```json\n{\n  \"choice\": \"C\",\n  \"answer_value\": \"Denver\",\n  \"rationale\": \"The map shows wind patterns across the United States with a legend indicating wind speeds. The city of Denver is located in an area with the most intense and swirling wind patterns, suggesting higher wind speeds compared to other cities. The legend indicates that darker and more intense patterns correspond to higher wind speeds. Therefore, Denver is the city with the highest wind speed based on the visual representation.\"\n}\n```\n",
+  "parsed": {
+    "choice": "C",
+    "answer_value": "Denver",
+    "rationale": "The map shows wind patterns across the United States with a legend indicating wind speeds. The city of Denver is located in an area with the most intense and swirling wind patterns, suggesting higher wind speeds compared to other cities. The legend indicates that darker and more intense patterns correspond to higher wind speeds. Therefore, Denver is the city with the highest wind speed based on the visual representation."
+  },
+  "chosen_letter": "C",
+  "is_correct": false,
+  "parse_error": null
+}

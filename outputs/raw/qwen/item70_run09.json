@@ -1,0 +1,36 @@
+{
+  "item_id": "item70",
+  "model": "qwen",
+  "run": 9,
+  "seed": 9,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 1,
+      "text": "The lower half of the windshield"
+    },
+    "B": {
+      "original_idx": 2,
+      "text": "The backend of the hood"
+    },
+    "C": {
+      "original_idx": 3,
+      "text": "The middle of the front bumper"
+    },
+    "D": {
+      "original_idx": 4,
+      "text": "The center of the roof"
+    }
+  },
+  "correct_answer_original_idx": 3,
+  "correct_letter": "C",
+  "raw_response": "```json\n{\n  \"choice\": \"C\",\n  \"answer_value\": \"The middle of the front bumper\",\n  \"rationale\": \"The kinematic pressure scale at the bottom of the image shows that higher values are represented by warmer colors (red/orange). The middle of the front bumper displays these warmer colors, indicating higher kinematic pressure compared to other regions. The lower half of the windshield and the center of the roof show cooler colors, suggesting lower pressure. The backend of the hood also shows cooler colors, further confirming that the front bumper has the highest kinematic pressure.\"\n}\n```\n",
+  "parsed": {
+    "choice": "C",
+    "answer_value": "The middle of the front bumper",
+    "rationale": "The kinematic pressure scale at the bottom of the image shows that higher values are represented by warmer colors (red/orange). The middle of the front bumper displays these warmer colors, indicating higher kinematic pressure compared to other regions. The lower half of the windshield and the center of the roof show cooler colors, suggesting lower pressure. The backend of the hood also shows cooler colors, further confirming that the front bumper has the highest kinematic pressure."
+  },
+  "chosen_letter": "C",
+  "is_correct": true,
+  "parse_error": null
+}

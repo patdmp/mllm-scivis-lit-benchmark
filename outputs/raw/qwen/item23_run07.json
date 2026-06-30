@@ -1,0 +1,36 @@
+{
+  "item_id": "item23",
+  "model": "qwen",
+  "run": 7,
+  "seed": 7,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 4,
+      "text": "Each pentagon is adjacent only to hexagons."
+    },
+    "B": {
+      "original_idx": 2,
+      "text": "No two hexagons share a common edge."
+    },
+    "C": {
+      "original_idx": 1,
+      "text": "Two pentagons share a common edge."
+    },
+    "D": {
+      "original_idx": 3,
+      "text": "Each hexagon is adjacent only to pentagons."
+    }
+  },
+  "correct_answer_original_idx": 4,
+  "correct_letter": "A",
+  "raw_response": "{\n  \"choice\": \"B\",\n  \"answer_value\": \"No two hexagons share a common edge.\",\n  \"rationale\": \"The image shows a spherical molecular structure composed of interconnected polygons, characteristic of a fullerene. In such structures, the fundamental rule is that no two hexagons can share an edge; they are always separated by at least one pentagon. This arrangement is necessary to close the structure into a sphere. Observing the connections in the provided visualization confirms this pattern, as every hexagonal face is surrounded by pentagons. Therefore, option B accurately describes the observed structural pattern.\"\n}\n",
+  "parsed": {
+    "choice": "B",
+    "answer_value": "No two hexagons share a common edge.",
+    "rationale": "The image shows a spherical molecular structure composed of interconnected polygons, characteristic of a fullerene. In such structures, the fundamental rule is that no two hexagons can share an edge; they are always separated by at least one pentagon. This arrangement is necessary to close the structure into a sphere. Observing the connections in the provided visualization confirms this pattern, as every hexagonal face is surrounded by pentagons. Therefore, option B accurately describes the observed structural pattern."
+  },
+  "chosen_letter": "B",
+  "is_correct": false,
+  "parse_error": null
+}

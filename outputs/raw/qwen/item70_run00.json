@@ -1,0 +1,36 @@
+{
+  "item_id": "item70",
+  "model": "qwen",
+  "run": 0,
+  "seed": 0,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 3,
+      "text": "The middle of the front bumper"
+    },
+    "B": {
+      "original_idx": 1,
+      "text": "The lower half of the windshield"
+    },
+    "C": {
+      "original_idx": 2,
+      "text": "The backend of the hood"
+    },
+    "D": {
+      "original_idx": 4,
+      "text": "The center of the roof"
+    }
+  },
+  "correct_answer_original_idx": 3,
+  "correct_letter": "A",
+  "raw_response": "```json\n{\n  \"choice\": \"C\",\n  \"answer_value\": \"The backend of the hood\",\n  \"rationale\": \"The visualization shows a color gradient representing kinematic pressure, with red indicating higher values. The backend of the hood is colored red, indicating it has the highest kinematic pressure. Other regions like the middle of the front bumper and the lower half of the windshield are colored blue, indicating lower pressure. The center of the roof is also not red, further confirming that the backend of the hood has the highest kinematic pressure.\"\n}\n```\n",
+  "parsed": {
+    "choice": "C",
+    "answer_value": "The backend of the hood",
+    "rationale": "The visualization shows a color gradient representing kinematic pressure, with red indicating higher values. The backend of the hood is colored red, indicating it has the highest kinematic pressure. Other regions like the middle of the front bumper and the lower half of the windshield are colored blue, indicating lower pressure. The center of the roof is also not red, further confirming that the backend of the hood has the highest kinematic pressure."
+  },
+  "chosen_letter": "C",
+  "is_correct": false,
+  "parse_error": null
+}

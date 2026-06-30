@@ -1,0 +1,36 @@
+{
+  "item_id": "item14",
+  "model": "llava",
+  "run": 6,
+  "seed": 6,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 4,
+      "text": "Region D"
+    },
+    "B": {
+      "original_idx": 3,
+      "text": "Region C"
+    },
+    "C": {
+      "original_idx": 2,
+      "text": "Region B"
+    },
+    "D": {
+      "original_idx": 1,
+      "text": "Region A"
+    }
+  },
+  "correct_answer_original_idx": 1,
+  "correct_letter": "D",
+  "raw_response": "{\n  \"choice\": \"D\",\n  \"answer_value\": \"Region D\",\n  \"rationale\": \"Region D is the only area on the map that shows a significant cooling trend, indicated by the deep blue color, which represents a temperature decrease of more than 2.0 degC per week.\"\n} other regions show warming trends, with colors ranging from yellow to red, indicating temperature increases. around the equator, particularly in the Pacific and Atlantic Oceans, show the most warming, with some areas experiencing increases of over 2.0 degC per week. light blue and green areas, which indicate cooling trends, are less pronounced and do not reach the same intensity as the cooling in Region D.",
+  "parsed": {
+    "choice": "D",
+    "answer_value": "Region D",
+    "rationale": "Region D is the only area on the map that shows a significant cooling trend, indicated by the deep blue color, which represents a temperature decrease of more than 2.0 degC per week."
+  },
+  "chosen_letter": "D",
+  "is_correct": true,
+  "parse_error": null
+}

@@ -1,0 +1,28 @@
+{
+  "item_id": "item33",
+  "model": "qwen",
+  "run": 7,
+  "seed": 7,
+  "n_choices": 2,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 1,
+      "text": "TRUE"
+    },
+    "B": {
+      "original_idx": 2,
+      "text": "FALSE"
+    }
+  },
+  "correct_answer_original_idx": 2,
+  "correct_letter": "B",
+  "raw_response": "```json\n{\n  \"choice\": \"A\",\n  \"answer_value\": \"TRUE\",\n  \"rationale\": \"The caption states that green colors indicate front-back fiber orientation. The marked region on the right side of the brain is predominantly colored green. Therefore, the fiber bundles in this region generally run front-back.\"\n}\n```\n",
+  "parsed": {
+    "choice": "A",
+    "answer_value": "TRUE",
+    "rationale": "The caption states that green colors indicate front-back fiber orientation. The marked region on the right side of the brain is predominantly colored green. Therefore, the fiber bundles in this region generally run front-back."
+  },
+  "chosen_letter": "A",
+  "is_correct": false,
+  "parse_error": null
+}

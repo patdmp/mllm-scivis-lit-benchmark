@@ -1,0 +1,36 @@
+{
+  "item_id": "item52",
+  "model": "qwen",
+  "run": 7,
+  "seed": 7,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 4,
+      "text": "A thin band above and below the disk, but not near the center"
+    },
+    "B": {
+      "original_idx": 2,
+      "text": "The edges of the disk"
+    },
+    "C": {
+      "original_idx": 1,
+      "text": "The inner parts of the disk, close to the black hole"
+    },
+    "D": {
+      "original_idx": 3,
+      "text": "All over the disk"
+    }
+  },
+  "correct_answer_original_idx": 1,
+  "correct_letter": "C",
+  "raw_response": "```json\n{\n  \"choice\": \"C\",\n  \"answer_value\": \"The inner parts of the disk, close to the black hole\",\n  \"rationale\": \"The visualization shows a color gradient representing radiation energy density, with warmer colors indicating higher energy levels. The inner parts of the disk, closest to the black hole, are depicted in the warmest colors, suggesting they have the highest energy. This is consistent with the physics of accretion disks, where material closer to the black hole experiences more intense gravitational forces and thus higher energy states. The outer regions of the disk are shown in cooler colors, indicating lower energy levels. Therefore, the inner parts of the disk have the highest energy.\"\n}\n```\n",
+  "parsed": {
+    "choice": "C",
+    "answer_value": "The inner parts of the disk, close to the black hole",
+    "rationale": "The visualization shows a color gradient representing radiation energy density, with warmer colors indicating higher energy levels. The inner parts of the disk, closest to the black hole, are depicted in the warmest colors, suggesting they have the highest energy. This is consistent with the physics of accretion disks, where material closer to the black hole experiences more intense gravitational forces and thus higher energy states. The outer regions of the disk are shown in cooler colors, indicating lower energy levels. Therefore, the inner parts of the disk have the highest energy."
+  },
+  "chosen_letter": "C",
+  "is_correct": true,
+  "parse_error": null
+}

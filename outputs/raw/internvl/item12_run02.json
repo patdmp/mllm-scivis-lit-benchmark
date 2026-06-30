@@ -1,0 +1,36 @@
+{
+  "item_id": "item12",
+  "model": "internvl",
+  "run": 2,
+  "seed": 2,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 2,
+      "text": "decreases"
+    },
+    "B": {
+      "original_idx": 3,
+      "text": "decreases then increases"
+    },
+    "C": {
+      "original_idx": 4,
+      "text": "increases then decreases"
+    },
+    "D": {
+      "original_idx": 1,
+      "text": "increases"
+    }
+  },
+  "correct_answer_original_idx": 4,
+  "correct_letter": "C",
+  "raw_response": "{\n  \"choice\": \"C\",\n  \"answer_value\": \"increases then decreases\",\n  \"rationale\": \"The forecast positions show the hurricane moving from a tropical storm to a hurricane and then back to a tropical storm, indicating an increase in wind speed followed by a decrease.\"\n}",
+  "parsed": {
+    "choice": "C",
+    "answer_value": "increases then decreases",
+    "rationale": "The forecast positions show the hurricane moving from a tropical storm to a hurricane and then back to a tropical storm, indicating an increase in wind speed followed by a decrease."
+  },
+  "chosen_letter": "C",
+  "is_correct": true,
+  "parse_error": null
+}

@@ -1,0 +1,36 @@
+{
+  "item_id": "item40",
+  "model": "llava",
+  "run": 1,
+  "seed": 1,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 4,
+      "text": "RNPs, envelope, RBDs"
+    },
+    "B": {
+      "original_idx": 1,
+      "text": "Envelope, RNPs, RBDs"
+    },
+    "C": {
+      "original_idx": 3,
+      "text": "RBDs, envelope, RNPs"
+    },
+    "D": {
+      "original_idx": 2,
+      "text": "RNPs, RBDs, envelope"
+    }
+  },
+  "correct_answer_original_idx": 4,
+  "correct_letter": "A",
+  "raw_response": "{\n  \"choice\": \"A\",\n  \"answer_value\": \"RNPs, envelope, RBDs\",\n  \"rationale\": \"The visualization shows the internal structure of the SARS-CoV-2 particle. The center of the particle is occupied by the ribonucleoprotein (RNP) complexes, which are yellow. Surrounding the RNPs is the gray lipid envelope. Extending outward from the envelope are the spike proteins, which are red and tan, representing the RBDs in different conformations.\"\n}0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm0 nm",
+  "parsed": {
+    "choice": "A",
+    "answer_value": "RNPs, envelope, RBDs",
+    "rationale": "The visualization shows the internal structure of the SARS-CoV-2 particle. The center of the particle is occupied by the ribonucleoprotein (RNP) complexes, which are yellow. Surrounding the RNPs is the gray lipid envelope. Extending outward from the envelope are the spike proteins, which are red and tan, representing the RBDs in different conformations."
+  },
+  "chosen_letter": "A",
+  "is_correct": true,
+  "parse_error": null
+}

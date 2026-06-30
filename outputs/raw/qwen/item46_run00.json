@@ -1,0 +1,36 @@
+{
+  "item_id": "item46",
+  "model": "qwen",
+  "run": 0,
+  "seed": 0,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 3,
+      "text": "Abdomen"
+    },
+    "B": {
+      "original_idx": 1,
+      "text": "Head"
+    },
+    "C": {
+      "original_idx": 2,
+      "text": "Thorax"
+    },
+    "D": {
+      "original_idx": 4,
+      "text": "Wings"
+    }
+  },
+  "correct_answer_original_idx": 2,
+  "correct_letter": "C",
+  "raw_response": "```json\n{\n  \"choice\": \"C\",\n  \"answer_value\": \"Thorax\",\n  \"rationale\": \"The diagram clearly labels the three main body sections as Head, Thorax, and Abdomen. The legs are shown originating from the middle section, which is explicitly labeled 'THORAX'. The Head is at the front, and the Abdomen is the long tail section, neither of which the legs attach to.\"\n}\n```\n",
+  "parsed": {
+    "choice": "C",
+    "answer_value": "Thorax",
+    "rationale": "The diagram clearly labels the three main body sections as Head, Thorax, and Abdomen. The legs are shown originating from the middle section, which is explicitly labeled 'THORAX'. The Head is at the front, and the Abdomen is the long tail section, neither of which the legs attach to."
+  },
+  "chosen_letter": "C",
+  "is_correct": true,
+  "parse_error": null
+}

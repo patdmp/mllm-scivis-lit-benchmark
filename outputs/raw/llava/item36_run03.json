@@ -1,0 +1,36 @@
+{
+  "item_id": "item36",
+  "model": "llava",
+  "run": 3,
+  "seed": 3,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 4,
+      "text": "on one side of a backbone, without connecting to the opposite backbone"
+    },
+    "B": {
+      "original_idx": 1,
+      "text": "along the outer surface of each backbone"
+    },
+    "C": {
+      "original_idx": 3,
+      "text": "between the two backbones"
+    },
+    "D": {
+      "original_idx": 2,
+      "text": "only at the start and end of each backbone"
+    }
+  },
+  "correct_answer_original_idx": 3,
+  "correct_letter": "C",
+  "raw_response": "{\n  \"choice\": \"C\",\n  \"answer_value\": \"between the two backbones\",\n  \"rationale\": \"The nitrogen base pairs are shown connecting the two sugar-phosphate backbones, indicating they are located between them.\"\n} visualization and caption. \"choice\": \"C\", \"answer_value\": \"between the two backbones\", \"rationale\": \"The nitrogen base pairs are shown connecting the two sugar-phosphate backbones, indicating they are located between them.\" \"choice\": \"C\", \"answer_value\": \"between the two backbones\", \"rationale\": \"The nitrogen base pairs are shown connecting the two sugar-phosphate backbones, indicating they are located between them.\" \"choice\": \"C\", \"answer_value\": \"between the two backbones\", \"rationale\": \"The nitrogen base pairs are shown connecting the two sugar-phosphate backbones, indicating they are located between them.\" \"choice\": \"C\", \"answer_value\": \"between the two backbones\", \"rationale\": \"The nitrogen base pairs are shown connecting the two sugar-phosphate backbones, indicating they are located between them.\" \"choice\": \"C\", \"answer_value\": \"between the two backbones\", \"rationale\": \"The nitrogen base",
+  "parsed": {
+    "choice": "C",
+    "answer_value": "between the two backbones",
+    "rationale": "The nitrogen base pairs are shown connecting the two sugar-phosphate backbones, indicating they are located between them."
+  },
+  "chosen_letter": "C",
+  "is_correct": true,
+  "parse_error": null
+}

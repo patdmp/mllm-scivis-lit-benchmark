@@ -1,0 +1,28 @@
+{
+  "item_id": "item55",
+  "model": "llava",
+  "run": 1,
+  "seed": 1,
+  "n_choices": 2,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 2,
+      "text": "FALSE"
+    },
+    "B": {
+      "original_idx": 1,
+      "text": "TRUE"
+    }
+  },
+  "correct_answer_original_idx": 2,
+  "correct_letter": "A",
+  "raw_response": "{\n  \"choice\": \"A\",\n  \"answer_value\": \"FALSE\",\n  \"rationale\": \"The visualization shows that the internal shocked gas is depicted in red, which corresponds to higher entropy values on the color scale, while the stalled shockwave is shown in yellow, indicating lower entropy. Therefore, the internal shocked gas does not always have lower entropy than the stalled shockwave.\"\n}internal shocked gas always has lower entropy than the stalled shockwave.internal shocked gas always has lower entropy than the stalled shockwave.internal shocked gas always has lower entropy than the stalled shockwave.internal shocked gas always has lower entropy than the stalled shockwave.internal shocked gas always has lower entropy than the stalled shockwave.internal shocked gas always has lower entropy than the stalled shockwave.internal shocked gas always has lower entropy than the stalled shockwave.internal shocked gas always has lower entropy than the stalled shockwave.internal shocked gas always has lower entropy than the stalled shockwave.internal shocked gas always has lower entropy than the stalled shockwave.internal shocked gas always has lower entropy than the stalled shockwave.internal shocked gas always has lower entropy than the stalled shockwave.internal shocked gas always has",
+  "parsed": {
+    "choice": "A",
+    "answer_value": "FALSE",
+    "rationale": "The visualization shows that the internal shocked gas is depicted in red, which corresponds to higher entropy values on the color scale, while the stalled shockwave is shown in yellow, indicating lower entropy. Therefore, the internal shocked gas does not always have lower entropy than the stalled shockwave."
+  },
+  "chosen_letter": "A",
+  "is_correct": true,
+  "parse_error": null
+}

@@ -1,0 +1,36 @@
+{
+  "item_id": "item37",
+  "model": "internvl",
+  "run": 2,
+  "seed": 2,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 2,
+      "text": "Cell, nucleus, chromosome, DNA, gene"
+    },
+    "B": {
+      "original_idx": 3,
+      "text": "Chromosome, DNA, cell, gene, nucleus"
+    },
+    "C": {
+      "original_idx": 4,
+      "text": "DNA, chromosome, cell, nucleus, gene"
+    },
+    "D": {
+      "original_idx": 1,
+      "text": "Chromosome, cell, nucleus, DNA, gene"
+    }
+  },
+  "correct_answer_original_idx": 2,
+  "correct_letter": "A",
+  "raw_response": "{\n  \"choice\": \"A\",\n  \"answer_value\": \"Cell, nucleus, chromosome, DNA, gene\",\n  \"rationale\": \"The visualization shows the cell as the largest structure, containing the nucleus. The chromosome is part of the DNA, which is larger than a gene. The gene is the smallest unit shown in the diagram.\"\n}",
+  "parsed": {
+    "choice": "A",
+    "answer_value": "Cell, nucleus, chromosome, DNA, gene",
+    "rationale": "The visualization shows the cell as the largest structure, containing the nucleus. The chromosome is part of the DNA, which is larger than a gene. The gene is the smallest unit shown in the diagram."
+  },
+  "chosen_letter": "A",
+  "is_correct": true,
+  "parse_error": null
+}

@@ -1,0 +1,36 @@
+{
+  "item_id": "item09",
+  "model": "internvl",
+  "run": 7,
+  "seed": 7,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 4,
+      "text": "North"
+    },
+    "B": {
+      "original_idx": 2,
+      "text": "Northwest"
+    },
+    "C": {
+      "original_idx": 1,
+      "text": "Southeast"
+    },
+    "D": {
+      "original_idx": 3,
+      "text": "South"
+    }
+  },
+  "correct_answer_original_idx": 2,
+  "correct_letter": "B",
+  "raw_response": "{\n  \"choice\": \"B\",\n  \"answer_value\": \"Northwest\",\n  \"rationale\": \"The forecast track shows the hurricane moving from the Gulf of Mexico towards the central United States, indicating a northwest direction between 10 AM Tuesday and 7 PM Wednesday.\"\n}",
+  "parsed": {
+    "choice": "B",
+    "answer_value": "Northwest",
+    "rationale": "The forecast track shows the hurricane moving from the Gulf of Mexico towards the central United States, indicating a northwest direction between 10 AM Tuesday and 7 PM Wednesday."
+  },
+  "chosen_letter": "B",
+  "is_correct": true,
+  "parse_error": null
+}

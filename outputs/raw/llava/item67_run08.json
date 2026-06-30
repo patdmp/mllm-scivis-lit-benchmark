@@ -1,0 +1,36 @@
+{
+  "item_id": "item67",
+  "model": "llava",
+  "run": 8,
+  "seed": 8,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 1,
+      "text": "It disappears almost immediately."
+    },
+    "B": {
+      "original_idx": 3,
+      "text": "It spreads along the trench, away from the rocket."
+    },
+    "C": {
+      "original_idx": 4,
+      "text": "t moves upward, away from the pad, without touching the trench."
+    },
+    "D": {
+      "original_idx": 2,
+      "text": "It remains confined to a narrow column beneath the nozzle."
+    }
+  },
+  "correct_answer_original_idx": 3,
+  "correct_letter": "B",
+  "raw_response": "{\n  \"choice\": \"B\",\n  \"answer_value\": \"It spreads along the trench, away from the rocket.\",\n  \"rationale\": \"The visualization shows the exhaust plume expanding and spreading along the trench immediately after ignition, indicating that it is moving away from the rocket.\"\n} brighter regions representing hotter gas, which are concentrated near the rocket and spread outward, confirming the expansion along the trench.\"\n} brighter regions representing hotter gas, which are concentrated near the rocket and spread outward, confirming the expansion along the trench.\"\n} brighter regions representing hotter gas, which are concentrated near the rocket and spread outward, confirming the expansion along the trench.\"\n} brighter regions representing hotter gas, which are concentrated near the rocket and spread outward, confirming the expansion along the trench.\"\n} brighter regions representing hotter gas, which are concentrated near the rocket and spread outward, confirming the expansion along the trench.\"\n} brighter regions representing hotter gas, which are concentrated near the rocket and spread outward, confirming the expansion along the trench.\"\n} brighter regions representing hotter gas, which are concentrated near the rocket and spread outward, confirming the expansion along the trench.\"\n} brighter regions representing hotter gas, which are concentrated near the rocket and spread outward, confirming the expansion along the trench.\"\n} brighter regions representing hotter gas, which are concentrated near the rocket and spread outward, confirming the expansion along",
+  "parsed": {
+    "choice": "B",
+    "answer_value": "It spreads along the trench, away from the rocket.",
+    "rationale": "The visualization shows the exhaust plume expanding and spreading along the trench immediately after ignition, indicating that it is moving away from the rocket."
+  },
+  "chosen_letter": "B",
+  "is_correct": true,
+  "parse_error": null
+}

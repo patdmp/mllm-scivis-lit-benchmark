@@ -1,0 +1,36 @@
+{
+  "item_id": "item46",
+  "model": "llava",
+  "run": 2,
+  "seed": 2,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 2,
+      "text": "Thorax"
+    },
+    "B": {
+      "original_idx": 3,
+      "text": "Abdomen"
+    },
+    "C": {
+      "original_idx": 4,
+      "text": "Wings"
+    },
+    "D": {
+      "original_idx": 1,
+      "text": "Head"
+    }
+  },
+  "correct_answer_original_idx": 2,
+  "correct_letter": "A",
+  "raw_response": "{\n  \"choice\": \"A\",\n  \"answer_value\": \"Thorax\",\n  \"rationale\": \"The legs are attached to the thorax, as indicated by the labels for the femur, tibia, and tarsus, which are all parts of the legs and are connected to the thorax.\"\n}Insect AnatomyNot sure. The image does not provide enough detail to determine the attachment of the legs to the thorax.A. ThoraxB. AbdomenC. WingsD. HeadA. ThoraxB. AbdomenC. WingsD. HeadA. ThoraxB. AbdomenC. WingsD. HeadA. ThoraxB. AbdomenC. WingsD. HeadA. ThoraxB. AbdomenC. WingsD. HeadA. ThoraxB. AbdomenC. WingsD. HeadA. ThoraxB. AbdomenC. WingsD. HeadA. ThoraxB. AbdomenC. WingsD. HeadA. ThoraxB. AbdomenC. WingsD. HeadA. ThoraxB. AbdomenC. WingsD. HeadA.",
+  "parsed": {
+    "choice": "A",
+    "answer_value": "Thorax",
+    "rationale": "The legs are attached to the thorax, as indicated by the labels for the femur, tibia, and tarsus, which are all parts of the legs and are connected to the thorax."
+  },
+  "chosen_letter": "A",
+  "is_correct": true,
+  "parse_error": null
+}

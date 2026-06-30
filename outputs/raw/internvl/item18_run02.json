@@ -1,0 +1,36 @@
+{
+  "item_id": "item18",
+  "model": "internvl",
+  "run": 2,
+  "seed": 2,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 2,
+      "text": "Denver"
+    },
+    "B": {
+      "original_idx": 3,
+      "text": "Dallas"
+    },
+    "C": {
+      "original_idx": 4,
+      "text": "New York"
+    },
+    "D": {
+      "original_idx": 1,
+      "text": "Seattle"
+    }
+  },
+  "correct_answer_original_idx": 4,
+  "correct_letter": "C",
+  "raw_response": "{\n  \"choice\": \"A\",\n  \"answer_value\": \"Denver\",\n  \"rationale\": \"The map shows the darkest shading around Denver, indicating the highest wind speed category of 30 mph, which is higher than the other cities listed.\"\n}",
+  "parsed": {
+    "choice": "A",
+    "answer_value": "Denver",
+    "rationale": "The map shows the darkest shading around Denver, indicating the highest wind speed category of 30 mph, which is higher than the other cities listed."
+  },
+  "chosen_letter": "A",
+  "is_correct": false,
+  "parse_error": null
+}

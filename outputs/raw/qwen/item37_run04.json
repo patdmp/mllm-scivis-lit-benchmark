@@ -1,0 +1,36 @@
+{
+  "item_id": "item37",
+  "model": "qwen",
+  "run": 4,
+  "seed": 4,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 3,
+      "text": "Chromosome, DNA, cell, gene, nucleus"
+    },
+    "B": {
+      "original_idx": 1,
+      "text": "Chromosome, cell, nucleus, DNA, gene"
+    },
+    "C": {
+      "original_idx": 4,
+      "text": "DNA, chromosome, cell, nucleus, gene"
+    },
+    "D": {
+      "original_idx": 2,
+      "text": "Cell, nucleus, chromosome, DNA, gene"
+    }
+  },
+  "correct_answer_original_idx": 2,
+  "correct_letter": "D",
+  "raw_response": "{\n  \"choice\": \"D\",\n  \"answer_value\": \"Cell, nucleus, chromosome, DNA, gene\",\n  \"rationale\": \"The image visually demonstrates the hierarchical scale of biological structures, starting from the entire cell on the left. Inside the cell is the nucleus, which contains the chromosome. The chromosome is shown to be a condensed form of the long DNA strand. Finally, the gene is depicted as a specific segment of that DNA strand, making it the smallest unit in this sequence.\"\n}\n",
+  "parsed": {
+    "choice": "D",
+    "answer_value": "Cell, nucleus, chromosome, DNA, gene",
+    "rationale": "The image visually demonstrates the hierarchical scale of biological structures, starting from the entire cell on the left. Inside the cell is the nucleus, which contains the chromosome. The chromosome is shown to be a condensed form of the long DNA strand. Finally, the gene is depicted as a specific segment of that DNA strand, making it the smallest unit in this sequence."
+  },
+  "chosen_letter": "D",
+  "is_correct": true,
+  "parse_error": null
+}

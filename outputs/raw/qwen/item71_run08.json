@@ -1,0 +1,36 @@
+{
+  "item_id": "item71",
+  "model": "qwen",
+  "run": 8,
+  "seed": 8,
+  "n_choices": 4,
+  "shuffled_options": {
+    "A": {
+      "original_idx": 1,
+      "text": "500 m2/s2"
+    },
+    "B": {
+      "original_idx": 3,
+      "text": "1000 m2/s2"
+    },
+    "C": {
+      "original_idx": 4,
+      "text": "1250 m2/s2"
+    },
+    "D": {
+      "original_idx": 2,
+      "text": "750 m2/s2"
+    }
+  },
+  "correct_answer_original_idx": 3,
+  "correct_letter": "B",
+  "raw_response": "```json\n{\n  \"choice\": \"C\",\n  \"answer_value\": \"1250 m2/s2\",\n  \"rationale\": \"The kinematic pressure scale ranges from -800 to 800 m2/s2, indicating a total range of 1600 m2/s2. The windshield area shows a gradient from blue (low pressure) to red (high pressure). The maximum pressure on the windshield appears to be around 800 m2/s2, while the minimum is approximately -450 m2/s2. The difference between these values is approximately 1250 m2/s2.\"\n}\n```\n",
+  "parsed": {
+    "choice": "C",
+    "answer_value": "1250 m2/s2",
+    "rationale": "The kinematic pressure scale ranges from -800 to 800 m2/s2, indicating a total range of 1600 m2/s2. The windshield area shows a gradient from blue (low pressure) to red (high pressure). The maximum pressure on the windshield appears to be around 800 m2/s2, while the minimum is approximately -450 m2/s2. The difference between these values is approximately 1250 m2/s2."
+  },
+  "chosen_letter": "C",
+  "is_correct": false,
+  "parse_error": null
+}
